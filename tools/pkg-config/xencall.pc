@@ -1,0 +1,10 @@
+prefix=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/call/../../..
+includedir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/call/../../../tools/libs/call/include
+libdir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/call
+
+Name: Xencall
+Description: The Xencall library for Xen hypervisor
+Version: 1.2
+Cflags: -I${includedir} -I/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/call/../../../tools/include
+Libs: -L${libdir} -Wl,-rpath-link=${libdir} -lxencall
+Requires.private: xentoollog,xentoolcore

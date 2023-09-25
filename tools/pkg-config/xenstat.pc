@@ -1,0 +1,10 @@
+prefix=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/xenstat/libxenstat/../../..
+includedir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/xenstat/libxenstat/../../../tools/xenstat/libxenstat/src
+libdir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/xenstat/libxenstat
+
+Name: Xenstat
+Description: The Xenstat library for Xen hypervisor
+Version: 4.13.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -Wl,-rpath-link=${libdir} -lxenstat
+Requires.private: xencontrol,xenstore

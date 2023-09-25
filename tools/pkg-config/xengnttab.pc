@@ -1,0 +1,10 @@
+prefix=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/gnttab/../../..
+includedir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/gnttab/../../../tools/libs/gnttab/include
+libdir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/gnttab
+
+Name: Xengnttab
+Description: The Xengnttab library for Xen hypervisor
+Version: 1.2
+Cflags: -I${includedir} -I/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/gnttab/../../../tools/include
+Libs: -L${libdir} -Wl,-rpath-link=${libdir} -lxengnttab
+Requires.private: xentoollog,xentoolcore

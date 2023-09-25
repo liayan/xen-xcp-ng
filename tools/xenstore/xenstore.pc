@@ -1,0 +1,11 @@
+prefix=/usr
+includedir=/usr/include
+libdir=/usr/lib64
+
+Name: Xenstore
+Description: The Xenstore library for Xen hypervisor
+Version: 3.0.3
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lxenstore
+Libs.private: -ldl
+Requires.private: xentoolcore

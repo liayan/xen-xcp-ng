@@ -1,0 +1,10 @@
+prefix=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/evtchn/../../..
+includedir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/evtchn/../../../tools/libs/evtchn/include
+libdir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libs/evtchn
+
+Name: Xenevtchn
+Description: The Xenevtchn library for Xen hypervisor
+Version: 1.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -Wl,-rpath-link=${libdir} -lxenevtchn
+Requires.private: xentoollog

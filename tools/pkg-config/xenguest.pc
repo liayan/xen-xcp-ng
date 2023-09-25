@@ -1,0 +1,10 @@
+prefix=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libxc/../..
+includedir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libxc/../../tools/libxc/include
+libdir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libxc
+
+Name: Xenguest
+Description: The Xenguest library for Xen hypervisor
+Version: 4.13.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -Wl,-rpath-link=${libdir} -lxenguest
+Requires.private: xentoollog,xencall,xenforeignmemory,xenevtchn

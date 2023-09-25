@@ -1,0 +1,533 @@
+"list_domains.ml" 3 13 17 "list_domains.ml" 3 13 29
+type(
+  bool -> char -> char
+)
+ident(
+  def bool_as_char "list_domains.ml" 5 58 58 "list_domains.ml" 0 0 -1
+)
+"list_domains.ml" 3 13 30 "list_domains.ml" 3 13 31
+type(
+  bool
+)
+ident(
+  def b "list_domains.ml" 3 13 32 "list_domains.ml" 3 13 56
+)
+"list_domains.ml" 3 13 32 "list_domains.ml" 3 13 33
+type(
+  char
+)
+ident(
+  def c "list_domains.ml" 3 13 36 "list_domains.ml" 3 13 56
+)
+"list_domains.ml" 3 13 39 "list_domains.ml" 3 13 40
+type(
+  bool
+)
+ident(
+  int_ref b "list_domains.ml" 3 13 30 "list_domains.ml" 3 13 31
+)
+"list_domains.ml" 3 13 46 "list_domains.ml" 3 13 47
+type(
+  char
+)
+ident(
+  int_ref c "list_domains.ml" 3 13 32 "list_domains.ml" 3 13 33
+)
+"list_domains.ml" 3 13 53 "list_domains.ml" 3 13 56
+type(
+  char
+)
+"list_domains.ml" 3 13 36 "list_domains.ml" 3 13 56
+type(
+  char
+)
+"list_domains.ml" 5 58 62 "list_domains.ml" 5 58 75
+type(
+  Xenlight.Dominfo.t -> unit
+)
+ident(
+  def print_dominfo "list_domains.ml" 16 600 600 "list_domains.ml" 0 0 -1
+)
+"list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  def dominfo "list_domains.ml" 6 86 88 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 6 86 92 "list_domains.ml" 6 86 94
+type(
+  Xenlight.domid
+)
+ident(
+  def id "list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 6 86 97 "list_domains.ml" 6 86 104
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref dominfo "list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+)
+"list_domains.ml" 6 86 97 "list_domains.ml" 6 86 127
+type(
+  Xenlight.domid
+)
+"list_domains.ml" 7 128 134 "list_domains.ml" 7 128 141
+type(
+  char
+)
+ident(
+  def running "list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 7 128 144 "list_domains.ml" 7 128 156
+type(
+  bool -> char -> char
+)
+ident(
+  int_ref bool_as_char "list_domains.ml" 3 13 17 "list_domains.ml" 3 13 29
+)
+"list_domains.ml" 7 128 157 "list_domains.ml" 7 128 164
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref dominfo "list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+)
+"list_domains.ml" 7 128 157 "list_domains.ml" 7 128 189
+type(
+  bool
+)
+"list_domains.ml" 7 128 190 "list_domains.ml" 7 128 193
+type(
+  char
+)
+"list_domains.ml" 7 128 144 "list_domains.ml" 7 128 193
+type(
+  char
+)
+"list_domains.ml" 8 194 200 "list_domains.ml" 8 194 207
+type(
+  char
+)
+ident(
+  def blocked "list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 8 194 210 "list_domains.ml" 8 194 222
+type(
+  bool -> char -> char
+)
+ident(
+  int_ref bool_as_char "list_domains.ml" 3 13 17 "list_domains.ml" 3 13 29
+)
+"list_domains.ml" 8 194 223 "list_domains.ml" 8 194 230
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref dominfo "list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+)
+"list_domains.ml" 8 194 223 "list_domains.ml" 8 194 255
+type(
+  bool
+)
+"list_domains.ml" 8 194 256 "list_domains.ml" 8 194 259
+type(
+  char
+)
+"list_domains.ml" 8 194 210 "list_domains.ml" 8 194 259
+type(
+  char
+)
+"list_domains.ml" 9 260 266 "list_domains.ml" 9 260 272
+type(
+  char
+)
+ident(
+  def paused "list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 9 260 275 "list_domains.ml" 9 260 287
+type(
+  bool -> char -> char
+)
+ident(
+  int_ref bool_as_char "list_domains.ml" 3 13 17 "list_domains.ml" 3 13 29
+)
+"list_domains.ml" 9 260 288 "list_domains.ml" 9 260 295
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref dominfo "list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+)
+"list_domains.ml" 9 260 288 "list_domains.ml" 9 260 319
+type(
+  bool
+)
+"list_domains.ml" 9 260 320 "list_domains.ml" 9 260 323
+type(
+  char
+)
+"list_domains.ml" 9 260 275 "list_domains.ml" 9 260 323
+type(
+  char
+)
+"list_domains.ml" 10 324 330 "list_domains.ml" 10 324 338
+type(
+  char
+)
+ident(
+  def shutdown "list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 10 324 341 "list_domains.ml" 10 324 353
+type(
+  bool -> char -> char
+)
+ident(
+  int_ref bool_as_char "list_domains.ml" 3 13 17 "list_domains.ml" 3 13 29
+)
+"list_domains.ml" 10 324 354 "list_domains.ml" 10 324 361
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref dominfo "list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+)
+"list_domains.ml" 10 324 354 "list_domains.ml" 10 324 387
+type(
+  bool
+)
+"list_domains.ml" 10 324 388 "list_domains.ml" 10 324 391
+type(
+  char
+)
+"list_domains.ml" 10 324 341 "list_domains.ml" 10 324 391
+type(
+  char
+)
+"list_domains.ml" 11 392 398 "list_domains.ml" 11 392 403
+type(
+  char
+)
+ident(
+  def dying "list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 11 392 406 "list_domains.ml" 11 392 418
+type(
+  bool -> char -> char
+)
+ident(
+  int_ref bool_as_char "list_domains.ml" 3 13 17 "list_domains.ml" 3 13 29
+)
+"list_domains.ml" 11 392 419 "list_domains.ml" 11 392 426
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref dominfo "list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+)
+"list_domains.ml" 11 392 419 "list_domains.ml" 11 392 449
+type(
+  bool
+)
+"list_domains.ml" 11 392 450 "list_domains.ml" 11 392 453
+type(
+  char
+)
+"list_domains.ml" 11 392 406 "list_domains.ml" 11 392 453
+type(
+  char
+)
+"list_domains.ml" 12 454 460 "list_domains.ml" 12 454 466
+type(
+  int64
+)
+ident(
+  def memory "list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+)
+"list_domains.ml" 12 454 469 "list_domains.ml" 12 454 476
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref dominfo "list_domains.ml" 5 58 76 "list_domains.ml" 5 58 83
+)
+"list_domains.ml" 12 454 469 "list_domains.ml" 12 454 507
+type(
+  int64
+)
+"list_domains.ml" 14 513 515 "list_domains.ml" 14 513 521
+type(
+  (Xenlight.domid -> char -> char -> char -> char -> char -> int64 -> unit,
+   out_channel, unit)
+  format ->
+  Xenlight.domid -> char -> char -> char -> char -> char -> int64 -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6510 6510 "printf.mli" 123 6510 6559
+)
+"list_domains.ml" 14 513 522 "list_domains.ml" 14 513 550
+type(
+  (Xenlight.domid -> char -> char -> char -> char -> char -> int64 -> unit,
+   out_channel, unit)
+  format
+)
+"list_domains.ml" 14 513 551 "list_domains.ml" 14 513 553
+type(
+  Xenlight.domid
+)
+ident(
+  int_ref id "list_domains.ml" 6 86 92 "list_domains.ml" 6 86 94
+)
+"list_domains.ml" 14 513 554 "list_domains.ml" 14 513 561
+type(
+  char
+)
+ident(
+  int_ref running "list_domains.ml" 7 128 134 "list_domains.ml" 7 128 141
+)
+"list_domains.ml" 14 513 562 "list_domains.ml" 14 513 569
+type(
+  char
+)
+ident(
+  int_ref blocked "list_domains.ml" 8 194 200 "list_domains.ml" 8 194 207
+)
+"list_domains.ml" 14 513 570 "list_domains.ml" 14 513 576
+type(
+  char
+)
+ident(
+  int_ref paused "list_domains.ml" 9 260 266 "list_domains.ml" 9 260 272
+)
+"list_domains.ml" 14 513 577 "list_domains.ml" 14 513 585
+type(
+  char
+)
+ident(
+  int_ref shutdown "list_domains.ml" 10 324 330 "list_domains.ml" 10 324 338
+)
+"list_domains.ml" 14 513 586 "list_domains.ml" 14 513 591
+type(
+  char
+)
+ident(
+  int_ref dying "list_domains.ml" 11 392 398 "list_domains.ml" 11 392 403
+)
+"list_domains.ml" 14 513 592 "list_domains.ml" 14 513 598
+type(
+  int64
+)
+ident(
+  int_ref memory "list_domains.ml" 12 454 460 "list_domains.ml" 12 454 466
+)
+"list_domains.ml" 14 513 515 "list_domains.ml" 14 513 598
+type(
+  unit
+)
+"list_domains.ml" 6 86 88 "list_domains.ml" 14 513 598
+type(
+  unit
+)
+"list_domains.ml" 16 600 604 "list_domains.ml" 16 600 605
+type(
+  unit
+)
+"list_domains.ml" 17 608 614 "list_domains.ml" 17 608 620
+type(
+  Xentoollog.handle
+)
+ident(
+  def logger "list_domains.ml" 18 681 683 "list_domains.ml" 24 939 944
+)
+"list_domains.ml" 17 608 623 "list_domains.ml" 17 608 646
+type(
+  ?level:Xentoollog.level -> unit -> Xentoollog.handle
+)
+ident(
+  int_ref Xtl.create_stdio_logger "xtl.ml" 18 573 577 "xtl.ml" 18 573 596
+)
+"list_domains.ml" 17 608 675 "list_domains.ml" 17 608 677
+type(
+  unit
+)
+"list_domains.ml" 17 608 623 "list_domains.ml" 17 608 677
+type(
+  Xentoollog.handle
+)
+"list_domains.ml" 18 681 687 "list_domains.ml" 18 681 690
+type(
+  Xenlight.ctx
+)
+ident(
+  def ctx "list_domains.ml" 19 722 724 "list_domains.ml" 24 939 944
+)
+"list_domains.ml" 18 681 693 "list_domains.ml" 18 681 711
+type(
+  Xentoollog.handle -> Xenlight.ctx
+)
+ident(
+  int_ref Xenlight.ctx_alloc "xenlight.mli" 1535 35600 35600 "xenlight.mli" 1535 35600 35669
+)
+"list_domains.ml" 18 681 712 "list_domains.ml" 18 681 718
+type(
+  Xentoollog.handle
+)
+ident(
+  int_ref logger "list_domains.ml" 17 608 614 "list_domains.ml" 17 608 620
+)
+"list_domains.ml" 18 681 693 "list_domains.ml" 18 681 718
+type(
+  Xenlight.ctx
+)
+"list_domains.ml" 20 728 736 "list_domains.ml" 20 728 743
+type(
+  Xenlight.Dominfo.t list
+)
+ident(
+  def domains "list_domains.ml" 21 775 779 "list_domains.ml" 21 775 823
+)
+"list_domains.ml" 20 728 746 "list_domains.ml" 20 728 767
+type(
+  Xenlight.ctx -> Xenlight.Dominfo.t list
+)
+ident(
+  int_ref Xenlight.Dominfo.list "xenlight.mli" 404 9616 9617 "xenlight.mli" 404 9616 9671
+)
+"list_domains.ml" 20 728 768 "list_domains.ml" 20 728 771
+type(
+  Xenlight.ctx
+)
+ident(
+  int_ref ctx "list_domains.ml" 18 681 687 "list_domains.ml" 18 681 690
+)
+"list_domains.ml" 20 728 746 "list_domains.ml" 20 728 771
+type(
+  Xenlight.Dominfo.t list
+)
+"list_domains.ml" 21 775 779 "list_domains.ml" 21 775 788
+type(
+  (Xenlight.Dominfo.t -> unit) -> Xenlight.Dominfo.t list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"list_domains.ml" 21 775 794 "list_domains.ml" 21 775 795
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  def d "list_domains.ml" 21 775 799 "list_domains.ml" 21 775 814
+)
+"list_domains.ml" 21 775 799 "list_domains.ml" 21 775 812
+type(
+  Xenlight.Dominfo.t -> unit
+)
+ident(
+  int_ref print_dominfo "list_domains.ml" 5 58 62 "list_domains.ml" 5 58 75
+)
+"list_domains.ml" 21 775 813 "list_domains.ml" 21 775 814
+type(
+  Xenlight.Dominfo.t
+)
+ident(
+  int_ref d "list_domains.ml" 21 775 794 "list_domains.ml" 21 775 795
+)
+"list_domains.ml" 21 775 799 "list_domains.ml" 21 775 814
+type(
+  unit
+)
+"list_domains.ml" 21 775 789 "list_domains.ml" 21 775 815
+type(
+  Xenlight.Dominfo.t -> unit
+)
+"list_domains.ml" 21 775 816 "list_domains.ml" 21 775 823
+type(
+  Xenlight.Dominfo.t list
+)
+ident(
+  int_ref domains "list_domains.ml" 20 728 736 "list_domains.ml" 20 728 743
+)
+"list_domains.ml" 21 775 779 "list_domains.ml" 21 775 823
+type(
+  unit
+)
+"list_domains.ml" 20 728 732 "list_domains.ml" 21 775 823
+type(
+  unit
+)
+"list_domains.ml" 22 824 846 "list_domains.ml" 22 824 849
+type(
+  Xenlight.error
+)
+ident(
+  def err "list_domains.ml" 22 824 858 "list_domains.ml" 24 939 944
+)
+"list_domains.ml" 22 824 851 "list_domains.ml" 22 824 853
+type(
+  string
+)
+ident(
+  def fn "list_domains.ml" 22 824 858 "list_domains.ml" 24 939 944
+)
+"list_domains.ml" 22 824 845 "list_domains.ml" 22 824 854
+type(
+  Xenlight.error * string
+)
+"list_domains.ml" 22 824 831 "list_domains.ml" 22 824 854
+type(
+  exn
+)
+"list_domains.ml" 23 864 868 "list_domains.ml" 23 864 874
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6510 6510 "printf.mli" 123 6510 6559
+)
+"list_domains.ml" 23 864 875 "list_domains.ml" 23 864 903
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"list_domains.ml" 23 864 905 "list_domains.ml" 23 864 929
+type(
+  Xenlight.error -> string
+)
+ident(
+  int_ref Xenlight.string_of_error "xenlight.mli" 66 1856 1856 "xenlight.mli" 66 1856 1893
+)
+"list_domains.ml" 23 864 930 "list_domains.ml" 23 864 933
+type(
+  Xenlight.error
+)
+ident(
+  int_ref err "list_domains.ml" 22 824 846 "list_domains.ml" 22 824 849
+)
+"list_domains.ml" 23 864 904 "list_domains.ml" 23 864 934
+type(
+  string
+)
+"list_domains.ml" 23 864 935 "list_domains.ml" 23 864 937
+type(
+  string
+)
+ident(
+  int_ref fn "list_domains.ml" 22 824 851 "list_domains.ml" 22 824 853
+)
+"list_domains.ml" 22 824 858 "list_domains.ml" 24 939 944
+type(
+  unit
+)
+"list_domains.ml" 19 722 724 "list_domains.ml" 24 939 944
+type(
+  unit
+)
+"list_domains.ml" 18 681 683 "list_domains.ml" 24 939 944
+type(
+  unit
+)
+"list_domains.ml" 17 608 610 "list_domains.ml" 24 939 944
+type(
+  unit
+)

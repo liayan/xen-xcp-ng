@@ -1,0 +1,511 @@
+"partial.ml" 30 919 923 "partial.ml" 30 919 945
+type(
+  bool ref
+)
+ident(
+  def allow_oversize_packets "partial.ml" 32 958 958 "partial.ml" 0 0 -1
+)
+"partial.ml" 30 919 948 "partial.ml" 30 919 951
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"partial.ml" 30 919 952 "partial.ml" 30 919 956
+type(
+  bool
+)
+"partial.ml" 30 919 948 "partial.ml" 30 919 956
+type(
+  bool ref
+)
+"partial.ml" 32 958 962 "partial.ml" 32 958 982
+type(
+  int
+)
+ident(
+  def xenstore_payload_max "partial.ml" 33 1028 1028 "partial.ml" 0 0 -1
+)
+"partial.ml" 32 958 985 "partial.ml" 32 958 989
+type(
+  int
+)
+"partial.ml" 33 1028 1032 "partial.ml" 33 1028 1053
+type(
+  int
+)
+ident(
+  def xenstore_rel_path_max "partial.ml" 35 1100 1100 "partial.ml" 0 0 -1
+)
+"partial.ml" 33 1028 1056 "partial.ml" 33 1028 1060
+type(
+  int
+)
+"partial.ml" 35 1100 1104 "partial.ml" 35 1100 1113
+type(
+  string -> pkt
+)
+ident(
+  def of_string "partial.ml" 50 1601 1601 "partial.ml" 0 0 -1
+)
+"partial.ml" 35 1100 1114 "partial.ml" 35 1100 1115
+type(
+  string
+)
+ident(
+  def s "partial.ml" 36 1118 1119 "partial.ml" 48 1597 1599
+)
+"partial.ml" 36 1118 1123 "partial.ml" 36 1118 1126
+type(
+  int
+)
+ident(
+  def tid "partial.ml" 41 1404 1405 "partial.ml" 48 1597 1599
+)
+"partial.ml" 36 1118 1128 "partial.ml" 36 1118 1131
+type(
+  int
+)
+ident(
+  def rid "partial.ml" 41 1404 1405 "partial.ml" 48 1597 1599
+)
+"partial.ml" 36 1118 1133 "partial.ml" 36 1118 1138
+type(
+  int
+)
+ident(
+  def opint "partial.ml" 41 1404 1405 "partial.ml" 48 1597 1599
+)
+"partial.ml" 36 1118 1140 "partial.ml" 36 1118 1144
+type(
+  int
+)
+ident(
+  def dlen "partial.ml" 41 1404 1405 "partial.ml" 48 1597 1599
+)
+"partial.ml" 36 1118 1123 "partial.ml" 36 1118 1144
+type(
+  int * int * int * int
+)
+"partial.ml" 36 1118 1147 "partial.ml" 36 1118 1172
+type(
+  string -> int * int * int * int
+)
+ident(
+  int_ref header_of_string_internal "partial.ml" 27 815 815 "partial.ml" 28 883 917
+)
+"partial.ml" 36 1118 1173 "partial.ml" 36 1118 1174
+type(
+  string
+)
+ident(
+  int_ref s "partial.ml" 35 1100 1114 "partial.ml" 35 1100 1115
+)
+"partial.ml" 36 1118 1147 "partial.ml" 36 1118 1174
+type(
+  int * int * int * int
+)
+"partial.ml" 41 1404 1409 "partial.ml" 41 1404 1413
+type(
+  int
+)
+ident(
+  def dlen "partial.ml" 42 1499 1500 "partial.ml" 48 1597 1599
+)
+"partial.ml" 41 1404 1416 "partial.ml" 41 1404 1419
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.max "stdlib.mli" 183 7888 7888 "stdlib.mli" 183 7888 7912
+)
+"partial.ml" 41 1404 1420 "partial.ml" 41 1404 1421
+type(
+  int
+)
+"partial.ml" 41 1404 1426 "partial.ml" 41 1404 1427
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"partial.ml" 41 1404 1427 "partial.ml" 41 1404 1449
+type(
+  bool ref
+)
+ident(
+  int_ref allow_oversize_packets "partial.ml" 30 919 923 "partial.ml" 30 919 945
+)
+"partial.ml" 41 1404 1426 "partial.ml" 41 1404 1449
+type(
+  bool
+)
+"partial.ml" 41 1404 1455 "partial.ml" 41 1404 1459
+type(
+  int
+)
+ident(
+  int_ref dlen "partial.ml" 36 1118 1140 "partial.ml" 36 1118 1144
+)
+"partial.ml" 41 1404 1465 "partial.ml" 41 1404 1468
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.min "stdlib.mli" 178 7724 7724 "stdlib.mli" 178 7724 7748
+)
+"partial.ml" 41 1404 1469 "partial.ml" 41 1404 1489
+type(
+  int
+)
+ident(
+  int_ref xenstore_payload_max "partial.ml" 32 958 962 "partial.ml" 32 958 982
+)
+"partial.ml" 41 1404 1490 "partial.ml" 41 1404 1494
+type(
+  int
+)
+ident(
+  int_ref dlen "partial.ml" 36 1118 1140 "partial.ml" 36 1118 1144
+)
+"partial.ml" 41 1404 1465 "partial.ml" 41 1404 1494
+type(
+  int
+)
+"partial.ml" 41 1404 1422 "partial.ml" 41 1404 1495
+type(
+  int
+)
+"partial.ml" 41 1404 1416 "partial.ml" 41 1404 1495
+type(
+  int
+)
+"partial.ml" 43 1502 1510 "partial.ml" 43 1502 1513
+type(
+  int
+)
+ident(
+  int_ref tid "partial.ml" 36 1118 1123 "partial.ml" 36 1118 1126
+)
+"partial.ml" 44 1515 1523 "partial.ml" 44 1515 1526
+type(
+  int
+)
+ident(
+  int_ref rid "partial.ml" 36 1118 1128 "partial.ml" 36 1118 1131
+)
+"partial.ml" 45 1528 1536 "partial.ml" 45 1528 1546
+type(
+  int -> Op.operation
+)
+ident(
+  int_ref Op.of_cval "op.mli" 27 407 407 "op.mli" 27 407 437
+)
+"partial.ml" 45 1528 1547 "partial.ml" 45 1528 1552
+type(
+  int
+)
+ident(
+  int_ref opint "partial.ml" 36 1118 1133 "partial.ml" 36 1118 1138
+)
+"partial.ml" 45 1528 1535 "partial.ml" 45 1528 1553
+type(
+  Op.operation
+)
+"partial.ml" 46 1555 1563 "partial.ml" 46 1555 1567
+type(
+  int
+)
+ident(
+  int_ref dlen "partial.ml" 41 1404 1409 "partial.ml" 41 1404 1413
+)
+"partial.ml" 47 1569 1577 "partial.ml" 47 1569 1590
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 27 1376 1376 "buffer.mli" 27 1376 1397
+)
+"partial.ml" 47 1569 1591 "partial.ml" 47 1569 1595
+type(
+  int
+)
+ident(
+  int_ref dlen "partial.ml" 41 1404 1409 "partial.ml" 41 1404 1413
+)
+"partial.ml" 47 1569 1577 "partial.ml" 47 1569 1595
+type(
+  Buffer.t
+)
+"partial.ml" 42 1499 1500 "partial.ml" 48 1597 1599
+type(
+  pkt
+)
+"partial.ml" 41 1404 1405 "partial.ml" 48 1597 1599
+type(
+  pkt
+)
+"partial.ml" 36 1118 1119 "partial.ml" 48 1597 1599
+type(
+  pkt
+)
+"partial.ml" 50 1601 1605 "partial.ml" 50 1601 1611
+type(
+  pkt -> string -> int -> unit
+)
+ident(
+  def append "partial.ml" 54 1804 1804 "partial.ml" 0 0 -1
+)
+"partial.ml" 50 1601 1612 "partial.ml" 50 1601 1615
+type(
+  pkt
+)
+ident(
+  def pkt "partial.ml" 50 1601 1616 "partial.ml" 52 1756 1802
+)
+"partial.ml" 50 1601 1616 "partial.ml" 50 1601 1617
+type(
+  string
+)
+ident(
+  def s "partial.ml" 50 1601 1618 "partial.ml" 52 1756 1802
+)
+"partial.ml" 50 1601 1618 "partial.ml" 50 1601 1620
+type(
+  int
+)
+ident(
+  def sz "partial.ml" 51 1623 1624 "partial.ml" 52 1756 1802
+)
+"partial.ml" 51 1623 1627 "partial.ml" 51 1623 1630
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"partial.ml" 51 1623 1631 "partial.ml" 51 1623 1632
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"partial.ml" 51 1623 1632 "partial.ml" 51 1623 1654
+type(
+  bool ref
+)
+ident(
+  int_ref allow_oversize_packets "partial.ml" 30 919 923 "partial.ml" 30 919 945
+)
+"partial.ml" 51 1623 1631 "partial.ml" 51 1623 1654
+type(
+  bool
+)
+"partial.ml" 51 1623 1627 "partial.ml" 51 1623 1654
+type(
+  bool
+)
+"partial.ml" 51 1623 1655 "partial.ml" 51 1623 1657
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"partial.ml" 51 1623 1658 "partial.ml" 51 1623 1671
+type(
+  Buffer.t -> int
+)
+ident(
+  int_ref Stdlib.Buffer.length "buffer.mli" 72 3238 3238 "buffer.mli" 72 3238 3259
+)
+"partial.ml" 51 1623 1672 "partial.ml" 51 1623 1675
+type(
+  pkt
+)
+ident(
+  int_ref pkt "partial.ml" 50 1601 1612 "partial.ml" 50 1601 1615
+)
+"partial.ml" 51 1623 1672 "partial.ml" 51 1623 1679
+type(
+  Buffer.t
+)
+"partial.ml" 51 1623 1658 "partial.ml" 51 1623 1679
+type(
+  int
+)
+"partial.ml" 51 1623 1680 "partial.ml" 51 1623 1681
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"partial.ml" 51 1623 1682 "partial.ml" 51 1623 1684
+type(
+  int
+)
+ident(
+  int_ref sz "partial.ml" 50 1601 1618 "partial.ml" 50 1601 1620
+)
+"partial.ml" 51 1623 1658 "partial.ml" 51 1623 1684
+type(
+  int
+)
+"partial.ml" 51 1623 1685 "partial.ml" 51 1623 1686
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"partial.ml" 51 1623 1687 "partial.ml" 51 1623 1707
+type(
+  int
+)
+ident(
+  int_ref xenstore_payload_max "partial.ml" 32 958 962 "partial.ml" 32 958 982
+)
+"partial.ml" 51 1623 1658 "partial.ml" 51 1623 1707
+type(
+  bool
+)
+"partial.ml" 51 1623 1627 "partial.ml" 51 1623 1707
+type(
+  bool
+)
+"partial.ml" 51 1623 1713 "partial.ml" 51 1623 1721
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"partial.ml" 51 1623 1722 "partial.ml" 51 1623 1754
+type(
+  string
+)
+"partial.ml" 51 1623 1713 "partial.ml" 51 1623 1754
+type(
+  unit
+)
+"partial.ml" 51 1623 1624 "partial.ml" 51 1623 1754
+type(
+  unit
+)
+"partial.ml" 52 1756 1757 "partial.ml" 52 1756 1774
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  int_ref Stdlib.Buffer.add_string "buffer.mli" 108 4464 4464 "buffer.mli" 108 4464 4500
+)
+"partial.ml" 52 1756 1775 "partial.ml" 52 1756 1778
+type(
+  pkt
+)
+ident(
+  int_ref pkt "partial.ml" 50 1601 1612 "partial.ml" 50 1601 1615
+)
+"partial.ml" 52 1756 1775 "partial.ml" 52 1756 1782
+type(
+  Buffer.t
+)
+"partial.ml" 52 1756 1784 "partial.ml" 52 1756 1794
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 100 4546 4546 "string.mli" 100 4546 4586
+)
+"partial.ml" 52 1756 1795 "partial.ml" 52 1756 1796
+type(
+  string
+)
+ident(
+  int_ref s "partial.ml" 50 1601 1616 "partial.ml" 50 1601 1617
+)
+"partial.ml" 52 1756 1797 "partial.ml" 52 1756 1798
+type(
+  int
+)
+"partial.ml" 52 1756 1799 "partial.ml" 52 1756 1801
+type(
+  int
+)
+ident(
+  int_ref sz "partial.ml" 50 1601 1618 "partial.ml" 50 1601 1620
+)
+"partial.ml" 52 1756 1783 "partial.ml" 52 1756 1802
+type(
+  string
+)
+"partial.ml" 52 1756 1757 "partial.ml" 52 1756 1802
+type(
+  unit
+)
+"partial.ml" 51 1623 1624 "partial.ml" 52 1756 1802
+type(
+  unit
+)
+"partial.ml" 54 1804 1808 "partial.ml" 54 1804 1819
+type(
+  pkt -> int
+)
+ident(
+  def to_complete "partial.ml" 55 1826 1860 "partial.ml" 0 0 -1
+)
+"partial.ml" 54 1804 1820 "partial.ml" 54 1804 1823
+type(
+  pkt
+)
+ident(
+  def pkt "partial.ml" 55 1826 1827 "partial.ml" 55 1826 1860
+)
+"partial.ml" 55 1826 1827 "partial.ml" 55 1826 1830
+type(
+  pkt
+)
+ident(
+  int_ref pkt "partial.ml" 54 1804 1820 "partial.ml" 54 1804 1823
+)
+"partial.ml" 55 1826 1827 "partial.ml" 55 1826 1834
+type(
+  int
+)
+"partial.ml" 55 1826 1835 "partial.ml" 55 1826 1836
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"partial.ml" 55 1826 1838 "partial.ml" 55 1826 1851
+type(
+  Buffer.t -> int
+)
+ident(
+  int_ref Stdlib.Buffer.length "buffer.mli" 72 3238 3238 "buffer.mli" 72 3238 3259
+)
+"partial.ml" 55 1826 1852 "partial.ml" 55 1826 1855
+type(
+  pkt
+)
+ident(
+  int_ref pkt "partial.ml" 54 1804 1820 "partial.ml" 54 1804 1823
+)
+"partial.ml" 55 1826 1852 "partial.ml" 55 1826 1859
+type(
+  Buffer.t
+)
+"partial.ml" 55 1826 1837 "partial.ml" 55 1826 1860
+type(
+  int
+)
+"partial.ml" 55 1826 1827 "partial.ml" 55 1826 1860
+type(
+  int
+)

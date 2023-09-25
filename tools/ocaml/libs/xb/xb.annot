@@ -1,0 +1,4694 @@
+"xb.ml" 61 2268 2273 "xb.ml" 61 2268 2279
+type(
+  capacity:int -> classify:('a -> 'b) -> limit:('b -> int) -> ('a, 'b) t
+)
+ident(
+  def create "xb.ml" 64 2395 2396 "xb.ml" 109 3731 3734
+)
+"xb.ml" 61 2268 2281 "xb.ml" 61 2268 2289
+type(
+  int
+)
+ident(
+  def capacity "xb.ml" 61 2268 2290 "xb.ml" 62 2309 2393
+)
+"xb.ml" 61 2268 2291 "xb.ml" 61 2268 2299
+type(
+  'a -> 'b
+)
+ident(
+  def classify "xb.ml" 61 2268 2300 "xb.ml" 62 2309 2393
+)
+"xb.ml" 61 2268 2301 "xb.ml" 61 2268 2306
+type(
+  'b -> int
+)
+ident(
+  def limit "xb.ml" 62 2309 2311 "xb.ml" 62 2309 2393
+)
+"xb.ml" 62 2309 2313 "xb.ml" 62 2309 2321
+type(
+  int
+)
+ident(
+  int_ref capacity "xb.ml" 61 2268 2281 "xb.ml" 61 2268 2289
+)
+"xb.ml" 62 2309 2327 "xb.ml" 62 2309 2339
+type(
+  unit -> 'a Queue.t
+)
+ident(
+  int_ref Stdlib.Queue.create "queue.mli" 33 1535 1535 "queue.mli" 33 1535 1560
+)
+"xb.ml" 62 2309 2340 "xb.ml" 62 2309 2342
+type(
+  unit
+)
+"xb.ml" 62 2309 2327 "xb.ml" 62 2309 2342
+type(
+  'a Queue.t
+)
+"xb.ml" 62 2309 2344 "xb.ml" 62 2309 2352
+type(
+  'a -> 'b
+)
+ident(
+  int_ref classify "xb.ml" 61 2268 2291 "xb.ml" 61 2268 2299
+)
+"xb.ml" 62 2309 2354 "xb.ml" 62 2309 2359
+type(
+  'b -> int
+)
+ident(
+  int_ref limit "xb.ml" 61 2268 2301 "xb.ml" 61 2268 2306
+)
+"xb.ml" 62 2309 2375 "xb.ml" 62 2309 2389
+type(
+  ?random:bool -> int -> ('b, int) Hashtbl.t
+)
+ident(
+  int_ref Stdlib.Hashtbl.create "hashtbl.mli" 28 1303 1303 "hashtbl.mli" 28 1303 1349
+)
+"xb.ml" 62 2309 2390 "xb.ml" 62 2309 2391
+type(
+  int
+)
+"xb.ml" 62 2309 2375 "xb.ml" 62 2309 2391
+type(
+  ('b, int) Hashtbl.t
+)
+"xb.ml" 62 2309 2311 "xb.ml" 62 2309 2393
+type(
+  ('a, 'b) t
+)
+"xb.ml" 64 2395 2400 "xb.ml" 64 2395 2409
+type(
+  ('c, 'd) t -> 'd -> int
+)
+ident(
+  def get_count "xb.ml" 66 2496 2497 "xb.ml" 109 3731 3734
+)
+"xb.ml" 64 2395 2410 "xb.ml" 64 2395 2411
+type(
+  ('c, 'd) t
+)
+ident(
+  def t "xb.ml" 64 2395 2412 "xb.ml" 64 2395 2494
+)
+"xb.ml" 64 2395 2412 "xb.ml" 64 2395 2426
+type(
+  'd
+)
+ident(
+  def classification "xb.ml" 64 2395 2429 "xb.ml" 64 2395 2494
+)
+"xb.ml" 64 2395 2433 "xb.ml" 64 2395 2445
+type(
+  ('d, int) Hashtbl.t -> 'd -> int
+)
+ident(
+  int_ref Stdlib.Hashtbl.find "hashtbl.mli" 86 4068 4068 "hashtbl.mli" 86 4068 4101
+)
+"xb.ml" 64 2395 2446 "xb.ml" 64 2395 2447
+type(
+  ('c, 'd) t
+)
+ident(
+  int_ref t "xb.ml" 64 2395 2410 "xb.ml" 64 2395 2411
+)
+"xb.ml" 64 2395 2446 "xb.ml" 64 2395 2459
+type(
+  ('d, int) Hashtbl.t
+)
+"xb.ml" 64 2395 2460 "xb.ml" 64 2395 2474
+type(
+  'd
+)
+ident(
+  int_ref classification "xb.ml" 64 2395 2412 "xb.ml" 64 2395 2426
+)
+"xb.ml" 64 2395 2433 "xb.ml" 64 2395 2474
+type(
+  int
+)
+"xb.ml" 64 2395 2480 "xb.ml" 64 2395 2489
+type(
+  exn
+)
+"xb.ml" 64 2395 2493 "xb.ml" 64 2395 2494
+type(
+  int
+)
+"xb.ml" 64 2395 2429 "xb.ml" 64 2395 2494
+type(
+  int
+)
+"xb.ml" 66 2496 2501 "xb.ml" 66 2496 2518
+type(
+  ('e, 'f) t -> 'f -> int -> bool
+)
+ident(
+  def can_push_internal "xb.ml" 69 2623 2624 "xb.ml" 109 3731 3734
+)
+"xb.ml" 66 2496 2519 "xb.ml" 66 2496 2520
+type(
+  ('e, 'f) t
+)
+ident(
+  def t "xb.ml" 66 2496 2521 "xb.ml" 67 2550 2621
+)
+"xb.ml" 66 2496 2521 "xb.ml" 66 2496 2535
+type(
+  'f
+)
+ident(
+  def classification "xb.ml" 66 2496 2536 "xb.ml" 67 2550 2621
+)
+"xb.ml" 66 2496 2536 "xb.ml" 66 2496 2547
+type(
+  int
+)
+ident(
+  def class_count "xb.ml" 67 2550 2552 "xb.ml" 67 2550 2621
+)
+"xb.ml" 67 2550 2552 "xb.ml" 67 2550 2564
+type(
+  'e Queue.t -> int
+)
+ident(
+  int_ref Stdlib.Queue.length "queue.mli" 75 2774 2774 "queue.mli" 75 2774 2798
+)
+"xb.ml" 67 2550 2565 "xb.ml" 67 2550 2566
+type(
+  ('e, 'f) t
+)
+ident(
+  int_ref t "xb.ml" 66 2496 2519 "xb.ml" 66 2496 2520
+)
+"xb.ml" 67 2550 2565 "xb.ml" 67 2550 2568
+type(
+  'e Queue.t
+)
+"xb.ml" 67 2550 2552 "xb.ml" 67 2550 2568
+type(
+  int
+)
+"xb.ml" 67 2550 2569 "xb.ml" 67 2550 2570
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+)
+"xb.ml" 67 2550 2571 "xb.ml" 67 2550 2572
+type(
+  ('e, 'f) t
+)
+ident(
+  int_ref t "xb.ml" 66 2496 2519 "xb.ml" 66 2496 2520
+)
+"xb.ml" 67 2550 2571 "xb.ml" 67 2550 2581
+type(
+  int
+)
+"xb.ml" 67 2550 2552 "xb.ml" 67 2550 2581
+type(
+  bool
+)
+"xb.ml" 67 2550 2582 "xb.ml" 67 2550 2584
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"xb.ml" 67 2550 2585 "xb.ml" 67 2550 2596
+type(
+  int
+)
+ident(
+  int_ref class_count "xb.ml" 66 2496 2536 "xb.ml" 66 2496 2547
+)
+"xb.ml" 67 2550 2597 "xb.ml" 67 2550 2598
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+)
+"xb.ml" 67 2550 2599 "xb.ml" 67 2550 2600
+type(
+  ('e, 'f) t
+)
+ident(
+  int_ref t "xb.ml" 66 2496 2519 "xb.ml" 66 2496 2520
+)
+"xb.ml" 67 2550 2599 "xb.ml" 67 2550 2606
+type(
+  'f -> int
+)
+"xb.ml" 67 2550 2607 "xb.ml" 67 2550 2621
+type(
+  'f
+)
+ident(
+  int_ref classification "xb.ml" 66 2496 2521 "xb.ml" 66 2496 2535
+)
+"xb.ml" 67 2550 2599 "xb.ml" 67 2550 2621
+type(
+  int
+)
+"xb.ml" 67 2550 2585 "xb.ml" 67 2550 2621
+type(
+  bool
+)
+"xb.ml" 67 2550 2552 "xb.ml" 67 2550 2621
+type(
+  bool
+)
+"xb.ml" 69 2623 2628 "xb.ml" 69 2623 2630
+type(
+  unit option
+)
+ident(
+  def ok "xb.ml" 71 2642 2643 "xb.ml" 109 3731 3734
+)
+"xb.ml" 69 2623 2638 "xb.ml" 69 2623 2640
+type(
+  unit
+)
+"xb.ml" 69 2623 2633 "xb.ml" 69 2623 2640
+type(
+  unit option
+)
+"xb.ml" 71 2642 2647 "xb.ml" 71 2642 2651
+type(
+  'g -> ('g, 'h) t -> unit option
+)
+ident(
+  def push "xb.ml" 82 2926 2927 "xb.ml" 109 3731 3734
+)
+"xb.ml" 71 2642 2652 "xb.ml" 71 2642 2653
+type(
+  'g
+)
+ident(
+  def e "xb.ml" 71 2642 2654 "xb.ml" 80 2917 2924
+)
+"xb.ml" 71 2642 2654 "xb.ml" 71 2642 2655
+type(
+  ('g, 'h) t
+)
+ident(
+  def t "xb.ml" 72 2658 2660 "xb.ml" 80 2917 2924
+)
+"xb.ml" 72 2658 2664 "xb.ml" 72 2658 2678
+type(
+  'h
+)
+ident(
+  def classification "xb.ml" 73 2697 2699 "xb.ml" 80 2917 2924
+)
+"xb.ml" 72 2658 2681 "xb.ml" 72 2658 2682
+type(
+  ('g, 'h) t
+)
+ident(
+  int_ref t "xb.ml" 71 2642 2654 "xb.ml" 71 2642 2655
+)
+"xb.ml" 72 2658 2681 "xb.ml" 72 2658 2691
+type(
+  'g -> 'h
+)
+"xb.ml" 72 2658 2692 "xb.ml" 72 2658 2693
+type(
+  'g
+)
+ident(
+  int_ref e "xb.ml" 71 2642 2652 "xb.ml" 71 2642 2653
+)
+"xb.ml" 72 2658 2681 "xb.ml" 72 2658 2693
+type(
+  'h
+)
+"xb.ml" 73 2697 2703 "xb.ml" 73 2697 2714
+type(
+  int
+)
+ident(
+  def class_count "xb.ml" 74 2747 2749 "xb.ml" 80 2917 2924
+)
+"xb.ml" 73 2697 2717 "xb.ml" 73 2697 2726
+type(
+  ('g, 'h) t -> 'h -> int
+)
+ident(
+  int_ref get_count "xb.ml" 64 2395 2400 "xb.ml" 64 2395 2409
+)
+"xb.ml" 73 2697 2727 "xb.ml" 73 2697 2728
+type(
+  ('g, 'h) t
+)
+ident(
+  int_ref t "xb.ml" 71 2642 2654 "xb.ml" 71 2642 2655
+)
+"xb.ml" 73 2697 2729 "xb.ml" 73 2697 2743
+type(
+  'h
+)
+ident(
+  int_ref classification "xb.ml" 72 2658 2664 "xb.ml" 72 2658 2678
+)
+"xb.ml" 73 2697 2717 "xb.ml" 73 2697 2743
+type(
+  int
+)
+"xb.ml" 74 2747 2752 "xb.ml" 74 2747 2769
+type(
+  ('g, 'h) t -> 'h -> int -> bool
+)
+ident(
+  int_ref can_push_internal "xb.ml" 66 2496 2501 "xb.ml" 66 2496 2518
+)
+"xb.ml" 74 2747 2770 "xb.ml" 74 2747 2771
+type(
+  ('g, 'h) t
+)
+ident(
+  int_ref t "xb.ml" 71 2642 2654 "xb.ml" 71 2642 2655
+)
+"xb.ml" 74 2747 2772 "xb.ml" 74 2747 2786
+type(
+  'h
+)
+ident(
+  int_ref classification "xb.ml" 72 2658 2664 "xb.ml" 72 2658 2678
+)
+"xb.ml" 74 2747 2787 "xb.ml" 74 2747 2798
+type(
+  int
+)
+ident(
+  int_ref class_count "xb.ml" 73 2697 2703 "xb.ml" 73 2697 2714
+)
+"xb.ml" 74 2747 2752 "xb.ml" 74 2747 2798
+type(
+  bool
+)
+"xb.ml" 75 2810 2813 "xb.ml" 75 2810 2823
+type(
+  'g -> 'g Queue.t -> unit
+)
+ident(
+  int_ref Stdlib.Queue.push "queue.mli" 39 1703 1703 "queue.mli" 39 1703 1732
+)
+"xb.ml" 75 2810 2824 "xb.ml" 75 2810 2825
+type(
+  'g
+)
+ident(
+  int_ref e "xb.ml" 71 2642 2652 "xb.ml" 71 2642 2653
+)
+"xb.ml" 75 2810 2826 "xb.ml" 75 2810 2827
+type(
+  ('g, 'h) t
+)
+ident(
+  int_ref t "xb.ml" 71 2642 2654 "xb.ml" 71 2642 2655
+)
+"xb.ml" 75 2810 2826 "xb.ml" 75 2810 2829
+type(
+  'g Queue.t
+)
+"xb.ml" 75 2810 2813 "xb.ml" 75 2810 2829
+type(
+  unit
+)
+"xb.ml" 76 2831 2834 "xb.ml" 76 2831 2849
+type(
+  ('h, int) Hashtbl.t -> 'h -> int -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.replace "hashtbl.mli" 109 4973 4973 "hashtbl.mli" 109 4973 5017
+)
+"xb.ml" 76 2831 2850 "xb.ml" 76 2831 2851
+type(
+  ('g, 'h) t
+)
+ident(
+  int_ref t "xb.ml" 71 2642 2654 "xb.ml" 71 2642 2655
+)
+"xb.ml" 76 2831 2850 "xb.ml" 76 2831 2863
+type(
+  ('h, int) Hashtbl.t
+)
+"xb.ml" 76 2831 2864 "xb.ml" 76 2831 2878
+type(
+  'h
+)
+ident(
+  int_ref classification "xb.ml" 72 2658 2664 "xb.ml" 72 2658 2678
+)
+"xb.ml" 76 2831 2880 "xb.ml" 76 2831 2891
+type(
+  int
+)
+ident(
+  int_ref class_count "xb.ml" 73 2697 2703 "xb.ml" 73 2697 2714
+)
+"xb.ml" 76 2831 2892 "xb.ml" 76 2831 2893
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"xb.ml" 76 2831 2894 "xb.ml" 76 2831 2895
+type(
+  int
+)
+"xb.ml" 76 2831 2879 "xb.ml" 76 2831 2896
+type(
+  int
+)
+"xb.ml" 76 2831 2834 "xb.ml" 76 2831 2896
+type(
+  unit
+)
+"xb.ml" 77 2898 2901 "xb.ml" 77 2898 2903
+type(
+  unit option
+)
+ident(
+  int_ref ok "xb.ml" 69 2623 2628 "xb.ml" 69 2623 2630
+)
+"xb.ml" 76 2831 2834 "xb.ml" 77 2898 2903
+type(
+  unit option
+)
+"xb.ml" 74 2747 2804 "xb.ml" 78 2904 2909
+type(
+  unit option
+)
+"xb.ml" 80 2917 2920 "xb.ml" 80 2917 2924
+type(
+  unit option
+)
+"xb.ml" 74 2747 2749 "xb.ml" 80 2917 2924
+type(
+  unit option
+)
+"xb.ml" 73 2697 2699 "xb.ml" 80 2917 2924
+type(
+  unit option
+)
+"xb.ml" 72 2658 2660 "xb.ml" 80 2917 2924
+type(
+  unit option
+)
+"xb.ml" 82 2926 2931 "xb.ml" 82 2926 2939
+type(
+  ('i, 'j) t -> 'j -> bool
+)
+ident(
+  def can_push "xb.ml" 85 3027 3028 "xb.ml" 109 3731 3734
+)
+"xb.ml" 82 2926 2940 "xb.ml" 82 2926 2941
+type(
+  ('i, 'j) t
+)
+ident(
+  def t "xb.ml" 82 2926 2942 "xb.ml" 83 2959 3025
+)
+"xb.ml" 82 2926 2942 "xb.ml" 82 2926 2956
+type(
+  'j
+)
+ident(
+  def classification "xb.ml" 83 2959 2961 "xb.ml" 83 2959 3025
+)
+"xb.ml" 83 2959 2961 "xb.ml" 83 2959 2978
+type(
+  ('i, 'j) t -> 'j -> int -> bool
+)
+ident(
+  int_ref can_push_internal "xb.ml" 66 2496 2501 "xb.ml" 66 2496 2518
+)
+"xb.ml" 83 2959 2979 "xb.ml" 83 2959 2980
+type(
+  ('i, 'j) t
+)
+ident(
+  int_ref t "xb.ml" 82 2926 2940 "xb.ml" 82 2926 2941
+)
+"xb.ml" 83 2959 2981 "xb.ml" 83 2959 2995
+type(
+  'j
+)
+ident(
+  int_ref classification "xb.ml" 82 2926 2942 "xb.ml" 82 2926 2956
+)
+"xb.ml" 83 2959 2961 "xb.ml" 83 2959 2995
+type(
+  int -> bool
+)
+"xb.ml" 83 2959 2996 "xb.ml" 83 2959 2998
+type(
+  (int -> bool) -> int -> bool
+)
+ident(
+  int_ref Stdlib.( @@ ) "stdlib.mli" 307 12463 12463 "stdlib.mli" 307 12463 12514
+)
+"xb.ml" 83 2959 2999 "xb.ml" 83 2959 3008
+type(
+  ('i, 'j) t -> 'j -> int
+)
+ident(
+  int_ref get_count "xb.ml" 64 2395 2400 "xb.ml" 64 2395 2409
+)
+"xb.ml" 83 2959 3009 "xb.ml" 83 2959 3010
+type(
+  ('i, 'j) t
+)
+ident(
+  int_ref t "xb.ml" 82 2926 2940 "xb.ml" 82 2926 2941
+)
+"xb.ml" 83 2959 3011 "xb.ml" 83 2959 3025
+type(
+  'j
+)
+ident(
+  int_ref classification "xb.ml" 82 2926 2942 "xb.ml" 82 2926 2956
+)
+"xb.ml" 83 2959 2999 "xb.ml" 83 2959 3025
+type(
+  int
+)
+"xb.ml" 83 2959 2961 "xb.ml" 83 2959 3025
+type(
+  bool
+)
+"xb.ml" 85 3027 3032 "xb.ml" 85 3027 3037
+type(
+  ('k, 'l) t -> unit
+)
+ident(
+  def clear "xb.ml" 89 3092 3093 "xb.ml" 109 3731 3734
+)
+"xb.ml" 85 3027 3038 "xb.ml" 85 3027 3039
+type(
+  ('k, 'l) t
+)
+ident(
+  def t "xb.ml" 86 3042 3044 "xb.ml" 87 3061 3090
+)
+"xb.ml" 86 3042 3044 "xb.ml" 86 3042 3055
+type(
+  'k Queue.t -> unit
+)
+ident(
+  int_ref Stdlib.Queue.clear "queue.mli" 66 2542 2542 "queue.mli" 66 2542 2566
+)
+"xb.ml" 86 3042 3056 "xb.ml" 86 3042 3057
+type(
+  ('k, 'l) t
+)
+ident(
+  int_ref t "xb.ml" 85 3027 3038 "xb.ml" 85 3027 3039
+)
+"xb.ml" 86 3042 3056 "xb.ml" 86 3042 3059
+type(
+  'k Queue.t
+)
+"xb.ml" 86 3042 3044 "xb.ml" 86 3042 3059
+type(
+  unit
+)
+"xb.ml" 87 3061 3063 "xb.ml" 87 3061 3076
+type(
+  ('l, int) Hashtbl.t -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.reset "hashtbl.mli" 71 3508 3508 "hashtbl.mli" 71 3508 3538
+)
+"xb.ml" 87 3061 3077 "xb.ml" 87 3061 3078
+type(
+  ('k, 'l) t
+)
+ident(
+  int_ref t "xb.ml" 85 3027 3038 "xb.ml" 85 3027 3039
+)
+"xb.ml" 87 3061 3077 "xb.ml" 87 3061 3090
+type(
+  ('l, int) Hashtbl.t
+)
+"xb.ml" 87 3061 3063 "xb.ml" 87 3061 3090
+type(
+  unit
+)
+"xb.ml" 86 3042 3044 "xb.ml" 87 3061 3090
+type(
+  unit
+)
+"xb.ml" 89 3092 3097 "xb.ml" 89 3092 3100
+type(
+  ('m, 'n) t -> 'm
+)
+ident(
+  def pop "xb.ml" 98 3366 3367 "xb.ml" 109 3731 3734
+)
+"xb.ml" 89 3092 3101 "xb.ml" 89 3092 3102
+type(
+  ('m, 'n) t
+)
+ident(
+  def t "xb.ml" 90 3105 3107 "xb.ml" 96 3361 3364
+)
+"xb.ml" 90 3105 3111 "xb.ml" 90 3105 3112
+type(
+  'm
+)
+ident(
+  def e "xb.ml" 91 3132 3134 "xb.ml" 96 3361 3364
+)
+"xb.ml" 90 3105 3115 "xb.ml" 90 3105 3124
+type(
+  'm Queue.t -> 'm
+)
+ident(
+  int_ref Stdlib.Queue.pop "queue.mli" 51 2073 2073 "queue.mli" 51 2073 2093
+)
+"xb.ml" 90 3105 3125 "xb.ml" 90 3105 3126
+type(
+  ('m, 'n) t
+)
+ident(
+  int_ref t "xb.ml" 89 3092 3101 "xb.ml" 89 3092 3102
+)
+"xb.ml" 90 3105 3125 "xb.ml" 90 3105 3128
+type(
+  'm Queue.t
+)
+"xb.ml" 90 3105 3115 "xb.ml" 90 3105 3128
+type(
+  'm
+)
+"xb.ml" 91 3132 3138 "xb.ml" 91 3132 3152
+type(
+  'n
+)
+ident(
+  def classification "xb.ml" 92 3171 3173 "xb.ml" 96 3361 3364
+)
+"xb.ml" 91 3132 3155 "xb.ml" 91 3132 3156
+type(
+  ('m, 'n) t
+)
+ident(
+  int_ref t "xb.ml" 89 3092 3101 "xb.ml" 89 3092 3102
+)
+"xb.ml" 91 3132 3155 "xb.ml" 91 3132 3165
+type(
+  'm -> 'n
+)
+"xb.ml" 91 3132 3166 "xb.ml" 91 3132 3167
+type(
+  'm
+)
+ident(
+  int_ref e "xb.ml" 90 3105 3111 "xb.ml" 90 3105 3112
+)
+"xb.ml" 91 3132 3155 "xb.ml" 91 3132 3167
+type(
+  'n
+)
+"xb.ml" 92 3171 3177 "xb.ml" 92 3171 3179
+type(
+  unit
+)
+"xb.ml" 92 3171 3188 "xb.ml" 92 3171 3197
+type(
+  ('m, 'n) t -> 'n -> int
+)
+ident(
+  int_ref get_count "xb.ml" 64 2395 2400 "xb.ml" 64 2395 2409
+)
+"xb.ml" 92 3171 3198 "xb.ml" 92 3171 3199
+type(
+  ('m, 'n) t
+)
+ident(
+  int_ref t "xb.ml" 89 3092 3101 "xb.ml" 89 3092 3102
+)
+"xb.ml" 92 3171 3200 "xb.ml" 92 3171 3214
+type(
+  'n
+)
+ident(
+  int_ref classification "xb.ml" 91 3132 3138 "xb.ml" 91 3132 3152
+)
+"xb.ml" 92 3171 3188 "xb.ml" 92 3171 3214
+type(
+  int
+)
+"xb.ml" 92 3171 3215 "xb.ml" 92 3171 3216
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"xb.ml" 92 3171 3217 "xb.ml" 92 3171 3218
+type(
+  int
+)
+"xb.ml" 92 3171 3188 "xb.ml" 92 3171 3218
+type(
+  int
+)
+"xb.ml" 93 3224 3228 "xb.ml" 93 3224 3229
+type(
+  int
+)
+"xb.ml" 93 3224 3233 "xb.ml" 93 3224 3247
+type(
+  ('n, int) Hashtbl.t -> 'n -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.remove "hashtbl.mli" 104 4762 4762 "hashtbl.mli" 104 4762 4799
+)
+"xb.ml" 93 3224 3248 "xb.ml" 93 3224 3249
+type(
+  ('m, 'n) t
+)
+ident(
+  int_ref t "xb.ml" 89 3092 3101 "xb.ml" 89 3092 3102
+)
+"xb.ml" 93 3224 3248 "xb.ml" 93 3224 3261
+type(
+  ('n, int) Hashtbl.t
+)
+"xb.ml" 93 3224 3262 "xb.ml" 93 3224 3276
+type(
+  'n
+)
+ident(
+  int_ref classification "xb.ml" 91 3132 3138 "xb.ml" 91 3132 3152
+)
+"xb.ml" 93 3224 3233 "xb.ml" 93 3224 3276
+type(
+  unit
+)
+"xb.ml" 94 3300 3304 "xb.ml" 94 3300 3305
+type(
+  int
+)
+ident(
+  def n "xb.ml" 94 3300 3309 "xb.ml" 94 3300 3355
+)
+"xb.ml" 94 3300 3309 "xb.ml" 94 3300 3324
+type(
+  ('n, int) Hashtbl.t -> 'n -> int -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.replace "hashtbl.mli" 109 4973 4973 "hashtbl.mli" 109 4973 5017
+)
+"xb.ml" 94 3300 3325 "xb.ml" 94 3300 3326
+type(
+  ('m, 'n) t
+)
+ident(
+  int_ref t "xb.ml" 89 3092 3101 "xb.ml" 89 3092 3102
+)
+"xb.ml" 94 3300 3325 "xb.ml" 94 3300 3338
+type(
+  ('n, int) Hashtbl.t
+)
+"xb.ml" 94 3300 3339 "xb.ml" 94 3300 3353
+type(
+  'n
+)
+ident(
+  int_ref classification "xb.ml" 91 3132 3138 "xb.ml" 91 3132 3152
+)
+"xb.ml" 94 3300 3354 "xb.ml" 94 3300 3355
+type(
+  int
+)
+ident(
+  int_ref n "xb.ml" 94 3300 3304 "xb.ml" 94 3300 3305
+)
+"xb.ml" 94 3300 3309 "xb.ml" 94 3300 3355
+type(
+  unit
+)
+"xb.ml" 92 3171 3182 "xb.ml" 94 3300 3355
+type(
+  unit
+)
+"xb.ml" 96 3361 3363 "xb.ml" 96 3361 3364
+type(
+  'm
+)
+ident(
+  int_ref e "xb.ml" 90 3105 3111 "xb.ml" 90 3105 3112
+)
+"xb.ml" 92 3171 3173 "xb.ml" 96 3361 3364
+type(
+  'm
+)
+"xb.ml" 91 3132 3134 "xb.ml" 96 3361 3364
+type(
+  'm
+)
+"xb.ml" 90 3105 3107 "xb.ml" 96 3361 3364
+type(
+  'm
+)
+"xb.ml" 98 3366 3371 "xb.ml" 98 3366 3375
+type(
+  ('o, 'p) t -> 'o
+)
+ident(
+  def peek "xb.ml" 99 3395 3396 "xb.ml" 109 3731 3734
+)
+"xb.ml" 98 3366 3376 "xb.ml" 98 3366 3377
+type(
+  ('o, 'p) t
+)
+ident(
+  def t "xb.ml" 98 3366 3380 "xb.ml" 98 3366 3394
+)
+"xb.ml" 98 3366 3380 "xb.ml" 98 3366 3390
+type(
+  'o Queue.t -> 'o
+)
+ident(
+  int_ref Stdlib.Queue.peek "queue.mli" 54 2133 2133 "queue.mli" 54 2133 2154
+)
+"xb.ml" 98 3366 3391 "xb.ml" 98 3366 3392
+type(
+  ('o, 'p) t
+)
+ident(
+  int_ref t "xb.ml" 98 3366 3376 "xb.ml" 98 3366 3377
+)
+"xb.ml" 98 3366 3391 "xb.ml" 98 3366 3394
+type(
+  'o Queue.t
+)
+"xb.ml" 98 3366 3380 "xb.ml" 98 3366 3394
+type(
+  'o
+)
+"xb.ml" 99 3395 3400 "xb.ml" 99 3395 3406
+type(
+  ('q, 'r) t -> int
+)
+ident(
+  def length "xb.ml" 101 3429 3430 "xb.ml" 109 3731 3734
+)
+"xb.ml" 99 3395 3407 "xb.ml" 99 3395 3408
+type(
+  ('q, 'r) t
+)
+ident(
+  def t "xb.ml" 99 3395 3411 "xb.ml" 99 3395 3427
+)
+"xb.ml" 99 3395 3411 "xb.ml" 99 3395 3423
+type(
+  'q Queue.t -> int
+)
+ident(
+  int_ref Stdlib.Queue.length "queue.mli" 75 2774 2774 "queue.mli" 75 2774 2798
+)
+"xb.ml" 99 3395 3424 "xb.ml" 99 3395 3425
+type(
+  ('q, 'r) t
+)
+ident(
+  int_ref t "xb.ml" 99 3395 3407 "xb.ml" 99 3395 3408
+)
+"xb.ml" 99 3395 3424 "xb.ml" 99 3395 3427
+type(
+  'q Queue.t
+)
+"xb.ml" 99 3395 3411 "xb.ml" 99 3395 3427
+type(
+  int
+)
+"xb.ml" 101 3429 3434 "xb.ml" 101 3429 3439
+type(
+  ('s -> string) -> ('t, 's) t -> string
+)
+ident(
+  def debug "xb.ml" 108 3711 3730 "xb.ml" 109 3731 3734
+)
+"xb.ml" 101 3429 3440 "xb.ml" 101 3429 3455
+type(
+  's -> string
+)
+ident(
+  def string_of_class "xb.ml" 101 3429 3456 "xb.ml" 108 3711 3730
+)
+"xb.ml" 101 3429 3456 "xb.ml" 101 3429 3457
+type(
+  ('t, 's) t
+)
+ident(
+  def t "xb.ml" 102 3460 3462 "xb.ml" 108 3711 3730
+)
+"xb.ml" 102 3460 3466 "xb.ml" 102 3460 3467
+type(
+  Buffer.t
+)
+ident(
+  def b "xb.ml" 103 3491 3493 "xb.ml" 108 3711 3730
+)
+"xb.ml" 102 3460 3470 "xb.ml" 102 3460 3483
+type(
+  int -> Buffer.t
+)
+ident(
+  int_ref Stdlib.Buffer.create "buffer.mli" 27 1376 1376 "buffer.mli" 27 1376 1397
+)
+"xb.ml" 102 3460 3484 "xb.ml" 102 3460 3487
+type(
+  int
+)
+"xb.ml" 102 3460 3470 "xb.ml" 102 3460 3487
+type(
+  Buffer.t
+)
+"xb.ml" 103 3491 3493 "xb.ml" 103 3491 3507
+type(
+  Buffer.t -> (int -> unit, Buffer.t, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Printf.bprintf "printf.mli" 133 6926 6926 "printf.mli" 133 6926 6985
+)
+"xb.ml" 103 3491 3508 "xb.ml" 103 3491 3509
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "xb.ml" 102 3460 3466 "xb.ml" 102 3460 3467
+)
+"xb.ml" 103 3491 3510 "xb.ml" 103 3491 3546
+type(
+  (int -> unit, Buffer.t, unit) format
+)
+"xb.ml" 103 3491 3547 "xb.ml" 103 3491 3548
+type(
+  ('t, 's) t
+)
+ident(
+  int_ref t "xb.ml" 101 3429 3456 "xb.ml" 101 3429 3457
+)
+"xb.ml" 103 3491 3547 "xb.ml" 103 3491 3557
+type(
+  int
+)
+"xb.ml" 103 3491 3493 "xb.ml" 103 3491 3557
+type(
+  unit
+)
+"xb.ml" 104 3559 3561 "xb.ml" 104 3559 3573
+type(
+  ('s -> int -> unit) -> ('s, int) Hashtbl.t -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.iter "hashtbl.mli" 116 5308 5308 "hashtbl.mli" 116 5308 5359
+)
+"xb.ml" 104 3559 3579 "xb.ml" 104 3559 3591
+type(
+  's
+)
+ident(
+  def packet_class "xb.ml" 104 3559 3592 "xb.ml" 105 3601 3667
+)
+"xb.ml" 104 3559 3592 "xb.ml" 104 3559 3597
+type(
+  int
+)
+ident(
+  def count "xb.ml" 105 3601 3604 "xb.ml" 105 3601 3667
+)
+"xb.ml" 105 3601 3604 "xb.ml" 105 3601 3618
+type(
+  Buffer.t ->
+  (string -> int -> unit, Buffer.t, unit) format -> string -> int -> unit
+)
+ident(
+  int_ref Stdlib.Printf.bprintf "printf.mli" 133 6926 6926 "printf.mli" 133 6926 6985
+)
+"xb.ml" 105 3601 3619 "xb.ml" 105 3601 3620
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "xb.ml" 102 3460 3466 "xb.ml" 102 3460 3467
+)
+"xb.ml" 105 3601 3621 "xb.ml" 105 3601 3630
+type(
+  (string -> int -> unit, Buffer.t, unit) format
+)
+"xb.ml" 105 3601 3632 "xb.ml" 105 3601 3647
+type(
+  's -> string
+)
+ident(
+  int_ref string_of_class "xb.ml" 101 3429 3440 "xb.ml" 101 3429 3455
+)
+"xb.ml" 105 3601 3648 "xb.ml" 105 3601 3660
+type(
+  's
+)
+ident(
+  int_ref packet_class "xb.ml" 104 3559 3579 "xb.ml" 104 3559 3591
+)
+"xb.ml" 105 3601 3631 "xb.ml" 105 3601 3661
+type(
+  string
+)
+"xb.ml" 105 3601 3662 "xb.ml" 105 3601 3667
+type(
+  int
+)
+ident(
+  int_ref count "xb.ml" 104 3559 3592 "xb.ml" 104 3559 3597
+)
+"xb.ml" 105 3601 3604 "xb.ml" 105 3601 3667
+type(
+  unit
+)
+"xb.ml" 104 3559 3574 "xb.ml" 106 3668 3671
+type(
+  's -> int -> unit
+)
+"xb.ml" 106 3668 3672 "xb.ml" 106 3668 3673
+type(
+  ('t, 's) t
+)
+ident(
+  int_ref t "xb.ml" 101 3429 3456 "xb.ml" 101 3429 3457
+)
+"xb.ml" 106 3668 3672 "xb.ml" 106 3668 3685
+type(
+  ('s, int) Hashtbl.t
+)
+"xb.ml" 104 3559 3561 "xb.ml" 106 3668 3685
+type(
+  unit
+)
+"xb.ml" 107 3687 3689 "xb.ml" 107 3687 3703
+type(
+  Buffer.t -> (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.bprintf "printf.mli" 133 6926 6926 "printf.mli" 133 6926 6985
+)
+"xb.ml" 107 3687 3704 "xb.ml" 107 3687 3705
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "xb.ml" 102 3460 3466 "xb.ml" 102 3460 3467
+)
+"xb.ml" 107 3687 3706 "xb.ml" 107 3687 3709
+type(
+  (unit, Buffer.t, unit) format
+)
+"xb.ml" 107 3687 3689 "xb.ml" 107 3687 3709
+type(
+  unit
+)
+"xb.ml" 108 3711 3713 "xb.ml" 108 3711 3728
+type(
+  Buffer.t -> string
+)
+ident(
+  int_ref Stdlib.Buffer.contents "buffer.mli" 41 2156 2156 "buffer.mli" 41 2156 2182
+)
+"xb.ml" 108 3711 3729 "xb.ml" 108 3711 3730
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "xb.ml" 102 3460 3466 "xb.ml" 102 3460 3467
+)
+"xb.ml" 108 3711 3713 "xb.ml" 108 3711 3730
+type(
+  string
+)
+"xb.ml" 107 3687 3689 "xb.ml" 108 3711 3730
+type(
+  string
+)
+"xb.ml" 104 3559 3561 "xb.ml" 108 3711 3730
+type(
+  string
+)
+"xb.ml" 103 3491 3493 "xb.ml" 108 3711 3730
+type(
+  string
+)
+"xb.ml" 102 3460 3462 "xb.ml" 108 3711 3730
+type(
+  string
+)
+"xb.ml" 118 3831 3835 "xb.ml" 118 3831 3836
+type(
+  unit
+)
+"xb.ml" 119 3839 3841 "xb.ml" 119 3839 3868
+type(
+  string -> exn -> unit
+)
+ident(
+  int_ref Stdlib.Callback.register_exception "callback.mli" 28 1528 1528 "callback.mli" 28 1528 1574
+)
+"xb.ml" 119 3839 3869 "xb.ml" 119 3839 3883
+type(
+  string
+)
+"xb.ml" 119 3839 3884 "xb.ml" 119 3839 3893
+type(
+  exn
+)
+"xb.ml" 119 3839 3841 "xb.ml" 119 3839 3893
+type(
+  unit
+)
+"xb.ml" 150 4556 4560 "xb.ml" 150 4556 4582
+type(
+  packet_class -> string
+)
+ident(
+  def string_of_packet_class "xb.ml" 154 4661 4661 "xb.ml" 0 0 -1
+)
+"xb.ml" 151 4594 4597 "xb.ml" 151 4594 4609
+type(
+  packet_class
+)
+"xb.ml" 151 4594 4613 "xb.ml" 151 4594 4628
+type(
+  string
+)
+"xb.ml" 152 4629 4632 "xb.ml" 152 4629 4642
+type(
+  packet_class
+)
+"xb.ml" 152 4629 4646 "xb.ml" 152 4629 4659
+type(
+  string
+)
+"xb.ml" 150 4556 4585 "xb.ml" 152 4629 4659
+type(
+  packet_class -> string
+)
+"xb.ml" 163 4822 4826 "xb.ml" 163 4822 4833
+type(
+  t -> int
+)
+ident(
+  def to_read "xb.ml" 168 4954 4954 "xb.ml" 0 0 -1
+)
+"xb.ml" 163 4822 4834 "xb.ml" 163 4822 4837
+type(
+  t
+)
+ident(
+  def con "xb.ml" 164 4840 4841 "xb.ml" 166 4926 4952
+)
+"xb.ml" 164 4840 4847 "xb.ml" 164 4840 4850
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 163 4822 4834 "xb.ml" 163 4822 4837
+)
+"xb.ml" 164 4840 4847 "xb.ml" 164 4840 4861
+type(
+  partial_buf
+)
+"xb.ml" 165 4867 4879 "xb.ml" 165 4867 4890
+type(
+  Partial.pkt
+)
+ident(
+  def partial_pkt "xb.ml" 165 4867 4894 "xb.ml" 165 4867 4925
+)
+"xb.ml" 165 4867 4871 "xb.ml" 165 4867 4890
+type(
+  partial_buf
+)
+"xb.ml" 165 4867 4894 "xb.ml" 165 4867 4913
+type(
+  Partial.pkt -> int
+)
+ident(
+  int_ref Partial.to_complete "partial.mli" 16 419 419 "partial.mli" 16 419 447
+)
+"xb.ml" 165 4867 4914 "xb.ml" 165 4867 4925
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 165 4867 4879 "xb.ml" 165 4867 4890
+)
+"xb.ml" 165 4867 4894 "xb.ml" 165 4867 4925
+type(
+  int
+)
+"xb.ml" 166 4926 4939 "xb.ml" 166 4926 4940
+type(
+  int
+)
+ident(
+  def i "xb.ml" 166 4926 4951 "xb.ml" 166 4926 4952
+)
+"xb.ml" 166 4926 4942 "xb.ml" 166 4926 4943
+type(
+  bytes
+)
+"xb.ml" 166 4926 4930 "xb.ml" 166 4926 4944
+type(
+  partial_buf
+)
+"xb.ml" 166 4926 4951 "xb.ml" 166 4926 4952
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 166 4926 4939 "xb.ml" 166 4926 4940
+)
+"xb.ml" 164 4840 4841 "xb.ml" 166 4926 4952
+type(
+  int
+)
+"xb.ml" 168 4954 4958 "xb.ml" 168 4954 4963
+type(
+  t -> string
+)
+ident(
+  def debug "xb.ml" 175 5200 5200 "xb.ml" 0 0 -1
+)
+"xb.ml" 168 4954 4964 "xb.ml" 168 4954 4965
+type(
+  t
+)
+ident(
+  def t "xb.ml" 169 4968 4969 "xb.ml" 173 5143 5198
+)
+"xb.ml" 169 4968 4969 "xb.ml" 169 4968 4983
+type(
+  (int -> int -> int -> string -> string, unit, string) format ->
+  int -> int -> int -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"xb.ml" 169 4968 4984 "xb.ml" 169 4968 5069
+type(
+  (int -> int -> int -> string -> string, unit, string) format
+)
+"xb.ml" 170 5070 5073 "xb.ml" 170 5070 5080
+type(
+  t -> int
+)
+ident(
+  int_ref to_read "xb.ml" 163 4822 4826 "xb.ml" 163 4822 4833
+)
+"xb.ml" 170 5070 5081 "xb.ml" 170 5070 5082
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 168 4954 4964 "xb.ml" 168 4954 4965
+)
+"xb.ml" 170 5070 5072 "xb.ml" 170 5070 5083
+type(
+  int
+)
+"xb.ml" 171 5084 5087 "xb.ml" 171 5084 5100
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"xb.ml" 171 5084 5101 "xb.ml" 171 5084 5102
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 168 4954 4964 "xb.ml" 168 4954 4965
+)
+"xb.ml" 171 5084 5101 "xb.ml" 171 5084 5114
+type(
+  string
+)
+"xb.ml" 171 5084 5086 "xb.ml" 171 5084 5115
+type(
+  int
+)
+"xb.ml" 172 5116 5119 "xb.ml" 172 5116 5131
+type(
+  (Packet.t, packet_class) Queue.t -> int
+)
+ident(
+  int_ref Queue.length "xb.ml" 48 1933 1934 "xb.ml" 48 1933 1963
+)
+"xb.ml" 172 5116 5132 "xb.ml" 172 5116 5133
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 168 4954 4964 "xb.ml" 168 4954 4965
+)
+"xb.ml" 172 5116 5132 "xb.ml" 172 5116 5141
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 172 5116 5118 "xb.ml" 172 5116 5142
+type(
+  int
+)
+"xb.ml" 173 5143 5146 "xb.ml" 173 5143 5164
+type(
+  (packet_class -> string) -> (Packet.t, packet_class) Queue.t -> string
+)
+ident(
+  int_ref BoundedQueue.debug "xb.ml" 51 2064 2065 "xb.ml" 51 2064 2113
+)
+"xb.ml" 173 5143 5165 "xb.ml" 173 5143 5187
+type(
+  packet_class -> string
+)
+ident(
+  int_ref string_of_packet_class "xb.ml" 150 4556 4560 "xb.ml" 150 4556 4582
+)
+"xb.ml" 173 5143 5188 "xb.ml" 173 5143 5189
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 168 4954 4964 "xb.ml" 168 4954 4965
+)
+"xb.ml" 173 5143 5188 "xb.ml" 173 5143 5197
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 173 5143 5145 "xb.ml" 173 5143 5198
+type(
+  string
+)
+"xb.ml" 169 4968 4969 "xb.ml" 173 5143 5198
+type(
+  string
+)
+"xb.ml" 175 5200 5204 "xb.ml" 175 5200 5219
+type(
+  unit -> partial_buf
+)
+ident(
+  def init_partial_in "xb.ml" 178 5301 5301 "xb.ml" 0 0 -1
+)
+"xb.ml" 175 5200 5220 "xb.ml" 175 5200 5222
+type(
+  unit
+)
+"xb.ml" 176 5231 5233 "xb.ml" 176 5231 5252
+type(
+  unit -> int
+)
+ident(
+  int_ref Partial.header_size "partial.mli" 8 93 93 "partial.mli" 8 93 148
+)
+"xb.ml" 176 5231 5253 "xb.ml" 176 5231 5255
+type(
+  unit
+)
+"xb.ml" 176 5231 5233 "xb.ml" 176 5231 5255
+type(
+  int
+)
+"xb.ml" 176 5231 5257 "xb.ml" 176 5231 5267
+type(
+  int -> char -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.make "bytes.mli" 65 3005 3005 "bytes.mli" 65 3005 3036
+)
+"xb.ml" 176 5231 5269 "xb.ml" 176 5231 5288
+type(
+  unit -> int
+)
+ident(
+  int_ref Partial.header_size "partial.mli" 8 93 93 "partial.mli" 8 93 148
+)
+"xb.ml" 176 5231 5288 "xb.ml" 176 5231 5290
+type(
+  unit
+)
+"xb.ml" 176 5231 5268 "xb.ml" 176 5231 5291
+type(
+  int
+)
+"xb.ml" 176 5231 5292 "xb.ml" 176 5231 5298
+type(
+  char
+)
+"xb.ml" 176 5231 5257 "xb.ml" 176 5231 5298
+type(
+  bytes
+)
+"xb.ml" 175 5200 5225 "xb.ml" 176 5231 5299
+type(
+  partial_buf
+)
+"xb.ml" 178 5301 5305 "xb.ml" 178 5301 5314
+type(
+  t -> unit
+)
+ident(
+  def reconnect "xb.ml" 190 5631 5631 "xb.ml" 0 0 -1
+)
+"xb.ml" 178 5301 5315 "xb.ml" 178 5301 5316
+type(
+  t
+)
+ident(
+  def t "xb.ml" 178 5301 5319 "xb.ml" 188 5608 5629
+)
+"xb.ml" 178 5301 5325 "xb.ml" 178 5301 5326
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 178 5301 5315 "xb.ml" 178 5301 5316
+)
+"xb.ml" 178 5301 5325 "xb.ml" 178 5301 5334
+type(
+  backend
+)
+"xb.ml" 179 5340 5346 "xb.ml" 179 5340 5347
+type(
+  backend_fd
+)
+"xb.ml" 179 5340 5343 "xb.ml" 179 5340 5347
+type(
+  backend
+)
+"xb.ml" 181 5404 5406 "xb.ml" 181 5404 5411
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"xb.ml" 181 5404 5412 "xb.ml" 181 5404 5423
+type(
+  exn
+)
+"xb.ml" 181 5404 5406 "xb.ml" 181 5404 5423
+type(
+  unit
+)
+"xb.ml" 182 5424 5435 "xb.ml" 182 5424 5442
+type(
+  backend_mmap
+)
+ident(
+  def backend "xb.ml" 183 5446 5448 "xb.ml" 188 5608 5629
+)
+"xb.ml" 182 5424 5427 "xb.ml" 182 5424 5442
+type(
+  backend
+)
+"xb.ml" 183 5446 5448 "xb.ml" 183 5446 5461
+type(
+  Xenmmap.mmap_interface -> unit
+)
+ident(
+  int_ref Xs_ring.close "xs_ring.ml" 48 1744 1744 "xs_ring.ml" 48 1744 1825
+)
+"xb.ml" 183 5446 5462 "xb.ml" 183 5446 5469
+type(
+  backend_mmap
+)
+ident(
+  int_ref backend "xb.ml" 182 5424 5435 "xb.ml" 182 5424 5442
+)
+"xb.ml" 183 5446 5462 "xb.ml" 183 5446 5474
+type(
+  Xenmmap.mmap_interface
+)
+"xb.ml" 183 5446 5448 "xb.ml" 183 5446 5474
+type(
+  unit
+)
+"xb.ml" 184 5476 5478 "xb.ml" 184 5476 5485
+type(
+  backend_mmap
+)
+ident(
+  int_ref backend "xb.ml" 182 5424 5435 "xb.ml" 182 5424 5442
+)
+"xb.ml" 184 5476 5478 "xb.ml" 184 5476 5501
+type(
+  unit -> unit
+)
+"xb.ml" 184 5476 5502 "xb.ml" 184 5476 5504
+type(
+  unit
+)
+"xb.ml" 184 5476 5478 "xb.ml" 184 5476 5504
+type(
+  unit
+)
+"xb.ml" 186 5545 5547 "xb.ml" 186 5545 5558
+type(
+  (Packet.t, packet_class) Queue.t -> unit
+)
+ident(
+  int_ref Queue.clear "xb.ml" 33 1396 1397 "xb.ml" 33 1396 1426
+)
+"xb.ml" 186 5545 5559 "xb.ml" 186 5545 5560
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 178 5301 5315 "xb.ml" 178 5301 5316
+)
+"xb.ml" 186 5545 5559 "xb.ml" 186 5545 5568
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 186 5545 5547 "xb.ml" 186 5545 5568
+type(
+  unit
+)
+"xb.ml" 187 5570 5572 "xb.ml" 187 5570 5573
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 178 5301 5315 "xb.ml" 178 5301 5316
+)
+"xb.ml" 187 5570 5588 "xb.ml" 187 5570 5603
+type(
+  unit -> partial_buf
+)
+ident(
+  int_ref init_partial_in "xb.ml" 175 5200 5204 "xb.ml" 175 5200 5219
+)
+"xb.ml" 187 5570 5604 "xb.ml" 187 5570 5606
+type(
+  unit
+)
+"xb.ml" 187 5570 5588 "xb.ml" 187 5570 5606
+type(
+  partial_buf
+)
+"xb.ml" 187 5570 5572 "xb.ml" 187 5570 5606
+type(
+  unit
+)
+"xb.ml" 188 5608 5610 "xb.ml" 188 5608 5611
+type(
+  t
+)
+ident(
+  int_ref t "xb.ml" 178 5301 5315 "xb.ml" 178 5301 5316
+)
+"xb.ml" 188 5608 5627 "xb.ml" 188 5608 5629
+type(
+  string
+)
+"xb.ml" 188 5608 5610 "xb.ml" 188 5608 5629
+type(
+  unit
+)
+"xb.ml" 187 5570 5572 "xb.ml" 188 5608 5629
+type(
+  unit
+)
+"xb.ml" 186 5545 5547 "xb.ml" 188 5608 5629
+type(
+  unit
+)
+"xb.ml" 184 5476 5478 "xb.ml" 188 5608 5629
+type(
+  unit
+)
+"xb.ml" 183 5446 5448 "xb.ml" 188 5608 5629
+type(
+  unit
+)
+"xb.ml" 178 5301 5319 "xb.ml" 188 5608 5629
+type(
+  unit
+)
+"xb.ml" 190 5631 5635 "xb.ml" 190 5631 5640
+type(
+  t -> Packet.t -> unit option
+)
+ident(
+  def queue "xb.ml" 192 5679 5679 "xb.ml" 0 0 -1
+)
+"xb.ml" 190 5631 5641 "xb.ml" 190 5631 5644
+type(
+  t
+)
+ident(
+  def con "xb.ml" 190 5631 5645 "xb.ml" 190 5631 5677
+)
+"xb.ml" 190 5631 5645 "xb.ml" 190 5631 5648
+type(
+  Packet.t
+)
+ident(
+  def pkt "xb.ml" 190 5631 5651 "xb.ml" 190 5631 5677
+)
+"xb.ml" 190 5631 5651 "xb.ml" 190 5631 5661
+type(
+  Packet.t -> (Packet.t, packet_class) Queue.t -> unit option
+)
+ident(
+  int_ref Queue.push "xb.ml" 39 1606 1607 "xb.ml" 39 1606 1648
+)
+"xb.ml" 190 5631 5662 "xb.ml" 190 5631 5665
+type(
+  Packet.t
+)
+ident(
+  int_ref pkt "xb.ml" 190 5631 5645 "xb.ml" 190 5631 5648
+)
+"xb.ml" 190 5631 5666 "xb.ml" 190 5631 5669
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 190 5631 5641 "xb.ml" 190 5631 5644
+)
+"xb.ml" 190 5631 5666 "xb.ml" 190 5631 5677
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 190 5631 5651 "xb.ml" 190 5631 5677
+type(
+  unit option
+)
+"xb.ml" 192 5679 5683 "xb.ml" 192 5679 5690
+type(
+  backend_fd -> 'a -> bytes -> int -> int
+)
+ident(
+  def read_fd "xb.ml" 198 5790 5790 "xb.ml" 0 0 -1
+)
+"xb.ml" 192 5679 5691 "xb.ml" 192 5679 5695
+type(
+  backend_fd
+)
+ident(
+  def back "xb.ml" 192 5679 5696 "xb.ml" 196 5785 5788
+)
+"xb.ml" 192 5679 5696 "xb.ml" 192 5679 5700
+type(
+  'a
+)
+ident(
+  def _con "xb.ml" 192 5679 5701 "xb.ml" 196 5785 5788
+)
+"xb.ml" 192 5679 5701 "xb.ml" 192 5679 5702
+type(
+  bytes
+)
+ident(
+  def b "xb.ml" 192 5679 5703 "xb.ml" 196 5785 5788
+)
+"xb.ml" 192 5679 5703 "xb.ml" 192 5679 5706
+type(
+  int
+)
+ident(
+  def len "xb.ml" 193 5709 5710 "xb.ml" 196 5785 5788
+)
+"xb.ml" 193 5709 5714 "xb.ml" 193 5709 5716
+type(
+  int
+)
+ident(
+  def rd "xb.ml" 194 5748 5749 "xb.ml" 196 5785 5788
+)
+"xb.ml" 193 5709 5719 "xb.ml" 193 5709 5728
+type(
+  Unix.file_descr -> bytes -> int -> int -> int
+)
+ident(
+  int_ref Unix.read "unix.mli" 313 13430 13430 "unix.mli" 313 13430 13481
+)
+"xb.ml" 193 5709 5729 "xb.ml" 193 5709 5733
+type(
+  backend_fd
+)
+ident(
+  int_ref back "xb.ml" 192 5679 5691 "xb.ml" 192 5679 5695
+)
+"xb.ml" 193 5709 5729 "xb.ml" 193 5709 5736
+type(
+  Unix.file_descr
+)
+"xb.ml" 193 5709 5737 "xb.ml" 193 5709 5738
+type(
+  bytes
+)
+ident(
+  int_ref b "xb.ml" 192 5679 5701 "xb.ml" 192 5679 5702
+)
+"xb.ml" 193 5709 5739 "xb.ml" 193 5709 5740
+type(
+  int
+)
+"xb.ml" 193 5709 5741 "xb.ml" 193 5709 5744
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 192 5679 5703 "xb.ml" 192 5679 5706
+)
+"xb.ml" 193 5709 5719 "xb.ml" 193 5709 5744
+type(
+  int
+)
+"xb.ml" 194 5748 5752 "xb.ml" 194 5748 5754
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 193 5709 5714 "xb.ml" 193 5709 5716
+)
+"xb.ml" 194 5748 5755 "xb.ml" 194 5748 5756
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"xb.ml" 194 5748 5757 "xb.ml" 194 5748 5758
+type(
+  int
+)
+"xb.ml" 194 5748 5752 "xb.ml" 194 5748 5758
+type(
+  bool
+)
+"xb.ml" 195 5764 5766 "xb.ml" 195 5764 5771
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"xb.ml" 195 5764 5772 "xb.ml" 195 5764 5783
+type(
+  exn
+)
+"xb.ml" 195 5764 5766 "xb.ml" 195 5764 5783
+type(
+  unit
+)
+"xb.ml" 194 5748 5749 "xb.ml" 195 5764 5783
+type(
+  unit
+)
+"xb.ml" 196 5785 5786 "xb.ml" 196 5785 5788
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 193 5709 5714 "xb.ml" 193 5709 5716
+)
+"xb.ml" 194 5748 5749 "xb.ml" 196 5785 5788
+type(
+  int
+)
+"xb.ml" 193 5709 5710 "xb.ml" 196 5785 5788
+type(
+  int
+)
+"xb.ml" 198 5790 5794 "xb.ml" 198 5790 5803
+type(
+  backend_mmap -> 'a -> bytes -> int -> int
+)
+ident(
+  def read_mmap "xb.ml" 207 6000 6000 "xb.ml" 0 0 -1
+)
+"xb.ml" 198 5790 5804 "xb.ml" 198 5790 5808
+type(
+  backend_mmap
+)
+ident(
+  def back "xb.ml" 198 5790 5809 "xb.ml" 205 5995 5998
+)
+"xb.ml" 198 5790 5809 "xb.ml" 198 5790 5813
+type(
+  'a
+)
+ident(
+  def _con "xb.ml" 198 5790 5814 "xb.ml" 205 5995 5998
+)
+"xb.ml" 198 5790 5814 "xb.ml" 198 5790 5815
+type(
+  bytes
+)
+ident(
+  def b "xb.ml" 198 5790 5816 "xb.ml" 205 5995 5998
+)
+"xb.ml" 198 5790 5816 "xb.ml" 198 5790 5819
+type(
+  int
+)
+ident(
+  def len "xb.ml" 199 5822 5823 "xb.ml" 205 5995 5998
+)
+"xb.ml" 199 5822 5827 "xb.ml" 199 5822 5828
+type(
+  bytes
+)
+ident(
+  def s "xb.ml" 200 5856 5857 "xb.ml" 205 5995 5998
+)
+"xb.ml" 199 5822 5831 "xb.ml" 199 5822 5841
+type(
+  int -> char -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.make "bytes.mli" 65 3005 3005 "bytes.mli" 65 3005 3036
+)
+"xb.ml" 199 5822 5842 "xb.ml" 199 5822 5845
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 198 5790 5816 "xb.ml" 198 5790 5819
+)
+"xb.ml" 199 5822 5846 "xb.ml" 199 5822 5852
+type(
+  char
+)
+"xb.ml" 199 5822 5831 "xb.ml" 199 5822 5852
+type(
+  bytes
+)
+"xb.ml" 200 5856 5861 "xb.ml" 200 5856 5863
+type(
+  int
+)
+ident(
+  def rd "xb.ml" 201 5898 5899 "xb.ml" 205 5995 5998
+)
+"xb.ml" 200 5856 5866 "xb.ml" 200 5856 5878
+type(
+  Xenmmap.mmap_interface -> bytes -> int -> int
+)
+ident(
+  int_ref Xs_ring.read "xs_ring.ml" 27 835 835 "xs_ring.ml" 27 835 917
+)
+"xb.ml" 200 5856 5879 "xb.ml" 200 5856 5883
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 198 5790 5804 "xb.ml" 198 5790 5808
+)
+"xb.ml" 200 5856 5879 "xb.ml" 200 5856 5888
+type(
+  Xenmmap.mmap_interface
+)
+"xb.ml" 200 5856 5889 "xb.ml" 200 5856 5890
+type(
+  bytes
+)
+ident(
+  int_ref s "xb.ml" 199 5822 5827 "xb.ml" 199 5822 5828
+)
+"xb.ml" 200 5856 5891 "xb.ml" 200 5856 5894
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 198 5790 5816 "xb.ml" 198 5790 5819
+)
+"xb.ml" 200 5856 5866 "xb.ml" 200 5856 5894
+type(
+  int
+)
+"xb.ml" 201 5898 5899 "xb.ml" 201 5898 5909
+type(
+  bytes -> int -> bytes -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.blit "bytes.mli" 121 5028 5028 "bytes.mli" 121 5028 5082
+)
+"xb.ml" 201 5898 5910 "xb.ml" 201 5898 5911
+type(
+  bytes
+)
+ident(
+  int_ref s "xb.ml" 199 5822 5827 "xb.ml" 199 5822 5828
+)
+"xb.ml" 201 5898 5912 "xb.ml" 201 5898 5913
+type(
+  int
+)
+"xb.ml" 201 5898 5914 "xb.ml" 201 5898 5915
+type(
+  bytes
+)
+ident(
+  int_ref b "xb.ml" 198 5790 5814 "xb.ml" 198 5790 5815
+)
+"xb.ml" 201 5898 5916 "xb.ml" 201 5898 5917
+type(
+  int
+)
+"xb.ml" 201 5898 5918 "xb.ml" 201 5898 5920
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 200 5856 5861 "xb.ml" 200 5856 5863
+)
+"xb.ml" 201 5898 5899 "xb.ml" 201 5898 5920
+type(
+  unit
+)
+"xb.ml" 202 5922 5923 "xb.ml" 202 5922 5927
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 198 5790 5804 "xb.ml" 198 5790 5808
+)
+"xb.ml" 202 5922 5943 "xb.ml" 202 5922 5945
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 200 5856 5861 "xb.ml" 200 5856 5863
+)
+"xb.ml" 202 5922 5946 "xb.ml" 202 5922 5947
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 202 5922 5948 "xb.ml" 202 5922 5949
+type(
+  int
+)
+"xb.ml" 202 5922 5942 "xb.ml" 202 5922 5950
+type(
+  bool
+)
+"xb.ml" 202 5922 5923 "xb.ml" 202 5922 5950
+type(
+  unit
+)
+"xb.ml" 203 5952 5956 "xb.ml" 203 5952 5958
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 200 5856 5861 "xb.ml" 200 5856 5863
+)
+"xb.ml" 203 5952 5959 "xb.ml" 203 5952 5960
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 203 5952 5961 "xb.ml" 203 5952 5962
+type(
+  int
+)
+"xb.ml" 203 5952 5956 "xb.ml" 203 5952 5962
+type(
+  bool
+)
+"xb.ml" 204 5968 5970 "xb.ml" 204 5968 5974
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 198 5790 5804 "xb.ml" 198 5790 5808
+)
+"xb.ml" 204 5968 5970 "xb.ml" 204 5968 5990
+type(
+  unit -> unit
+)
+"xb.ml" 204 5968 5991 "xb.ml" 204 5968 5993
+type(
+  unit
+)
+"xb.ml" 204 5968 5970 "xb.ml" 204 5968 5993
+type(
+  unit
+)
+"xb.ml" 203 5952 5953 "xb.ml" 204 5968 5993
+type(
+  unit
+)
+"xb.ml" 205 5995 5996 "xb.ml" 205 5995 5998
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 200 5856 5861 "xb.ml" 200 5856 5863
+)
+"xb.ml" 203 5952 5953 "xb.ml" 205 5995 5998
+type(
+  int
+)
+"xb.ml" 202 5922 5923 "xb.ml" 205 5995 5998
+type(
+  int
+)
+"xb.ml" 201 5898 5899 "xb.ml" 205 5995 5998
+type(
+  int
+)
+"xb.ml" 200 5856 5857 "xb.ml" 205 5995 5998
+type(
+  int
+)
+"xb.ml" 199 5822 5823 "xb.ml" 205 5995 5998
+type(
+  int
+)
+"xb.ml" 207 6000 6004 "xb.ml" 207 6000 6008
+type(
+  t -> bytes -> int -> int
+)
+ident(
+  def read "xb.ml" 212 6143 6143 "xb.ml" 0 0 -1
+)
+"xb.ml" 207 6000 6009 "xb.ml" 207 6000 6012
+type(
+  t
+)
+ident(
+  def con "xb.ml" 207 6000 6013 "xb.ml" 210 6090 6141
+)
+"xb.ml" 207 6000 6013 "xb.ml" 207 6000 6014
+type(
+  bytes
+)
+ident(
+  def b "xb.ml" 207 6000 6015 "xb.ml" 210 6090 6141
+)
+"xb.ml" 207 6000 6015 "xb.ml" 207 6000 6018
+type(
+  int
+)
+ident(
+  def len "xb.ml" 208 6021 6022 "xb.ml" 210 6090 6141
+)
+"xb.ml" 208 6021 6028 "xb.ml" 208 6021 6031
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 207 6000 6009 "xb.ml" 207 6000 6012
+)
+"xb.ml" 208 6021 6028 "xb.ml" 208 6021 6039
+type(
+  backend
+)
+"xb.ml" 209 6045 6051 "xb.ml" 209 6045 6057
+type(
+  backend_fd
+)
+ident(
+  def backfd "xb.ml" 209 6045 6065 "xb.ml" 209 6045 6089
+)
+"xb.ml" 209 6045 6048 "xb.ml" 209 6045 6057
+type(
+  backend
+)
+"xb.ml" 209 6045 6065 "xb.ml" 209 6045 6072
+type(
+  backend_fd -> t -> bytes -> int -> int
+)
+ident(
+  int_ref read_fd "xb.ml" 192 5679 5683 "xb.ml" 192 5679 5690
+)
+"xb.ml" 209 6045 6073 "xb.ml" 209 6045 6079
+type(
+  backend_fd
+)
+ident(
+  int_ref backfd "xb.ml" 209 6045 6051 "xb.ml" 209 6045 6057
+)
+"xb.ml" 209 6045 6080 "xb.ml" 209 6045 6083
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 207 6000 6009 "xb.ml" 207 6000 6012
+)
+"xb.ml" 209 6045 6084 "xb.ml" 209 6045 6085
+type(
+  bytes
+)
+ident(
+  int_ref b "xb.ml" 207 6000 6013 "xb.ml" 207 6000 6014
+)
+"xb.ml" 209 6045 6086 "xb.ml" 209 6045 6089
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 207 6000 6015 "xb.ml" 207 6000 6018
+)
+"xb.ml" 209 6045 6065 "xb.ml" 209 6045 6089
+type(
+  int
+)
+"xb.ml" 210 6090 6101 "xb.ml" 210 6090 6109
+type(
+  backend_mmap
+)
+ident(
+  def backmmap "xb.ml" 210 6090 6113 "xb.ml" 210 6090 6141
+)
+"xb.ml" 210 6090 6093 "xb.ml" 210 6090 6109
+type(
+  backend
+)
+"xb.ml" 210 6090 6113 "xb.ml" 210 6090 6122
+type(
+  backend_mmap -> t -> bytes -> int -> int
+)
+ident(
+  int_ref read_mmap "xb.ml" 198 5790 5794 "xb.ml" 198 5790 5803
+)
+"xb.ml" 210 6090 6123 "xb.ml" 210 6090 6131
+type(
+  backend_mmap
+)
+ident(
+  int_ref backmmap "xb.ml" 210 6090 6101 "xb.ml" 210 6090 6109
+)
+"xb.ml" 210 6090 6132 "xb.ml" 210 6090 6135
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 207 6000 6009 "xb.ml" 207 6000 6012
+)
+"xb.ml" 210 6090 6136 "xb.ml" 210 6090 6137
+type(
+  bytes
+)
+ident(
+  int_ref b "xb.ml" 207 6000 6013 "xb.ml" 207 6000 6014
+)
+"xb.ml" 210 6090 6138 "xb.ml" 210 6090 6141
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 207 6000 6015 "xb.ml" 207 6000 6018
+)
+"xb.ml" 210 6090 6113 "xb.ml" 210 6090 6141
+type(
+  int
+)
+"xb.ml" 208 6021 6022 "xb.ml" 210 6090 6141
+type(
+  int
+)
+"xb.ml" 212 6143 6147 "xb.ml" 212 6143 6155
+type(
+  backend_fd -> 'a -> string -> int -> int
+)
+ident(
+  def write_fd "xb.ml" 215 6213 6213 "xb.ml" 0 0 -1
+)
+"xb.ml" 212 6143 6156 "xb.ml" 212 6143 6160
+type(
+  backend_fd
+)
+ident(
+  def back "xb.ml" 212 6143 6161 "xb.ml" 213 6174 6211
+)
+"xb.ml" 212 6143 6161 "xb.ml" 212 6143 6165
+type(
+  'a
+)
+ident(
+  def _con "xb.ml" 212 6143 6166 "xb.ml" 213 6174 6211
+)
+"xb.ml" 212 6143 6166 "xb.ml" 212 6143 6167
+type(
+  string
+)
+ident(
+  def b "xb.ml" 212 6143 6168 "xb.ml" 213 6174 6211
+)
+"xb.ml" 212 6143 6168 "xb.ml" 212 6143 6171
+type(
+  int
+)
+ident(
+  def len "xb.ml" 213 6174 6175 "xb.ml" 213 6174 6211
+)
+"xb.ml" 213 6174 6175 "xb.ml" 213 6174 6195
+type(
+  Unix.file_descr -> string -> int -> int -> int
+)
+ident(
+  int_ref Unix.write_substring "unix.mli" 330 14242 14242 "unix.mli" 330 14242 14305
+)
+"xb.ml" 213 6174 6196 "xb.ml" 213 6174 6200
+type(
+  backend_fd
+)
+ident(
+  int_ref back "xb.ml" 212 6143 6156 "xb.ml" 212 6143 6160
+)
+"xb.ml" 213 6174 6196 "xb.ml" 213 6174 6203
+type(
+  Unix.file_descr
+)
+"xb.ml" 213 6174 6204 "xb.ml" 213 6174 6205
+type(
+  string
+)
+ident(
+  int_ref b "xb.ml" 212 6143 6166 "xb.ml" 212 6143 6167
+)
+"xb.ml" 213 6174 6206 "xb.ml" 213 6174 6207
+type(
+  int
+)
+"xb.ml" 213 6174 6208 "xb.ml" 213 6174 6211
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 212 6143 6168 "xb.ml" 212 6143 6171
+)
+"xb.ml" 213 6174 6175 "xb.ml" 213 6174 6211
+type(
+  int
+)
+"xb.ml" 215 6213 6217 "xb.ml" 215 6213 6227
+type(
+  backend_mmap -> 'a -> string -> int -> int
+)
+ident(
+  def write_mmap "xb.ml" 221 6347 6347 "xb.ml" 0 0 -1
+)
+"xb.ml" 215 6213 6228 "xb.ml" 215 6213 6232
+type(
+  backend_mmap
+)
+ident(
+  def back "xb.ml" 215 6213 6233 "xb.ml" 219 6342 6345
+)
+"xb.ml" 215 6213 6233 "xb.ml" 215 6213 6237
+type(
+  'a
+)
+ident(
+  def _con "xb.ml" 215 6213 6238 "xb.ml" 219 6342 6345
+)
+"xb.ml" 215 6213 6238 "xb.ml" 215 6213 6239
+type(
+  string
+)
+ident(
+  def s "xb.ml" 215 6213 6240 "xb.ml" 219 6342 6345
+)
+"xb.ml" 215 6213 6240 "xb.ml" 215 6213 6243
+type(
+  int
+)
+ident(
+  def len "xb.ml" 216 6246 6247 "xb.ml" 219 6342 6345
+)
+"xb.ml" 216 6246 6251 "xb.ml" 216 6246 6253
+type(
+  int
+)
+ident(
+  def ws "xb.ml" 217 6299 6300 "xb.ml" 219 6342 6345
+)
+"xb.ml" 216 6246 6256 "xb.ml" 216 6246 6279
+type(
+  Xenmmap.mmap_interface -> string -> int -> int
+)
+ident(
+  int_ref Xs_ring.write_substring "xs_ring.ml" 33 1251 1255 "xs_ring.ml" 33 1251 1270
+)
+"xb.ml" 216 6246 6280 "xb.ml" 216 6246 6284
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 215 6213 6228 "xb.ml" 215 6213 6232
+)
+"xb.ml" 216 6246 6280 "xb.ml" 216 6246 6289
+type(
+  Xenmmap.mmap_interface
+)
+"xb.ml" 216 6246 6290 "xb.ml" 216 6246 6291
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 215 6213 6238 "xb.ml" 215 6213 6239
+)
+"xb.ml" 216 6246 6292 "xb.ml" 216 6246 6295
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 215 6213 6240 "xb.ml" 215 6213 6243
+)
+"xb.ml" 216 6246 6256 "xb.ml" 216 6246 6295
+type(
+  int
+)
+"xb.ml" 217 6299 6303 "xb.ml" 217 6299 6305
+type(
+  int
+)
+ident(
+  int_ref ws "xb.ml" 216 6246 6251 "xb.ml" 216 6246 6253
+)
+"xb.ml" 217 6299 6306 "xb.ml" 217 6299 6307
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 217 6299 6308 "xb.ml" 217 6299 6309
+type(
+  int
+)
+"xb.ml" 217 6299 6303 "xb.ml" 217 6299 6309
+type(
+  bool
+)
+"xb.ml" 218 6315 6317 "xb.ml" 218 6315 6321
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 215 6213 6228 "xb.ml" 215 6213 6232
+)
+"xb.ml" 218 6315 6317 "xb.ml" 218 6315 6337
+type(
+  unit -> unit
+)
+"xb.ml" 218 6315 6338 "xb.ml" 218 6315 6340
+type(
+  unit
+)
+"xb.ml" 218 6315 6317 "xb.ml" 218 6315 6340
+type(
+  unit
+)
+"xb.ml" 217 6299 6300 "xb.ml" 218 6315 6340
+type(
+  unit
+)
+"xb.ml" 219 6342 6343 "xb.ml" 219 6342 6345
+type(
+  int
+)
+ident(
+  int_ref ws "xb.ml" 216 6246 6251 "xb.ml" 216 6246 6253
+)
+"xb.ml" 217 6299 6300 "xb.ml" 219 6342 6345
+type(
+  int
+)
+"xb.ml" 216 6246 6247 "xb.ml" 219 6342 6345
+type(
+  int
+)
+"xb.ml" 221 6347 6351 "xb.ml" 221 6347 6356
+type(
+  t -> string -> int -> int
+)
+ident(
+  def write "xb.ml" 227 6523 6523 "xb.ml" 0 0 -1
+)
+"xb.ml" 221 6347 6357 "xb.ml" 221 6347 6360
+type(
+  t
+)
+ident(
+  def con "xb.ml" 221 6347 6361 "xb.ml" 224 6439 6491
+)
+"xb.ml" 221 6347 6361 "xb.ml" 221 6347 6362
+type(
+  string
+)
+ident(
+  def s "xb.ml" 221 6347 6363 "xb.ml" 224 6439 6491
+)
+"xb.ml" 221 6347 6363 "xb.ml" 221 6347 6366
+type(
+  int
+)
+ident(
+  def len "xb.ml" 222 6369 6370 "xb.ml" 224 6439 6491
+)
+"xb.ml" 222 6369 6376 "xb.ml" 222 6369 6379
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 221 6347 6357 "xb.ml" 221 6347 6360
+)
+"xb.ml" 222 6369 6376 "xb.ml" 222 6369 6387
+type(
+  backend
+)
+"xb.ml" 223 6393 6399 "xb.ml" 223 6393 6405
+type(
+  backend_fd
+)
+ident(
+  def backfd "xb.ml" 223 6393 6413 "xb.ml" 223 6393 6438
+)
+"xb.ml" 223 6393 6396 "xb.ml" 223 6393 6405
+type(
+  backend
+)
+"xb.ml" 223 6393 6413 "xb.ml" 223 6393 6421
+type(
+  backend_fd -> t -> string -> int -> int
+)
+ident(
+  int_ref write_fd "xb.ml" 212 6143 6147 "xb.ml" 212 6143 6155
+)
+"xb.ml" 223 6393 6422 "xb.ml" 223 6393 6428
+type(
+  backend_fd
+)
+ident(
+  int_ref backfd "xb.ml" 223 6393 6399 "xb.ml" 223 6393 6405
+)
+"xb.ml" 223 6393 6429 "xb.ml" 223 6393 6432
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 221 6347 6357 "xb.ml" 221 6347 6360
+)
+"xb.ml" 223 6393 6433 "xb.ml" 223 6393 6434
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 221 6347 6361 "xb.ml" 221 6347 6362
+)
+"xb.ml" 223 6393 6435 "xb.ml" 223 6393 6438
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 221 6347 6363 "xb.ml" 221 6347 6366
+)
+"xb.ml" 223 6393 6413 "xb.ml" 223 6393 6438
+type(
+  int
+)
+"xb.ml" 224 6439 6450 "xb.ml" 224 6439 6458
+type(
+  backend_mmap
+)
+ident(
+  def backmmap "xb.ml" 224 6439 6462 "xb.ml" 224 6439 6491
+)
+"xb.ml" 224 6439 6442 "xb.ml" 224 6439 6458
+type(
+  backend
+)
+"xb.ml" 224 6439 6462 "xb.ml" 224 6439 6472
+type(
+  backend_mmap -> t -> string -> int -> int
+)
+ident(
+  int_ref write_mmap "xb.ml" 215 6213 6217 "xb.ml" 215 6213 6227
+)
+"xb.ml" 224 6439 6473 "xb.ml" 224 6439 6481
+type(
+  backend_mmap
+)
+ident(
+  int_ref backmmap "xb.ml" 224 6439 6450 "xb.ml" 224 6439 6458
+)
+"xb.ml" 224 6439 6482 "xb.ml" 224 6439 6485
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 221 6347 6357 "xb.ml" 221 6347 6360
+)
+"xb.ml" 224 6439 6486 "xb.ml" 224 6439 6487
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 221 6347 6361 "xb.ml" 221 6347 6362
+)
+"xb.ml" 224 6439 6488 "xb.ml" 224 6439 6491
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 221 6347 6363 "xb.ml" 221 6347 6366
+)
+"xb.ml" 224 6439 6462 "xb.ml" 224 6439 6491
+type(
+  int
+)
+"xb.ml" 222 6369 6370 "xb.ml" 224 6439 6491
+type(
+  int
+)
+"xb.ml" 227 6523 6527 "xb.ml" 227 6523 6533
+type(
+  t -> bool
+)
+ident(
+  def output "xb.ml" 248 7199 7199 "xb.ml" 0 0 -1
+)
+"xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+type(
+  t
+)
+ident(
+  def con "xb.ml" 229 6609 6610 "xb.ml" 244 7069 7090
+)
+"xb.ml" 229 6609 6614 "xb.ml" 229 6609 6615
+type(
+  string
+)
+ident(
+  def s "xb.ml" 237 6866 6867 "xb.ml" 244 7069 7090
+)
+"xb.ml" 229 6609 6621 "xb.ml" 229 6609 6634
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"xb.ml" 229 6609 6635 "xb.ml" 229 6609 6638
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+)
+"xb.ml" 229 6609 6635 "xb.ml" 229 6609 6650
+type(
+  string
+)
+"xb.ml" 229 6609 6621 "xb.ml" 229 6609 6650
+type(
+  int
+)
+"xb.ml" 229 6609 6651 "xb.ml" 229 6609 6652
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 229 6609 6653 "xb.ml" 229 6609 6654
+type(
+  int
+)
+"xb.ml" 229 6609 6621 "xb.ml" 229 6609 6654
+type(
+  bool
+)
+"xb.ml" 230 6660 6663 "xb.ml" 230 6660 6666
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+)
+"xb.ml" 230 6660 6663 "xb.ml" 230 6660 6678
+type(
+  string
+)
+"xb.ml" 231 6679 6689 "xb.ml" 231 6679 6701
+type(
+  (Packet.t, packet_class) Queue.t -> int
+)
+ident(
+  int_ref Queue.length "xb.ml" 48 1933 1934 "xb.ml" 48 1933 1963
+)
+"xb.ml" 231 6679 6702 "xb.ml" 231 6679 6705
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+)
+"xb.ml" 231 6679 6702 "xb.ml" 231 6679 6713
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 231 6679 6689 "xb.ml" 231 6679 6713
+type(
+  int
+)
+"xb.ml" 231 6679 6714 "xb.ml" 231 6679 6715
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 231 6679 6716 "xb.ml" 231 6679 6717
+type(
+  int
+)
+"xb.ml" 231 6679 6689 "xb.ml" 231 6679 6717
+type(
+  bool
+)
+"xb.ml" 232 6723 6730 "xb.ml" 232 6723 6733
+type(
+  Packet.t
+)
+ident(
+  def pkt "xb.ml" 233 6761 6764 "xb.ml" 233 6761 6784
+)
+"xb.ml" 232 6723 6736 "xb.ml" 232 6723 6745
+type(
+  (Packet.t, packet_class) Queue.t -> Packet.t
+)
+ident(
+  int_ref Queue.pop "xb.ml" 42 1733 1734 "xb.ml" 42 1733 1759
+)
+"xb.ml" 232 6723 6746 "xb.ml" 232 6723 6749
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+)
+"xb.ml" 232 6723 6746 "xb.ml" 232 6723 6757
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 232 6723 6736 "xb.ml" 232 6723 6757
+type(
+  Packet.t
+)
+"xb.ml" 233 6761 6764 "xb.ml" 233 6761 6780
+type(
+  Packet.t -> string
+)
+ident(
+  int_ref Packet.to_string "packet.mli" 8 308 308 "packet.mli" 8 308 335
+)
+"xb.ml" 233 6761 6781 "xb.ml" 233 6761 6784
+type(
+  Packet.t
+)
+ident(
+  int_ref pkt "xb.ml" 232 6723 6730 "xb.ml" 232 6723 6733
+)
+"xb.ml" 233 6761 6764 "xb.ml" 233 6761 6784
+type(
+  string
+)
+"xb.ml" 232 6723 6726 "xb.ml" 233 6761 6784
+type(
+  string
+)
+"xb.ml" 235 6792 6795 "xb.ml" 235 6792 6797
+type(
+  string
+)
+"xb.ml" 231 6679 6686 "xb.ml" 235 6792 6797
+type(
+  string
+)
+"xb.ml" 229 6609 6618 "xb.ml" 235 6792 6797
+type(
+  string
+)
+"xb.ml" 237 6866 6870 "xb.ml" 237 6866 6871
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 229 6609 6614 "xb.ml" 229 6609 6615
+)
+"xb.ml" 237 6866 6872 "xb.ml" 237 6866 6874
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"xb.ml" 237 6866 6875 "xb.ml" 237 6866 6877
+type(
+  string
+)
+"xb.ml" 237 6866 6870 "xb.ml" 237 6866 6877
+type(
+  bool
+)
+"xb.ml" 238 6885 6891 "xb.ml" 238 6885 6894
+type(
+  int
+)
+ident(
+  def len "xb.ml" 239 6916 6918 "xb.ml" 241 6989 7014
+)
+"xb.ml" 238 6885 6897 "xb.ml" 238 6885 6910
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"xb.ml" 238 6885 6911 "xb.ml" 238 6885 6912
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 229 6609 6614 "xb.ml" 229 6609 6615
+)
+"xb.ml" 238 6885 6897 "xb.ml" 238 6885 6912
+type(
+  int
+)
+"xb.ml" 239 6916 6922 "xb.ml" 239 6916 6924
+type(
+  int
+)
+ident(
+  def sz "xb.ml" 240 6946 6948 "xb.ml" 241 6989 7014
+)
+"xb.ml" 239 6916 6927 "xb.ml" 239 6916 6932
+type(
+  t -> string -> int -> int
+)
+ident(
+  int_ref write "xb.ml" 221 6347 6351 "xb.ml" 221 6347 6356
+)
+"xb.ml" 239 6916 6933 "xb.ml" 239 6916 6936
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+)
+"xb.ml" 239 6916 6937 "xb.ml" 239 6916 6938
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 229 6609 6614 "xb.ml" 229 6609 6615
+)
+"xb.ml" 239 6916 6939 "xb.ml" 239 6916 6942
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 238 6885 6891 "xb.ml" 238 6885 6894
+)
+"xb.ml" 239 6916 6927 "xb.ml" 239 6916 6942
+type(
+  int
+)
+"xb.ml" 240 6946 6952 "xb.ml" 240 6946 6956
+type(
+  string
+)
+ident(
+  def left "xb.ml" 241 6989 6991 "xb.ml" 241 6989 7014
+)
+"xb.ml" 240 6946 6959 "xb.ml" 240 6946 6969
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 100 4546 4546 "string.mli" 100 4546 4586
+)
+"xb.ml" 240 6946 6970 "xb.ml" 240 6946 6971
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 229 6609 6614 "xb.ml" 229 6609 6615
+)
+"xb.ml" 240 6946 6972 "xb.ml" 240 6946 6974
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 239 6916 6922 "xb.ml" 239 6916 6924
+)
+"xb.ml" 240 6946 6976 "xb.ml" 240 6946 6979
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 238 6885 6891 "xb.ml" 238 6885 6894
+)
+"xb.ml" 240 6946 6980 "xb.ml" 240 6946 6981
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"xb.ml" 240 6946 6982 "xb.ml" 240 6946 6984
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 239 6916 6922 "xb.ml" 239 6916 6924
+)
+"xb.ml" 240 6946 6975 "xb.ml" 240 6946 6985
+type(
+  int
+)
+"xb.ml" 240 6946 6959 "xb.ml" 240 6946 6985
+type(
+  string
+)
+"xb.ml" 241 6989 6991 "xb.ml" 241 6989 6994
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+)
+"xb.ml" 241 6989 7010 "xb.ml" 241 6989 7014
+type(
+  string
+)
+ident(
+  int_ref left "xb.ml" 240 6946 6952 "xb.ml" 240 6946 6956
+)
+"xb.ml" 241 6989 6991 "xb.ml" 241 6989 7014
+type(
+  unit
+)
+"xb.ml" 240 6946 6948 "xb.ml" 241 6989 7014
+type(
+  unit
+)
+"xb.ml" 239 6916 6918 "xb.ml" 241 6989 7014
+type(
+  unit
+)
+"xb.ml" 237 6866 6883 "xb.ml" 242 7015 7017
+type(
+  unit
+)
+"xb.ml" 237 6866 6867 "xb.ml" 242 7015 7017
+type(
+  unit
+)
+"xb.ml" 244 7069 7070 "xb.ml" 244 7069 7073
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 227 6523 6534 "xb.ml" 227 6523 6537
+)
+"xb.ml" 244 7069 7070 "xb.ml" 244 7069 7085
+type(
+  string
+)
+"xb.ml" 244 7069 7086 "xb.ml" 244 7069 7087
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"xb.ml" 244 7069 7088 "xb.ml" 244 7069 7090
+type(
+  string
+)
+"xb.ml" 244 7069 7070 "xb.ml" 244 7069 7090
+type(
+  bool
+)
+"xb.ml" 237 6866 6867 "xb.ml" 244 7069 7090
+type(
+  bool
+)
+"xb.ml" 229 6609 6610 "xb.ml" 244 7069 7090
+type(
+  bool
+)
+"xb.ml" 248 7199 7203 "xb.ml" 248 7199 7212
+type(
+  t -> bool
+)
+ident(
+  def can_input "xb.ml" 251 7290 7290 "xb.ml" 0 0 -1
+)
+"xb.ml" 248 7199 7213 "xb.ml" 248 7199 7216
+type(
+  t
+)
+ident(
+  def con "xb.ml" 248 7199 7219 "xb.ml" 248 7199 7258
+)
+"xb.ml" 248 7199 7219 "xb.ml" 248 7199 7233
+type(
+  (Packet.t, packet_class) Queue.t -> packet_class -> bool
+)
+ident(
+  int_ref Queue.can_push "xb.ml" 36 1477 1478 "xb.ml" 36 1477 1516
+)
+"xb.ml" 248 7199 7234 "xb.ml" 248 7199 7237
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 248 7199 7213 "xb.ml" 248 7199 7216
+)
+"xb.ml" 248 7199 7234 "xb.ml" 248 7199 7245
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 248 7199 7246 "xb.ml" 248 7199 7258
+type(
+  packet_class
+)
+"xb.ml" 248 7199 7219 "xb.ml" 248 7199 7258
+type(
+  bool
+)
+"xb.ml" 251 7290 7294 "xb.ml" 251 7290 7299
+type(
+  t -> Packet.t option
+)
+ident(
+  def input "xb.ml" 280 8103 8103 "xb.ml" 0 0 -1
+)
+"xb.ml" 251 7290 7300 "xb.ml" 251 7290 7303
+type(
+  t
+)
+ident(
+  def con "xb.ml" 252 7306 7307 "xb.ml" 278 8099 8101
+)
+"xb.ml" 252 7306 7310 "xb.ml" 252 7306 7313
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"xb.ml" 252 7306 7315 "xb.ml" 252 7306 7324
+type(
+  t -> bool
+)
+ident(
+  int_ref can_input "xb.ml" 248 7199 7203 "xb.ml" 248 7199 7212
+)
+"xb.ml" 252 7306 7325 "xb.ml" 252 7306 7328
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 251 7290 7300 "xb.ml" 251 7290 7303
+)
+"xb.ml" 252 7306 7314 "xb.ml" 252 7306 7329
+type(
+  bool
+)
+"xb.ml" 252 7306 7310 "xb.ml" 252 7306 7329
+type(
+  bool
+)
+"xb.ml" 252 7306 7335 "xb.ml" 252 7306 7339
+type(
+  Packet.t option
+)
+"xb.ml" 254 7346 7351 "xb.ml" 254 7346 7358
+type(
+  int
+)
+ident(
+  def to_read "xb.ml" 257 7423 7424 "xb.ml" 278 8099 8101
+)
+"xb.ml" 254 7346 7361 "xb.ml" 254 7346 7368
+type(
+  t -> int
+)
+ident(
+  int_ref to_read "xb.ml" 163 4822 4826 "xb.ml" 163 4822 4833
+)
+"xb.ml" 254 7346 7369 "xb.ml" 254 7346 7372
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 251 7290 7300 "xb.ml" 251 7290 7303
+)
+"xb.ml" 254 7346 7361 "xb.ml" 254 7346 7372
+type(
+  int
+)
+"xb.ml" 257 7423 7428 "xb.ml" 257 7423 7429
+type(
+  bytes
+)
+ident(
+  def b "xb.ml" 258 7461 7462 "xb.ml" 278 8099 8101
+)
+"xb.ml" 257 7423 7432 "xb.ml" 257 7423 7442
+type(
+  int -> char -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.make "bytes.mli" 65 3005 3005 "bytes.mli" 65 3005 3036
+)
+"xb.ml" 257 7423 7443 "xb.ml" 257 7423 7450
+type(
+  int
+)
+ident(
+  int_ref to_read "xb.ml" 254 7346 7351 "xb.ml" 254 7346 7358
+)
+"xb.ml" 257 7423 7451 "xb.ml" 257 7423 7457
+type(
+  char
+)
+"xb.ml" 257 7423 7432 "xb.ml" 257 7423 7457
+type(
+  bytes
+)
+"xb.ml" 258 7461 7466 "xb.ml" 258 7461 7468
+type(
+  int
+)
+ident(
+  def sz "xb.ml" 260 7521 7522 "xb.ml" 278 8099 8101
+)
+"xb.ml" 258 7461 7474 "xb.ml" 258 7461 7481
+type(
+  int
+)
+ident(
+  int_ref to_read "xb.ml" 254 7346 7351 "xb.ml" 254 7346 7358
+)
+"xb.ml" 258 7461 7482 "xb.ml" 258 7461 7483
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 258 7461 7484 "xb.ml" 258 7461 7485
+type(
+  int
+)
+"xb.ml" 258 7461 7474 "xb.ml" 258 7461 7485
+type(
+  bool
+)
+"xb.ml" 258 7461 7491 "xb.ml" 258 7461 7495
+type(
+  t -> bytes -> int -> int
+)
+ident(
+  int_ref read "xb.ml" 207 6000 6004 "xb.ml" 207 6000 6008
+)
+"xb.ml" 258 7461 7496 "xb.ml" 258 7461 7499
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 251 7290 7300 "xb.ml" 251 7290 7303
+)
+"xb.ml" 258 7461 7500 "xb.ml" 258 7461 7501
+type(
+  bytes
+)
+ident(
+  int_ref b "xb.ml" 257 7423 7428 "xb.ml" 257 7423 7429
+)
+"xb.ml" 258 7461 7502 "xb.ml" 258 7461 7509
+type(
+  int
+)
+ident(
+  int_ref to_read "xb.ml" 254 7346 7351 "xb.ml" 254 7346 7358
+)
+"xb.ml" 258 7461 7491 "xb.ml" 258 7461 7509
+type(
+  int
+)
+"xb.ml" 258 7461 7515 "xb.ml" 258 7461 7516
+type(
+  int
+)
+"xb.ml" 258 7461 7471 "xb.ml" 258 7461 7516
+type(
+  int
+)
+"xb.ml" 261 7524 7531 "xb.ml" 261 7524 7534
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 251 7290 7300 "xb.ml" 251 7290 7303
+)
+"xb.ml" 261 7524 7531 "xb.ml" 261 7524 7545
+type(
+  partial_buf
+)
+"xb.ml" 262 7551 7562 "xb.ml" 262 7551 7573
+type(
+  Partial.pkt
+)
+ident(
+  def partial_pkt "xb.ml" 264 7606 7608 "xb.ml" 270 7827 7840
+)
+"xb.ml" 262 7551 7554 "xb.ml" 262 7551 7573
+type(
+  partial_buf
+)
+"xb.ml" 264 7606 7611 "xb.ml" 264 7606 7613
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 258 7461 7466 "xb.ml" 258 7461 7468
+)
+"xb.ml" 264 7606 7614 "xb.ml" 264 7606 7615
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 264 7606 7616 "xb.ml" 264 7606 7617
+type(
+  int
+)
+"xb.ml" 264 7606 7611 "xb.ml" 264 7606 7617
+type(
+  bool
+)
+"xb.ml" 265 7623 7626 "xb.ml" 265 7623 7640
+type(
+  Partial.pkt -> string -> int -> unit
+)
+ident(
+  int_ref Partial.append "partial.mli" 15 377 377 "partial.mli" 15 377 418
+)
+"xb.ml" 265 7623 7641 "xb.ml" 265 7623 7652
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 262 7551 7562 "xb.ml" 262 7551 7573
+)
+"xb.ml" 265 7623 7654 "xb.ml" 265 7623 7669
+type(
+  bytes -> string
+)
+ident(
+  int_ref Stdlib.Bytes.to_string "bytes.mli" 89 3768 3768 "bytes.mli" 89 3768 3799
+)
+"xb.ml" 265 7623 7670 "xb.ml" 265 7623 7671
+type(
+  bytes
+)
+ident(
+  int_ref b "xb.ml" 257 7423 7428 "xb.ml" 257 7423 7429
+)
+"xb.ml" 265 7623 7653 "xb.ml" 265 7623 7672
+type(
+  string
+)
+"xb.ml" 265 7623 7673 "xb.ml" 265 7623 7675
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 258 7461 7466 "xb.ml" 258 7461 7468
+)
+"xb.ml" 265 7623 7626 "xb.ml" 265 7623 7675
+type(
+  unit
+)
+"xb.ml" 264 7606 7608 "xb.ml" 265 7623 7675
+type(
+  unit
+)
+"xb.ml" 266 7677 7682 "xb.ml" 266 7677 7701
+type(
+  Partial.pkt -> int
+)
+ident(
+  int_ref Partial.to_complete "partial.mli" 16 419 419 "partial.mli" 16 419 447
+)
+"xb.ml" 266 7677 7702 "xb.ml" 266 7677 7713
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 262 7551 7562 "xb.ml" 262 7551 7573
+)
+"xb.ml" 266 7677 7682 "xb.ml" 266 7677 7713
+type(
+  int
+)
+"xb.ml" 266 7677 7714 "xb.ml" 266 7677 7715
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"xb.ml" 266 7677 7716 "xb.ml" 266 7677 7717
+type(
+  int
+)
+"xb.ml" 266 7677 7682 "xb.ml" 266 7677 7717
+type(
+  bool
+)
+"xb.ml" 267 7725 7732 "xb.ml" 267 7725 7735
+type(
+  Packet.t
+)
+ident(
+  def pkt "xb.ml" 268 7774 7777 "xb.ml" 269 7815 7826
+)
+"xb.ml" 267 7725 7738 "xb.ml" 267 7725 7758
+type(
+  Partial.pkt -> Packet.t
+)
+ident(
+  int_ref Packet.of_partialpkt "packet.mli" 7 271 271 "packet.mli" 7 271 307
+)
+"xb.ml" 267 7725 7759 "xb.ml" 267 7725 7770
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 262 7551 7562 "xb.ml" 262 7551 7573
+)
+"xb.ml" 267 7725 7738 "xb.ml" 267 7725 7770
+type(
+  Packet.t
+)
+"xb.ml" 268 7774 7777 "xb.ml" 268 7774 7780
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 251 7290 7300 "xb.ml" 251 7290 7303
+)
+"xb.ml" 268 7774 7795 "xb.ml" 268 7774 7810
+type(
+  unit -> partial_buf
+)
+ident(
+  int_ref init_partial_in "xb.ml" 175 5200 5204 "xb.ml" 175 5200 5219
+)
+"xb.ml" 268 7774 7811 "xb.ml" 268 7774 7813
+type(
+  unit
+)
+"xb.ml" 268 7774 7795 "xb.ml" 268 7774 7813
+type(
+  partial_buf
+)
+"xb.ml" 268 7774 7777 "xb.ml" 268 7774 7813
+type(
+  unit
+)
+"xb.ml" 269 7815 7823 "xb.ml" 269 7815 7826
+type(
+  Packet.t
+)
+ident(
+  int_ref pkt "xb.ml" 267 7725 7732 "xb.ml" 267 7725 7735
+)
+"xb.ml" 269 7815 7818 "xb.ml" 269 7815 7826
+type(
+  Packet.t option
+)
+"xb.ml" 268 7774 7777 "xb.ml" 269 7815 7826
+type(
+  Packet.t option
+)
+"xb.ml" 266 7677 7723 "xb.ml" 270 7827 7830
+type(
+  Packet.t option
+)
+"xb.ml" 270 7827 7836 "xb.ml" 270 7827 7840
+type(
+  Packet.t option
+)
+"xb.ml" 266 7677 7679 "xb.ml" 270 7827 7840
+type(
+  Packet.t option
+)
+"xb.ml" 264 7606 7608 "xb.ml" 270 7827 7840
+type(
+  Packet.t option
+)
+"xb.ml" 271 7841 7851 "xb.ml" 271 7841 7852
+type(
+  int
+)
+ident(
+  def i "xb.ml" 273 7906 7908 "xb.ml" 277 8092 8098
+)
+"xb.ml" 271 7841 7854 "xb.ml" 271 7841 7857
+type(
+  bytes
+)
+ident(
+  def buf "xb.ml" 273 7906 7908 "xb.ml" 277 8092 8098
+)
+"xb.ml" 271 7841 7844 "xb.ml" 271 7841 7858
+type(
+  partial_buf
+)
+"xb.ml" 273 7906 7911 "xb.ml" 273 7906 7913
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 258 7461 7466 "xb.ml" 258 7461 7468
+)
+"xb.ml" 273 7906 7914 "xb.ml" 273 7906 7915
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 273 7906 7916 "xb.ml" 273 7906 7917
+type(
+  int
+)
+"xb.ml" 273 7906 7911 "xb.ml" 273 7906 7917
+type(
+  bool
+)
+"xb.ml" 274 7923 7926 "xb.ml" 274 7923 7936
+type(
+  bytes -> int -> bytes -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Bytes.blit "bytes.mli" 121 5028 5028 "bytes.mli" 121 5028 5082
+)
+"xb.ml" 274 7923 7937 "xb.ml" 274 7923 7938
+type(
+  bytes
+)
+ident(
+  int_ref b "xb.ml" 257 7423 7428 "xb.ml" 257 7423 7429
+)
+"xb.ml" 274 7923 7939 "xb.ml" 274 7923 7940
+type(
+  int
+)
+"xb.ml" 274 7923 7941 "xb.ml" 274 7923 7944
+type(
+  bytes
+)
+ident(
+  int_ref buf "xb.ml" 271 7841 7854 "xb.ml" 271 7841 7857
+)
+"xb.ml" 274 7923 7946 "xb.ml" 274 7923 7965
+type(
+  unit -> int
+)
+ident(
+  int_ref Partial.header_size "partial.mli" 8 93 93 "partial.mli" 8 93 148
+)
+"xb.ml" 274 7923 7966 "xb.ml" 274 7923 7968
+type(
+  unit
+)
+"xb.ml" 274 7923 7946 "xb.ml" 274 7923 7968
+type(
+  int
+)
+"xb.ml" 274 7923 7969 "xb.ml" 274 7923 7970
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"xb.ml" 274 7923 7971 "xb.ml" 274 7923 7972
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 271 7841 7851 "xb.ml" 271 7841 7852
+)
+"xb.ml" 274 7923 7945 "xb.ml" 274 7923 7973
+type(
+  int
+)
+"xb.ml" 274 7923 7974 "xb.ml" 274 7923 7976
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 258 7461 7466 "xb.ml" 258 7461 7468
+)
+"xb.ml" 274 7923 7926 "xb.ml" 274 7923 7976
+type(
+  unit
+)
+"xb.ml" 273 7906 7908 "xb.ml" 274 7923 7976
+type(
+  unit
+)
+"xb.ml" 275 7978 7980 "xb.ml" 275 7978 7983
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 251 7290 7300 "xb.ml" 251 7290 7303
+)
+"xb.ml" 275 7978 8001 "xb.ml" 275 7978 8003
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 258 7461 7466 "xb.ml" 258 7461 7468
+)
+"xb.ml" 275 7978 8004 "xb.ml" 275 7978 8005
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"xb.ml" 275 7978 8006 "xb.ml" 275 7978 8007
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 271 7841 7851 "xb.ml" 271 7841 7852
+)
+"xb.ml" 275 7978 8001 "xb.ml" 275 7978 8007
+type(
+  bool
+)
+"xb.ml" 276 8013 8025 "xb.ml" 276 8013 8042
+type(
+  string -> Partial.pkt
+)
+ident(
+  int_ref Partial.of_string "partial.mli" 14 347 347 "partial.mli" 14 347 376
+)
+"xb.ml" 276 8013 8044 "xb.ml" 276 8013 8059
+type(
+  bytes -> string
+)
+ident(
+  int_ref Stdlib.Bytes.to_string "bytes.mli" 89 3768 3768 "bytes.mli" 89 3768 3799
+)
+"xb.ml" 276 8013 8060 "xb.ml" 276 8013 8063
+type(
+  bytes
+)
+ident(
+  int_ref buf "xb.ml" 271 7841 7854 "xb.ml" 271 7841 7857
+)
+"xb.ml" 276 8013 8043 "xb.ml" 276 8013 8064
+type(
+  string
+)
+"xb.ml" 276 8013 8024 "xb.ml" 276 8013 8065
+type(
+  Partial.pkt
+)
+"xb.ml" 276 8013 8016 "xb.ml" 276 8013 8065
+type(
+  partial_buf
+)
+"xb.ml" 276 8013 8078 "xb.ml" 276 8013 8079
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 271 7841 7851 "xb.ml" 271 7841 7852
+)
+"xb.ml" 276 8013 8080 "xb.ml" 276 8013 8081
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"xb.ml" 276 8013 8082 "xb.ml" 276 8013 8084
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 258 7461 7466 "xb.ml" 258 7461 7468
+)
+"xb.ml" 276 8013 8078 "xb.ml" 276 8013 8084
+type(
+  int
+)
+"xb.ml" 276 8013 8086 "xb.ml" 276 8013 8089
+type(
+  bytes
+)
+ident(
+  int_ref buf "xb.ml" 271 7841 7854 "xb.ml" 271 7841 7857
+)
+"xb.ml" 276 8013 8071 "xb.ml" 276 8013 8090
+type(
+  partial_buf
+)
+"xb.ml" 275 7978 7998 "xb.ml" 276 8013 8090
+type(
+  partial_buf
+)
+"xb.ml" 275 7978 7980 "xb.ml" 276 8013 8090
+type(
+  unit
+)
+"xb.ml" 277 8092 8094 "xb.ml" 277 8092 8098
+type(
+  Packet.t option
+)
+"xb.ml" 275 7978 7980 "xb.ml" 277 8092 8098
+type(
+  Packet.t option
+)
+"xb.ml" 273 7906 7908 "xb.ml" 277 8092 8098
+type(
+  Packet.t option
+)
+"xb.ml" 260 7521 7522 "xb.ml" 278 8099 8101
+type(
+  Packet.t option
+)
+"xb.ml" 258 7461 7462 "xb.ml" 278 8099 8101
+type(
+  Packet.t option
+)
+"xb.ml" 257 7423 7424 "xb.ml" 278 8099 8101
+type(
+  Packet.t option
+)
+"xb.ml" 254 7346 7347 "xb.ml" 278 8099 8101
+type(
+  Packet.t option
+)
+"xb.ml" 252 7306 7307 "xb.ml" 278 8099 8101
+type(
+  Packet.t option
+)
+"xb.ml" 280 8103 8107 "xb.ml" 280 8103 8115
+type(
+  Packet.t -> packet_class
+)
+ident(
+  def classify "xb.ml" 285 8197 8197 "xb.ml" 0 0 -1
+)
+"xb.ml" 280 8103 8116 "xb.ml" 280 8103 8117
+type(
+  Packet.t
+)
+ident(
+  def t "xb.ml" 281 8120 8121 "xb.ml" 283 8175 8195
+)
+"xb.ml" 281 8120 8127 "xb.ml" 281 8120 8128
+type(
+  Packet.t
+)
+ident(
+  int_ref t "xb.ml" 280 8103 8116 "xb.ml" 280 8103 8117
+)
+"xb.ml" 281 8120 8127 "xb.ml" 281 8120 8138
+type(
+  Op/2.operation
+)
+"xb.ml" 282 8144 8147 "xb.ml" 282 8144 8160
+type(
+  Op.operation
+)
+"xb.ml" 282 8144 8164 "xb.ml" 282 8144 8174
+type(
+  packet_class
+)
+"xb.ml" 283 8175 8178 "xb.ml" 283 8175 8179
+type(
+  Op/2.operation
+)
+"xb.ml" 283 8175 8183 "xb.ml" 283 8175 8195
+type(
+  packet_class
+)
+"xb.ml" 281 8120 8121 "xb.ml" 283 8175 8195
+type(
+  packet_class
+)
+"xb.ml" 285 8197 8201 "xb.ml" 285 8197 8207
+type(
+  capacity:capacity -> backend -> t
+)
+ident(
+  def newcon "xb.ml" 298 8546 8546 "xb.ml" 0 0 -1
+)
+"xb.ml" 285 8197 8209 "xb.ml" 285 8197 8217
+type(
+  capacity
+)
+ident(
+  def capacity "xb.ml" 285 8197 8218 "xb.ml" 296 8542 8544
+)
+"xb.ml" 285 8197 8218 "xb.ml" 285 8197 8225
+type(
+  backend
+)
+ident(
+  def backend "xb.ml" 286 8228 8229 "xb.ml" 296 8542 8544
+)
+"xb.ml" 286 8228 8233 "xb.ml" 286 8228 8238
+type(
+  packet_class -> int
+)
+ident(
+  def limit "xb.ml" 290 8340 8341 "xb.ml" 296 8542 8544
+)
+"xb.ml" 287 8250 8254 "xb.ml" 287 8250 8266
+type(
+  packet_class
+)
+"xb.ml" 287 8250 8270 "xb.ml" 287 8250 8278
+type(
+  capacity
+)
+ident(
+  int_ref capacity "xb.ml" 285 8197 8209 "xb.ml" 285 8197 8217
+)
+"xb.ml" 287 8250 8270 "xb.ml" 287 8250 8293
+type(
+  int
+)
+"xb.ml" 288 8294 8298 "xb.ml" 288 8294 8308
+type(
+  packet_class
+)
+"xb.ml" 288 8294 8312 "xb.ml" 288 8294 8320
+type(
+  capacity
+)
+ident(
+  int_ref capacity "xb.ml" 285 8197 8209 "xb.ml" 285 8197 8217
+)
+"xb.ml" 288 8294 8312 "xb.ml" 288 8294 8335
+type(
+  int
+)
+"xb.ml" 286 8228 8241 "xb.ml" 288 8294 8335
+type(
+  packet_class -> int
+)
+"xb.ml" 291 8343 8354 "xb.ml" 291 8343 8361
+type(
+  backend
+)
+ident(
+  int_ref backend "xb.ml" 285 8197 8218 "xb.ml" 285 8197 8225
+)
+"xb.ml" 292 8363 8374 "xb.ml" 292 8363 8386
+type(
+  capacity:int ->
+  classify:(Packet.t -> packet_class) ->
+  limit:(packet_class -> int) -> (Packet.t, packet_class) Queue.t
+)
+ident(
+  int_ref Queue.create "xb.ml" 30 1262 1263 "xb.ml" 30 1262 1345
+)
+"xb.ml" 292 8363 8398 "xb.ml" 292 8363 8406
+type(
+  capacity
+)
+ident(
+  int_ref capacity "xb.ml" 285 8197 8209 "xb.ml" 285 8197 8217
+)
+"xb.ml" 292 8363 8398 "xb.ml" 292 8363 8421
+type(
+  int
+)
+"xb.ml" 292 8363 8422 "xb.ml" 292 8363 8423
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"xb.ml" 292 8363 8424 "xb.ml" 292 8363 8432
+type(
+  capacity
+)
+ident(
+  int_ref capacity "xb.ml" 285 8197 8209 "xb.ml" 285 8197 8217
+)
+"xb.ml" 292 8363 8424 "xb.ml" 292 8363 8447
+type(
+  int
+)
+"xb.ml" 292 8363 8397 "xb.ml" 292 8363 8448
+type(
+  int
+)
+"xb.ml" 292 8363 8450 "xb.ml" 292 8363 8458
+type(
+  Packet.t -> packet_class
+)
+ident(
+  int_ref classify "xb.ml" 280 8103 8107 "xb.ml" 280 8103 8115
+)
+"xb.ml" 292 8363 8460 "xb.ml" 292 8363 8465
+type(
+  packet_class -> int
+)
+ident(
+  int_ref limit "xb.ml" 286 8228 8233 "xb.ml" 286 8228 8238
+)
+"xb.ml" 292 8363 8374 "xb.ml" 292 8363 8465
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 293 8467 8481 "xb.ml" 293 8467 8496
+type(
+  unit -> partial_buf
+)
+ident(
+  int_ref init_partial_in "xb.ml" 175 5200 5204 "xb.ml" 175 5200 5219
+)
+"xb.ml" 293 8467 8497 "xb.ml" 293 8467 8499
+type(
+  unit
+)
+"xb.ml" 293 8467 8481 "xb.ml" 293 8467 8499
+type(
+  partial_buf
+)
+"xb.ml" 294 8501 8516 "xb.ml" 294 8501 8518
+type(
+  string
+)
+"xb.ml" 295 8520 8532 "xb.ml" 295 8520 8540
+type(
+  capacity
+)
+ident(
+  int_ref capacity "xb.ml" 285 8197 8209 "xb.ml" 285 8197 8217
+)
+"xb.ml" 290 8340 8341 "xb.ml" 296 8542 8544
+type(
+  t
+)
+"xb.ml" 286 8228 8229 "xb.ml" 296 8542 8544
+type(
+  t
+)
+"xb.ml" 298 8546 8550 "xb.ml" 298 8546 8557
+type(
+  Unix.file_descr -> capacity:capacity -> t
+)
+ident(
+  def open_fd "xb.ml" 300 8589 8589 "xb.ml" 0 0 -1
+)
+"xb.ml" 298 8546 8558 "xb.ml" 298 8546 8560
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "xb.ml" 298 8546 8563 "xb.ml" 298 8546 8587
+)
+"xb.ml" 298 8546 8563 "xb.ml" 298 8546 8569
+type(
+  capacity:capacity -> backend -> t
+)
+ident(
+  int_ref newcon "xb.ml" 285 8197 8201 "xb.ml" 285 8197 8207
+)
+"xb.ml" 298 8546 8581 "xb.ml" 298 8546 8583
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "xb.ml" 298 8546 8558 "xb.ml" 298 8546 8560
+)
+"xb.ml" 298 8546 8574 "xb.ml" 298 8546 8586
+type(
+  backend_fd
+)
+"xb.ml" 298 8546 8570 "xb.ml" 298 8546 8587
+type(
+  backend
+)
+"xb.ml" 298 8546 8563 "xb.ml" 298 8546 8587
+type(
+  capacity:capacity -> t
+)
+"xb.ml" 300 8589 8593 "xb.ml" 300 8589 8602
+type(
+  Xenmmap.mmap_interface -> (unit -> unit) -> capacity:capacity -> t
+)
+ident(
+  def open_mmap "xb.ml" 308 8872 8872 "xb.ml" 0 0 -1
+)
+"xb.ml" 300 8589 8603 "xb.ml" 300 8589 8607
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  def mmap "xb.ml" 300 8589 8608 "xb.ml" 306 8846 8870
+)
+"xb.ml" 300 8589 8608 "xb.ml" 300 8589 8617
+type(
+  unit -> unit
+)
+ident(
+  def notifyfct "xb.ml" 302 8674 8675 "xb.ml" 306 8846 8870
+)
+"xb.ml" 302 8674 8675 "xb.ml" 302 8674 8702
+type(
+  Xenmmap.mmap_interface -> Xs_ring.Server_features.t -> unit
+)
+ident(
+  int_ref Xs_ring.set_server_features "xs_ring.ml" 43 1562 1566 "xs_ring.ml" 43 1562 1585
+)
+"xb.ml" 302 8674 8703 "xb.ml" 302 8674 8707
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref mmap "xb.ml" 300 8589 8603 "xb.ml" 300 8589 8607
+)
+"xb.ml" 302 8674 8709 "xb.ml" 302 8674 8742
+type(
+  Xs_ring.Server_features.elt -> Xs_ring.Server_features.t
+)
+ident(
+  int_ref Xs_ring.Server_features.singleton "set.mli" 86 3284 3288 "set.mli" 86 3284 3311
+)
+"xb.ml" 302 8674 8743 "xb.ml" 302 8674 8778
+type(
+  Xs_ring.Server_features.elt
+)
+"xb.ml" 302 8674 8708 "xb.ml" 302 8674 8779
+type(
+  Xs_ring.Server_features.t
+)
+"xb.ml" 302 8674 8675 "xb.ml" 302 8674 8779
+type(
+  unit
+)
+"xb.ml" 303 8781 8782 "xb.ml" 303 8781 8788
+type(
+  capacity:capacity -> backend -> t
+)
+ident(
+  int_ref newcon "xb.ml" 285 8197 8201 "xb.ml" 285 8197 8207
+)
+"xb.ml" 304 8800 8809 "xb.ml" 304 8800 8813
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref mmap "xb.ml" 300 8589 8603 "xb.ml" 300 8589 8607
+)
+"xb.ml" 305 8815 8835 "xb.ml" 305 8815 8844
+type(
+  unit -> unit
+)
+ident(
+  int_ref notifyfct "xb.ml" 300 8589 8608 "xb.ml" 300 8589 8617
+)
+"xb.ml" 306 8846 8861 "xb.ml" 306 8846 8866
+type(
+  bool
+)
+"xb.ml" 303 8781 8798 "xb.ml" 306 8846 8869
+type(
+  backend_mmap
+)
+"xb.ml" 303 8781 8789 "xb.ml" 306 8846 8870
+type(
+  backend
+)
+"xb.ml" 303 8781 8782 "xb.ml" 306 8846 8870
+type(
+  capacity:capacity -> t
+)
+"xb.ml" 302 8674 8675 "xb.ml" 306 8846 8870
+type(
+  capacity:capacity -> t
+)
+"xb.ml" 308 8872 8876 "xb.ml" 308 8872 8881
+type(
+  t -> unit
+)
+ident(
+  def close "xb.ml" 313 9003 9003 "xb.ml" 0 0 -1
+)
+"xb.ml" 308 8872 8882 "xb.ml" 308 8872 8885
+type(
+  t
+)
+ident(
+  def con "xb.ml" 309 8888 8889 "xb.ml" 311 8953 9001
+)
+"xb.ml" 309 8888 8895 "xb.ml" 309 8888 8898
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 308 8872 8882 "xb.ml" 308 8872 8885
+)
+"xb.ml" 309 8888 8895 "xb.ml" 309 8888 8906
+type(
+  backend
+)
+"xb.ml" 310 8912 8918 "xb.ml" 310 8912 8925
+type(
+  backend_fd
+)
+ident(
+  def backend "xb.ml" 310 8912 8931 "xb.ml" 310 8912 8952
+)
+"xb.ml" 310 8912 8915 "xb.ml" 310 8912 8925
+type(
+  backend
+)
+"xb.ml" 310 8912 8931 "xb.ml" 310 8912 8941
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.close "unix.mli" 307 13299 13299 "unix.mli" 307 13299 13329
+)
+"xb.ml" 310 8912 8942 "xb.ml" 310 8912 8949
+type(
+  backend_fd
+)
+ident(
+  int_ref backend "xb.ml" 310 8912 8918 "xb.ml" 310 8912 8925
+)
+"xb.ml" 310 8912 8942 "xb.ml" 310 8912 8952
+type(
+  Unix.file_descr
+)
+"xb.ml" 310 8912 8931 "xb.ml" 310 8912 8952
+type(
+  unit
+)
+"xb.ml" 311 8953 8964 "xb.ml" 311 8953 8971
+type(
+  backend_mmap
+)
+ident(
+  def backend "xb.ml" 311 8953 8975 "xb.ml" 311 8953 9001
+)
+"xb.ml" 311 8953 8956 "xb.ml" 311 8953 8971
+type(
+  backend
+)
+"xb.ml" 311 8953 8975 "xb.ml" 311 8953 8988
+type(
+  Xenmmap.mmap_interface -> unit
+)
+ident(
+  int_ref Xenmmap.unmap "xenmmap.mli" 23 911 911 "xenmmap.mli" 23 911 970
+)
+"xb.ml" 311 8953 8989 "xb.ml" 311 8953 8996
+type(
+  backend_mmap
+)
+ident(
+  int_ref backend "xb.ml" 311 8953 8964 "xb.ml" 311 8953 8971
+)
+"xb.ml" 311 8953 8989 "xb.ml" 311 8953 9001
+type(
+  Xenmmap.mmap_interface
+)
+"xb.ml" 311 8953 8975 "xb.ml" 311 8953 9001
+type(
+  unit
+)
+"xb.ml" 309 8888 8889 "xb.ml" 311 8953 9001
+type(
+  unit
+)
+"xb.ml" 313 9003 9007 "xb.ml" 313 9003 9012
+type(
+  t -> bool
+)
+ident(
+  def is_fd "xb.ml" 318 9084 9084 "xb.ml" 0 0 -1
+)
+"xb.ml" 313 9003 9013 "xb.ml" 313 9003 9016
+type(
+  t
+)
+ident(
+  def con "xb.ml" 314 9019 9020 "xb.ml" 316 9061 9082
+)
+"xb.ml" 314 9019 9026 "xb.ml" 314 9019 9029
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 313 9003 9013 "xb.ml" 313 9003 9016
+)
+"xb.ml" 314 9019 9026 "xb.ml" 314 9019 9037
+type(
+  backend
+)
+"xb.ml" 315 9043 9049 "xb.ml" 315 9043 9050
+type(
+  backend_fd
+)
+"xb.ml" 315 9043 9046 "xb.ml" 315 9043 9050
+type(
+  backend
+)
+"xb.ml" 315 9043 9056 "xb.ml" 315 9043 9060
+type(
+  bool
+)
+"xb.ml" 316 9061 9072 "xb.ml" 316 9061 9073
+type(
+  backend_mmap
+)
+"xb.ml" 316 9061 9064 "xb.ml" 316 9061 9073
+type(
+  backend
+)
+"xb.ml" 316 9061 9077 "xb.ml" 316 9061 9082
+type(
+  bool
+)
+"xb.ml" 314 9019 9020 "xb.ml" 316 9061 9082
+type(
+  bool
+)
+"xb.ml" 318 9084 9088 "xb.ml" 318 9084 9095
+type(
+  t -> bool
+)
+ident(
+  def is_mmap "xb.ml" 320 9119 9119 "xb.ml" 0 0 -1
+)
+"xb.ml" 318 9084 9096 "xb.ml" 318 9084 9099
+type(
+  t
+)
+ident(
+  def con "xb.ml" 318 9084 9102 "xb.ml" 318 9084 9117
+)
+"xb.ml" 318 9084 9102 "xb.ml" 318 9084 9105
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"xb.ml" 318 9084 9107 "xb.ml" 318 9084 9112
+type(
+  t -> bool
+)
+ident(
+  int_ref is_fd "xb.ml" 313 9003 9007 "xb.ml" 313 9003 9012
+)
+"xb.ml" 318 9084 9113 "xb.ml" 318 9084 9116
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 318 9084 9096 "xb.ml" 318 9084 9099
+)
+"xb.ml" 318 9084 9106 "xb.ml" 318 9084 9117
+type(
+  bool
+)
+"xb.ml" 318 9084 9102 "xb.ml" 318 9084 9117
+type(
+  bool
+)
+"xb.ml" 320 9119 9123 "xb.ml" 320 9119 9133
+type(
+  t -> int
+)
+ident(
+  def output_len "xb.ml" 321 9165 9165 "xb.ml" 0 0 -1
+)
+"xb.ml" 320 9119 9134 "xb.ml" 320 9119 9137
+type(
+  t
+)
+ident(
+  def con "xb.ml" 320 9119 9140 "xb.ml" 320 9119 9164
+)
+"xb.ml" 320 9119 9140 "xb.ml" 320 9119 9152
+type(
+  (Packet.t, packet_class) Queue.t -> int
+)
+ident(
+  int_ref Queue.length "xb.ml" 48 1933 1934 "xb.ml" 48 1933 1963
+)
+"xb.ml" 320 9119 9153 "xb.ml" 320 9119 9156
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 320 9119 9134 "xb.ml" 320 9119 9137
+)
+"xb.ml" 320 9119 9153 "xb.ml" 320 9119 9164
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 320 9119 9140 "xb.ml" 320 9119 9164
+type(
+  int
+)
+"xb.ml" 321 9165 9169 "xb.ml" 321 9165 9183
+type(
+  t -> bool
+)
+ident(
+  def has_new_output "xb.ml" 322 9219 9219 "xb.ml" 0 0 -1
+)
+"xb.ml" 321 9165 9184 "xb.ml" 321 9165 9187
+type(
+  t
+)
+ident(
+  def con "xb.ml" 321 9165 9190 "xb.ml" 321 9165 9218
+)
+"xb.ml" 321 9165 9190 "xb.ml" 321 9165 9202
+type(
+  (Packet.t, packet_class) Queue.t -> int
+)
+ident(
+  int_ref Queue.length "xb.ml" 48 1933 1934 "xb.ml" 48 1933 1963
+)
+"xb.ml" 321 9165 9203 "xb.ml" 321 9165 9206
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 321 9165 9184 "xb.ml" 321 9165 9187
+)
+"xb.ml" 321 9165 9203 "xb.ml" 321 9165 9214
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 321 9165 9190 "xb.ml" 321 9165 9214
+type(
+  int
+)
+"xb.ml" 321 9165 9215 "xb.ml" 321 9165 9216
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 321 9165 9217 "xb.ml" 321 9165 9218
+type(
+  int
+)
+"xb.ml" 321 9165 9190 "xb.ml" 321 9165 9218
+type(
+  bool
+)
+"xb.ml" 322 9219 9223 "xb.ml" 322 9219 9237
+type(
+  t -> bool
+)
+ident(
+  def has_old_output "xb.ml" 324 9279 9279 "xb.ml" 0 0 -1
+)
+"xb.ml" 322 9219 9238 "xb.ml" 322 9219 9241
+type(
+  t
+)
+ident(
+  def con "xb.ml" 322 9219 9244 "xb.ml" 322 9219 9277
+)
+"xb.ml" 322 9219 9244 "xb.ml" 322 9219 9257
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"xb.ml" 322 9219 9258 "xb.ml" 322 9219 9261
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 322 9219 9238 "xb.ml" 322 9219 9241
+)
+"xb.ml" 322 9219 9258 "xb.ml" 322 9219 9273
+type(
+  string
+)
+"xb.ml" 322 9219 9244 "xb.ml" 322 9219 9273
+type(
+  int
+)
+"xb.ml" 322 9219 9274 "xb.ml" 322 9219 9275
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"xb.ml" 322 9219 9276 "xb.ml" 322 9219 9277
+type(
+  int
+)
+"xb.ml" 322 9219 9244 "xb.ml" 322 9219 9277
+type(
+  bool
+)
+"xb.ml" 324 9279 9283 "xb.ml" 324 9279 9293
+type(
+  t -> bool
+)
+ident(
+  def has_output "xb.ml" 326 9342 9342 "xb.ml" 0 0 -1
+)
+"xb.ml" 324 9279 9294 "xb.ml" 324 9279 9297
+type(
+  t
+)
+ident(
+  def con "xb.ml" 324 9279 9300 "xb.ml" 324 9279 9340
+)
+"xb.ml" 324 9279 9300 "xb.ml" 324 9279 9314
+type(
+  t -> bool
+)
+ident(
+  int_ref has_new_output "xb.ml" 321 9165 9169 "xb.ml" 321 9165 9183
+)
+"xb.ml" 324 9279 9315 "xb.ml" 324 9279 9318
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 324 9279 9294 "xb.ml" 324 9279 9297
+)
+"xb.ml" 324 9279 9300 "xb.ml" 324 9279 9318
+type(
+  bool
+)
+"xb.ml" 324 9279 9319 "xb.ml" 324 9279 9321
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 224 9417 9417 "stdlib.mli" 224 9417 9467
+)
+"xb.ml" 324 9279 9322 "xb.ml" 324 9279 9336
+type(
+  t -> bool
+)
+ident(
+  int_ref has_old_output "xb.ml" 322 9219 9223 "xb.ml" 322 9219 9237
+)
+"xb.ml" 324 9279 9337 "xb.ml" 324 9279 9340
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 324 9279 9294 "xb.ml" 324 9279 9297
+)
+"xb.ml" 324 9279 9322 "xb.ml" 324 9279 9340
+type(
+  bool
+)
+"xb.ml" 324 9279 9300 "xb.ml" 324 9279 9340
+type(
+  bool
+)
+"xb.ml" 326 9342 9346 "xb.ml" 326 9342 9357
+type(
+  t -> Packet.t
+)
+ident(
+  def peek_output "xb.ml" 328 9388 9388 "xb.ml" 0 0 -1
+)
+"xb.ml" 326 9342 9358 "xb.ml" 326 9342 9361
+type(
+  t
+)
+ident(
+  def con "xb.ml" 326 9342 9364 "xb.ml" 326 9342 9386
+)
+"xb.ml" 326 9342 9364 "xb.ml" 326 9342 9374
+type(
+  (Packet.t, packet_class) Queue.t -> Packet.t
+)
+ident(
+  int_ref Queue.peek "xb.ml" 45 1838 1839 "xb.ml" 45 1838 1866
+)
+"xb.ml" 326 9342 9375 "xb.ml" 326 9342 9378
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 326 9342 9358 "xb.ml" 326 9342 9361
+)
+"xb.ml" 326 9342 9375 "xb.ml" 326 9342 9386
+type(
+  (Packet.t, packet_class) Queue.t
+)
+"xb.ml" 326 9342 9364 "xb.ml" 326 9342 9386
+type(
+  Packet.t
+)
+"xb.ml" 328 9388 9392 "xb.ml" 328 9388 9409
+type(
+  t -> bool
+)
+ident(
+  def has_partial_input "xb.ml" 331 9509 9509 "xb.ml" 0 0 -1
+)
+"xb.ml" 328 9388 9410 "xb.ml" 328 9388 9413
+type(
+  t
+)
+ident(
+  def con "xb.ml" 328 9388 9416 "xb.ml" 330 9463 9508
+)
+"xb.ml" 328 9388 9422 "xb.ml" 328 9388 9425
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 328 9388 9410 "xb.ml" 328 9388 9413
+)
+"xb.ml" 328 9388 9422 "xb.ml" 328 9388 9436
+type(
+  partial_buf
+)
+"xb.ml" 329 9442 9453 "xb.ml" 329 9442 9454
+type(
+  Partial.pkt
+)
+"xb.ml" 329 9442 9445 "xb.ml" 329 9442 9454
+type(
+  partial_buf
+)
+"xb.ml" 329 9442 9458 "xb.ml" 329 9442 9462
+type(
+  bool
+)
+"xb.ml" 330 9463 9473 "xb.ml" 330 9463 9474
+type(
+  int
+)
+ident(
+  def n "xb.ml" 330 9463 9482 "xb.ml" 330 9463 9508
+)
+"xb.ml" 330 9463 9476 "xb.ml" 330 9463 9477
+type(
+  bytes
+)
+"xb.ml" 330 9463 9466 "xb.ml" 330 9463 9478
+type(
+  partial_buf
+)
+"xb.ml" 330 9463 9482 "xb.ml" 330 9463 9483
+type(
+  int
+)
+ident(
+  int_ref n "xb.ml" 330 9463 9473 "xb.ml" 330 9463 9474
+)
+"xb.ml" 330 9463 9484 "xb.ml" 330 9463 9485
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+)
+"xb.ml" 330 9463 9486 "xb.ml" 330 9463 9505
+type(
+  unit -> int
+)
+ident(
+  int_ref Partial.header_size "partial.mli" 8 93 93 "partial.mli" 8 93 148
+)
+"xb.ml" 330 9463 9506 "xb.ml" 330 9463 9508
+type(
+  unit
+)
+"xb.ml" 330 9463 9486 "xb.ml" 330 9463 9508
+type(
+  int
+)
+"xb.ml" 330 9463 9482 "xb.ml" 330 9463 9508
+type(
+  bool
+)
+"xb.ml" 328 9388 9416 "xb.ml" 330 9463 9508
+type(
+  bool
+)
+"xb.ml" 331 9509 9513 "xb.ml" 331 9509 9527
+type(
+  t -> bool
+)
+ident(
+  def has_more_input "xb.ml" 336 9625 9625 "xb.ml" 0 0 -1
+)
+"xb.ml" 331 9509 9528 "xb.ml" 331 9509 9531
+type(
+  t
+)
+ident(
+  def con "xb.ml" 332 9534 9535 "xb.ml" 334 9583 9623
+)
+"xb.ml" 332 9534 9541 "xb.ml" 332 9534 9544
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 331 9509 9528 "xb.ml" 331 9509 9531
+)
+"xb.ml" 332 9534 9541 "xb.ml" 332 9534 9552
+type(
+  backend
+)
+"xb.ml" 333 9558 9564 "xb.ml" 333 9558 9565
+type(
+  backend_fd
+)
+"xb.ml" 333 9558 9561 "xb.ml" 333 9558 9565
+type(
+  backend
+)
+"xb.ml" 333 9558 9577 "xb.ml" 333 9558 9582
+type(
+  bool
+)
+"xb.ml" 334 9583 9594 "xb.ml" 334 9583 9601
+type(
+  backend_mmap
+)
+ident(
+  def backend "xb.ml" 334 9583 9605 "xb.ml" 334 9583 9623
+)
+"xb.ml" 334 9583 9586 "xb.ml" 334 9583 9601
+type(
+  backend
+)
+"xb.ml" 334 9583 9605 "xb.ml" 334 9583 9612
+type(
+  backend_mmap
+)
+ident(
+  int_ref backend "xb.ml" 334 9583 9594 "xb.ml" 334 9583 9601
+)
+"xb.ml" 334 9583 9605 "xb.ml" 334 9583 9623
+type(
+  bool
+)
+"xb.ml" 332 9534 9535 "xb.ml" 334 9583 9623
+type(
+  bool
+)
+"xb.ml" 336 9625 9629 "xb.ml" 336 9625 9642
+type(
+  t -> bool
+)
+ident(
+  def is_selectable "xb.ml" 341 9714 9714 "xb.ml" 0 0 -1
+)
+"xb.ml" 336 9625 9643 "xb.ml" 336 9625 9646
+type(
+  t
+)
+ident(
+  def con "xb.ml" 337 9649 9650 "xb.ml" 339 9691 9712
+)
+"xb.ml" 337 9649 9656 "xb.ml" 337 9649 9659
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 336 9625 9643 "xb.ml" 336 9625 9646
+)
+"xb.ml" 337 9649 9656 "xb.ml" 337 9649 9667
+type(
+  backend
+)
+"xb.ml" 338 9673 9679 "xb.ml" 338 9673 9680
+type(
+  backend_fd
+)
+"xb.ml" 338 9673 9676 "xb.ml" 338 9673 9680
+type(
+  backend
+)
+"xb.ml" 338 9673 9686 "xb.ml" 338 9673 9690
+type(
+  bool
+)
+"xb.ml" 339 9691 9702 "xb.ml" 339 9691 9703
+type(
+  backend_mmap
+)
+"xb.ml" 339 9691 9694 "xb.ml" 339 9691 9703
+type(
+  backend
+)
+"xb.ml" 339 9691 9707 "xb.ml" 339 9691 9712
+type(
+  bool
+)
+"xb.ml" 337 9649 9650 "xb.ml" 339 9691 9712
+type(
+  bool
+)
+"xb.ml" 341 9714 9718 "xb.ml" 341 9714 9724
+type(
+  t -> Unix.file_descr
+)
+ident(
+  def get_fd "xb.ml" 344 9783 9827 "xb.ml" 0 0 -1
+)
+"xb.ml" 341 9714 9725 "xb.ml" 341 9714 9728
+type(
+  t
+)
+ident(
+  def con "xb.ml" 342 9731 9732 "xb.ml" 344 9783 9827
+)
+"xb.ml" 342 9731 9738 "xb.ml" 342 9731 9741
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 341 9714 9725 "xb.ml" 341 9714 9728
+)
+"xb.ml" 342 9731 9738 "xb.ml" 342 9731 9749
+type(
+  backend
+)
+"xb.ml" 343 9755 9761 "xb.ml" 343 9755 9768
+type(
+  backend_fd
+)
+ident(
+  def backend "xb.ml" 343 9755 9772 "xb.ml" 343 9755 9782
+)
+"xb.ml" 343 9755 9758 "xb.ml" 343 9755 9768
+type(
+  backend
+)
+"xb.ml" 343 9755 9772 "xb.ml" 343 9755 9779
+type(
+  backend_fd
+)
+ident(
+  int_ref backend "xb.ml" 343 9755 9761 "xb.ml" 343 9755 9768
+)
+"xb.ml" 343 9755 9772 "xb.ml" 343 9755 9782
+type(
+  Unix.file_descr
+)
+"xb.ml" 344 9783 9794 "xb.ml" 344 9783 9795
+type(
+  backend_mmap
+)
+"xb.ml" 344 9783 9786 "xb.ml" 344 9783 9795
+type(
+  backend
+)
+"xb.ml" 344 9783 9803 "xb.ml" 344 9783 9808
+type(
+  exn -> Unix.file_descr
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"xb.ml" 344 9783 9818 "xb.ml" 344 9783 9826
+type(
+  string
+)
+"xb.ml" 344 9783 9809 "xb.ml" 344 9783 9827
+type(
+  exn
+)
+"xb.ml" 344 9783 9803 "xb.ml" 344 9783 9827
+type(
+  Unix.file_descr
+)
+"xb.ml" 342 9731 9732 "xb.ml" 344 9783 9827
+type(
+  Unix.file_descr
+)

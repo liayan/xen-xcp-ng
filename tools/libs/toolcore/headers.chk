@@ -1,0 +1,3 @@
+include/xentoolcore_internal.h
+include/xentoolcore.h
+include/_xentoolcore_list.h

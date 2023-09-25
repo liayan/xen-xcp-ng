@@ -1,0 +1,607 @@
+"event.ml" 26 1004 1008 "event.ml" 26 1004 1012
+type(
+  ?fd:int -> ?domexc_port:int -> unit -> t
+)
+ident(
+  def init "event.ml" 37 1319 1319 "event.ml" 0 0 -1
+)
+"event.ml" 26 1004 1014 "event.ml" 26 1004 1016
+type(
+  int option
+)
+ident(
+  def fd "event.ml" 26 1004 1017 "event.ml" 35 1298 1317
+)
+"event.ml" 26 1004 1018 "event.ml" 26 1004 1029
+type(
+  int option
+)
+ident(
+  def domexc_port "event.ml" 26 1004 1030 "event.ml" 35 1298 1317
+)
+"event.ml" 26 1004 1030 "event.ml" 26 1004 1032
+type(
+  unit
+)
+"event.ml" 27 1035 1040 "event.ml" 27 1035 1046
+type(
+  Xeneventchn.handle
+)
+ident(
+  def handle "event.ml" 31 1173 1174 "event.ml" 35 1298 1317
+)
+"event.ml" 27 1035 1055 "event.ml" 27 1035 1057
+type(
+  int option
+)
+ident(
+  int_ref fd "event.ml" 26 1004 1014 "event.ml" 26 1004 1016
+)
+"event.ml" 28 1063 1067 "event.ml" 28 1063 1071
+type(
+  int option
+)
+"event.ml" 28 1063 1075 "event.ml" 28 1063 1091
+type(
+  ?cloexec:bool -> unit -> Xeneventchn.handle
+)
+ident(
+  int_ref Xeneventchn.init "xeneventchn.mli" 46 1607 1607 "xeneventchn.mli" 46 1607 1648
+)
+"event.ml" 28 1063 1101 "event.ml" 28 1063 1106
+type(
+  bool
+)
+"event.ml" 28 1063 1107 "event.ml" 28 1063 1109
+type(
+  unit
+)
+"event.ml" 28 1063 1075 "event.ml" 28 1063 1109
+type(
+  Xeneventchn.handle
+)
+"event.ml" 29 1110 1119 "event.ml" 29 1110 1121
+type(
+  int
+)
+ident(
+  def fd "event.ml" 29 1110 1125 "event.ml" 29 1110 1168
+)
+"event.ml" 29 1110 1114 "event.ml" 29 1110 1121
+type(
+  int option
+)
+"event.ml" 29 1110 1125 "event.ml" 29 1110 1127
+type(
+  int
+)
+ident(
+  int_ref fd "event.ml" 29 1110 1119 "event.ml" 29 1110 1121
+)
+"event.ml" 29 1110 1128 "event.ml" 29 1110 1130
+type(
+  int -> (int -> Utils.FD.t) -> Utils.FD.t
+)
+ident(
+  int_ref Stdlib.( |> ) "stdlib.mli" 300 12231 12231 "stdlib.mli" 300 12231 12285
+)
+"event.ml" 29 1110 1131 "event.ml" 29 1110 1146
+type(
+  int -> Utils.FD.t
+)
+ident(
+  int_ref Utils.FD.of_int "utils.ml" 121 3560 3561 "utils.ml" 121 3560 3581
+)
+"event.ml" 29 1110 1125 "event.ml" 29 1110 1146
+type(
+  Utils.FD.t
+)
+"event.ml" 29 1110 1147 "event.ml" 29 1110 1149
+type(
+  Utils.FD.t -> (Utils.FD.t -> Xeneventchn.handle) -> Xeneventchn.handle
+)
+ident(
+  int_ref Stdlib.( |> ) "stdlib.mli" 300 12231 12231 "stdlib.mli" 300 12231 12285
+)
+"event.ml" 29 1110 1150 "event.ml" 29 1110 1168
+type(
+  Utils.FD.t -> Xeneventchn.handle
+)
+ident(
+  int_ref Xeneventchn.fdopen "xeneventchn.mli" 53 1897 1897 "xeneventchn.mli" 53 1897 1934
+)
+"event.ml" 29 1110 1125 "event.ml" 29 1110 1168
+type(
+  Xeneventchn.handle
+)
+"event.ml" 27 1035 1049 "event.ml" 29 1110 1168
+type(
+  Xeneventchn.handle
+)
+"event.ml" 31 1173 1178 "event.ml" 31 1173 1184
+type(
+  Xeneventchn.t
+)
+ident(
+  def domexc "event.ml" 35 1298 1299 "event.ml" 35 1298 1317
+)
+"event.ml" 31 1173 1193 "event.ml" 31 1173 1204
+type(
+  int option
+)
+ident(
+  int_ref domexc_port "event.ml" 26 1004 1018 "event.ml" 26 1004 1029
+)
+"event.ml" 32 1210 1214 "event.ml" 32 1210 1218
+type(
+  int option
+)
+"event.ml" 32 1210 1222 "event.ml" 32 1210 1251
+type(
+  Xeneventchn.handle -> Xeneventchn.t
+)
+ident(
+  int_ref Xeneventchn.bind_dom_exc_virq "xeneventchn.mli" 71 2628 2628 "xeneventchn.mli" 71 2628 2663
+)
+"event.ml" 32 1210 1252 "event.ml" 32 1210 1258
+type(
+  Xeneventchn.handle
+)
+ident(
+  int_ref handle "event.ml" 27 1035 1040 "event.ml" 27 1035 1046
+)
+"event.ml" 32 1210 1222 "event.ml" 32 1210 1258
+type(
+  Xeneventchn.t
+)
+"event.ml" 33 1259 1268 "event.ml" 33 1259 1269
+type(
+  int
+)
+ident(
+  def p "event.ml" 33 1259 1273 "event.ml" 33 1259 1293
+)
+"event.ml" 33 1259 1263 "event.ml" 33 1259 1269
+type(
+  int option
+)
+"event.ml" 33 1259 1273 "event.ml" 33 1259 1291
+type(
+  int -> Xeneventchn.t
+)
+ident(
+  int_ref Xeneventchn.of_int "xeneventchn.mli" 44 1585 1585 "xeneventchn.mli" 44 1585 1605
+)
+"event.ml" 33 1259 1292 "event.ml" 33 1259 1293
+type(
+  int
+)
+ident(
+  int_ref p "event.ml" 33 1259 1268 "event.ml" 33 1259 1269
+)
+"event.ml" 33 1259 1273 "event.ml" 33 1259 1293
+type(
+  Xeneventchn.t
+)
+"event.ml" 31 1173 1187 "event.ml" 33 1259 1293
+type(
+  Xeneventchn.t
+)
+"event.ml" 35 1298 1301 "event.ml" 35 1298 1307
+type(
+  Xeneventchn.handle
+)
+ident(
+  int_ref handle "event.ml" 27 1035 1040 "event.ml" 27 1035 1046
+)
+"event.ml" 35 1298 1309 "event.ml" 35 1298 1315
+type(
+  Xeneventchn.t
+)
+ident(
+  int_ref domexc "event.ml" 31 1173 1178 "event.ml" 31 1173 1184
+)
+"event.ml" 35 1298 1299 "event.ml" 35 1298 1317
+type(
+  t
+)
+"event.ml" 31 1173 1174 "event.ml" 35 1298 1317
+type(
+  t
+)
+"event.ml" 27 1035 1036 "event.ml" 35 1298 1317
+type(
+  t
+)
+"event.ml" 37 1319 1323 "event.ml" 37 1319 1325
+type(
+  t -> Unix.file_descr
+)
+ident(
+  def fd "event.ml" 38 1368 1368 "event.ml" 0 0 -1
+)
+"event.ml" 37 1319 1326 "event.ml" 37 1319 1334
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 37 1319 1337 "event.ml" 37 1319 1367
+)
+"event.ml" 37 1319 1337 "event.ml" 37 1319 1351
+type(
+  Xeneventchn.handle -> Unix.file_descr
+)
+ident(
+  int_ref Xeneventchn.fd "xeneventchn.mli" 57 2084 2084 "xeneventchn.mli" 57 2084 2117
+)
+"event.ml" 37 1319 1352 "event.ml" 37 1319 1360
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 37 1319 1326 "event.ml" 37 1319 1334
+)
+"event.ml" 37 1319 1352 "event.ml" 37 1319 1367
+type(
+  Xeneventchn.handle
+)
+"event.ml" 37 1319 1337 "event.ml" 37 1319 1367
+type(
+  Unix.file_descr
+)
+"event.ml" 38 1368 1372 "event.ml" 38 1368 1388
+type(
+  t -> int -> int -> Xeneventchn.t
+)
+ident(
+  def bind_interdomain "event.ml" 39 1467 1467 "event.ml" 0 0 -1
+)
+"event.ml" 38 1368 1389 "event.ml" 38 1368 1397
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 38 1368 1398 "event.ml" 38 1368 1466
+)
+"event.ml" 38 1368 1398 "event.ml" 38 1368 1403
+type(
+  int
+)
+ident(
+  def domid "event.ml" 38 1368 1404 "event.ml" 38 1368 1466
+)
+"event.ml" 38 1368 1404 "event.ml" 38 1368 1408
+type(
+  int
+)
+ident(
+  def port "event.ml" 38 1368 1411 "event.ml" 38 1368 1466
+)
+"event.ml" 38 1368 1411 "event.ml" 38 1368 1439
+type(
+  Xeneventchn.handle -> int -> int -> Xeneventchn.t
+)
+ident(
+  int_ref Xeneventchn.bind_interdomain "xeneventchn.mli" 66 2418 2418 "xeneventchn.mli" 66 2418 2466
+)
+"event.ml" 38 1368 1440 "event.ml" 38 1368 1448
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 38 1368 1389 "event.ml" 38 1368 1397
+)
+"event.ml" 38 1368 1440 "event.ml" 38 1368 1455
+type(
+  Xeneventchn.handle
+)
+"event.ml" 38 1368 1456 "event.ml" 38 1368 1461
+type(
+  int
+)
+ident(
+  int_ref domid "event.ml" 38 1368 1398 "event.ml" 38 1368 1403
+)
+"event.ml" 38 1368 1462 "event.ml" 38 1368 1466
+type(
+  int
+)
+ident(
+  int_ref port "event.ml" 38 1368 1404 "event.ml" 38 1368 1408
+)
+"event.ml" 38 1368 1411 "event.ml" 38 1368 1466
+type(
+  Xeneventchn.t
+)
+"event.ml" 39 1467 1471 "event.ml" 39 1467 1477
+type(
+  t -> Xeneventchn.t -> unit
+)
+ident(
+  def unbind "event.ml" 40 1534 1534 "event.ml" 0 0 -1
+)
+"event.ml" 39 1467 1478 "event.ml" 39 1467 1486
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 39 1467 1487 "event.ml" 39 1467 1533
+)
+"event.ml" 39 1467 1487 "event.ml" 39 1467 1491
+type(
+  Xeneventchn.t
+)
+ident(
+  def port "event.ml" 39 1467 1494 "event.ml" 39 1467 1533
+)
+"event.ml" 39 1467 1494 "event.ml" 39 1467 1512
+type(
+  Xeneventchn.handle -> Xeneventchn.t -> unit
+)
+ident(
+  int_ref Xeneventchn.unbind "xeneventchn.mli" 80 2945 2945 "xeneventchn.mli" 80 2945 2977
+)
+"event.ml" 39 1467 1513 "event.ml" 39 1467 1521
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 39 1467 1478 "event.ml" 39 1467 1486
+)
+"event.ml" 39 1467 1513 "event.ml" 39 1467 1528
+type(
+  Xeneventchn.handle
+)
+"event.ml" 39 1467 1529 "event.ml" 39 1467 1533
+type(
+  Xeneventchn.t
+)
+ident(
+  int_ref port "event.ml" 39 1467 1487 "event.ml" 39 1467 1491
+)
+"event.ml" 39 1467 1494 "event.ml" 39 1467 1533
+type(
+  unit
+)
+"event.ml" 40 1534 1538 "event.ml" 40 1534 1544
+type(
+  t -> Xeneventchn.t -> unit
+)
+ident(
+  def notify "event.ml" 41 1601 1601 "event.ml" 0 0 -1
+)
+"event.ml" 40 1534 1545 "event.ml" 40 1534 1553
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 40 1534 1554 "event.ml" 40 1534 1600
+)
+"event.ml" 40 1534 1554 "event.ml" 40 1534 1558
+type(
+  Xeneventchn.t
+)
+ident(
+  def port "event.ml" 40 1534 1561 "event.ml" 40 1534 1600
+)
+"event.ml" 40 1534 1561 "event.ml" 40 1534 1579
+type(
+  Xeneventchn.handle -> Xeneventchn.t -> unit
+)
+ident(
+  int_ref Xeneventchn.notify "xeneventchn.mli" 62 2297 2297 "xeneventchn.mli" 62 2297 2329
+)
+"event.ml" 40 1534 1580 "event.ml" 40 1534 1588
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 40 1534 1545 "event.ml" 40 1534 1553
+)
+"event.ml" 40 1534 1580 "event.ml" 40 1534 1595
+type(
+  Xeneventchn.handle
+)
+"event.ml" 40 1534 1596 "event.ml" 40 1534 1600
+type(
+  Xeneventchn.t
+)
+ident(
+  int_ref port "event.ml" 40 1534 1554 "event.ml" 40 1534 1558
+)
+"event.ml" 40 1534 1561 "event.ml" 40 1534 1600
+type(
+  unit
+)
+"event.ml" 41 1601 1605 "event.ml" 41 1601 1612
+type(
+  t -> Xeneventchn.t
+)
+ident(
+  def pending "event.ml" 42 1660 1660 "event.ml" 0 0 -1
+)
+"event.ml" 41 1601 1613 "event.ml" 41 1601 1621
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 41 1601 1624 "event.ml" 41 1601 1659
+)
+"event.ml" 41 1601 1624 "event.ml" 41 1601 1643
+type(
+  Xeneventchn.handle -> Xeneventchn.t
+)
+ident(
+  int_ref Xeneventchn.pending "xeneventchn.mli" 84 3067 3067 "xeneventchn.mli" 84 3067 3092
+)
+"event.ml" 41 1601 1644 "event.ml" 41 1601 1652
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 41 1601 1613 "event.ml" 41 1601 1621
+)
+"event.ml" 41 1601 1644 "event.ml" 41 1601 1659
+type(
+  Xeneventchn.handle
+)
+"event.ml" 41 1601 1624 "event.ml" 41 1601 1659
+type(
+  Xeneventchn.t
+)
+"event.ml" 42 1660 1664 "event.ml" 42 1660 1670
+type(
+  t -> Xeneventchn.t -> unit
+)
+ident(
+  def unmask "event.ml" 44 1728 1728 "event.ml" 0 0 -1
+)
+"event.ml" 42 1660 1671 "event.ml" 42 1660 1679
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 42 1660 1680 "event.ml" 42 1660 1726
+)
+"event.ml" 42 1660 1680 "event.ml" 42 1660 1684
+type(
+  Xeneventchn.t
+)
+ident(
+  def port "event.ml" 42 1660 1687 "event.ml" 42 1660 1726
+)
+"event.ml" 42 1660 1687 "event.ml" 42 1660 1705
+type(
+  Xeneventchn.handle -> Xeneventchn.t -> unit
+)
+ident(
+  int_ref Xeneventchn.unmask "xeneventchn.mli" 88 3199 3199 "xeneventchn.mli" 88 3199 3231
+)
+"event.ml" 42 1660 1706 "event.ml" 42 1660 1714
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 42 1660 1671 "event.ml" 42 1660 1679
+)
+"event.ml" 42 1660 1706 "event.ml" 42 1660 1721
+type(
+  Xeneventchn.handle
+)
+"event.ml" 42 1660 1722 "event.ml" 42 1660 1726
+type(
+  Xeneventchn.t
+)
+ident(
+  int_ref port "event.ml" 42 1660 1680 "event.ml" 42 1660 1684
+)
+"event.ml" 42 1660 1687 "event.ml" 42 1660 1726
+type(
+  unit
+)
+"event.ml" 44 1728 1732 "event.ml" 44 1728 1736
+type(
+  t -> out_channel -> unit
+)
+ident(
+  def dump "event.ml" 47 1842 1880 "event.ml" 0 0 -1
+)
+"event.ml" 44 1728 1737 "event.ml" 44 1728 1738
+type(
+  t
+)
+ident(
+  def e "event.ml" 44 1728 1739 "event.ml" 47 1842 1880
+)
+"event.ml" 44 1728 1739 "event.ml" 44 1728 1743
+type(
+  out_channel
+)
+ident(
+  def chan "event.ml" 45 1746 1747 "event.ml" 47 1842 1880
+)
+"event.ml" 45 1746 1747 "event.ml" 45 1746 1761
+type(
+  out_channel ->
+  (int -> int -> unit, out_channel, unit) format -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Printf.fprintf "printf.mli" 18 1115 1115 "printf.mli" 18 1115 1180
+)
+"event.ml" 45 1746 1762 "event.ml" 45 1746 1766
+type(
+  out_channel
+)
+ident(
+  int_ref chan "event.ml" 44 1728 1739 "event.ml" 44 1728 1743
+)
+"event.ml" 45 1746 1767 "event.ml" 45 1746 1787
+type(
+  (int -> int -> unit, out_channel, unit) format
+)
+"event.ml" 46 1788 1798 "event.ml" 46 1788 1813
+type(
+  Utils.FD.t -> int
+)
+ident(
+  int_ref Utils.FD.to_int "utils.ml" 122 3582 3583 "utils.ml" 122 3582 3604
+)
+"event.ml" 46 1788 1814 "event.ml" 46 1788 1816
+type(
+  (Utils.FD.t -> int) -> Utils.FD.t -> int
+)
+ident(
+  int_ref Stdlib.( @@ ) "stdlib.mli" 307 12463 12463 "stdlib.mli" 307 12463 12514
+)
+"event.ml" 46 1788 1817 "event.ml" 46 1788 1831
+type(
+  Xeneventchn.handle -> Utils.FD.t
+)
+ident(
+  int_ref Xeneventchn.fd "xeneventchn.mli" 57 2084 2084 "xeneventchn.mli" 57 2084 2117
+)
+"event.ml" 46 1788 1832 "event.ml" 46 1788 1833
+type(
+  t
+)
+ident(
+  int_ref e "event.ml" 44 1728 1737 "event.ml" 44 1728 1738
+)
+"event.ml" 46 1788 1832 "event.ml" 46 1788 1840
+type(
+  Xeneventchn.handle
+)
+"event.ml" 46 1788 1817 "event.ml" 46 1788 1840
+type(
+  Utils.FD.t
+)
+"event.ml" 46 1788 1797 "event.ml" 46 1788 1841
+type(
+  int
+)
+"event.ml" 47 1842 1852 "event.ml" 47 1842 1870
+type(
+  Xeneventchn.t -> int
+)
+ident(
+  int_ref Xeneventchn.to_int "xeneventchn.mli" 42 1563 1563 "xeneventchn.mli" 42 1563 1583
+)
+"event.ml" 47 1842 1871 "event.ml" 47 1842 1872
+type(
+  t
+)
+ident(
+  int_ref e "event.ml" 44 1728 1737 "event.ml" 44 1728 1738
+)
+"event.ml" 47 1842 1871 "event.ml" 47 1842 1879
+type(
+  Xeneventchn.t
+)
+"event.ml" 47 1842 1851 "event.ml" 47 1842 1880
+type(
+  int
+)
+"event.ml" 45 1746 1747 "event.ml" 47 1842 1880
+type(
+  unit
+)

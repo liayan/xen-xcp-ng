@@ -1,0 +1,110 @@
+"packet.ml" 13 229 233 "packet.ml" 13 229 247
+type(
+  response -> response -> bool
+)
+ident(
+  def response_equal "packet.ml" 16 362 380 "packet.ml" 0 0 -1
+)
+"packet.ml" 13 229 248 "packet.ml" 13 229 249
+type(
+  response
+)
+ident(
+  def a "packet.ml" 13 229 250 "packet.ml" 16 362 380
+)
+"packet.ml" 13 229 250 "packet.ml" 13 229 251
+type(
+  response
+)
+ident(
+  def b "packet.ml" 14 254 255 "packet.ml" 16 362 380
+)
+"packet.ml" 14 254 262 "packet.ml" 14 254 263
+type(
+  response
+)
+ident(
+  int_ref a "packet.ml" 13 229 248 "packet.ml" 13 229 249
+)
+"packet.ml" 14 254 265 "packet.ml" 14 254 266
+type(
+  response
+)
+ident(
+  int_ref b "packet.ml" 13 229 250 "packet.ml" 13 229 251
+)
+"packet.ml" 14 254 261 "packet.ml" 14 254 267
+type(
+  response * response
+)
+"packet.ml" 15 273 281 "packet.ml" 15 273 282
+type(
+  unit -> unit
+)
+"packet.ml" 15 273 277 "packet.ml" 15 273 282
+type(
+  response
+)
+"packet.ml" 15 273 288 "packet.ml" 15 273 289
+type(
+  unit -> unit
+)
+"packet.ml" 15 273 284 "packet.ml" 15 273 289
+type(
+  response
+)
+"packet.ml" 15 273 276 "packet.ml" 15 273 290
+type(
+  response * response
+)
+"packet.ml" 15 273 294 "packet.ml" 15 273 298
+type(
+  bool
+)
+"packet.ml" 16 362 366 "packet.ml" 16 362 367
+type(
+  response
+)
+ident(
+  def x "packet.ml" 16 362 375 "packet.ml" 16 362 380
+)
+"packet.ml" 16 362 369 "packet.ml" 16 362 370
+type(
+  response
+)
+ident(
+  def y "packet.ml" 16 362 375 "packet.ml" 16 362 380
+)
+"packet.ml" 16 362 365 "packet.ml" 16 362 371
+type(
+  response * response
+)
+"packet.ml" 16 362 375 "packet.ml" 16 362 376
+type(
+  response
+)
+ident(
+  int_ref x "packet.ml" 16 362 366 "packet.ml" 16 362 367
+)
+"packet.ml" 16 362 377 "packet.ml" 16 362 378
+type(
+  response -> response -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"packet.ml" 16 362 379 "packet.ml" 16 362 380
+type(
+  response
+)
+ident(
+  int_ref y "packet.ml" 16 362 369 "packet.ml" 16 362 370
+)
+"packet.ml" 16 362 375 "packet.ml" 16 362 380
+type(
+  bool
+)
+"packet.ml" 14 254 255 "packet.ml" 16 362 380
+type(
+  bool
+)

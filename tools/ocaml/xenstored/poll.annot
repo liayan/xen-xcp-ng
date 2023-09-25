@@ -1,0 +1,1121 @@
+"poll.ml" 30 1141 1145 "poll.ml" 30 1141 1163
+type(
+  unit -> int
+)
+ident(
+  def get_sys_fs_nr_open "poll.ml" 37 1309 1309 "poll.ml" 0 0 -1
+)
+"poll.ml" 30 1141 1164 "poll.ml" 30 1141 1166
+type(
+  unit
+)
+"poll.ml" 32 1174 1180 "poll.ml" 32 1174 1182
+type(
+  in_channel
+)
+ident(
+  def ch "poll.ml" 33 1219 1221 "poll.ml" 34 1262 1284
+)
+"poll.ml" 32 1174 1185 "poll.ml" 32 1174 1192
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 1021 38257 38257 "stdlib.mli" 1021 38257 38291
+)
+"poll.ml" 32 1174 1193 "poll.ml" 32 1174 1215
+type(
+  string
+)
+"poll.ml" 32 1174 1185 "poll.ml" 32 1174 1215
+type(
+  in_channel
+)
+"poll.ml" 33 1219 1225 "poll.ml" 33 1219 1226
+type(
+  int
+)
+ident(
+  def v "poll.ml" 34 1262 1264 "poll.ml" 34 1262 1284
+)
+"poll.ml" 33 1219 1229 "poll.ml" 33 1219 1242
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.int_of_string "stdlib.mli" 733 27683 27683 "stdlib.mli" 733 27683 27744
+)
+"poll.ml" 33 1219 1244 "poll.ml" 33 1219 1254
+type(
+  in_channel -> string
+)
+ident(
+  int_ref Stdlib.input_line "stdlib.mli" 1042 39212 39212 "stdlib.mli" 1042 39212 39249
+)
+"poll.ml" 33 1219 1255 "poll.ml" 33 1219 1257
+type(
+  in_channel
+)
+ident(
+  int_ref ch "poll.ml" 32 1174 1180 "poll.ml" 32 1174 1182
+)
+"poll.ml" 33 1219 1243 "poll.ml" 33 1219 1258
+type(
+  string
+)
+"poll.ml" 33 1219 1229 "poll.ml" 33 1219 1258
+type(
+  int
+)
+"poll.ml" 34 1262 1264 "poll.ml" 34 1262 1278
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in_noerr "stdlib.mli" 1121 42883 42883 "stdlib.mli" 1121 42883 42922
+)
+"poll.ml" 34 1262 1279 "poll.ml" 34 1262 1281
+type(
+  in_channel
+)
+ident(
+  int_ref ch "poll.ml" 32 1174 1180 "poll.ml" 32 1174 1182
+)
+"poll.ml" 34 1262 1264 "poll.ml" 34 1262 1281
+type(
+  unit
+)
+"poll.ml" 34 1262 1283 "poll.ml" 34 1262 1284
+type(
+  int
+)
+ident(
+  int_ref v "poll.ml" 33 1219 1225 "poll.ml" 33 1219 1226
+)
+"poll.ml" 34 1262 1264 "poll.ml" 34 1262 1284
+type(
+  int
+)
+"poll.ml" 33 1219 1221 "poll.ml" 34 1262 1284
+type(
+  int
+)
+"poll.ml" 32 1174 1176 "poll.ml" 34 1262 1284
+type(
+  int
+)
+"poll.ml" 35 1285 1291 "poll.ml" 35 1285 1292
+type(
+  exn
+)
+"poll.ml" 35 1285 1296 "poll.ml" 35 1285 1300
+type(
+  int
+)
+"poll.ml" 35 1285 1301 "poll.ml" 35 1285 1302
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 348 13663 13663 "stdlib.mli" 348 13663 13709
+)
+"poll.ml" 35 1285 1303 "poll.ml" 35 1285 1307
+type(
+  int
+)
+"poll.ml" 35 1285 1296 "poll.ml" 35 1285 1307
+type(
+  int
+)
+"poll.ml" 31 1169 1170 "poll.ml" 35 1285 1307
+type(
+  int
+)
+"poll.ml" 37 1309 1313 "poll.ml" 37 1309 1323
+type(
+  unit -> event
+)
+ident(
+  def init_event "poll.ml" 39 1376 1376 "poll.ml" 0 0 -1
+)
+"poll.ml" 37 1309 1324 "poll.ml" 37 1309 1326
+type(
+  unit
+)
+"poll.ml" 37 1309 1337 "poll.ml" 37 1309 1342
+type(
+  bool
+)
+"poll.ml" 37 1309 1352 "poll.ml" 37 1309 1357
+type(
+  bool
+)
+"poll.ml" 37 1309 1368 "poll.ml" 37 1309 1373
+type(
+  bool
+)
+"poll.ml" 37 1309 1329 "poll.ml" 37 1309 1374
+type(
+  event
+)
+"poll.ml" 39 1376 1380 "poll.ml" 39 1376 1391
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  def poll_select "poll.ml" 66 2361 2361 "poll.ml" 0 0 -1
+)
+"poll.ml" 39 1376 1392 "poll.ml" 39 1376 1398
+type(
+  Unix.file_descr list
+)
+ident(
+  def in_fds "poll.ml" 39 1376 1399 "poll.ml" 64 2353 2359
+)
+"poll.ml" 39 1376 1399 "poll.ml" 39 1376 1406
+type(
+  Unix.file_descr list
+)
+ident(
+  def out_fds "poll.ml" 39 1376 1407 "poll.ml" 64 2353 2359
+)
+"poll.ml" 39 1376 1407 "poll.ml" 39 1376 1414
+type(
+  Unix.file_descr list
+)
+ident(
+  def exc_fds "poll.ml" 39 1376 1415 "poll.ml" 64 2353 2359
+)
+"poll.ml" 39 1376 1415 "poll.ml" 39 1376 1422
+type(
+  float
+)
+ident(
+  def timeout "poll.ml" 40 1425 1426 "poll.ml" 64 2353 2359
+)
+"poll.ml" 40 1425 1430 "poll.ml" 40 1425 1431
+type(
+  (Unix.file_descr, event) Hashtbl.t
+)
+ident(
+  def h "poll.ml" 41 1455 1456 "poll.ml" 64 2353 2359
+)
+"poll.ml" 40 1425 1434 "poll.ml" 40 1425 1448
+type(
+  ?random:bool -> int -> (Unix.file_descr, event) Hashtbl.t
+)
+ident(
+  int_ref Stdlib.Hashtbl.create "hashtbl.mli" 28 1303 1303 "hashtbl.mli" 28 1303 1349
+)
+"poll.ml" 40 1425 1449 "poll.ml" 40 1425 1451
+type(
+  int
+)
+"poll.ml" 40 1425 1434 "poll.ml" 40 1425 1451
+type(
+  (Unix.file_descr, event) Hashtbl.t
+)
+"poll.ml" 41 1455 1460 "poll.ml" 41 1455 1469
+type(
+  (event -> 'a) -> Unix.file_descr -> 'a
+)
+ident(
+  def add_event "poll.ml" 48 1616 1617 "poll.ml" 64 2353 2359
+)
+"poll.ml" 41 1455 1470 "poll.ml" 41 1455 1479
+type(
+  event -> 'a
+)
+ident(
+  def event_set "poll.ml" 41 1455 1480 "poll.ml" 47 1599 1612
+)
+"poll.ml" 41 1455 1480 "poll.ml" 41 1455 1482
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "poll.ml" 42 1485 1487 "poll.ml" 47 1599 1612
+)
+"poll.ml" 42 1485 1491 "poll.ml" 42 1485 1492
+type(
+  event
+)
+ident(
+  def e "poll.ml" 47 1599 1601 "poll.ml" 47 1599 1612
+)
+"poll.ml" 43 1495 1502 "poll.ml" 43 1495 1514
+type(
+  (Unix.file_descr, event) Hashtbl.t -> Unix.file_descr -> event
+)
+ident(
+  int_ref Stdlib.Hashtbl.find "hashtbl.mli" 86 4068 4068 "hashtbl.mli" 86 4068 4101
+)
+"poll.ml" 43 1495 1515 "poll.ml" 43 1495 1516
+type(
+  (Unix.file_descr, event) Hashtbl.t
+)
+ident(
+  int_ref h "poll.ml" 40 1425 1430 "poll.ml" 40 1425 1431
+)
+"poll.ml" 43 1495 1517 "poll.ml" 43 1495 1519
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "poll.ml" 41 1455 1480 "poll.ml" 41 1455 1482
+)
+"poll.ml" 43 1495 1502 "poll.ml" 43 1495 1519
+type(
+  event
+)
+"poll.ml" 44 1520 1528 "poll.ml" 44 1520 1537
+type(
+  exn
+)
+"poll.ml" 45 1541 1549 "poll.ml" 45 1541 1550
+type(
+  event
+)
+ident(
+  def e "poll.ml" 46 1570 1574 "poll.ml" 46 1570 1595
+)
+"poll.ml" 45 1541 1553 "poll.ml" 45 1541 1563
+type(
+  unit -> event
+)
+ident(
+  int_ref init_event "poll.ml" 37 1309 1313 "poll.ml" 37 1309 1323
+)
+"poll.ml" 45 1541 1564 "poll.ml" 45 1541 1566
+type(
+  unit
+)
+"poll.ml" 45 1541 1553 "poll.ml" 45 1541 1566
+type(
+  event
+)
+"poll.ml" 46 1570 1574 "poll.ml" 46 1570 1585
+type(
+  (Unix.file_descr, event) Hashtbl.t -> Unix.file_descr -> event -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.add "hashtbl.mli" 79 3731 3731 "hashtbl.mli" 79 3731 3771
+)
+"poll.ml" 46 1570 1586 "poll.ml" 46 1570 1587
+type(
+  (Unix.file_descr, event) Hashtbl.t
+)
+ident(
+  int_ref h "poll.ml" 40 1425 1430 "poll.ml" 40 1425 1431
+)
+"poll.ml" 46 1570 1588 "poll.ml" 46 1570 1590
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "poll.ml" 41 1455 1480 "poll.ml" 41 1455 1482
+)
+"poll.ml" 46 1570 1591 "poll.ml" 46 1570 1592
+type(
+  event
+)
+ident(
+  int_ref e "poll.ml" 45 1541 1549 "poll.ml" 45 1541 1550
+)
+"poll.ml" 46 1570 1574 "poll.ml" 46 1570 1592
+type(
+  unit
+)
+"poll.ml" 46 1570 1594 "poll.ml" 46 1570 1595
+type(
+  event
+)
+ident(
+  int_ref e "poll.ml" 45 1541 1549 "poll.ml" 45 1541 1550
+)
+"poll.ml" 46 1570 1574 "poll.ml" 46 1570 1595
+type(
+  event
+)
+"poll.ml" 45 1541 1545 "poll.ml" 46 1570 1595
+type(
+  event
+)
+"poll.ml" 43 1495 1498 "poll.ml" 46 1570 1595
+type(
+  event
+)
+"poll.ml" 47 1599 1601 "poll.ml" 47 1599 1610
+type(
+  event -> 'a
+)
+ident(
+  int_ref event_set "poll.ml" 41 1455 1470 "poll.ml" 41 1455 1479
+)
+"poll.ml" 47 1599 1611 "poll.ml" 47 1599 1612
+type(
+  event
+)
+ident(
+  int_ref e "poll.ml" 42 1485 1491 "poll.ml" 42 1485 1492
+)
+"poll.ml" 47 1599 1601 "poll.ml" 47 1599 1612
+type(
+  'a
+)
+"poll.ml" 42 1485 1487 "poll.ml" 47 1599 1612
+type(
+  'a
+)
+"poll.ml" 48 1616 1617 "poll.ml" 48 1616 1626
+type(
+  (Unix.file_descr -> unit) -> Unix.file_descr list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"poll.ml" 48 1616 1628 "poll.ml" 48 1616 1637
+type(
+  (event -> unit) -> Unix.file_descr -> unit
+)
+ident(
+  int_ref add_event "poll.ml" 41 1455 1460 "poll.ml" 41 1455 1469
+)
+"poll.ml" 48 1616 1643 "poll.ml" 48 1616 1644
+type(
+  event
+)
+ident(
+  def x "poll.ml" 48 1616 1648 "poll.ml" 48 1616 1662
+)
+"poll.ml" 48 1616 1648 "poll.ml" 48 1616 1649
+type(
+  event
+)
+ident(
+  int_ref x "poll.ml" 48 1616 1643 "poll.ml" 48 1616 1644
+)
+"poll.ml" 48 1616 1658 "poll.ml" 48 1616 1662
+type(
+  bool
+)
+"poll.ml" 48 1616 1648 "poll.ml" 48 1616 1662
+type(
+  unit
+)
+"poll.ml" 48 1616 1638 "poll.ml" 48 1616 1663
+type(
+  event -> unit
+)
+"poll.ml" 48 1616 1627 "poll.ml" 48 1616 1664
+type(
+  Unix.file_descr -> unit
+)
+"poll.ml" 48 1616 1665 "poll.ml" 48 1616 1671
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref in_fds "poll.ml" 39 1376 1392 "poll.ml" 39 1376 1398
+)
+"poll.ml" 48 1616 1617 "poll.ml" 48 1616 1671
+type(
+  unit
+)
+"poll.ml" 49 1673 1674 "poll.ml" 49 1673 1683
+type(
+  (Unix.file_descr -> unit) -> Unix.file_descr list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"poll.ml" 49 1673 1685 "poll.ml" 49 1673 1694
+type(
+  (event -> unit) -> Unix.file_descr -> unit
+)
+ident(
+  int_ref add_event "poll.ml" 41 1455 1460 "poll.ml" 41 1455 1469
+)
+"poll.ml" 49 1673 1700 "poll.ml" 49 1673 1701
+type(
+  event
+)
+ident(
+  def x "poll.ml" 49 1673 1705 "poll.ml" 49 1673 1720
+)
+"poll.ml" 49 1673 1705 "poll.ml" 49 1673 1706
+type(
+  event
+)
+ident(
+  int_ref x "poll.ml" 49 1673 1700 "poll.ml" 49 1673 1701
+)
+"poll.ml" 49 1673 1716 "poll.ml" 49 1673 1720
+type(
+  bool
+)
+"poll.ml" 49 1673 1705 "poll.ml" 49 1673 1720
+type(
+  unit
+)
+"poll.ml" 49 1673 1695 "poll.ml" 49 1673 1721
+type(
+  event -> unit
+)
+"poll.ml" 49 1673 1684 "poll.ml" 49 1673 1722
+type(
+  Unix.file_descr -> unit
+)
+"poll.ml" 49 1673 1723 "poll.ml" 49 1673 1730
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref out_fds "poll.ml" 39 1376 1399 "poll.ml" 39 1376 1406
+)
+"poll.ml" 49 1673 1674 "poll.ml" 49 1673 1730
+type(
+  unit
+)
+"poll.ml" 50 1732 1733 "poll.ml" 50 1732 1742
+type(
+  (Unix.file_descr -> unit) -> Unix.file_descr list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"poll.ml" 50 1732 1744 "poll.ml" 50 1732 1753
+type(
+  (event -> unit) -> Unix.file_descr -> unit
+)
+ident(
+  int_ref add_event "poll.ml" 41 1455 1460 "poll.ml" 41 1455 1469
+)
+"poll.ml" 50 1732 1759 "poll.ml" 50 1732 1760
+type(
+  event
+)
+ident(
+  def x "poll.ml" 50 1732 1764 "poll.ml" 50 1732 1780
+)
+"poll.ml" 50 1732 1764 "poll.ml" 50 1732 1765
+type(
+  event
+)
+ident(
+  int_ref x "poll.ml" 50 1732 1759 "poll.ml" 50 1732 1760
+)
+"poll.ml" 50 1732 1776 "poll.ml" 50 1732 1780
+type(
+  bool
+)
+"poll.ml" 50 1732 1764 "poll.ml" 50 1732 1780
+type(
+  unit
+)
+"poll.ml" 50 1732 1754 "poll.ml" 50 1732 1781
+type(
+  event -> unit
+)
+"poll.ml" 50 1732 1743 "poll.ml" 50 1732 1782
+type(
+  Unix.file_descr -> unit
+)
+"poll.ml" 50 1732 1783 "poll.ml" 50 1732 1790
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref exc_fds "poll.ml" 39 1376 1407 "poll.ml" 39 1376 1414
+)
+"poll.ml" 50 1732 1733 "poll.ml" 50 1732 1790
+type(
+  unit
+)
+"poll.ml" 53 1906 1911 "poll.ml" 53 1906 1912
+type(
+  (Unix.file_descr * event) array
+)
+ident(
+  def a "poll.ml" 54 1976 1977 "poll.ml" 64 2353 2359
+)
+"poll.ml" 53 1906 1915 "poll.ml" 53 1906 1925
+type(
+  int -> Unix.file_descr * event -> (Unix.file_descr * event) array
+)
+ident(
+  int_ref Stdlib.Array.make "array.mli" 41 1961 1961 "array.mli" 41 1961 2017
+)
+"poll.ml" 53 1906 1927 "poll.ml" 53 1906 1941
+type(
+  (Unix.file_descr, event) Hashtbl.t -> int
+)
+ident(
+  int_ref Stdlib.Hashtbl.length "hashtbl.mli" 168 7577 7577 "hashtbl.mli" 168 7577 7607
+)
+"poll.ml" 53 1906 1942 "poll.ml" 53 1906 1943
+type(
+  (Unix.file_descr, event) Hashtbl.t
+)
+ident(
+  int_ref h "poll.ml" 40 1425 1430 "poll.ml" 40 1425 1431
+)
+"poll.ml" 53 1906 1926 "poll.ml" 53 1906 1944
+type(
+  int
+)
+"poll.ml" 53 1906 1946 "poll.ml" 53 1906 1956
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref Unix.stdin "unix.mli" 262 11146 11146 "unix.mli" 262 11146 11168
+)
+"poll.ml" 53 1906 1958 "poll.ml" 53 1906 1968
+type(
+  unit -> event
+)
+ident(
+  int_ref init_event "poll.ml" 37 1309 1313 "poll.ml" 37 1309 1323
+)
+"poll.ml" 53 1906 1969 "poll.ml" 53 1906 1971
+type(
+  unit
+)
+"poll.ml" 53 1906 1958 "poll.ml" 53 1906 1971
+type(
+  event
+)
+"poll.ml" 53 1906 1945 "poll.ml" 53 1906 1972
+type(
+  Unix.file_descr * event
+)
+"poll.ml" 53 1906 1915 "poll.ml" 53 1906 1972
+type(
+  (Unix.file_descr * event) array
+)
+"poll.ml" 54 1976 1981 "poll.ml" 54 1976 1982
+type(
+  int ref
+)
+ident(
+  def i "poll.ml" 55 1997 1998 "poll.ml" 64 2353 2359
+)
+"poll.ml" 54 1976 1985 "poll.ml" 54 1976 1988
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"poll.ml" 54 1976 1989 "poll.ml" 54 1976 1993
+type(
+  int
+)
+"poll.ml" 54 1976 1985 "poll.ml" 54 1976 1993
+type(
+  int ref
+)
+"poll.ml" 55 1997 1998 "poll.ml" 55 1997 2010
+type(
+  (Unix.file_descr -> event -> unit) ->
+  (Unix.file_descr, event) Hashtbl.t -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.iter "hashtbl.mli" 116 5308 5308 "hashtbl.mli" 116 5308 5359
+)
+"poll.ml" 55 1997 2016 "poll.ml" 55 1997 2018
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "poll.ml" 55 1997 2019 "poll.ml" 55 1997 2062
+)
+"poll.ml" 55 1997 2019 "poll.ml" 55 1997 2024
+type(
+  event
+)
+ident(
+  def event "poll.ml" 55 1997 2028 "poll.ml" 55 1997 2062
+)
+"poll.ml" 55 1997 2028 "poll.ml" 55 1997 2032
+type(
+  int ref -> unit
+)
+ident(
+  int_ref Stdlib.incr "stdlib.mli" 1174 44912 44912 "stdlib.mli" 1174 44912 44953
+)
+"poll.ml" 55 1997 2033 "poll.ml" 55 1997 2034
+type(
+  int ref
+)
+ident(
+  int_ref i "poll.ml" 54 1976 1981 "poll.ml" 54 1976 1982
+)
+"poll.ml" 55 1997 2028 "poll.ml" 55 1997 2034
+type(
+  unit
+)
+"poll.ml" 55 1997 2036 "poll.ml" 55 1997 2045
+type(
+  (Unix.file_descr * event) array -> int -> Unix.file_descr * event -> unit
+)
+ident(
+  int_ref Stdlib.Array.set "array.mli" 33 1647 1647 "array.mli" 33 1647 1711
+)
+"poll.ml" 55 1997 2046 "poll.ml" 55 1997 2047
+type(
+  (Unix.file_descr * event) array
+)
+ident(
+  int_ref a "poll.ml" 53 1906 1911 "poll.ml" 53 1906 1912
+)
+"poll.ml" 55 1997 2048 "poll.ml" 55 1997 2049
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"poll.ml" 55 1997 2049 "poll.ml" 55 1997 2050
+type(
+  int ref
+)
+ident(
+  int_ref i "poll.ml" 54 1976 1981 "poll.ml" 54 1976 1982
+)
+"poll.ml" 55 1997 2048 "poll.ml" 55 1997 2050
+type(
+  int
+)
+"poll.ml" 55 1997 2052 "poll.ml" 55 1997 2054
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "poll.ml" 55 1997 2016 "poll.ml" 55 1997 2018
+)
+"poll.ml" 55 1997 2056 "poll.ml" 55 1997 2061
+type(
+  event
+)
+ident(
+  int_ref event "poll.ml" 55 1997 2019 "poll.ml" 55 1997 2024
+)
+"poll.ml" 55 1997 2051 "poll.ml" 55 1997 2062
+type(
+  Unix.file_descr * event
+)
+"poll.ml" 55 1997 2036 "poll.ml" 55 1997 2062
+type(
+  unit
+)
+"poll.ml" 55 1997 2028 "poll.ml" 55 1997 2062
+type(
+  unit
+)
+"poll.ml" 55 1997 2011 "poll.ml" 55 1997 2063
+type(
+  Unix.file_descr -> event -> unit
+)
+"poll.ml" 55 1997 2064 "poll.ml" 55 1997 2065
+type(
+  (Unix.file_descr, event) Hashtbl.t
+)
+ident(
+  int_ref h "poll.ml" 40 1425 1430 "poll.ml" 40 1425 1431
+)
+"poll.ml" 55 1997 1998 "poll.ml" 55 1997 2065
+type(
+  unit
+)
+"poll.ml" 56 2067 2072 "poll.ml" 56 2067 2073
+type(
+  int
+)
+ident(
+  def n "poll.ml" 57 2130 2131 "poll.ml" 64 2353 2359
+)
+"poll.ml" 56 2067 2076 "poll.ml" 56 2067 2090
+type(
+  (Unix.file_descr * event) array -> int -> int
+)
+ident(
+  int_ref select_on_poll "poll.ml" 25 869 869 "poll.ml" 25 869 963
+)
+"poll.ml" 56 2067 2091 "poll.ml" 56 2067 2092
+type(
+  (Unix.file_descr * event) array
+)
+ident(
+  int_ref a "poll.ml" 53 1906 1911 "poll.ml" 53 1906 1912
+)
+"poll.ml" 56 2067 2094 "poll.ml" 56 2067 2106
+type(
+  float -> int
+)
+ident(
+  int_ref Stdlib.int_of_float "stdlib.mli" 612 23494 23494 "stdlib.mli" 612 23494 23546
+)
+"poll.ml" 56 2067 2108 "poll.ml" 56 2067 2115
+type(
+  float
+)
+ident(
+  int_ref timeout "poll.ml" 39 1376 1415 "poll.ml" 39 1376 1422
+)
+"poll.ml" 56 2067 2116 "poll.ml" 56 2067 2118
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( *. ) "stdlib.mli" 461 17809 17809 "stdlib.mli" 461 17809 17864
+)
+"poll.ml" 56 2067 2119 "poll.ml" 56 2067 2124
+type(
+  float
+)
+"poll.ml" 56 2067 2107 "poll.ml" 56 2067 2125
+type(
+  float
+)
+"poll.ml" 56 2067 2093 "poll.ml" 56 2067 2126
+type(
+  int
+)
+"poll.ml" 56 2067 2076 "poll.ml" 56 2067 2126
+type(
+  int
+)
+"poll.ml" 57 2130 2135 "poll.ml" 57 2130 2136
+type(
+  'b list * 'c list * 'd list
+)
+ident(
+  def r "poll.ml" 58 2153 2154 "poll.ml" 64 2353 2359
+)
+"poll.ml" 57 2130 2139 "poll.ml" 57 2130 2141
+type(
+  'b list
+)
+"poll.ml" 57 2130 2143 "poll.ml" 57 2130 2145
+type(
+  'c list
+)
+"poll.ml" 57 2130 2147 "poll.ml" 57 2130 2149
+type(
+  'd list
+)
+"poll.ml" 57 2130 2139 "poll.ml" 57 2130 2149
+type(
+  'b list * 'c list * 'd list
+)
+"poll.ml" 58 2153 2157 "poll.ml" 58 2153 2158
+type(
+  int
+)
+ident(
+  int_ref n "poll.ml" 56 2067 2072 "poll.ml" 56 2067 2073
+)
+"poll.ml" 58 2153 2159 "poll.ml" 58 2153 2160
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"poll.ml" 58 2153 2161 "poll.ml" 58 2153 2162
+type(
+  int
+)
+"poll.ml" 58 2153 2157 "poll.ml" 58 2153 2162
+type(
+  bool
+)
+"poll.ml" 58 2153 2168 "poll.ml" 58 2153 2169
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  int_ref r "poll.ml" 57 2130 2135 "poll.ml" 57 2130 2136
+)
+"poll.ml" 59 2175 2177 "poll.ml" 59 2175 2193
+type(
+  (Unix.file_descr * event ->
+   Unix.file_descr list * Unix.file_descr list * Unix.file_descr list ->
+   Unix.file_descr list * Unix.file_descr list * Unix.file_descr list) ->
+  (Unix.file_descr * event) array ->
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list ->
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  int_ref Stdlib.Array.fold_right "array.mli" 174 7368 7368 "array.mli" 174 7368 7425
+)
+"poll.ml" 60 2194 2203 "poll.ml" 60 2194 2205
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "poll.ml" 60 2194 2214 "poll.ml" 63 2310 2351
+)
+"poll.ml" 60 2194 2207 "poll.ml" 60 2194 2212
+type(
+  event
+)
+ident(
+  def event "poll.ml" 60 2194 2214 "poll.ml" 63 2310 2351
+)
+"poll.ml" 60 2194 2202 "poll.ml" 60 2194 2213
+type(
+  Unix.file_descr * event
+)
+"poll.ml" 60 2194 2215 "poll.ml" 60 2194 2216
+type(
+  Unix.file_descr list
+)
+ident(
+  def r "poll.ml" 61 2227 2231 "poll.ml" 63 2310 2351
+)
+"poll.ml" 60 2194 2218 "poll.ml" 60 2194 2219
+type(
+  Unix.file_descr list
+)
+ident(
+  def w "poll.ml" 61 2227 2231 "poll.ml" 63 2310 2351
+)
+"poll.ml" 60 2194 2221 "poll.ml" 60 2194 2222
+type(
+  Unix.file_descr list
+)
+ident(
+  def x "poll.ml" 61 2227 2231 "poll.ml" 63 2310 2351
+)
+"poll.ml" 60 2194 2214 "poll.ml" 60 2194 2223
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 61 2227 2235 "poll.ml" 61 2227 2240
+type(
+  event
+)
+ident(
+  int_ref event "poll.ml" 60 2194 2207 "poll.ml" 60 2194 2212
+)
+"poll.ml" 61 2227 2235 "poll.ml" 61 2227 2245
+type(
+  bool
+)
+"poll.ml" 61 2227 2251 "poll.ml" 61 2227 2253
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "poll.ml" 60 2194 2203 "poll.ml" 60 2194 2205
+)
+"poll.ml" 61 2227 2257 "poll.ml" 61 2227 2258
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref r "poll.ml" 60 2194 2215 "poll.ml" 60 2194 2216
+)
+"poll.ml" 61 2227 2251 "poll.ml" 61 2227 2258
+type(
+  Unix.file_descr list
+)
+"poll.ml" 61 2227 2264 "poll.ml" 61 2227 2265
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref r "poll.ml" 60 2194 2215 "poll.ml" 60 2194 2216
+)
+"poll.ml" 61 2227 2231 "poll.ml" 61 2227 2266
+type(
+  Unix.file_descr list
+)
+"poll.ml" 62 2268 2276 "poll.ml" 62 2268 2281
+type(
+  event
+)
+ident(
+  int_ref event "poll.ml" 60 2194 2207 "poll.ml" 60 2194 2212
+)
+"poll.ml" 62 2268 2276 "poll.ml" 62 2268 2287
+type(
+  bool
+)
+"poll.ml" 62 2268 2293 "poll.ml" 62 2268 2295
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "poll.ml" 60 2194 2203 "poll.ml" 60 2194 2205
+)
+"poll.ml" 62 2268 2299 "poll.ml" 62 2268 2300
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref w "poll.ml" 60 2194 2218 "poll.ml" 60 2194 2219
+)
+"poll.ml" 62 2268 2293 "poll.ml" 62 2268 2300
+type(
+  Unix.file_descr list
+)
+"poll.ml" 62 2268 2306 "poll.ml" 62 2268 2307
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref w "poll.ml" 60 2194 2218 "poll.ml" 60 2194 2219
+)
+"poll.ml" 62 2268 2272 "poll.ml" 62 2268 2308
+type(
+  Unix.file_descr list
+)
+"poll.ml" 63 2310 2318 "poll.ml" 63 2310 2323
+type(
+  event
+)
+ident(
+  int_ref event "poll.ml" 60 2194 2207 "poll.ml" 60 2194 2212
+)
+"poll.ml" 63 2310 2318 "poll.ml" 63 2310 2330
+type(
+  bool
+)
+"poll.ml" 63 2310 2336 "poll.ml" 63 2310 2338
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "poll.ml" 60 2194 2203 "poll.ml" 60 2194 2205
+)
+"poll.ml" 63 2310 2342 "poll.ml" 63 2310 2343
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref x "poll.ml" 60 2194 2221 "poll.ml" 60 2194 2222
+)
+"poll.ml" 63 2310 2336 "poll.ml" 63 2310 2343
+type(
+  Unix.file_descr list
+)
+"poll.ml" 63 2310 2349 "poll.ml" 63 2310 2350
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref x "poll.ml" 60 2194 2221 "poll.ml" 60 2194 2222
+)
+"poll.ml" 63 2310 2314 "poll.ml" 63 2310 2351
+type(
+  Unix.file_descr list
+)
+"poll.ml" 61 2227 2231 "poll.ml" 63 2310 2351
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 60 2194 2197 "poll.ml" 63 2310 2352
+type(
+  Unix.file_descr * event ->
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list ->
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 64 2353 2356 "poll.ml" 64 2353 2357
+type(
+  (Unix.file_descr * event) array
+)
+ident(
+  int_ref a "poll.ml" 53 1906 1911 "poll.ml" 53 1906 1912
+)
+"poll.ml" 64 2353 2358 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  int_ref r "poll.ml" 57 2130 2135 "poll.ml" 57 2130 2136
+)
+"poll.ml" 59 2175 2177 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 58 2153 2154 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 57 2130 2131 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 56 2067 2068 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 55 1997 1998 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 54 1976 1977 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 53 1906 1907 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 50 1732 1733 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 49 1673 1674 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 48 1616 1617 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 41 1455 1456 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 40 1425 1426 "poll.ml" 64 2353 2359
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"poll.ml" 66 2361 2365 "poll.ml" 66 2361 2367
+type(
+  unit
+)
+"poll.ml" 67 2370 2378 "poll.ml" 67 2370 2390
+type(
+  int -> unit
+)
+ident(
+  int_ref set_fd_limit "poll.ml" 26 964 964 "poll.ml" 26 964 1020
+)
+"poll.ml" 67 2370 2392 "poll.ml" 67 2370 2410
+type(
+  unit -> int
+)
+ident(
+  int_ref get_sys_fs_nr_open "poll.ml" 30 1141 1145 "poll.ml" 30 1141 1163
+)
+"poll.ml" 67 2370 2411 "poll.ml" 67 2370 2413
+type(
+  unit
+)
+"poll.ml" 67 2370 2391 "poll.ml" 67 2370 2414
+type(
+  int
+)
+"poll.ml" 67 2370 2378 "poll.ml" 67 2370 2414
+type(
+  unit
+)

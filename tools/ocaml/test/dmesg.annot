@@ -1,0 +1,234 @@
+"dmesg.ml" 2 1 5 "dmesg.ml" 2 1 6
+type(
+  unit
+)
+"dmesg.ml" 3 9 10 "dmesg.ml" 3 9 38
+type(
+  unit -> unit
+)
+ident(
+  int_ref Xenlight.register_exceptions "xenlight.mli" 1533 35561 35561 "xenlight.mli" 1533 35561 35598
+)
+"dmesg.ml" 3 9 39 "dmesg.ml" 3 9 41
+type(
+  unit
+)
+"dmesg.ml" 3 9 10 "dmesg.ml" 3 9 41
+type(
+  unit
+)
+"dmesg.ml" 4 43 48 "dmesg.ml" 4 43 54
+type(
+  Xentoollog.handle
+)
+ident(
+  def logger "dmesg.ml" 5 111 112 "dmesg.ml" 16 398 401
+)
+"dmesg.ml" 4 43 57 "dmesg.ml" 4 43 80
+type(
+  ?level:Xentoollog.level -> unit -> Xentoollog.handle
+)
+ident(
+  int_ref Xtl.create_stdio_logger "xtl.ml" 18 573 577 "xtl.ml" 18 573 596
+)
+"dmesg.ml" 4 43 88 "dmesg.ml" 4 43 104
+type(
+  Xentoollog.level
+)
+"dmesg.ml" 4 43 105 "dmesg.ml" 4 43 107
+type(
+  unit
+)
+"dmesg.ml" 4 43 57 "dmesg.ml" 4 43 107
+type(
+  Xentoollog.handle
+)
+"dmesg.ml" 5 111 116 "dmesg.ml" 5 111 119
+type(
+  Xenlight.ctx
+)
+ident(
+  def ctx "dmesg.ml" 7 152 153 "dmesg.ml" 16 398 401
+)
+"dmesg.ml" 5 111 122 "dmesg.ml" 5 111 140
+type(
+  Xentoollog.handle -> Xenlight.ctx
+)
+ident(
+  int_ref Xenlight.ctx_alloc "xenlight.mli" 1535 35600 35600 "xenlight.mli" 1535 35600 35669
+)
+"dmesg.ml" 5 111 141 "dmesg.ml" 5 111 147
+type(
+  Xentoollog.handle
+)
+ident(
+  int_ref logger "dmesg.ml" 4 43 48 "dmesg.ml" 4 43 54
+)
+"dmesg.ml" 5 111 122 "dmesg.ml" 5 111 147
+type(
+  Xenlight.ctx
+)
+"dmesg.ml" 8 179 184 "dmesg.ml" 8 179 190
+type(
+  Xenlight.Host.console_reader
+)
+ident(
+  def reader "dmesg.ml" 9 225 226 "dmesg.ml" 16 398 401
+)
+"dmesg.ml" 8 179 193 "dmesg.ml" 8 179 215
+type(
+  Xenlight.ctx -> int -> Xenlight.Host.console_reader
+)
+ident(
+  int_ref Xenlight.Host.xen_console_read_start "xenlight.mli" 1566 37147 37148 "xenlight.mli" 1566 37147 37249
+)
+"dmesg.ml" 8 179 216 "dmesg.ml" 8 179 219
+type(
+  Xenlight.ctx
+)
+ident(
+  int_ref ctx "dmesg.ml" 5 111 116 "dmesg.ml" 5 111 119
+)
+"dmesg.ml" 8 179 220 "dmesg.ml" 8 179 221
+type(
+  int
+)
+"dmesg.ml" 8 179 193 "dmesg.ml" 8 179 221
+type(
+  Xenlight.Host.console_reader
+)
+"dmesg.ml" 10 231 239 "dmesg.ml" 10 231 243
+type(
+  bool
+)
+"dmesg.ml" 11 247 254 "dmesg.ml" 11 247 258
+type(
+  string
+)
+ident(
+  def line "dmesg.ml" 12 297 300 "dmesg.ml" 12 297 317
+)
+"dmesg.ml" 11 247 261 "dmesg.ml" 11 247 282
+type(
+  Xenlight.ctx -> Xenlight.Host.console_reader -> string
+)
+ident(
+  int_ref Xenlight.Host.xen_console_read_line "xenlight.mli" 1567 37250 37251 "xenlight.mli" 1567 37250 37352
+)
+"dmesg.ml" 11 247 283 "dmesg.ml" 11 247 286
+type(
+  Xenlight.ctx
+)
+ident(
+  int_ref ctx "dmesg.ml" 5 111 116 "dmesg.ml" 5 111 119
+)
+"dmesg.ml" 11 247 287 "dmesg.ml" 11 247 293
+type(
+  Xenlight.Host.console_reader
+)
+ident(
+  int_ref reader "dmesg.ml" 8 179 184 "dmesg.ml" 8 179 190
+)
+"dmesg.ml" 11 247 261 "dmesg.ml" 11 247 293
+type(
+  string
+)
+"dmesg.ml" 12 297 300 "dmesg.ml" 12 297 312
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_string "stdlib.mli" 812 30126 30126 "stdlib.mli" 812 30126 30159
+)
+"dmesg.ml" 12 297 313 "dmesg.ml" 12 297 317
+type(
+  string
+)
+ident(
+  int_ref line "dmesg.ml" 11 247 254 "dmesg.ml" 11 247 258
+)
+"dmesg.ml" 12 297 300 "dmesg.ml" 12 297 317
+type(
+  unit
+)
+"dmesg.ml" 11 247 250 "dmesg.ml" 12 297 317
+type(
+  unit
+)
+"dmesg.ml" 10 231 233 "dmesg.ml" 13 318 324
+type(
+  unit
+)
+"dmesg.ml" 14 325 331 "dmesg.ml" 14 325 342
+type(
+  exn
+)
+"dmesg.ml" 14 325 346 "dmesg.ml" 14 325 348
+type(
+  unit
+)
+"dmesg.ml" 9 225 226 "dmesg.ml" 14 325 349
+type(
+  unit
+)
+"dmesg.ml" 15 351 356 "dmesg.ml" 15 351 357
+type(
+  unit
+)
+"dmesg.ml" 15 351 360 "dmesg.ml" 15 351 383
+type(
+  Xenlight.ctx -> Xenlight.Host.console_reader -> unit
+)
+ident(
+  int_ref Xenlight.Host.xen_console_read_finish "xenlight.mli" 1568 37353 37354 "xenlight.mli" 1568 37353 37457
+)
+"dmesg.ml" 15 351 384 "dmesg.ml" 15 351 387
+type(
+  Xenlight.ctx
+)
+ident(
+  int_ref ctx "dmesg.ml" 5 111 116 "dmesg.ml" 5 111 119
+)
+"dmesg.ml" 15 351 388 "dmesg.ml" 15 351 394
+type(
+  Xenlight.Host.console_reader
+)
+ident(
+  int_ref reader "dmesg.ml" 8 179 184 "dmesg.ml" 8 179 190
+)
+"dmesg.ml" 15 351 360 "dmesg.ml" 15 351 394
+type(
+  unit
+)
+"dmesg.ml" 16 398 399 "dmesg.ml" 16 398 401
+type(
+  unit
+)
+"dmesg.ml" 15 351 352 "dmesg.ml" 16 398 401
+type(
+  unit
+)
+"dmesg.ml" 9 225 226 "dmesg.ml" 16 398 401
+type(
+  unit
+)
+"dmesg.ml" 8 179 180 "dmesg.ml" 16 398 401
+type(
+  unit
+)
+"dmesg.ml" 7 152 153 "dmesg.ml" 16 398 401
+type(
+  unit
+)
+"dmesg.ml" 5 111 112 "dmesg.ml" 16 398 401
+type(
+  unit
+)
+"dmesg.ml" 4 43 44 "dmesg.ml" 16 398 401
+type(
+  unit
+)
+"dmesg.ml" 3 9 10 "dmesg.ml" 16 398 401
+type(
+  unit
+)

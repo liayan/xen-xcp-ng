@@ -1,0 +1,673 @@
+"op.ml" 25 1042 1046 "op.ml" 25 1042 1065
+type(
+  operation array
+)
+ident(
+  def operation_c_mapping "op.ml" 32 1355 1355 "op.ml" 0 0 -1
+)
+"op.ml" 26 1068 1072 "op.ml" 26 1068 1077
+type(
+  operation
+)
+"op.ml" 26 1068 1079 "op.ml" 26 1068 1088
+type(
+  operation
+)
+"op.ml" 26 1068 1090 "op.ml" 26 1068 1094
+type(
+  operation
+)
+"op.ml" 26 1068 1096 "op.ml" 26 1068 1104
+type(
+  operation
+)
+"op.ml" 27 1106 1117 "op.ml" 27 1106 1122
+type(
+  operation
+)
+"op.ml" 27 1106 1124 "op.ml" 27 1106 1131
+type(
+  operation
+)
+"op.ml" 27 1106 1133 "op.ml" 27 1106 1150
+type(
+  operation
+)
+"op.ml" 28 1152 1163 "op.ml" 28 1152 1178
+type(
+  operation
+)
+"op.ml" 28 1152 1180 "op.ml" 28 1152 1189
+type(
+  operation
+)
+"op.ml" 28 1152 1191 "op.ml" 28 1152 1198
+type(
+  operation
+)
+"op.ml" 29 1200 1211 "op.ml" 29 1200 1224
+type(
+  operation
+)
+"op.ml" 29 1200 1226 "op.ml" 29 1200 1231
+type(
+  operation
+)
+"op.ml" 29 1200 1233 "op.ml" 29 1200 1238
+type(
+  operation
+)
+"op.ml" 29 1200 1240 "op.ml" 29 1200 1242
+type(
+  operation
+)
+"op.ml" 30 1244 1255 "op.ml" 30 1244 1263
+type(
+  operation
+)
+"op.ml" 30 1244 1265 "op.ml" 30 1244 1275
+type(
+  operation
+)
+"op.ml" 30 1244 1277 "op.ml" 30 1244 1282
+type(
+  operation
+)
+"op.ml" 30 1244 1284 "op.ml" 30 1244 1296
+type(
+  operation
+)
+"op.ml" 31 1298 1309 "op.ml" 31 1298 1315
+type(
+  operation
+)
+"op.ml" 31 1298 1317 "op.ml" 31 1298 1327
+type(
+  operation
+)
+"op.ml" 31 1298 1329 "op.ml" 31 1298 1336
+type(
+  operation
+)
+"op.ml" 31 1298 1338 "op.ml" 31 1298 1351
+type(
+  operation
+)
+"op.ml" 26 1068 1069 "op.ml" 31 1298 1354
+type(
+  operation array
+)
+"op.ml" 32 1355 1359 "op.ml" 32 1355 1363
+type(
+  int
+)
+ident(
+  def size "op.ml" 34 1400 1400 "op.ml" 0 0 -1
+)
+"op.ml" 32 1355 1366 "op.ml" 32 1355 1378
+type(
+  operation array -> int
+)
+ident(
+  int_ref Stdlib.Array.length "array.mli" 21 1167 1167 "array.mli" 21 1167 1218
+)
+"op.ml" 32 1355 1379 "op.ml" 32 1355 1398
+type(
+  operation array
+)
+ident(
+  int_ref operation_c_mapping "op.ml" 25 1042 1046 "op.ml" 25 1042 1065
+)
+"op.ml" 32 1355 1366 "op.ml" 32 1355 1398
+type(
+  int
+)
+"op.ml" 34 1400 1404 "op.ml" 34 1400 1416
+type(
+  'a -> 'a array -> int
+)
+ident(
+  def array_search "op.ml" 41 1565 1565 "op.ml" 0 0 -1
+)
+"op.ml" 34 1400 1417 "op.ml" 34 1400 1419
+type(
+  'a
+)
+ident(
+  def el "op.ml" 34 1400 1420 "op.ml" 39 1554 1563
+)
+"op.ml" 34 1400 1420 "op.ml" 34 1400 1421
+type(
+  'a array
+)
+ident(
+  def a "op.ml" 35 1424 1425 "op.ml" 39 1554 1563
+)
+"op.ml" 35 1424 1429 "op.ml" 35 1424 1432
+type(
+  int
+)
+ident(
+  def len "op.ml" 36 1453 1454 "op.ml" 39 1554 1563
+)
+"op.ml" 35 1424 1435 "op.ml" 35 1424 1447
+type(
+  'a array -> int
+)
+ident(
+  int_ref Stdlib.Array.length "array.mli" 21 1167 1167 "array.mli" 21 1167 1218
+)
+"op.ml" 35 1424 1448 "op.ml" 35 1424 1449
+type(
+  'a array
+)
+ident(
+  int_ref a "op.ml" 34 1400 1420 "op.ml" 34 1400 1421
+)
+"op.ml" 35 1424 1435 "op.ml" 35 1424 1449
+type(
+  int
+)
+"op.ml" 36 1453 1462 "op.ml" 36 1453 1468
+type(
+  int -> int
+)
+ident(
+  def search "op.ml" 36 1453 1454 "op.ml" 39 1554 1563
+)
+"op.ml" 36 1453 1469 "op.ml" 36 1453 1470
+type(
+  int
+)
+ident(
+  def i "op.ml" 37 1473 1475 "op.ml" 38 1508 1550
+)
+"op.ml" 37 1473 1478 "op.ml" 37 1473 1479
+type(
+  int
+)
+ident(
+  int_ref i "op.ml" 36 1453 1469 "op.ml" 36 1453 1470
+)
+"op.ml" 37 1473 1480 "op.ml" 37 1473 1481
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"op.ml" 37 1473 1482 "op.ml" 37 1473 1485
+type(
+  int
+)
+ident(
+  int_ref len "op.ml" 35 1424 1429 "op.ml" 35 1424 1432
+)
+"op.ml" 37 1473 1478 "op.ml" 37 1473 1485
+type(
+  bool
+)
+"op.ml" 37 1473 1491 "op.ml" 37 1473 1496
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"op.ml" 37 1473 1497 "op.ml" 37 1473 1506
+type(
+  exn
+)
+"op.ml" 37 1473 1491 "op.ml" 37 1473 1506
+type(
+  unit
+)
+"op.ml" 37 1473 1475 "op.ml" 37 1473 1506
+type(
+  unit
+)
+"op.ml" 38 1508 1513 "op.ml" 38 1508 1514
+type(
+  'a array
+)
+ident(
+  int_ref a "op.ml" 34 1400 1420 "op.ml" 34 1400 1421
+)
+"op.ml" 38 1508 1516 "op.ml" 38 1508 1517
+type(
+  int
+)
+ident(
+  int_ref i "op.ml" 36 1453 1469 "op.ml" 36 1453 1470
+)
+"op.ml" 38 1508 1513 "op.ml" 38 1508 1518
+type(
+  'a
+)
+"op.ml" 38 1508 1519 "op.ml" 38 1508 1520
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"op.ml" 38 1508 1521 "op.ml" 38 1508 1523
+type(
+  'a
+)
+ident(
+  int_ref el "op.ml" 34 1400 1417 "op.ml" 34 1400 1419
+)
+"op.ml" 38 1508 1513 "op.ml" 38 1508 1523
+type(
+  bool
+)
+"op.ml" 38 1508 1529 "op.ml" 38 1508 1530
+type(
+  int
+)
+ident(
+  int_ref i "op.ml" 36 1453 1469 "op.ml" 36 1453 1470
+)
+"op.ml" 38 1508 1536 "op.ml" 38 1508 1542
+type(
+  int -> int
+)
+ident(
+  int_ref search "op.ml" 36 1453 1462 "op.ml" 36 1453 1468
+)
+"op.ml" 38 1508 1544 "op.ml" 38 1508 1545
+type(
+  int
+)
+ident(
+  int_ref i "op.ml" 36 1453 1469 "op.ml" 36 1453 1470
+)
+"op.ml" 38 1508 1546 "op.ml" 38 1508 1547
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"op.ml" 38 1508 1548 "op.ml" 38 1508 1549
+type(
+  int
+)
+"op.ml" 38 1508 1543 "op.ml" 38 1508 1550
+type(
+  int
+)
+"op.ml" 38 1508 1536 "op.ml" 38 1508 1550
+type(
+  int
+)
+"op.ml" 38 1508 1510 "op.ml" 38 1508 1550
+type(
+  int
+)
+"op.ml" 37 1473 1475 "op.ml" 38 1508 1550
+type(
+  int
+)
+"op.ml" 39 1554 1555 "op.ml" 39 1554 1561
+type(
+  int -> int
+)
+ident(
+  int_ref search "op.ml" 36 1453 1462 "op.ml" 36 1453 1468
+)
+"op.ml" 39 1554 1562 "op.ml" 39 1554 1563
+type(
+  int
+)
+"op.ml" 39 1554 1555 "op.ml" 39 1554 1563
+type(
+  int
+)
+"op.ml" 36 1453 1454 "op.ml" 39 1554 1563
+type(
+  int
+)
+"op.ml" 35 1424 1425 "op.ml" 39 1554 1563
+type(
+  int
+)
+"op.ml" 41 1565 1569 "op.ml" 41 1565 1576
+type(
+  int -> operation
+)
+ident(
+  def of_cval "op.ml" 46 1649 1649 "op.ml" 0 0 -1
+)
+"op.ml" 41 1565 1577 "op.ml" 41 1565 1578
+type(
+  int
+)
+ident(
+  def i "op.ml" 42 1581 1582 "op.ml" 44 1634 1647
+)
+"op.ml" 42 1581 1585 "op.ml" 42 1581 1586
+type(
+  int
+)
+ident(
+  int_ref i "op.ml" 41 1565 1577 "op.ml" 41 1565 1578
+)
+"op.ml" 42 1581 1587 "op.ml" 42 1581 1589
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 147 6115 6115 "stdlib.mli" 147 6115 6167
+)
+"op.ml" 42 1581 1590 "op.ml" 42 1581 1591
+type(
+  int
+)
+"op.ml" 42 1581 1585 "op.ml" 42 1581 1591
+type(
+  bool
+)
+"op.ml" 42 1581 1592 "op.ml" 42 1581 1594
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"op.ml" 42 1581 1595 "op.ml" 42 1581 1596
+type(
+  int
+)
+ident(
+  int_ref i "op.ml" 41 1565 1577 "op.ml" 41 1565 1578
+)
+"op.ml" 42 1581 1597 "op.ml" 42 1581 1598
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+)
+"op.ml" 42 1581 1599 "op.ml" 42 1581 1603
+type(
+  int
+)
+ident(
+  int_ref size "op.ml" 32 1355 1359 "op.ml" 32 1355 1363
+)
+"op.ml" 42 1581 1595 "op.ml" 42 1581 1603
+type(
+  bool
+)
+"op.ml" 42 1581 1585 "op.ml" 42 1581 1603
+type(
+  bool
+)
+"op.ml" 43 1604 1610 "op.ml" 43 1604 1629
+type(
+  operation array
+)
+ident(
+  int_ref operation_c_mapping "op.ml" 25 1042 1046 "op.ml" 25 1042 1065
+)
+"op.ml" 43 1604 1631 "op.ml" 43 1604 1632
+type(
+  int
+)
+ident(
+  int_ref i "op.ml" 41 1565 1577 "op.ml" 41 1565 1578
+)
+"op.ml" 43 1604 1610 "op.ml" 43 1604 1633
+type(
+  operation
+)
+"op.ml" 44 1634 1640 "op.ml" 44 1634 1647
+type(
+  operation
+)
+"op.ml" 42 1581 1582 "op.ml" 44 1634 1647
+type(
+  operation
+)
+"op.ml" 46 1649 1653 "op.ml" 46 1649 1660
+type(
+  operation -> int
+)
+ident(
+  def to_cval "op.ml" 49 1704 1704 "op.ml" 0 0 -1
+)
+"op.ml" 46 1649 1661 "op.ml" 46 1649 1663
+type(
+  operation
+)
+ident(
+  def op "op.ml" 47 1666 1667 "op.ml" 47 1666 1702
+)
+"op.ml" 47 1666 1667 "op.ml" 47 1666 1679
+type(
+  operation -> operation array -> int
+)
+ident(
+  int_ref array_search "op.ml" 34 1400 1404 "op.ml" 34 1400 1416
+)
+"op.ml" 47 1666 1680 "op.ml" 47 1666 1682
+type(
+  operation
+)
+ident(
+  int_ref op "op.ml" 46 1649 1661 "op.ml" 46 1649 1663
+)
+"op.ml" 47 1666 1683 "op.ml" 47 1666 1702
+type(
+  operation array
+)
+ident(
+  int_ref operation_c_mapping "op.ml" 25 1042 1046 "op.ml" 25 1042 1065
+)
+"op.ml" 47 1666 1667 "op.ml" 47 1666 1702
+type(
+  int
+)
+"op.ml" 49 1704 1708 "op.ml" 49 1704 1717
+type(
+  operation -> string
+)
+ident(
+  def to_string "op.ml" 72 2337 2361 "op.ml" 0 0 -1
+)
+"op.ml" 49 1704 1718 "op.ml" 49 1704 1720
+type(
+  operation
+)
+ident(
+  def ty "op.ml" 50 1723 1724 "op.ml" 72 2337 2361
+)
+"op.ml" 50 1723 1730 "op.ml" 50 1723 1732
+type(
+  operation
+)
+ident(
+  int_ref ty "op.ml" 49 1704 1718 "op.ml" 49 1704 1720
+)
+"op.ml" 51 1738 1741 "op.ml" 51 1738 1746
+type(
+  operation
+)
+"op.ml" 51 1738 1752 "op.ml" 51 1738 1759
+type(
+  string
+)
+"op.ml" 52 1760 1763 "op.ml" 52 1760 1772
+type(
+  operation
+)
+"op.ml" 52 1760 1777 "op.ml" 52 1760 1788
+type(
+  string
+)
+"op.ml" 53 1789 1792 "op.ml" 53 1789 1796
+type(
+  operation
+)
+"op.ml" 53 1789 1802 "op.ml" 53 1789 1808
+type(
+  string
+)
+"op.ml" 54 1809 1812 "op.ml" 54 1809 1820
+type(
+  operation
+)
+"op.ml" 54 1809 1825 "op.ml" 54 1809 1836
+type(
+  string
+)
+"op.ml" 55 1837 1840 "op.ml" 55 1837 1845
+type(
+  operation
+)
+"op.ml" 55 1837 1851 "op.ml" 55 1837 1858
+type(
+  string
+)
+"op.ml" 56 1859 1862 "op.ml" 56 1859 1869
+type(
+  operation
+)
+"op.ml" 56 1859 1874 "op.ml" 56 1859 1883
+type(
+  string
+)
+"op.ml" 57 1884 1887 "op.ml" 57 1884 1904
+type(
+  operation
+)
+"op.ml" 57 1884 1908 "op.ml" 57 1884 1927
+type(
+  string
+)
+"op.ml" 58 1928 1931 "op.ml" 58 1928 1946
+type(
+  operation
+)
+"op.ml" 58 1928 1950 "op.ml" 58 1928 1967
+type(
+  string
+)
+"op.ml" 59 1968 1971 "op.ml" 59 1968 1980
+type(
+  operation
+)
+"op.ml" 59 1968 1985 "op.ml" 59 1968 1996
+type(
+  string
+)
+"op.ml" 60 1997 2000 "op.ml" 60 1997 2007
+type(
+  operation
+)
+"op.ml" 60 1997 2012 "op.ml" 60 1997 2021
+type(
+  string
+)
+"op.ml" 61 2022 2025 "op.ml" 61 2022 2038
+type(
+  operation
+)
+"op.ml" 61 2022 2043 "op.ml" 61 2022 2060
+type(
+  string
+)
+"op.ml" 62 2061 2064 "op.ml" 62 2061 2069
+type(
+  operation
+)
+"op.ml" 62 2061 2075 "op.ml" 62 2061 2082
+type(
+  string
+)
+"op.ml" 63 2083 2086 "op.ml" 63 2083 2091
+type(
+  operation
+)
+"op.ml" 63 2083 2097 "op.ml" 63 2083 2104
+type(
+  string
+)
+"op.ml" 64 2105 2108 "op.ml" 64 2105 2110
+type(
+  operation
+)
+"op.ml" 64 2105 2116 "op.ml" 64 2105 2120
+type(
+  string
+)
+"op.ml" 65 2121 2124 "op.ml" 65 2121 2132
+type(
+  operation
+)
+"op.ml" 65 2121 2137 "op.ml" 65 2121 2148
+type(
+  string
+)
+"op.ml" 66 2149 2152 "op.ml" 66 2149 2162
+type(
+  operation
+)
+"op.ml" 66 2149 2167 "op.ml" 66 2149 2180
+type(
+  string
+)
+"op.ml" 67 2181 2184 "op.ml" 67 2181 2189
+type(
+  operation
+)
+"op.ml" 67 2181 2195 "op.ml" 67 2181 2202
+type(
+  string
+)
+"op.ml" 68 2203 2206 "op.ml" 68 2203 2218
+type(
+  operation
+)
+"op.ml" 68 2203 2223 "op.ml" 68 2203 2238
+type(
+  string
+)
+"op.ml" 69 2239 2242 "op.ml" 69 2239 2248
+type(
+  operation
+)
+"op.ml" 69 2239 2253 "op.ml" 69 2239 2261
+type(
+  string
+)
+"op.ml" 70 2262 2265 "op.ml" 70 2262 2275
+type(
+  operation
+)
+"op.ml" 70 2262 2280 "op.ml" 70 2262 2292
+type(
+  string
+)
+"op.ml" 71 2293 2296 "op.ml" 71 2293 2309
+type(
+  operation
+)
+"op.ml" 71 2293 2321 "op.ml" 71 2293 2336
+type(
+  string
+)
+"op.ml" 72 2337 2340 "op.ml" 72 2337 2347
+type(
+  operation
+)
+"op.ml" 72 2337 2352 "op.ml" 72 2337 2361
+type(
+  string
+)
+"op.ml" 50 1723 1724 "op.ml" 72 2337 2361
+type(
+  string
+)

@@ -1,0 +1,270 @@
+"xs_ring.ml" 24 806 811 "xs_ring.ml" 24 806 818
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "xs_ring.ml" 24 806 828 "xs_ring.ml" 25 829 832
+)
+"xs_ring.ml" 24 806 821 "xs_ring.ml" 24 806 828
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 159 6717 6717 "stdlib.mli" 159 6717 6764
+)
+"xs_ring.ml" 33 1251 1255 "xs_ring.ml" 33 1251 1270
+type(
+  Xenmmap.mmap_interface -> string -> int -> int
+)
+ident(
+  def write_substring "xs_ring.ml" 36 1334 1334 "xs_ring.ml" 0 0 -1
+)
+"xs_ring.ml" 33 1251 1271 "xs_ring.ml" 33 1251 1275
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  def mmap "xs_ring.ml" 33 1251 1276 "xs_ring.ml" 34 1287 1332
+)
+"xs_ring.ml" 33 1251 1276 "xs_ring.ml" 33 1251 1280
+type(
+  string
+)
+ident(
+  def buff "xs_ring.ml" 33 1251 1281 "xs_ring.ml" 34 1287 1332
+)
+"xs_ring.ml" 33 1251 1281 "xs_ring.ml" 33 1251 1284
+type(
+  int
+)
+ident(
+  def len "xs_ring.ml" 34 1287 1288 "xs_ring.ml" 34 1287 1332
+)
+"xs_ring.ml" 34 1287 1288 "xs_ring.ml" 34 1287 1293
+type(
+  Xenmmap.mmap_interface -> bytes -> int -> int
+)
+ident(
+  int_ref write "xs_ring.ml" 28 918 918 "xs_ring.ml" 28 918 1002
+)
+"xs_ring.ml" 34 1287 1294 "xs_ring.ml" 34 1287 1298
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref mmap "xs_ring.ml" 33 1251 1271 "xs_ring.ml" 33 1251 1275
+)
+"xs_ring.ml" 34 1287 1300 "xs_ring.ml" 34 1287 1322
+type(
+  string -> bytes
+)
+ident(
+  int_ref Stdlib.Bytes.unsafe_of_string "bytes.mli" 408 17011 17011 "bytes.mli" 408 17011 17049
+)
+"xs_ring.ml" 34 1287 1323 "xs_ring.ml" 34 1287 1327
+type(
+  string
+)
+ident(
+  int_ref buff "xs_ring.ml" 33 1251 1276 "xs_ring.ml" 33 1251 1280
+)
+"xs_ring.ml" 34 1287 1299 "xs_ring.ml" 34 1287 1328
+type(
+  bytes
+)
+"xs_ring.ml" 34 1287 1329 "xs_ring.ml" 34 1287 1332
+type(
+  int
+)
+ident(
+  int_ref len "xs_ring.ml" 33 1251 1281 "xs_ring.ml" 33 1251 1284
+)
+"xs_ring.ml" 34 1287 1288 "xs_ring.ml" 34 1287 1332
+type(
+  int
+)
+"xs_ring.ml" 36 1334 1338 "xs_ring.ml" 36 1334 1357
+type(
+  Xenmmap.mmap_interface -> Server_features.t
+)
+ident(
+  def get_server_features "xs_ring.ml" 43 1562 1562 "xs_ring.ml" 0 0 -1
+)
+"xs_ring.ml" 36 1334 1358 "xs_ring.ml" 36 1334 1362
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  def mmap "xs_ring.ml" 38 1416 1417 "xs_ring.ml" 41 1501 1560
+)
+"xs_ring.ml" 38 1416 1421 "xs_ring.ml" 38 1416 1422
+type(
+  int
+)
+ident(
+  def x "xs_ring.ml" 39 1463 1464 "xs_ring.ml" 41 1501 1560
+)
+"xs_ring.ml" 38 1416 1425 "xs_ring.ml" 38 1416 1454
+type(
+  Xenmmap.mmap_interface -> int
+)
+ident(
+  int_ref _internal_get_server_features "xs_ring.ml" 31 1131 1131 "xs_ring.ml" 31 1131 1249
+)
+"xs_ring.ml" 38 1416 1455 "xs_ring.ml" 38 1416 1459
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref mmap "xs_ring.ml" 36 1334 1358 "xs_ring.ml" 36 1334 1362
+)
+"xs_ring.ml" 38 1416 1425 "xs_ring.ml" 38 1416 1459
+type(
+  int
+)
+"xs_ring.ml" 39 1463 1467 "xs_ring.ml" 39 1463 1468
+type(
+  int
+)
+ident(
+  int_ref x "xs_ring.ml" 38 1416 1421 "xs_ring.ml" 38 1416 1422
+)
+"xs_ring.ml" 39 1463 1469 "xs_ring.ml" 39 1463 1470
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"xs_ring.ml" 39 1463 1471 "xs_ring.ml" 39 1463 1472
+type(
+  int
+)
+"xs_ring.ml" 39 1463 1467 "xs_ring.ml" 39 1463 1472
+type(
+  bool
+)
+"xs_ring.ml" 40 1473 1479 "xs_ring.ml" 40 1473 1500
+type(
+  Server_features.t
+)
+ident(
+  int_ref Server_features.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"xs_ring.ml" 41 1501 1507 "xs_ring.ml" 41 1501 1532
+type(
+  Server_features.elt -> Server_features.t
+)
+ident(
+  int_ref Server_features.singleton "set.mli" 86 3284 3288 "set.mli" 86 3284 3311
+)
+"xs_ring.ml" 41 1501 1533 "xs_ring.ml" 41 1501 1560
+type(
+  Server_features.elt
+)
+"xs_ring.ml" 41 1501 1507 "xs_ring.ml" 41 1501 1560
+type(
+  Server_features.t
+)
+"xs_ring.ml" 39 1463 1464 "xs_ring.ml" 41 1501 1560
+type(
+  Server_features.t
+)
+"xs_ring.ml" 38 1416 1417 "xs_ring.ml" 41 1501 1560
+type(
+  Server_features.t
+)
+"xs_ring.ml" 43 1562 1566 "xs_ring.ml" 43 1562 1585
+type(
+  Xenmmap.mmap_interface -> Server_features.t -> unit
+)
+ident(
+  def set_server_features "xs_ring.ml" 48 1744 1744 "xs_ring.ml" 0 0 -1
+)
+"xs_ring.ml" 43 1562 1586 "xs_ring.ml" 43 1562 1590
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  def mmap "xs_ring.ml" 43 1562 1591 "xs_ring.ml" 46 1705 1742
+)
+"xs_ring.ml" 43 1562 1591 "xs_ring.ml" 43 1562 1594
+type(
+  Server_features.t
+)
+ident(
+  def set "xs_ring.ml" 45 1648 1649 "xs_ring.ml" 46 1705 1742
+)
+"xs_ring.ml" 45 1648 1653 "xs_ring.ml" 45 1648 1654
+type(
+  int
+)
+ident(
+  def x "xs_ring.ml" 46 1705 1706 "xs_ring.ml" 46 1705 1742
+)
+"xs_ring.ml" 45 1648 1660 "xs_ring.ml" 45 1648 1663
+type(
+  Server_features.t
+)
+ident(
+  int_ref set "xs_ring.ml" 43 1562 1591 "xs_ring.ml" 43 1562 1594
+)
+"xs_ring.ml" 45 1648 1664 "xs_ring.ml" 45 1648 1665
+type(
+  Server_features.t -> Server_features.t -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"xs_ring.ml" 45 1648 1666 "xs_ring.ml" 45 1648 1687
+type(
+  Server_features.t
+)
+ident(
+  int_ref Server_features.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"xs_ring.ml" 45 1648 1660 "xs_ring.ml" 45 1648 1687
+type(
+  bool
+)
+"xs_ring.ml" 45 1648 1693 "xs_ring.ml" 45 1648 1694
+type(
+  int
+)
+"xs_ring.ml" 45 1648 1700 "xs_ring.ml" 45 1648 1701
+type(
+  int
+)
+"xs_ring.ml" 45 1648 1657 "xs_ring.ml" 45 1648 1701
+type(
+  int
+)
+"xs_ring.ml" 46 1705 1706 "xs_ring.ml" 46 1705 1735
+type(
+  Xenmmap.mmap_interface -> int -> unit
+)
+ident(
+  int_ref _internal_set_server_features "xs_ring.ml" 30 1004 1004 "xs_ring.ml" 30 1004 1130
+)
+"xs_ring.ml" 46 1705 1736 "xs_ring.ml" 46 1705 1740
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref mmap "xs_ring.ml" 43 1562 1586 "xs_ring.ml" 43 1562 1590
+)
+"xs_ring.ml" 46 1705 1741 "xs_ring.ml" 46 1705 1742
+type(
+  int
+)
+ident(
+  int_ref x "xs_ring.ml" 45 1648 1653 "xs_ring.ml" 45 1648 1654
+)
+"xs_ring.ml" 46 1705 1706 "xs_ring.ml" 46 1705 1742
+type(
+  unit
+)
+"xs_ring.ml" 45 1648 1649 "xs_ring.ml" 46 1705 1742
+type(
+  unit
+)

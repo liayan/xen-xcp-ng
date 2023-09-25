@@ -1,0 +1,9 @@
+prefix=/usr
+includedir=/usr/include
+libdir=/usr/lib64
+
+Name: Xentoolcore
+Description: Central support for Xen Hypervisor userland libraries
+Version: 1.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lxentoolcore

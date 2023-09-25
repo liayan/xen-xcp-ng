@@ -1,0 +1,10 @@
+prefix=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libvchan/../..
+includedir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libvchan/../../tools/libvchan
+libdir=/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libvchan
+
+Name: Xenvchan
+Description: The Xenvchan library for Xen hypervisor
+Version: 4.13.0
+Cflags: -I${includedir} -I/home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libvchan/../../tools/include
+Libs: -L${libdir} -Wl,-rpath-link=${libdir} -lxenvchan
+Requires.private: xentoollog,xenstore,xenevtchn,xengnttab

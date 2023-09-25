@@ -1,0 +1,86 @@
+"raise_exception.ml" 3 13 17 "raise_exception.ml" 3 13 18
+type(
+  unit
+)
+"raise_exception.ml" 5 27 31 "raise_exception.ml" 5 27 60
+type(
+  unit -> unit
+)
+ident(
+  int_ref Xenlight.test_raise_exception "xenlight.mli" 1537 35671 35671 "xenlight.mli" 1537 35671 35739
+)
+"raise_exception.ml" 5 27 61 "raise_exception.ml" 5 27 63
+type(
+  unit
+)
+"raise_exception.ml" 5 27 31 "raise_exception.ml" 5 27 63
+type(
+  unit
+)
+"raise_exception.ml" 6 64 86 "raise_exception.ml" 6 64 89
+type(
+  Xenlight.error
+)
+ident(
+  def err "raise_exception.ml" 6 64 98 "raise_exception.ml" 8 179 184
+)
+"raise_exception.ml" 6 64 91 "raise_exception.ml" 6 64 93
+type(
+  string
+)
+ident(
+  def fn "raise_exception.ml" 6 64 98 "raise_exception.ml" 8 179 184
+)
+"raise_exception.ml" 6 64 85 "raise_exception.ml" 6 64 94
+type(
+  Xenlight.error * string
+)
+"raise_exception.ml" 6 64 71 "raise_exception.ml" 6 64 94
+type(
+  exn
+)
+"raise_exception.ml" 7 104 108 "raise_exception.ml" 7 104 114
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6510 6510 "printf.mli" 123 6510 6559
+)
+"raise_exception.ml" 7 104 115 "raise_exception.ml" 7 104 143
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"raise_exception.ml" 7 104 145 "raise_exception.ml" 7 104 169
+type(
+  Xenlight.error -> string
+)
+ident(
+  int_ref Xenlight.string_of_error "xenlight.mli" 66 1856 1856 "xenlight.mli" 66 1856 1893
+)
+"raise_exception.ml" 7 104 170 "raise_exception.ml" 7 104 173
+type(
+  Xenlight.error
+)
+ident(
+  int_ref err "raise_exception.ml" 6 64 86 "raise_exception.ml" 6 64 89
+)
+"raise_exception.ml" 7 104 144 "raise_exception.ml" 7 104 174
+type(
+  string
+)
+"raise_exception.ml" 7 104 175 "raise_exception.ml" 7 104 177
+type(
+  string
+)
+ident(
+  int_ref fn "raise_exception.ml" 6 64 91 "raise_exception.ml" 6 64 93
+)
+"raise_exception.ml" 6 64 98 "raise_exception.ml" 8 179 184
+type(
+  unit
+)
+"raise_exception.ml" 4 21 23 "raise_exception.ml" 8 179 184
+type(
+  unit
+)

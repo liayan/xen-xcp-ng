@@ -1,0 +1,10 @@
+prefix=/usr
+includedir=/usr/include
+libdir=/usr/lib64
+
+Name: Xencontrol
+Description: The Xencontrol library for Xen hypervisor
+Version: 4.13.0
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lxenctrl
+Requires.private: xenevtchn,xengnttab,xencall,xenforeignmemory,xendevicemodel,xentoollog

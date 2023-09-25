@@ -1,0 +1,299 @@
+"define.ml" 17 676 680 "define.ml" 17 676 695
+type(
+  int
+)
+ident(
+  def xenstored_major "define.ml" 18 700 700 "define.ml" 0 0 -1
+)
+"define.ml" 17 676 698 "define.ml" 17 676 699
+type(
+  int
+)
+"define.ml" 18 700 704 "define.ml" 18 700 719
+type(
+  int
+)
+ident(
+  def xenstored_minor "define.ml" 20 725 725 "define.ml" 0 0 -1
+)
+"define.ml" 18 700 722 "define.ml" 18 700 723
+type(
+  int
+)
+"define.ml" 20 725 729 "define.ml" 20 725 745
+type(
+  string
+)
+ident(
+  def xs_daemon_socket "define.ml" 22 782 782 "define.ml" 0 0 -1
+)
+"define.ml" 20 725 748 "define.ml" 20 725 768
+type(
+  string
+)
+ident(
+  int_ref Paths.xen_run_stored "paths.ml" 16 540 544 "paths.ml" 16 540 558
+)
+"define.ml" 20 725 769 "define.ml" 20 725 770
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"define.ml" 20 725 771 "define.ml" 20 725 780
+type(
+  string
+)
+"define.ml" 20 725 748 "define.ml" 20 725 780
+type(
+  string
+)
+"define.ml" 22 782 786 "define.ml" 22 782 804
+type(
+  string
+)
+ident(
+  def default_config_dir "define.ml" 24 829 829 "define.ml" 0 0 -1
+)
+"define.ml" 22 782 807 "define.ml" 22 782 827
+type(
+  string
+)
+ident(
+  int_ref Paths.xen_config_dir "paths.ml" 8 237 241 "paths.ml" 8 237 255
+)
+"define.ml" 24 829 833 "define.ml" 24 829 841
+type(
+  int ref
+)
+ident(
+  def maxwatch "define.ml" 25 854 854 "define.ml" 0 0 -1
+)
+"define.ml" 24 829 844 "define.ml" 24 829 847
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 24 829 848 "define.ml" 24 829 853
+type(
+  int
+)
+"define.ml" 24 829 844 "define.ml" 24 829 853
+type(
+  int ref
+)
+"define.ml" 25 854 858 "define.ml" 25 854 872
+type(
+  int ref
+)
+ident(
+  def maxtransaction "define.ml" 26 884 884 "define.ml" 0 0 -1
+)
+"define.ml" 25 854 875 "define.ml" 25 854 878
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 25 854 879 "define.ml" 25 854 883
+type(
+  int
+)
+"define.ml" 25 854 875 "define.ml" 25 854 883
+type(
+  int ref
+)
+"define.ml" 26 884 888 "define.ml" 26 884 899
+type(
+  int ref
+)
+ident(
+  def maxrequests "define.ml" 27 954 954 "define.ml" 0 0 -1
+)
+"define.ml" 26 884 902 "define.ml" 26 884 905
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 26 884 906 "define.ml" 26 884 912
+type(
+  int
+)
+"define.ml" 26 884 902 "define.ml" 26 884 912
+type(
+  int ref
+)
+"define.ml" 27 954 958 "define.ml" 27 954 972
+type(
+  int ref
+)
+ident(
+  def maxoutstanding "define.ml" 28 1055 1055 "define.ml" 0 0 -1
+)
+"define.ml" 27 954 975 "define.ml" 27 954 978
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 27 954 979 "define.ml" 27 954 985
+type(
+  int
+)
+"define.ml" 27 954 975 "define.ml" 27 954 985
+type(
+  int ref
+)
+"define.ml" 28 1055 1059 "define.ml" 28 1055 1073
+type(
+  int ref
+)
+ident(
+  def maxwatchevents "define.ml" 35 1238 1238 "define.ml" 0 0 -1
+)
+"define.ml" 28 1055 1076 "define.ml" 28 1055 1079
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 28 1055 1080 "define.ml" 28 1055 1086
+type(
+  int
+)
+"define.ml" 28 1055 1076 "define.ml" 28 1055 1086
+type(
+  int ref
+)
+"define.ml" 35 1238 1242 "define.ml" 35 1238 1257
+type(
+  int ref
+)
+ident(
+  def gc_max_overhead "define.ml" 36 1307 1307 "define.ml" 0 0 -1
+)
+"define.ml" 35 1238 1260 "define.ml" 35 1238 1263
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 35 1238 1264 "define.ml" 35 1238 1267
+type(
+  int
+)
+"define.ml" 35 1238 1260 "define.ml" 35 1238 1267
+type(
+  int ref
+)
+"define.ml" 36 1307 1311 "define.ml" 36 1307 1331
+type(
+  float ref
+)
+ident(
+  def conflict_burst_limit "define.ml" 37 1342 1342 "define.ml" 0 0 -1
+)
+"define.ml" 36 1307 1334 "define.ml" 36 1307 1337
+type(
+  float -> float ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 36 1307 1338 "define.ml" 36 1307 1341
+type(
+  float
+)
+"define.ml" 36 1307 1334 "define.ml" 36 1307 1341
+type(
+  float ref
+)
+"define.ml" 37 1342 1346 "define.ml" 37 1342 1374
+type(
+  float ref
+)
+ident(
+  def conflict_max_history_seconds "define.ml" 38 1386 1386 "define.ml" 0 0 -1
+)
+"define.ml" 37 1342 1377 "define.ml" 37 1342 1380
+type(
+  float -> float ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 37 1342 1381 "define.ml" 37 1342 1385
+type(
+  float
+)
+"define.ml" 37 1342 1377 "define.ml" 37 1342 1385
+type(
+  float ref
+)
+"define.ml" 38 1386 1390 "define.ml" 38 1386 1422
+type(
+  bool ref
+)
+ident(
+  def conflict_rate_limit_is_aggregate "define.ml" 40 1435 1435 "define.ml" 0 0 -1
+)
+"define.ml" 38 1386 1425 "define.ml" 38 1386 1428
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 38 1386 1429 "define.ml" 38 1386 1433
+type(
+  bool
+)
+"define.ml" 38 1386 1425 "define.ml" 38 1386 1433
+type(
+  bool ref
+)
+"define.ml" 40 1435 1439 "define.ml" 40 1435 1449
+type(
+  int
+)
+ident(
+  def domid_self "define.ml" 42 1460 1460 "define.ml" 0 0 -1
+)
+"define.ml" 40 1435 1452 "define.ml" 40 1435 1458
+type(
+  int
+)
+"define.ml" 42 1460 1464 "define.ml" 42 1460 1472
+type(
+  int ref
+)
+ident(
+  def path_max "define.ml" 44 1517 1517 "define.ml" 0 0 -1
+)
+"define.ml" 42 1460 1475 "define.ml" 42 1460 1478
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"define.ml" 42 1460 1479 "define.ml" 42 1460 1515
+type(
+  int
+)
+ident(
+  int_ref Xenbus.Partial.xenstore_rel_path_max "partial.mli" 13 315 315 "partial.mli" 13 315 346
+)
+"define.ml" 42 1460 1475 "define.ml" 42 1460 1515
+type(
+  int ref
+)

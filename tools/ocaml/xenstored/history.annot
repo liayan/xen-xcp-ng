@@ -1,0 +1,820 @@
+"history.ml" 23 937 941 "history.ml" 23 937 948
+type(
+  history_record list ref
+)
+ident(
+  def history "history.ml" 28 1231 1231 "history.ml" 0 0 -1
+)
+"history.ml" 23 937 977 "history.ml" 23 937 980
+type(
+  history_record list -> history_record list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"history.ml" 23 937 981 "history.ml" 23 937 983
+type(
+  history_record list
+)
+"history.ml" 23 937 977 "history.ml" 23 937 983
+type(
+  history_record list ref
+)
+type(
+  history_record list ref
+)
+"history.ml" 28 1231 1235 "history.ml" 28 1231 1239
+type(
+  ?txn:Transaction.t -> unit -> unit
+)
+ident(
+  def trim "history.ml" 37 1617 1617 "history.ml" 0 0 -1
+)
+"history.ml" 28 1231 1241 "history.ml" 28 1231 1244
+type(
+  Transaction.t option
+)
+ident(
+  def txn "history.ml" 28 1231 1245 "history.ml" 35 1613 1615
+)
+"history.ml" 28 1231 1245 "history.ml" 28 1231 1247
+type(
+  unit
+)
+"history.ml" 29 1250 1251 "history.ml" 29 1250 1294
+type(
+  Transaction.t option -> unit
+)
+ident(
+  int_ref Transaction.trim_short_running_transactions "transaction.ml" 111 3501 3505 "transaction.ml" 111 3501 3536
+)
+"history.ml" 29 1250 1295 "history.ml" 29 1250 1298
+type(
+  Transaction.t option
+)
+ident(
+  int_ref txn "history.ml" 28 1231 1241 "history.ml" 28 1231 1244
+)
+"history.ml" 29 1250 1251 "history.ml" 29 1250 1298
+type(
+  unit
+)
+"history.ml" 30 1300 1301 "history.ml" 30 1300 1308
+type(
+  history_record list ref
+)
+ident(
+  int_ref history "history.ml" 23 937 941 "history.ml" 23 937 948
+)
+"history.ml" 30 1300 1309 "history.ml" 30 1300 1311
+type(
+  history_record list ref -> history_record list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"history.ml" 30 1300 1318 "history.ml" 30 1300 1362
+type(
+  unit -> (float * Transaction.t) option
+)
+ident(
+  int_ref Transaction.oldest_short_running_transaction "transaction.ml" 104 3348 3352 "transaction.ml" 104 3348 3384
+)
+"history.ml" 30 1300 1363 "history.ml" 30 1300 1365
+type(
+  unit
+)
+"history.ml" 30 1300 1318 "history.ml" 30 1300 1365
+type(
+  (float * Transaction.t) option
+)
+"history.ml" 31 1371 1374 "history.ml" 31 1371 1378
+type(
+  (float * Transaction.t) option
+)
+"history.ml" 31 1371 1382 "history.ml" 31 1371 1384
+type(
+  history_record list
+)
+"history.ml" 32 1444 1453 "history.ml" 32 1444 1454
+type(
+  float
+)
+"history.ml" 32 1444 1456 "history.ml" 32 1444 1459
+type(
+  Transaction.t
+)
+ident(
+  def txn "history.ml" 32 1444 1464 "history.ml" 35 1613 1615
+)
+"history.ml" 32 1444 1452 "history.ml" 32 1444 1460
+type(
+  float * Transaction.t
+)
+"history.ml" 32 1444 1447 "history.ml" 32 1444 1460
+type(
+  (float * Transaction.t) option
+)
+"history.ml" 34 1534 1536 "history.ml" 34 1534 1547
+type(
+  (history_record -> bool) -> history_record list -> history_record list
+)
+ident(
+  int_ref Stdlib.List.filter "list.mli" 233 8772 8772 "list.mli" 233 8772 8819
+)
+"history.ml" 34 1534 1553 "history.ml" 34 1534 1554
+type(
+  history_record
+)
+ident(
+  def r "history.ml" 34 1534 1558 "history.ml" 34 1534 1602
+)
+"history.ml" 34 1534 1558 "history.ml" 34 1534 1559
+type(
+  history_record
+)
+ident(
+  int_ref r "history.ml" 34 1534 1553 "history.ml" 34 1534 1554
+)
+"history.ml" 34 1534 1558 "history.ml" 34 1534 1572
+type(
+  int64
+)
+"history.ml" 34 1534 1573 "history.ml" 34 1534 1574
+type(
+  int64 -> int64 -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"history.ml" 34 1534 1575 "history.ml" 34 1534 1578
+type(
+  Transaction.t
+)
+ident(
+  int_ref txn "history.ml" 32 1444 1456 "history.ml" 32 1444 1459
+)
+"history.ml" 34 1534 1575 "history.ml" 34 1534 1602
+type(
+  int64
+)
+"history.ml" 34 1534 1558 "history.ml" 34 1534 1602
+type(
+  bool
+)
+"history.ml" 34 1534 1548 "history.ml" 34 1534 1603
+type(
+  history_record -> bool
+)
+"history.ml" 34 1534 1604 "history.ml" 34 1534 1605
+type(
+  history_record list ref -> history_record list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"history.ml" 34 1534 1605 "history.ml" 34 1534 1612
+type(
+  history_record list ref
+)
+ident(
+  int_ref history "history.ml" 23 937 941 "history.ml" 23 937 948
+)
+"history.ml" 34 1534 1604 "history.ml" 34 1534 1612
+type(
+  history_record list
+)
+"history.ml" 32 1444 1464 "history.ml" 35 1613 1615
+type(
+  history_record list
+)
+"history.ml" 30 1300 1312 "history.ml" 35 1613 1615
+type(
+  history_record list
+)
+"history.ml" 30 1300 1301 "history.ml" 35 1613 1615
+type(
+  unit
+)
+"history.ml" 29 1250 1251 "history.ml" 35 1613 1615
+type(
+  unit
+)
+"history.ml" 37 1617 1621 "history.ml" 37 1617 1636
+type(
+  Transaction.t ->
+  Connection.t ->
+  int -> (Connection.t -> Transaction.t -> bool) option -> bool
+)
+ident(
+  def end_transaction "history.ml" 42 1743 1743 "history.ml" 0 0 -1
+)
+"history.ml" 37 1617 1637 "history.ml" 37 1617 1640
+type(
+  Transaction.t
+)
+ident(
+  def txn "history.ml" 37 1617 1641 "history.ml" 40 1733 1741
+)
+"history.ml" 37 1617 1641 "history.ml" 37 1617 1644
+type(
+  Connection.t
+)
+ident(
+  def con "history.ml" 37 1617 1645 "history.ml" 40 1733 1741
+)
+"history.ml" 37 1617 1645 "history.ml" 37 1617 1648
+type(
+  int
+)
+ident(
+  def tid "history.ml" 37 1617 1649 "history.ml" 40 1733 1741
+)
+"history.ml" 37 1617 1649 "history.ml" 37 1617 1655
+type(
+  (Connection.t -> Transaction.t -> bool) option
+)
+ident(
+  def commit "history.ml" 38 1658 1659 "history.ml" 40 1733 1741
+)
+"history.ml" 38 1658 1663 "history.ml" 38 1658 1670
+type(
+  bool
+)
+ident(
+  def success "history.ml" 39 1718 1719 "history.ml" 40 1733 1741
+)
+"history.ml" 38 1658 1673 "history.ml" 38 1658 1699
+type(
+  Connection.t ->
+  int -> (Connection.t -> Transaction.t -> bool) option -> bool
+)
+ident(
+  int_ref Connection.end_transaction "connection.ml" 395 11949 11953 "connection.ml" 395 11949 11968
+)
+"history.ml" 38 1658 1700 "history.ml" 38 1658 1703
+type(
+  Connection.t
+)
+ident(
+  int_ref con "history.ml" 37 1617 1641 "history.ml" 37 1617 1644
+)
+"history.ml" 38 1658 1704 "history.ml" 38 1658 1707
+type(
+  int
+)
+ident(
+  int_ref tid "history.ml" 37 1617 1645 "history.ml" 37 1617 1648
+)
+"history.ml" 38 1658 1708 "history.ml" 38 1658 1714
+type(
+  (Connection.t -> Transaction.t -> bool) option
+)
+ident(
+  int_ref commit "history.ml" 37 1617 1649 "history.ml" 37 1617 1655
+)
+"history.ml" 38 1658 1673 "history.ml" 38 1658 1714
+type(
+  bool
+)
+"history.ml" 39 1718 1719 "history.ml" 39 1718 1723
+type(
+  ?txn:Transaction.t -> unit -> unit
+)
+ident(
+  int_ref trim "history.ml" 28 1231 1235 "history.ml" 28 1231 1239
+)
+"history.ml" 39 1718 1725 "history.ml" 39 1718 1728
+type(
+  Transaction.t
+)
+ident(
+  int_ref txn "history.ml" 37 1617 1637 "history.ml" 37 1617 1640
+)
+"history.ml" 39 1718 1729 "history.ml" 39 1718 1731
+type(
+  unit
+)
+"history.ml" 39 1718 1719 "history.ml" 39 1718 1731
+type(
+  unit
+)
+"history.ml" 40 1733 1734 "history.ml" 40 1733 1741
+type(
+  bool
+)
+ident(
+  int_ref success "history.ml" 38 1658 1663 "history.ml" 38 1658 1670
+)
+"history.ml" 39 1718 1719 "history.ml" 40 1733 1741
+type(
+  bool
+)
+"history.ml" 38 1658 1659 "history.ml" 40 1733 1741
+type(
+  bool
+)
+"history.ml" 42 1743 1747 "history.ml" 42 1743 1756
+type(
+  Connection.t -> unit
+)
+ident(
+  def reconnect "history.ml" 46 1803 1803 "history.ml" 0 0 -1
+)
+"history.ml" 42 1743 1757 "history.ml" 42 1743 1760
+type(
+  Connection.t
+)
+ident(
+  def con "history.ml" 43 1763 1764 "history.ml" 44 1773 1801
+)
+"history.ml" 43 1763 1764 "history.ml" 43 1763 1768
+type(
+  ?txn:Transaction.t -> unit -> unit
+)
+ident(
+  int_ref trim "history.ml" 28 1231 1235 "history.ml" 28 1231 1239
+)
+"history.ml" 43 1763 1769 "history.ml" 43 1763 1771
+type(
+  unit
+)
+"history.ml" 43 1763 1764 "history.ml" 43 1763 1771
+type(
+  unit
+)
+"history.ml" 44 1773 1774 "history.ml" 44 1773 1797
+type(
+  Connection.t -> unit
+)
+ident(
+  int_ref Connection.do_reconnect "connection.ml" 150 4300 4304 "connection.ml" 150 4300 4316
+)
+"history.ml" 44 1773 1798 "history.ml" 44 1773 1801
+type(
+  Connection.t
+)
+ident(
+  int_ref con "history.ml" 42 1743 1757 "history.ml" 42 1743 1760
+)
+"history.ml" 44 1773 1774 "history.ml" 44 1773 1801
+type(
+  unit
+)
+"history.ml" 43 1763 1764 "history.ml" 44 1773 1801
+type(
+  unit
+)
+"history.ml" 46 1803 1807 "history.ml" 46 1803 1811
+type(
+  history_record -> unit
+)
+ident(
+  def push "history.ml" 53 2142 2142 "history.ml" 0 0 -1
+)
+"history.ml" 46 1803 1813 "history.ml" 46 1803 1814
+type(
+  history_record
+)
+ident(
+  def x "history.ml" 47 1834 1835 "history.ml" 50 1957 2037
+)
+"history.ml" 47 1834 1839 "history.ml" 47 1834 1842
+type(
+  Domain.t option
+)
+ident(
+  def dom "history.ml" 48 1869 1870 "history.ml" 50 1957 2037
+)
+"history.ml" 47 1834 1845 "history.ml" 47 1834 1846
+type(
+  history_record
+)
+ident(
+  int_ref x "history.ml" 46 1803 1813 "history.ml" 46 1803 1814
+)
+"history.ml" 47 1834 1845 "history.ml" 47 1834 1850
+type(
+  Connection.t
+)
+"history.ml" 47 1834 1845 "history.ml" 47 1834 1865
+type(
+  Domain.t option
+)
+"history.ml" 48 1869 1876 "history.ml" 48 1869 1879
+type(
+  Domain.t option
+)
+ident(
+  int_ref dom "history.ml" 47 1834 1839 "history.ml" 47 1834 1842
+)
+"history.ml" 49 1885 1888 "history.ml" 49 1885 1892
+type(
+  Domain.t option
+)
+"history.ml" 49 1885 1896 "history.ml" 49 1885 1898
+type(
+  unit
+)
+"history.ml" 50 1957 1965 "history.ml" 50 1957 1966
+type(
+  Domain.t
+)
+ident(
+  def d "history.ml" 50 1957 1970 "history.ml" 50 1957 2037
+)
+"history.ml" 50 1957 1960 "history.ml" 50 1957 1966
+type(
+  Domain.t option
+)
+"history.ml" 50 1957 1973 "history.ml" 50 1957 1976
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"history.ml" 50 1957 1978 "history.ml" 50 1957 2004
+type(
+  Domain.t -> bool
+)
+ident(
+  int_ref Domain.is_free_to_conflict "domain.ml" 74 2426 2430 "domain.ml" 74 2426 2449
+)
+"history.ml" 50 1957 2005 "history.ml" 50 1957 2006
+type(
+  Domain.t
+)
+ident(
+  int_ref d "history.ml" 50 1957 1965 "history.ml" 50 1957 1966
+)
+"history.ml" 50 1957 1977 "history.ml" 50 1957 2007
+type(
+  bool
+)
+"history.ml" 50 1957 1973 "history.ml" 50 1957 2007
+type(
+  bool
+)
+"history.ml" 50 1957 2013 "history.ml" 50 1957 2020
+type(
+  history_record list ref
+)
+ident(
+  int_ref history "history.ml" 23 937 941 "history.ml" 23 937 948
+)
+"history.ml" 50 1957 2021 "history.ml" 50 1957 2023
+type(
+  history_record list ref -> history_record list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"history.ml" 50 1957 2024 "history.ml" 50 1957 2025
+type(
+  history_record
+)
+ident(
+  int_ref x "history.ml" 46 1803 1813 "history.ml" 46 1803 1814
+)
+"history.ml" 50 1957 2029 "history.ml" 50 1957 2030
+type(
+  history_record list ref -> history_record list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"history.ml" 50 1957 2030 "history.ml" 50 1957 2037
+type(
+  history_record list ref
+)
+ident(
+  int_ref history "history.ml" 23 937 941 "history.ml" 23 937 948
+)
+"history.ml" 50 1957 2029 "history.ml" 50 1957 2037
+type(
+  history_record list
+)
+"history.ml" 50 1957 2024 "history.ml" 50 1957 2037
+type(
+  history_record list
+)
+"history.ml" 50 1957 2013 "history.ml" 50 1957 2037
+type(
+  unit
+)
+"history.ml" 50 1957 1970 "history.ml" 50 1957 2037
+type(
+  unit
+)
+"history.ml" 48 1869 1870 "history.ml" 50 1957 2037
+type(
+  unit
+)
+"history.ml" 47 1834 1835 "history.ml" 50 1957 2037
+type(
+  unit
+)
+"history.ml" 53 2142 2146 "history.ml" 53 2142 2164
+type(
+  ignore:Connection.t ->
+  since:int64 -> f:(history_record -> bool) -> (Connection.t, unit) Hashtbl.t
+)
+ident(
+  def filter_connections "history.ml" 63 2565 2598 "history.ml" 0 0 -1
+)
+"history.ml" 53 2142 2166 "history.ml" 53 2142 2172
+type(
+  Connection.t
+)
+ident(
+  def ignore "history.ml" 53 2142 2173 "history.ml" 63 2565 2598
+)
+"history.ml" 53 2142 2174 "history.ml" 53 2142 2179
+type(
+  int64
+)
+ident(
+  def since "history.ml" 53 2142 2180 "history.ml" 63 2565 2598
+)
+"history.ml" 53 2142 2181 "history.ml" 53 2142 2182
+type(
+  history_record -> bool
+)
+ident(
+  def f "history.ml" 56 2353 2354 "history.ml" 63 2565 2598
+)
+"history.ml" 56 2353 2354 "history.ml" 56 2353 2368
+type(
+  ((Connection.t, unit) Hashtbl.t ->
+   history_record -> (Connection.t, unit) Hashtbl.t) ->
+  (Connection.t, unit) Hashtbl.t ->
+  history_record list -> (Connection.t, unit) Hashtbl.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"history.ml" 56 2353 2374 "history.ml" 56 2353 2377
+type(
+  (Connection.t, unit) Hashtbl.t
+)
+ident(
+  def acc "history.ml" 56 2353 2378 "history.ml" 62 2559 2564
+)
+"history.ml" 56 2353 2378 "history.ml" 56 2353 2386
+type(
+  history_record
+)
+ident(
+  def hist_rec "history.ml" 57 2390 2392 "history.ml" 62 2559 2564
+)
+"history.ml" 57 2390 2395 "history.ml" 57 2390 2403
+type(
+  history_record
+)
+ident(
+  int_ref hist_rec "history.ml" 56 2353 2378 "history.ml" 56 2353 2386
+)
+"history.ml" 57 2390 2395 "history.ml" 57 2390 2416
+type(
+  int64
+)
+"history.ml" 57 2390 2417 "history.ml" 57 2390 2418
+type(
+  int64 -> int64 -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"history.ml" 57 2390 2419 "history.ml" 57 2390 2424
+type(
+  int64
+)
+ident(
+  int_ref since "history.ml" 53 2142 2174 "history.ml" 53 2142 2179
+)
+"history.ml" 57 2390 2395 "history.ml" 57 2390 2424
+type(
+  bool
+)
+"history.ml" 58 2425 2427 "history.ml" 58 2425 2429
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"history.ml" 58 2425 2430 "history.ml" 58 2425 2433
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"history.ml" 58 2425 2435 "history.ml" 58 2425 2443
+type(
+  history_record
+)
+ident(
+  int_ref hist_rec "history.ml" 56 2353 2378 "history.ml" 56 2353 2386
+)
+"history.ml" 58 2425 2435 "history.ml" 58 2425 2447
+type(
+  Connection.t
+)
+"history.ml" 58 2425 2448 "history.ml" 58 2425 2450
+type(
+  Connection.t -> Connection.t -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 188 8052 8052 "stdlib.mli" 188 8052 8094
+)
+"history.ml" 58 2425 2451 "history.ml" 58 2425 2457
+type(
+  Connection.t
+)
+ident(
+  int_ref ignore "history.ml" 53 2142 2166 "history.ml" 53 2142 2172
+)
+"history.ml" 58 2425 2434 "history.ml" 58 2425 2458
+type(
+  bool
+)
+"history.ml" 58 2425 2430 "history.ml" 58 2425 2458
+type(
+  bool
+)
+"history.ml" 59 2459 2461 "history.ml" 59 2459 2463
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"history.ml" 59 2459 2464 "history.ml" 59 2459 2467
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"history.ml" 59 2459 2469 "history.ml" 59 2459 2480
+type(
+  (Connection.t, unit) Hashtbl.t -> Connection.t -> bool
+)
+ident(
+  int_ref Stdlib.Hashtbl.mem "hashtbl.mli" 101 4666 4666 "hashtbl.mli" 101 4666 4700
+)
+"history.ml" 59 2459 2481 "history.ml" 59 2459 2484
+type(
+  (Connection.t, unit) Hashtbl.t
+)
+ident(
+  int_ref acc "history.ml" 56 2353 2374 "history.ml" 56 2353 2377
+)
+"history.ml" 59 2459 2485 "history.ml" 59 2459 2493
+type(
+  history_record
+)
+ident(
+  int_ref hist_rec "history.ml" 56 2353 2378 "history.ml" 56 2353 2386
+)
+"history.ml" 59 2459 2485 "history.ml" 59 2459 2497
+type(
+  Connection.t
+)
+"history.ml" 59 2459 2468 "history.ml" 59 2459 2498
+type(
+  bool
+)
+"history.ml" 59 2459 2464 "history.ml" 59 2459 2498
+type(
+  bool
+)
+"history.ml" 60 2499 2501 "history.ml" 60 2499 2503
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"history.ml" 60 2499 2504 "history.ml" 60 2499 2505
+type(
+  history_record -> bool
+)
+ident(
+  int_ref f "history.ml" 53 2142 2181 "history.ml" 53 2142 2182
+)
+"history.ml" 60 2499 2506 "history.ml" 60 2499 2514
+type(
+  history_record
+)
+ident(
+  int_ref hist_rec "history.ml" 56 2353 2378 "history.ml" 56 2353 2386
+)
+"history.ml" 60 2499 2504 "history.ml" 60 2499 2514
+type(
+  bool
+)
+"history.ml" 59 2459 2464 "history.ml" 60 2499 2514
+type(
+  bool
+)
+"history.ml" 58 2425 2430 "history.ml" 60 2499 2514
+type(
+  bool
+)
+"history.ml" 57 2390 2395 "history.ml" 60 2499 2514
+type(
+  bool
+)
+"history.ml" 61 2515 2522 "history.ml" 61 2515 2537
+type(
+  (Connection.t, unit) Hashtbl.t -> Connection.t -> unit -> unit
+)
+ident(
+  int_ref Stdlib.Hashtbl.replace "hashtbl.mli" 109 4973 4973 "hashtbl.mli" 109 4973 5017
+)
+"history.ml" 61 2515 2538 "history.ml" 61 2515 2541
+type(
+  (Connection.t, unit) Hashtbl.t
+)
+ident(
+  int_ref acc "history.ml" 56 2353 2374 "history.ml" 56 2353 2377
+)
+"history.ml" 61 2515 2542 "history.ml" 61 2515 2550
+type(
+  history_record
+)
+ident(
+  int_ref hist_rec "history.ml" 56 2353 2378 "history.ml" 56 2353 2386
+)
+"history.ml" 61 2515 2542 "history.ml" 61 2515 2554
+type(
+  Connection.t
+)
+"history.ml" 61 2515 2555 "history.ml" 61 2515 2557
+type(
+  unit
+)
+"history.ml" 61 2515 2522 "history.ml" 61 2515 2557
+type(
+  unit
+)
+"history.ml" 57 2390 2392 "history.ml" 61 2515 2557
+type(
+  unit
+)
+"history.ml" 62 2559 2561 "history.ml" 62 2559 2564
+type(
+  (Connection.t, unit) Hashtbl.t
+)
+ident(
+  int_ref acc "history.ml" 56 2353 2374 "history.ml" 56 2353 2377
+)
+"history.ml" 57 2390 2392 "history.ml" 62 2559 2564
+type(
+  (Connection.t, unit) Hashtbl.t
+)
+"history.ml" 56 2353 2369 "history.ml" 63 2565 2567
+type(
+  (Connection.t, unit) Hashtbl.t ->
+  history_record -> (Connection.t, unit) Hashtbl.t
+)
+"history.ml" 63 2565 2569 "history.ml" 63 2565 2583
+type(
+  ?random:bool -> int -> (Connection.t, unit) Hashtbl.t
+)
+ident(
+  int_ref Stdlib.Hashtbl.create "hashtbl.mli" 28 1303 1303 "hashtbl.mli" 28 1303 1349
+)
+"history.ml" 63 2565 2584 "history.ml" 63 2565 2588
+type(
+  int
+)
+"history.ml" 63 2565 2568 "history.ml" 63 2565 2589
+type(
+  (Connection.t, unit) Hashtbl.t
+)
+"history.ml" 63 2565 2590 "history.ml" 63 2565 2591
+type(
+  history_record list ref -> history_record list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"history.ml" 63 2565 2591 "history.ml" 63 2565 2598
+type(
+  history_record list ref
+)
+ident(
+  int_ref history "history.ml" 23 937 941 "history.ml" 23 937 948
+)
+"history.ml" 63 2565 2590 "history.ml" 63 2565 2598
+type(
+  history_record list
+)
+"history.ml" 56 2353 2354 "history.ml" 63 2565 2598
+type(
+  (Connection.t, unit) Hashtbl.t
+)

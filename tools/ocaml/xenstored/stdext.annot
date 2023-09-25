@@ -1,0 +1,2774 @@
+"stdext.ml" 23 899 903 "stdext.ml" 23 899 910
+type(
+  (exn -> unit) option ref
+)
+ident(
+  def exnhook "stdext.ml" 25 923 923 "stdext.ml" 0 0 -1
+)
+"stdext.ml" 23 899 913 "stdext.ml" 23 899 916
+type(
+  (exn -> unit) option -> (exn -> unit) option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"stdext.ml" 23 899 917 "stdext.ml" 23 899 921
+type(
+  (exn -> unit) option
+)
+"stdext.ml" 23 899 913 "stdext.ml" 23 899 921
+type(
+  (exn -> unit) option ref
+)
+"stdext.ml" 25 923 927 "stdext.ml" 25 923 934
+type(
+  (unit -> 'a) -> (unit -> 'b) -> 'a
+)
+ident(
+  def finally "stdext.ml" 36 1178 1178 "stdext.ml" 0 0 -1
+)
+"stdext.ml" 25 923 935 "stdext.ml" 25 923 938
+type(
+  unit -> 'a
+)
+ident(
+  def fct "stdext.ml" 25 923 939 "stdext.ml" 33 1090 1097
+)
+"stdext.ml" 25 923 939 "stdext.ml" 25 923 946
+type(
+  unit -> 'b
+)
+ident(
+  def clean_f "stdext.ml" 26 949 950 "stdext.ml" 33 1090 1097
+)
+"stdext.ml" 26 949 954 "stdext.ml" 26 949 960
+type(
+  'a
+)
+ident(
+  def result "stdext.ml" 32 1077 1078 "stdext.ml" 33 1090 1097
+)
+"stdext.ml" 27 967 969 "stdext.ml" 27 967 972
+type(
+  unit -> 'a
+)
+ident(
+  int_ref fct "stdext.ml" 25 923 935 "stdext.ml" 25 923 938
+)
+"stdext.ml" 27 967 973 "stdext.ml" 27 967 975
+type(
+  unit
+)
+"stdext.ml" 27 967 969 "stdext.ml" 27 967 975
+type(
+  'a
+)
+"stdext.ml" 29 983 985 "stdext.ml" 29 983 988
+type(
+  exn
+)
+ident(
+  def exn "stdext.ml" 30 992 996 "stdext.ml" 31 1048 1073
+)
+"stdext.ml" 30 992 1003 "stdext.ml" 30 992 1004
+type(
+  (exn -> unit) option ref -> (exn -> unit) option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"stdext.ml" 30 992 1004 "stdext.ml" 30 992 1011
+type(
+  (exn -> unit) option ref
+)
+ident(
+  int_ref exnhook "stdext.ml" 23 899 903 "stdext.ml" 23 899 910
+)
+"stdext.ml" 30 992 1003 "stdext.ml" 30 992 1011
+type(
+  (exn -> unit) option
+)
+"stdext.ml" 30 992 1017 "stdext.ml" 30 992 1021
+type(
+  (exn -> unit) option
+)
+"stdext.ml" 30 992 1025 "stdext.ml" 30 992 1027
+type(
+  unit
+)
+"stdext.ml" 30 992 1035 "stdext.ml" 30 992 1036
+type(
+  exn -> unit
+)
+ident(
+  def f "stdext.ml" 30 992 1040 "stdext.ml" 30 992 1045
+)
+"stdext.ml" 30 992 1030 "stdext.ml" 30 992 1036
+type(
+  (exn -> unit) option
+)
+"stdext.ml" 30 992 1040 "stdext.ml" 30 992 1041
+type(
+  exn -> unit
+)
+ident(
+  int_ref f "stdext.ml" 30 992 1035 "stdext.ml" 30 992 1036
+)
+"stdext.ml" 30 992 1042 "stdext.ml" 30 992 1045
+type(
+  exn
+)
+ident(
+  int_ref exn "stdext.ml" 29 983 985 "stdext.ml" 29 983 988
+)
+"stdext.ml" 30 992 1040 "stdext.ml" 30 992 1045
+type(
+  unit
+)
+"stdext.ml" 30 992 996 "stdext.ml" 30 992 1046
+type(
+  unit
+)
+"stdext.ml" 31 1048 1052 "stdext.ml" 31 1048 1059
+type(
+  unit -> 'b
+)
+ident(
+  int_ref clean_f "stdext.ml" 25 923 939 "stdext.ml" 25 923 946
+)
+"stdext.ml" 31 1048 1060 "stdext.ml" 31 1048 1062
+type(
+  unit
+)
+"stdext.ml" 31 1048 1052 "stdext.ml" 31 1048 1062
+type(
+  'b
+)
+"stdext.ml" 31 1048 1064 "stdext.ml" 31 1048 1069
+type(
+  exn -> 'a
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"stdext.ml" 31 1048 1070 "stdext.ml" 31 1048 1073
+type(
+  exn
+)
+ident(
+  int_ref exn "stdext.ml" 29 983 985 "stdext.ml" 29 983 988
+)
+"stdext.ml" 31 1048 1064 "stdext.ml" 31 1048 1073
+type(
+  'a
+)
+"stdext.ml" 31 1048 1052 "stdext.ml" 31 1048 1073
+type(
+  'a
+)
+"stdext.ml" 30 992 996 "stdext.ml" 31 1048 1073
+type(
+  'a
+)
+"stdext.ml" 26 949 963 "stdext.ml" 31 1048 1073
+type(
+  'a
+)
+"stdext.ml" 32 1077 1078 "stdext.ml" 32 1077 1085
+type(
+  unit -> 'b
+)
+ident(
+  int_ref clean_f "stdext.ml" 25 923 939 "stdext.ml" 25 923 946
+)
+"stdext.ml" 32 1077 1086 "stdext.ml" 32 1077 1088
+type(
+  unit
+)
+"stdext.ml" 32 1077 1078 "stdext.ml" 32 1077 1088
+type(
+  'b
+)
+"stdext.ml" 33 1090 1091 "stdext.ml" 33 1090 1097
+type(
+  'a
+)
+ident(
+  int_ref result "stdext.ml" 26 949 954 "stdext.ml" 26 949 960
+)
+"stdext.ml" 32 1077 1078 "stdext.ml" 33 1090 1097
+type(
+  'a
+)
+"stdext.ml" 26 949 950 "stdext.ml" 33 1090 1097
+type(
+  'a
+)
+"stdext.ml" 36 1178 1182 "stdext.ml" 36 1178 1185
+type(
+  ('a -> 'b) -> 'a option -> 'b option
+)
+ident(
+  def may "stdext.ml" 40 1283 1283 "stdext.ml" 0 0 -1
+)
+"stdext.ml" 36 1178 1186 "stdext.ml" 36 1178 1187
+type(
+  'a -> 'b
+)
+ident(
+  def f "stdext.ml" 36 1178 1188 "stdext.ml" 37 1192 1241
+)
+"stdext.ml" 36 1178 1188 "stdext.ml" 36 1178 1189
+type(
+  'a option
+)
+ident(
+  def v "stdext.ml" 37 1192 1193 "stdext.ml" 37 1192 1241
+)
+"stdext.ml" 37 1192 1199 "stdext.ml" 37 1192 1200
+type(
+  'a option
+)
+ident(
+  int_ref v "stdext.ml" 36 1178 1188 "stdext.ml" 36 1178 1189
+)
+"stdext.ml" 37 1192 1211 "stdext.ml" 37 1192 1212
+type(
+  'a
+)
+ident(
+  def x "stdext.ml" 37 1192 1216 "stdext.ml" 37 1192 1226
+)
+"stdext.ml" 37 1192 1206 "stdext.ml" 37 1192 1212
+type(
+  'a option
+)
+"stdext.ml" 37 1192 1222 "stdext.ml" 37 1192 1223
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "stdext.ml" 36 1178 1186 "stdext.ml" 36 1178 1187
+)
+"stdext.ml" 37 1192 1224 "stdext.ml" 37 1192 1225
+type(
+  'a
+)
+ident(
+  int_ref x "stdext.ml" 37 1192 1211 "stdext.ml" 37 1192 1212
+)
+"stdext.ml" 37 1192 1221 "stdext.ml" 37 1192 1226
+type(
+  'b
+)
+"stdext.ml" 37 1192 1216 "stdext.ml" 37 1192 1226
+type(
+  'b option
+)
+"stdext.ml" 37 1192 1229 "stdext.ml" 37 1192 1233
+type(
+  'a option
+)
+"stdext.ml" 37 1192 1237 "stdext.ml" 37 1192 1241
+type(
+  'b option
+)
+"stdext.ml" 37 1192 1193 "stdext.ml" 37 1192 1241
+type(
+  'b option
+)
+"stdext.ml" 40 1283 1287 "stdext.ml" 40 1283 1294
+type(
+  'a -> 'a option -> 'a
+)
+ident(
+  def default "stdext.ml" 44 1372 1372 "stdext.ml" 0 0 -1
+)
+"stdext.ml" 40 1283 1295 "stdext.ml" 40 1283 1296
+type(
+  'a
+)
+ident(
+  def d "stdext.ml" 40 1283 1297 "stdext.ml" 41 1301 1338
+)
+"stdext.ml" 40 1283 1297 "stdext.ml" 40 1283 1298
+type(
+  'a option
+)
+ident(
+  def v "stdext.ml" 41 1301 1302 "stdext.ml" 41 1301 1338
+)
+"stdext.ml" 41 1301 1308 "stdext.ml" 41 1301 1309
+type(
+  'a option
+)
+ident(
+  int_ref v "stdext.ml" 40 1283 1297 "stdext.ml" 40 1283 1298
+)
+"stdext.ml" 41 1301 1320 "stdext.ml" 41 1301 1321
+type(
+  'a
+)
+ident(
+  def x "stdext.ml" 41 1301 1325 "stdext.ml" 41 1301 1326
+)
+"stdext.ml" 41 1301 1315 "stdext.ml" 41 1301 1321
+type(
+  'a option
+)
+"stdext.ml" 41 1301 1325 "stdext.ml" 41 1301 1326
+type(
+  'a
+)
+ident(
+  int_ref x "stdext.ml" 41 1301 1320 "stdext.ml" 41 1301 1321
+)
+"stdext.ml" 41 1301 1329 "stdext.ml" 41 1301 1333
+type(
+  'a option
+)
+"stdext.ml" 41 1301 1337 "stdext.ml" 41 1301 1338
+type(
+  'a
+)
+ident(
+  int_ref d "stdext.ml" 40 1283 1295 "stdext.ml" 40 1283 1296
+)
+"stdext.ml" 41 1301 1302 "stdext.ml" 41 1301 1338
+type(
+  'a
+)
+"stdext.ml" 44 1372 1376 "stdext.ml" 44 1372 1381
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+ident(
+  def maybe "stdext.ml" 47 1430 1430 "stdext.ml" 0 0 -1
+)
+"stdext.ml" 44 1372 1382 "stdext.ml" 44 1372 1383
+type(
+  'a -> unit
+)
+ident(
+  def f "stdext.ml" 44 1372 1384 "stdext.ml" 45 1388 1428
+)
+"stdext.ml" 44 1372 1384 "stdext.ml" 44 1372 1385
+type(
+  'a option
+)
+ident(
+  def v "stdext.ml" 45 1388 1389 "stdext.ml" 45 1388 1428
+)
+"stdext.ml" 45 1388 1395 "stdext.ml" 45 1388 1396
+type(
+  'a option
+)
+ident(
+  int_ref v "stdext.ml" 44 1372 1384 "stdext.ml" 44 1372 1385
+)
+"stdext.ml" 45 1388 1402 "stdext.ml" 45 1388 1406
+type(
+  'a option
+)
+"stdext.ml" 45 1388 1410 "stdext.ml" 45 1388 1412
+type(
+  unit
+)
+"stdext.ml" 45 1388 1420 "stdext.ml" 45 1388 1421
+type(
+  'a
+)
+ident(
+  def x "stdext.ml" 45 1388 1425 "stdext.ml" 45 1388 1428
+)
+"stdext.ml" 45 1388 1415 "stdext.ml" 45 1388 1421
+type(
+  'a option
+)
+"stdext.ml" 45 1388 1425 "stdext.ml" 45 1388 1426
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "stdext.ml" 44 1372 1382 "stdext.ml" 44 1372 1383
+)
+"stdext.ml" 45 1388 1427 "stdext.ml" 45 1388 1428
+type(
+  'a
+)
+ident(
+  int_ref x "stdext.ml" 45 1388 1420 "stdext.ml" 45 1388 1421
+)
+"stdext.ml" 45 1388 1425 "stdext.ml" 45 1388 1428
+type(
+  unit
+)
+"stdext.ml" 45 1388 1389 "stdext.ml" 45 1388 1428
+type(
+  unit
+)
+"stdext.ml" 49 1473 1478 "stdext.ml" 49 1473 1491
+type(
+  string -> string list -> string
+)
+ident(
+  def quote_command "stdext.ml" 50 1503 1555 "stdext.ml" 51 1556 1559
+)
+"stdext.ml" 49 1473 1492 "stdext.ml" 49 1473 1495
+type(
+  string
+)
+ident(
+  def cmd "stdext.ml" 49 1473 1496 "stdext.ml" 50 1503 1555
+)
+"stdext.ml" 49 1473 1496 "stdext.ml" 49 1473 1500
+type(
+  string list
+)
+ident(
+  def args "stdext.ml" 50 1503 1505 "stdext.ml" 50 1503 1555
+)
+"stdext.ml" 50 1503 1505 "stdext.ml" 50 1503 1508
+type(
+  string
+)
+ident(
+  int_ref cmd "stdext.ml" 49 1473 1492 "stdext.ml" 49 1473 1495
+)
+"stdext.ml" 50 1503 1512 "stdext.ml" 50 1503 1516
+type(
+  string list
+)
+ident(
+  int_ref args "stdext.ml" 49 1473 1496 "stdext.ml" 49 1473 1500
+)
+"stdext.ml" 50 1503 1505 "stdext.ml" 50 1503 1516
+type(
+  string list
+)
+"stdext.ml" 50 1503 1517 "stdext.ml" 50 1503 1519
+type(
+  string list -> (string list -> string list) -> string list
+)
+ident(
+  int_ref Stdlib.( |> ) "stdlib.mli" 300 12231 12231 "stdlib.mli" 300 12231 12285
+)
+"stdext.ml" 50 1503 1520 "stdext.ml" 50 1503 1528
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+)
+"stdext.ml" 50 1503 1529 "stdext.ml" 50 1503 1534
+type(
+  string -> string
+)
+ident(
+  int_ref quote "filename.mli" 182 7560 7560 "filename.mli" 182 7560 7588
+)
+"stdext.ml" 50 1503 1520 "stdext.ml" 50 1503 1534
+type(
+  string list -> string list
+)
+"stdext.ml" 50 1503 1505 "stdext.ml" 50 1503 1534
+type(
+  string list
+)
+"stdext.ml" 50 1503 1535 "stdext.ml" 50 1503 1537
+type(
+  string list -> (string list -> string) -> string
+)
+ident(
+  int_ref Stdlib.( |> ) "stdlib.mli" 300 12231 12231 "stdlib.mli" 300 12231 12285
+)
+"stdext.ml" 50 1503 1538 "stdext.ml" 50 1503 1551
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 121 5323 5323 "string.mli" 121 5323 5367
+)
+"stdext.ml" 50 1503 1552 "stdext.ml" 50 1503 1555
+type(
+  string
+)
+"stdext.ml" 50 1503 1538 "stdext.ml" 50 1503 1555
+type(
+  string list -> string
+)
+"stdext.ml" 50 1503 1505 "stdext.ml" 50 1503 1555
+type(
+  string
+)
+"stdext.ml" 58 1650 1655 "stdext.ml" 58 1650 1663
+type(
+  key -> 'a t -> 'a option
+)
+ident(
+  def find_opt "stdext.ml" 60 1714 1715 "stdext.ml" 69 1916 1920
+)
+"stdext.ml" 58 1650 1664 "stdext.ml" 58 1650 1665
+type(
+  key
+)
+ident(
+  def k "stdext.ml" 58 1650 1666 "stdext.ml" 58 1650 1712
+)
+"stdext.ml" 58 1650 1666 "stdext.ml" 58 1650 1667
+type(
+  'a t
+)
+ident(
+  def t "stdext.ml" 58 1650 1670 "stdext.ml" 58 1650 1712
+)
+"stdext.ml" 58 1650 1680 "stdext.ml" 58 1650 1684
+type(
+  key -> 'a t -> 'a
+)
+ident(
+  int_ref find "map.mli" 254 10231 10235 "map.mli" 254 10231 10262
+)
+"stdext.ml" 58 1650 1685 "stdext.ml" 58 1650 1686
+type(
+  key
+)
+ident(
+  int_ref k "stdext.ml" 58 1650 1664 "stdext.ml" 58 1650 1665
+)
+"stdext.ml" 58 1650 1687 "stdext.ml" 58 1650 1688
+type(
+  'a t
+)
+ident(
+  int_ref t "stdext.ml" 58 1650 1666 "stdext.ml" 58 1650 1667
+)
+"stdext.ml" 58 1650 1679 "stdext.ml" 58 1650 1689
+type(
+  'a
+)
+"stdext.ml" 58 1650 1674 "stdext.ml" 58 1650 1689
+type(
+  'a option
+)
+"stdext.ml" 58 1650 1695 "stdext.ml" 58 1650 1704
+type(
+  exn
+)
+"stdext.ml" 58 1650 1708 "stdext.ml" 58 1650 1712
+type(
+  'a option
+)
+"stdext.ml" 58 1650 1670 "stdext.ml" 58 1650 1712
+type(
+  'a option
+)
+"stdext.ml" 60 1714 1719 "stdext.ml" 60 1714 1725
+type(
+  key -> ('b option -> 'b option) -> 'b t -> 'b t
+)
+ident(
+  def update "stdext.ml" 67 1886 1914 "stdext.ml" 69 1916 1920
+)
+"stdext.ml" 60 1714 1726 "stdext.ml" 60 1714 1727
+type(
+  key
+)
+ident(
+  def k "stdext.ml" 60 1714 1728 "stdext.ml" 67 1886 1914
+)
+"stdext.ml" 60 1714 1728 "stdext.ml" 60 1714 1729
+type(
+  'b option -> 'b option
+)
+ident(
+  def f "stdext.ml" 60 1714 1730 "stdext.ml" 67 1886 1914
+)
+"stdext.ml" 60 1714 1730 "stdext.ml" 60 1714 1731
+type(
+  'b t
+)
+ident(
+  def t "stdext.ml" 61 1734 1736 "stdext.ml" 67 1886 1914
+)
+"stdext.ml" 61 1734 1740 "stdext.ml" 61 1734 1741
+type(
+  'b option
+)
+ident(
+  def r "stdext.ml" 62 1760 1762 "stdext.ml" 67 1886 1914
+)
+"stdext.ml" 61 1734 1744 "stdext.ml" 61 1734 1752
+type(
+  key -> 'b t -> 'b option
+)
+ident(
+  int_ref find_opt "stdext.ml" 58 1650 1655 "stdext.ml" 58 1650 1663
+)
+"stdext.ml" 61 1734 1753 "stdext.ml" 61 1734 1754
+type(
+  key
+)
+ident(
+  int_ref k "stdext.ml" 60 1714 1726 "stdext.ml" 60 1714 1727
+)
+"stdext.ml" 61 1734 1755 "stdext.ml" 61 1734 1756
+type(
+  'b t
+)
+ident(
+  int_ref t "stdext.ml" 60 1714 1730 "stdext.ml" 60 1714 1731
+)
+"stdext.ml" 61 1734 1744 "stdext.ml" 61 1734 1756
+type(
+  'b option
+)
+"stdext.ml" 62 1760 1766 "stdext.ml" 62 1760 1768
+type(
+  'b option
+)
+ident(
+  def r' "stdext.ml" 63 1778 1780 "stdext.ml" 67 1886 1914
+)
+"stdext.ml" 62 1760 1771 "stdext.ml" 62 1760 1772
+type(
+  'b option -> 'b option
+)
+ident(
+  int_ref f "stdext.ml" 60 1714 1728 "stdext.ml" 60 1714 1729
+)
+"stdext.ml" 62 1760 1773 "stdext.ml" 62 1760 1774
+type(
+  'b option
+)
+ident(
+  int_ref r "stdext.ml" 61 1734 1740 "stdext.ml" 61 1734 1741
+)
+"stdext.ml" 62 1760 1771 "stdext.ml" 62 1760 1774
+type(
+  'b option
+)
+"stdext.ml" 63 1778 1786 "stdext.ml" 63 1778 1787
+type(
+  'b option
+)
+ident(
+  int_ref r "stdext.ml" 61 1734 1740 "stdext.ml" 61 1734 1741
+)
+"stdext.ml" 63 1778 1789 "stdext.ml" 63 1778 1791
+type(
+  'b option
+)
+ident(
+  int_ref r' "stdext.ml" 62 1760 1766 "stdext.ml" 62 1760 1768
+)
+"stdext.ml" 63 1778 1786 "stdext.ml" 63 1778 1791
+type(
+  'b option * 'b option
+)
+"stdext.ml" 64 1797 1801 "stdext.ml" 64 1797 1805
+type(
+  'b option
+)
+"stdext.ml" 64 1797 1807 "stdext.ml" 64 1797 1811
+type(
+  'b option
+)
+"stdext.ml" 64 1797 1801 "stdext.ml" 64 1797 1811
+type(
+  'b option * 'b option
+)
+"stdext.ml" 64 1797 1815 "stdext.ml" 64 1797 1816
+type(
+  'b t
+)
+ident(
+  int_ref t "stdext.ml" 60 1714 1730 "stdext.ml" 60 1714 1731
+)
+"stdext.ml" 65 1817 1826 "stdext.ml" 65 1817 1827
+type(
+  'b
+)
+"stdext.ml" 65 1817 1821 "stdext.ml" 65 1817 1827
+type(
+  'b option
+)
+"stdext.ml" 65 1817 1829 "stdext.ml" 65 1817 1833
+type(
+  'b option
+)
+"stdext.ml" 65 1817 1821 "stdext.ml" 65 1817 1833
+type(
+  'b option * 'b option
+)
+"stdext.ml" 65 1817 1837 "stdext.ml" 65 1817 1843
+type(
+  key -> 'b t -> 'b t
+)
+ident(
+  int_ref remove "map.mli" 108 4376 4380 "map.mli" 108 4376 4411
+)
+"stdext.ml" 65 1817 1844 "stdext.ml" 65 1817 1845
+type(
+  key
+)
+ident(
+  int_ref k "stdext.ml" 60 1714 1726 "stdext.ml" 60 1714 1727
+)
+"stdext.ml" 65 1817 1846 "stdext.ml" 65 1817 1847
+type(
+  'b t
+)
+ident(
+  int_ref t "stdext.ml" 60 1714 1730 "stdext.ml" 60 1714 1731
+)
+"stdext.ml" 65 1817 1837 "stdext.ml" 65 1817 1847
+type(
+  'b t
+)
+"stdext.ml" 66 1848 1857 "stdext.ml" 66 1848 1858
+type(
+  'b
+)
+ident(
+  def r "stdext.ml" 66 1848 1873 "stdext.ml" 66 1848 1885
+)
+"stdext.ml" 66 1848 1852 "stdext.ml" 66 1848 1858
+type(
+  'b option
+)
+"stdext.ml" 66 1848 1865 "stdext.ml" 66 1848 1867
+type(
+  'b
+)
+ident(
+  def r' "stdext.ml" 66 1848 1873 "stdext.ml" 66 1848 1885
+)
+"stdext.ml" 66 1848 1860 "stdext.ml" 66 1848 1867
+type(
+  'b option
+)
+"stdext.ml" 66 1848 1852 "stdext.ml" 66 1848 1867
+type(
+  'b option * 'b option
+)
+"stdext.ml" 66 1848 1873 "stdext.ml" 66 1848 1874
+type(
+  'b
+)
+ident(
+  int_ref r "stdext.ml" 66 1848 1857 "stdext.ml" 66 1848 1858
+)
+"stdext.ml" 66 1848 1875 "stdext.ml" 66 1848 1877
+type(
+  'b -> 'b -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 188 8052 8052 "stdlib.mli" 188 8052 8094
+)
+"stdext.ml" 66 1848 1878 "stdext.ml" 66 1848 1880
+type(
+  'b
+)
+ident(
+  int_ref r' "stdext.ml" 66 1848 1865 "stdext.ml" 66 1848 1867
+)
+"stdext.ml" 66 1848 1873 "stdext.ml" 66 1848 1880
+type(
+  bool
+)
+"stdext.ml" 66 1848 1884 "stdext.ml" 66 1848 1885
+type(
+  'b t
+)
+ident(
+  int_ref t "stdext.ml" 60 1714 1730 "stdext.ml" 60 1714 1731
+)
+"stdext.ml" 67 1886 1890 "stdext.ml" 67 1886 1891
+type(
+  'b option
+)
+"stdext.ml" 67 1886 1898 "stdext.ml" 67 1886 1900
+type(
+  'b
+)
+ident(
+  def r' "stdext.ml" 67 1886 1904 "stdext.ml" 67 1886 1914
+)
+"stdext.ml" 67 1886 1893 "stdext.ml" 67 1886 1900
+type(
+  'b option
+)
+"stdext.ml" 67 1886 1890 "stdext.ml" 67 1886 1900
+type(
+  'b option * 'b option
+)
+"stdext.ml" 67 1886 1904 "stdext.ml" 67 1886 1907
+type(
+  key -> 'b -> 'b t -> 'b t
+)
+ident(
+  int_ref add "map.mli" 80 3078 3082 "map.mli" 80 3078 3116
+)
+"stdext.ml" 67 1886 1908 "stdext.ml" 67 1886 1909
+type(
+  key
+)
+ident(
+  int_ref k "stdext.ml" 60 1714 1726 "stdext.ml" 60 1714 1727
+)
+"stdext.ml" 67 1886 1910 "stdext.ml" 67 1886 1912
+type(
+  'b
+)
+ident(
+  int_ref r' "stdext.ml" 67 1886 1898 "stdext.ml" 67 1886 1900
+)
+"stdext.ml" 67 1886 1913 "stdext.ml" 67 1886 1914
+type(
+  'b t
+)
+ident(
+  int_ref t "stdext.ml" 60 1714 1730 "stdext.ml" 60 1714 1731
+)
+"stdext.ml" 67 1886 1904 "stdext.ml" 67 1886 1914
+type(
+  'b t
+)
+"stdext.ml" 63 1778 1780 "stdext.ml" 67 1886 1914
+type(
+  'b t
+)
+"stdext.ml" 62 1760 1762 "stdext.ml" 67 1886 1914
+type(
+  'b t
+)
+"stdext.ml" 61 1734 1736 "stdext.ml" 67 1886 1914
+type(
+  'b t
+)
+"stdext.ml" 74 1965 1969 "stdext.ml" 74 1965 1976
+type(
+  char -> string
+)
+ident(
+  def of_char "stdext.ml" 76 1998 1998 "stdext.ml" 102 2874 2877
+)
+"stdext.ml" 74 1965 1977 "stdext.ml" 74 1965 1978
+type(
+  char
+)
+ident(
+  def c "stdext.ml" 74 1965 1981 "stdext.ml" 74 1965 1996
+)
+"stdext.ml" 74 1965 1981 "stdext.ml" 74 1965 1992
+type(
+  int -> char -> string
+)
+ident(
+  int_ref Stdlib.String.make "string.mli" 78 3842 3842 "string.mli" 78 3842 3874
+)
+"stdext.ml" 74 1965 1993 "stdext.ml" 74 1965 1994
+type(
+  int
+)
+"stdext.ml" 74 1965 1995 "stdext.ml" 74 1965 1996
+type(
+  char
+)
+ident(
+  int_ref c "stdext.ml" 74 1965 1977 "stdext.ml" 74 1965 1978
+)
+"stdext.ml" 74 1965 1981 "stdext.ml" 74 1965 1996
+type(
+  string
+)
+"stdext.ml" 76 1998 2006 "stdext.ml" 76 1998 2011
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  def split "stdext.ml" 76 1998 1998 "stdext.ml" 102 2874 2877
+)
+"stdext.ml" 76 1998 2020 "stdext.ml" 76 1998 2025
+type(
+  int
+)
+"stdext.ml" 76 1998 2026 "stdext.ml" 76 1998 2030
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+"stdext.ml" 76 1998 2032 "stdext.ml" 76 1998 2033
+type(
+  char
+)
+ident(
+  def c "stdext.ml" 76 1998 2034 "stdext.ml" 84 2293 2326
+)
+"stdext.ml" 76 1998 2034 "stdext.ml" 76 1998 2035
+type(
+  string
+)
+ident(
+  def s "stdext.ml" 77 2038 2039 "stdext.ml" 84 2293 2326
+)
+"stdext.ml" 77 2038 2043 "stdext.ml" 77 2038 2044
+type(
+  int
+)
+ident(
+  def i "stdext.ml" 78 2092 2093 "stdext.ml" 84 2293 2326
+)
+"stdext.ml" 77 2038 2051 "stdext.ml" 77 2038 2063
+type(
+  string -> char -> int
+)
+ident(
+  int_ref Stdlib.String.index "string.mli" 176 7559 7559 "string.mli" 176 7559 7592
+)
+"stdext.ml" 77 2038 2064 "stdext.ml" 77 2038 2065
+type(
+  string
+)
+ident(
+  int_ref s "stdext.ml" 76 1998 2034 "stdext.ml" 76 1998 2035
+)
+"stdext.ml" 77 2038 2066 "stdext.ml" 77 2038 2067
+type(
+  char
+)
+ident(
+  int_ref c "stdext.ml" 76 1998 2032 "stdext.ml" 76 1998 2033
+)
+"stdext.ml" 77 2038 2051 "stdext.ml" 77 2038 2067
+type(
+  int
+)
+"stdext.ml" 77 2038 2073 "stdext.ml" 77 2038 2082
+type(
+  exn
+)
+"stdext.ml" 77 2038 2086 "stdext.ml" 77 2038 2088
+type(
+  int
+)
+"stdext.ml" 77 2038 2047 "stdext.ml" 77 2038 2088
+type(
+  int
+)
+"stdext.ml" 78 2092 2097 "stdext.ml" 78 2092 2103
+type(
+  int
+)
+ident(
+  def nlimit "stdext.ml" 79 2162 2163 "stdext.ml" 84 2293 2326
+)
+"stdext.ml" 78 2092 2109 "stdext.ml" 78 2092 2114
+type(
+  int
+)
+ident(
+  int_ref limit "stdext.ml" 76 1998 2020 "stdext.ml" 76 1998 2025
+)
+"stdext.ml" 78 2092 2115 "stdext.ml" 78 2092 2116
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"stdext.ml" 78 2092 2117 "stdext.ml" 78 2092 2119
+type(
+  int
+)
+"stdext.ml" 78 2092 2109 "stdext.ml" 78 2092 2119
+type(
+  bool
+)
+"stdext.ml" 78 2092 2120 "stdext.ml" 78 2092 2122
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 224 9417 9417 "stdlib.mli" 224 9417 9467
+)
+"stdext.ml" 78 2092 2123 "stdext.ml" 78 2092 2128
+type(
+  int
+)
+ident(
+  int_ref limit "stdext.ml" 76 1998 2020 "stdext.ml" 76 1998 2025
+)
+"stdext.ml" 78 2092 2129 "stdext.ml" 78 2092 2130
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"stdext.ml" 78 2092 2131 "stdext.ml" 78 2092 2132
+type(
+  int
+)
+"stdext.ml" 78 2092 2123 "stdext.ml" 78 2092 2132
+type(
+  bool
+)
+"stdext.ml" 78 2092 2109 "stdext.ml" 78 2092 2132
+type(
+  bool
+)
+"stdext.ml" 78 2092 2138 "stdext.ml" 78 2092 2143
+type(
+  int
+)
+ident(
+  int_ref limit "stdext.ml" 76 1998 2020 "stdext.ml" 76 1998 2025
+)
+"stdext.ml" 78 2092 2149 "stdext.ml" 78 2092 2154
+type(
+  int
+)
+ident(
+  int_ref limit "stdext.ml" 76 1998 2020 "stdext.ml" 76 1998 2025
+)
+"stdext.ml" 78 2092 2155 "stdext.ml" 78 2092 2156
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"stdext.ml" 78 2092 2157 "stdext.ml" 78 2092 2158
+type(
+  int
+)
+"stdext.ml" 78 2092 2149 "stdext.ml" 78 2092 2158
+type(
+  int
+)
+"stdext.ml" 78 2092 2106 "stdext.ml" 78 2092 2158
+type(
+  int
+)
+"stdext.ml" 79 2162 2166 "stdext.ml" 79 2162 2167
+type(
+  int
+)
+ident(
+  int_ref i "stdext.ml" 77 2038 2043 "stdext.ml" 77 2038 2044
+)
+"stdext.ml" 79 2162 2168 "stdext.ml" 79 2162 2169
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"stdext.ml" 79 2162 2170 "stdext.ml" 79 2162 2172
+type(
+  int
+)
+"stdext.ml" 79 2162 2166 "stdext.ml" 79 2162 2172
+type(
+  bool
+)
+"stdext.ml" 79 2162 2173 "stdext.ml" 79 2162 2175
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 224 9417 9417 "stdlib.mli" 224 9417 9467
+)
+"stdext.ml" 79 2162 2176 "stdext.ml" 79 2162 2182
+type(
+  int
+)
+ident(
+  int_ref nlimit "stdext.ml" 78 2092 2097 "stdext.ml" 78 2092 2103
+)
+"stdext.ml" 79 2162 2183 "stdext.ml" 79 2162 2184
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"stdext.ml" 79 2162 2185 "stdext.ml" 79 2162 2186
+type(
+  int
+)
+"stdext.ml" 79 2162 2176 "stdext.ml" 79 2162 2186
+type(
+  bool
+)
+"stdext.ml" 79 2162 2166 "stdext.ml" 79 2162 2186
+type(
+  bool
+)
+"stdext.ml" 80 2192 2196 "stdext.ml" 80 2192 2197
+type(
+  string
+)
+ident(
+  int_ref s "stdext.ml" 76 1998 2034 "stdext.ml" 76 1998 2035
+)
+"stdext.ml" 80 2192 2194 "stdext.ml" 80 2192 2199
+type(
+  string list
+)
+"stdext.ml" 82 2206 2212 "stdext.ml" 82 2206 2213
+type(
+  string
+)
+ident(
+  def a "stdext.ml" 84 2293 2295 "stdext.ml" 84 2293 2326
+)
+"stdext.ml" 82 2206 2216 "stdext.ml" 82 2206 2226
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 100 4546 4546 "string.mli" 100 4546 4586
+)
+"stdext.ml" 82 2206 2227 "stdext.ml" 82 2206 2228
+type(
+  string
+)
+ident(
+  int_ref s "stdext.ml" 76 1998 2034 "stdext.ml" 76 1998 2035
+)
+"stdext.ml" 82 2206 2229 "stdext.ml" 82 2206 2230
+type(
+  int
+)
+"stdext.ml" 82 2206 2231 "stdext.ml" 82 2206 2232
+type(
+  int
+)
+ident(
+  int_ref i "stdext.ml" 77 2038 2043 "stdext.ml" 77 2038 2044
+)
+"stdext.ml" 82 2206 2216 "stdext.ml" 82 2206 2232
+type(
+  string
+)
+"stdext.ml" 83 2233 2239 "stdext.ml" 83 2233 2240
+type(
+  string
+)
+ident(
+  def b "stdext.ml" 84 2293 2295 "stdext.ml" 84 2293 2326
+)
+"stdext.ml" 83 2233 2243 "stdext.ml" 83 2233 2253
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 100 4546 4546 "string.mli" 100 4546 4586
+)
+"stdext.ml" 83 2233 2254 "stdext.ml" 83 2233 2255
+type(
+  string
+)
+ident(
+  int_ref s "stdext.ml" 76 1998 2034 "stdext.ml" 76 1998 2035
+)
+"stdext.ml" 83 2233 2257 "stdext.ml" 83 2233 2258
+type(
+  int
+)
+ident(
+  int_ref i "stdext.ml" 77 2038 2043 "stdext.ml" 77 2038 2044
+)
+"stdext.ml" 83 2233 2259 "stdext.ml" 83 2233 2260
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"stdext.ml" 83 2233 2261 "stdext.ml" 83 2233 2262
+type(
+  int
+)
+"stdext.ml" 83 2233 2256 "stdext.ml" 83 2233 2263
+type(
+  int
+)
+"stdext.ml" 83 2233 2265 "stdext.ml" 83 2233 2278
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"stdext.ml" 83 2233 2279 "stdext.ml" 83 2233 2280
+type(
+  string
+)
+ident(
+  int_ref s "stdext.ml" 76 1998 2034 "stdext.ml" 76 1998 2035
+)
+"stdext.ml" 83 2233 2265 "stdext.ml" 83 2233 2280
+type(
+  int
+)
+"stdext.ml" 83 2233 2281 "stdext.ml" 83 2233 2282
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"stdext.ml" 83 2233 2283 "stdext.ml" 83 2233 2284
+type(
+  int
+)
+ident(
+  int_ref i "stdext.ml" 77 2038 2043 "stdext.ml" 77 2038 2044
+)
+"stdext.ml" 83 2233 2265 "stdext.ml" 83 2233 2284
+type(
+  int
+)
+"stdext.ml" 83 2233 2285 "stdext.ml" 83 2233 2286
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"stdext.ml" 83 2233 2287 "stdext.ml" 83 2233 2288
+type(
+  int
+)
+"stdext.ml" 83 2233 2264 "stdext.ml" 83 2233 2289
+type(
+  int
+)
+"stdext.ml" 83 2233 2243 "stdext.ml" 83 2233 2289
+type(
+  string
+)
+"stdext.ml" 84 2293 2295 "stdext.ml" 84 2293 2296
+type(
+  string
+)
+ident(
+  int_ref a "stdext.ml" 82 2206 2212 "stdext.ml" 82 2206 2213
+)
+"stdext.ml" 84 2293 2301 "stdext.ml" 84 2293 2306
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  int_ref split "stdext.ml" 76 1998 2006 "stdext.ml" 76 1998 2011
+)
+"stdext.ml" 84 2293 2315 "stdext.ml" 84 2293 2321
+type(
+  int
+)
+ident(
+  int_ref nlimit "stdext.ml" 78 2092 2097 "stdext.ml" 78 2092 2103
+)
+"stdext.ml" 84 2293 2322 "stdext.ml" 84 2293 2323
+type(
+  char
+)
+ident(
+  int_ref c "stdext.ml" 76 1998 2032 "stdext.ml" 76 1998 2033
+)
+"stdext.ml" 84 2293 2324 "stdext.ml" 84 2293 2325
+type(
+  string
+)
+ident(
+  int_ref b "stdext.ml" 83 2233 2239 "stdext.ml" 83 2233 2240
+)
+"stdext.ml" 84 2293 2300 "stdext.ml" 84 2293 2326
+type(
+  string list
+)
+"stdext.ml" 84 2293 2295 "stdext.ml" 84 2293 2326
+type(
+  string list
+)
+"stdext.ml" 82 2206 2208 "stdext.ml" 84 2293 2326
+type(
+  string list
+)
+"stdext.ml" 79 2162 2163 "stdext.ml" 84 2293 2326
+type(
+  string list
+)
+"stdext.ml" 78 2092 2093 "stdext.ml" 84 2293 2326
+type(
+  string list
+)
+"stdext.ml" 77 2038 2039 "stdext.ml" 84 2293 2326
+type(
+  string list
+)
+"stdext.ml" 86 2328 2332 "stdext.ml" 86 2328 2341
+type(
+  ('a -> char -> 'a) -> 'a -> string -> 'a
+)
+ident(
+  def fold_left "stdext.ml" 94 2515 2515 "stdext.ml" 102 2874 2877
+)
+"stdext.ml" 86 2328 2342 "stdext.ml" 86 2328 2343
+type(
+  'a -> char -> 'a
+)
+ident(
+  def f "stdext.ml" 86 2328 2344 "stdext.ml" 91 2453 2459
+)
+"stdext.ml" 86 2328 2344 "stdext.ml" 86 2328 2348
+type(
+  'a
+)
+ident(
+  def accu "stdext.ml" 86 2328 2349 "stdext.ml" 91 2453 2459
+)
+"stdext.ml" 86 2328 2349 "stdext.ml" 86 2328 2355
+type(
+  string
+)
+ident(
+  def string "stdext.ml" 87 2358 2359 "stdext.ml" 91 2453 2459
+)
+"stdext.ml" 87 2358 2363 "stdext.ml" 87 2358 2367
+type(
+  'a ref
+)
+ident(
+  def accu "stdext.ml" 88 2382 2383 "stdext.ml" 91 2453 2459
+)
+"stdext.ml" 87 2358 2370 "stdext.ml" 87 2358 2373
+type(
+  'a -> 'a ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"stdext.ml" 87 2358 2374 "stdext.ml" 87 2358 2378
+type(
+  'a
+)
+ident(
+  int_ref accu "stdext.ml" 86 2328 2344 "stdext.ml" 86 2328 2348
+)
+"stdext.ml" 87 2358 2370 "stdext.ml" 87 2358 2378
+type(
+  'a ref
+)
+"stdext.ml" 88 2382 2391 "stdext.ml" 88 2382 2392
+type(
+  int
+)
+"stdext.ml" 88 2382 2396 "stdext.ml" 88 2382 2402
+type(
+  string -> int
+)
+ident(
+  int_ref length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"stdext.ml" 88 2382 2403 "stdext.ml" 88 2382 2409
+type(
+  string
+)
+ident(
+  int_ref string "stdext.ml" 86 2328 2349 "stdext.ml" 86 2328 2355
+)
+"stdext.ml" 88 2382 2396 "stdext.ml" 88 2382 2409
+type(
+  int
+)
+"stdext.ml" 88 2382 2410 "stdext.ml" 88 2382 2411
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"stdext.ml" 88 2382 2412 "stdext.ml" 88 2382 2413
+type(
+  int
+)
+"stdext.ml" 88 2382 2396 "stdext.ml" 88 2382 2413
+type(
+  int
+)
+"stdext.ml" 89 2417 2419 "stdext.ml" 89 2417 2423
+type(
+  'a ref
+)
+ident(
+  int_ref accu "stdext.ml" 87 2358 2363 "stdext.ml" 87 2358 2367
+)
+"stdext.ml" 89 2417 2424 "stdext.ml" 89 2417 2426
+type(
+  'a ref -> 'a -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"stdext.ml" 89 2417 2427 "stdext.ml" 89 2417 2428
+type(
+  'a -> char -> 'a
+)
+ident(
+  int_ref f "stdext.ml" 86 2328 2342 "stdext.ml" 86 2328 2343
+)
+"stdext.ml" 89 2417 2429 "stdext.ml" 89 2417 2430
+type(
+  'a ref -> 'a
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"stdext.ml" 89 2417 2430 "stdext.ml" 89 2417 2434
+type(
+  'a ref
+)
+ident(
+  int_ref accu "stdext.ml" 87 2358 2363 "stdext.ml" 87 2358 2367
+)
+"stdext.ml" 89 2417 2429 "stdext.ml" 89 2417 2434
+type(
+  'a
+)
+"stdext.ml" 89 2417 2435 "stdext.ml" 89 2417 2441
+type(
+  string
+)
+ident(
+  int_ref string "stdext.ml" 86 2328 2349 "stdext.ml" 86 2328 2355
+)
+"stdext.ml" 89 2417 2443 "stdext.ml" 89 2417 2444
+type(
+  int
+)
+ident(
+  int_ref i "stdext.ml" 88 2382 2383 "stdext.ml" 90 2446 2451
+)
+"stdext.ml" 89 2417 2435 "stdext.ml" 89 2417 2445
+type(
+  char
+)
+"stdext.ml" 89 2417 2427 "stdext.ml" 89 2417 2445
+type(
+  'a
+)
+"stdext.ml" 89 2417 2419 "stdext.ml" 89 2417 2445
+type(
+  unit
+)
+"stdext.ml" 88 2382 2383 "stdext.ml" 90 2446 2451
+type(
+  unit
+)
+"stdext.ml" 91 2453 2454 "stdext.ml" 91 2453 2455
+type(
+  'a ref -> 'a
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"stdext.ml" 91 2453 2455 "stdext.ml" 91 2453 2459
+type(
+  'a ref
+)
+ident(
+  int_ref accu "stdext.ml" 87 2358 2363 "stdext.ml" 87 2358 2367
+)
+"stdext.ml" 91 2453 2454 "stdext.ml" 91 2453 2459
+type(
+  'a
+)
+"stdext.ml" 88 2382 2383 "stdext.ml" 91 2453 2459
+type(
+  'a
+)
+"stdext.ml" 87 2358 2359 "stdext.ml" 91 2453 2459
+type(
+  'a
+)
+"stdext.ml" 94 2515 2519 "stdext.ml" 94 2515 2529
+type(
+  string -> string -> bool
+)
+ident(
+  def startswith "stdext.ml" 99 2714 2714 "stdext.ml" 102 2874 2877
+)
+"stdext.ml" 94 2515 2530 "stdext.ml" 94 2515 2536
+type(
+  string
+)
+ident(
+  def prefix "stdext.ml" 94 2515 2537 "stdext.ml" 96 2607 2660
+)
+"stdext.ml" 94 2515 2537 "stdext.ml" 94 2515 2538
+type(
+  string
+)
+ident(
+  def x "stdext.ml" 95 2541 2542 "stdext.ml" 96 2607 2660
+)
+"stdext.ml" 95 2541 2546 "stdext.ml" 95 2541 2549
+type(
+  int
+)
+ident(
+  def x_l "stdext.ml" 96 2607 2608 "stdext.ml" 96 2607 2660
+)
+"stdext.ml" 95 2541 2552 "stdext.ml" 95 2541 2565
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"stdext.ml" 95 2541 2566 "stdext.ml" 95 2541 2567
+type(
+  string
+)
+ident(
+  int_ref x "stdext.ml" 94 2515 2537 "stdext.ml" 94 2515 2538
+)
+"stdext.ml" 95 2541 2552 "stdext.ml" 95 2541 2567
+type(
+  int
+)
+"stdext.ml" 95 2541 2572 "stdext.ml" 95 2541 2580
+type(
+  int
+)
+ident(
+  def prefix_l "stdext.ml" 96 2607 2608 "stdext.ml" 96 2607 2660
+)
+"stdext.ml" 95 2541 2583 "stdext.ml" 95 2541 2596
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"stdext.ml" 95 2541 2597 "stdext.ml" 95 2541 2603
+type(
+  string
+)
+ident(
+  int_ref prefix "stdext.ml" 94 2515 2530 "stdext.ml" 94 2515 2536
+)
+"stdext.ml" 95 2541 2583 "stdext.ml" 95 2541 2603
+type(
+  int
+)
+"stdext.ml" 96 2607 2608 "stdext.ml" 96 2607 2616
+type(
+  int
+)
+ident(
+  int_ref prefix_l "stdext.ml" 95 2541 2572 "stdext.ml" 95 2541 2580
+)
+"stdext.ml" 96 2607 2617 "stdext.ml" 96 2607 2619
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 142 5958 5958 "stdlib.mli" 142 5958 6007
+)
+"stdext.ml" 96 2607 2620 "stdext.ml" 96 2607 2623
+type(
+  int
+)
+ident(
+  int_ref x_l "stdext.ml" 95 2541 2546 "stdext.ml" 95 2541 2549
+)
+"stdext.ml" 96 2607 2608 "stdext.ml" 96 2607 2623
+type(
+  bool
+)
+"stdext.ml" 96 2607 2624 "stdext.ml" 96 2607 2626
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"stdext.ml" 96 2607 2627 "stdext.ml" 96 2607 2637
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 100 4546 4546 "string.mli" 100 4546 4586
+)
+"stdext.ml" 96 2607 2638 "stdext.ml" 96 2607 2639
+type(
+  string
+)
+ident(
+  int_ref x "stdext.ml" 94 2515 2537 "stdext.ml" 94 2515 2538
+)
+"stdext.ml" 96 2607 2640 "stdext.ml" 96 2607 2641
+type(
+  int
+)
+"stdext.ml" 96 2607 2642 "stdext.ml" 96 2607 2650
+type(
+  int
+)
+ident(
+  int_ref prefix_l "stdext.ml" 95 2541 2572 "stdext.ml" 95 2541 2580
+)
+"stdext.ml" 96 2607 2627 "stdext.ml" 96 2607 2650
+type(
+  string
+)
+"stdext.ml" 96 2607 2652 "stdext.ml" 96 2607 2653
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"stdext.ml" 96 2607 2654 "stdext.ml" 96 2607 2660
+type(
+  string
+)
+ident(
+  int_ref prefix "stdext.ml" 94 2515 2530 "stdext.ml" 94 2515 2536
+)
+"stdext.ml" 96 2607 2627 "stdext.ml" 96 2607 2660
+type(
+  bool
+)
+"stdext.ml" 96 2607 2608 "stdext.ml" 96 2607 2660
+type(
+  bool
+)
+"stdext.ml" 95 2541 2542 "stdext.ml" 96 2607 2660
+type(
+  bool
+)
+"stdext.ml" 99 2714 2718 "stdext.ml" 99 2714 2726
+type(
+  string -> string -> bool
+)
+ident(
+  def endswith "stdext.ml" 101 2805 2873 "stdext.ml" 102 2874 2877
+)
+"stdext.ml" 99 2714 2727 "stdext.ml" 99 2714 2733
+type(
+  string
+)
+ident(
+  def suffix "stdext.ml" 99 2714 2734 "stdext.ml" 101 2805 2873
+)
+"stdext.ml" 99 2714 2734 "stdext.ml" 99 2714 2735
+type(
+  string
+)
+ident(
+  def x "stdext.ml" 100 2738 2740 "stdext.ml" 101 2805 2873
+)
+"stdext.ml" 100 2738 2744 "stdext.ml" 100 2738 2747
+type(
+  int
+)
+ident(
+  def x_l "stdext.ml" 101 2805 2807 "stdext.ml" 101 2805 2873
+)
+"stdext.ml" 100 2738 2750 "stdext.ml" 100 2738 2763
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"stdext.ml" 100 2738 2764 "stdext.ml" 100 2738 2765
+type(
+  string
+)
+ident(
+  int_ref x "stdext.ml" 99 2714 2734 "stdext.ml" 99 2714 2735
+)
+"stdext.ml" 100 2738 2750 "stdext.ml" 100 2738 2765
+type(
+  int
+)
+"stdext.ml" 100 2738 2770 "stdext.ml" 100 2738 2778
+type(
+  int
+)
+ident(
+  def suffix_l "stdext.ml" 101 2805 2807 "stdext.ml" 101 2805 2873
+)
+"stdext.ml" 100 2738 2781 "stdext.ml" 100 2738 2794
+type(
+  string -> int
+)
+ident(
+  int_ref Stdlib.String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"stdext.ml" 100 2738 2795 "stdext.ml" 100 2738 2801
+type(
+  string
+)
+ident(
+  int_ref suffix "stdext.ml" 99 2714 2727 "stdext.ml" 99 2714 2733
+)
+"stdext.ml" 100 2738 2781 "stdext.ml" 100 2738 2801
+type(
+  int
+)
+"stdext.ml" 101 2805 2807 "stdext.ml" 101 2805 2815
+type(
+  int
+)
+ident(
+  int_ref suffix_l "stdext.ml" 100 2738 2770 "stdext.ml" 100 2738 2778
+)
+"stdext.ml" 101 2805 2816 "stdext.ml" 101 2805 2818
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 142 5958 5958 "stdlib.mli" 142 5958 6007
+)
+"stdext.ml" 101 2805 2819 "stdext.ml" 101 2805 2822
+type(
+  int
+)
+ident(
+  int_ref x_l "stdext.ml" 100 2738 2744 "stdext.ml" 100 2738 2747
+)
+"stdext.ml" 101 2805 2807 "stdext.ml" 101 2805 2822
+type(
+  bool
+)
+"stdext.ml" 101 2805 2823 "stdext.ml" 101 2805 2825
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"stdext.ml" 101 2805 2826 "stdext.ml" 101 2805 2836
+type(
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.String.sub "string.mli" 100 4546 4546 "string.mli" 100 4546 4586
+)
+"stdext.ml" 101 2805 2837 "stdext.ml" 101 2805 2838
+type(
+  string
+)
+ident(
+  int_ref x "stdext.ml" 99 2714 2734 "stdext.ml" 99 2714 2735
+)
+"stdext.ml" 101 2805 2840 "stdext.ml" 101 2805 2843
+type(
+  int
+)
+ident(
+  int_ref x_l "stdext.ml" 100 2738 2744 "stdext.ml" 100 2738 2747
+)
+"stdext.ml" 101 2805 2844 "stdext.ml" 101 2805 2845
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"stdext.ml" 101 2805 2846 "stdext.ml" 101 2805 2854
+type(
+  int
+)
+ident(
+  int_ref suffix_l "stdext.ml" 100 2738 2770 "stdext.ml" 100 2738 2778
+)
+"stdext.ml" 101 2805 2839 "stdext.ml" 101 2805 2855
+type(
+  int
+)
+"stdext.ml" 101 2805 2856 "stdext.ml" 101 2805 2864
+type(
+  int
+)
+ident(
+  int_ref suffix_l "stdext.ml" 100 2738 2770 "stdext.ml" 100 2738 2778
+)
+"stdext.ml" 101 2805 2826 "stdext.ml" 101 2805 2864
+type(
+  string
+)
+"stdext.ml" 101 2805 2865 "stdext.ml" 101 2805 2866
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"stdext.ml" 101 2805 2867 "stdext.ml" 101 2805 2873
+type(
+  string
+)
+ident(
+  int_ref suffix "stdext.ml" 99 2714 2727 "stdext.ml" 99 2714 2733
+)
+"stdext.ml" 101 2805 2826 "stdext.ml" 101 2805 2873
+type(
+  bool
+)
+"stdext.ml" 101 2805 2807 "stdext.ml" 101 2805 2873
+type(
+  bool
+)
+"stdext.ml" 100 2738 2740 "stdext.ml" 101 2805 2873
+type(
+  bool
+)
+"stdext.ml" 107 2988 2992 "stdext.ml" 107 2988 3003
+type(
+  string -> unit
+)
+ident(
+  def unlink_safe "stdext.ml" 111 3177 3177 "stdext.ml" 160 4473 4476
+)
+"stdext.ml" 107 2988 3004 "stdext.ml" 107 2988 3008
+type(
+  string
+)
+ident(
+  def file "stdext.ml" 108 3011 3012 "stdext.ml" 108 3011 3087
+)
+"stdext.ml" 108 3011 3016 "stdext.ml" 108 3011 3027
+type(
+  string -> unit
+)
+ident(
+  int_ref Unix.unlink "unix.mli" 552 23264 23264 "unix.mli" 552 23264 23291
+)
+"stdext.ml" 108 3011 3028 "stdext.ml" 108 3011 3032
+type(
+  string
+)
+ident(
+  int_ref file "stdext.ml" 107 2988 3004 "stdext.ml" 107 2988 3008
+)
+"stdext.ml" 108 3011 3016 "stdext.ml" 108 3011 3032
+type(
+  unit
+)
+"stdext.ml" 108 3011 3080 "stdext.ml" 108 3011 3081
+type(
+  exn
+)
+"stdext.ml" 108 3011 3085 "stdext.ml" 108 3011 3087
+type(
+  unit
+)
+"stdext.ml" 108 3011 3012 "stdext.ml" 108 3011 3087
+type(
+  unit
+)
+"stdext.ml" 111 3177 3181 "stdext.ml" 111 3177 3191
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  def mkdir_safe "stdext.ml" 115 3338 3338 "stdext.ml" 160 4473 4476
+)
+"stdext.ml" 111 3177 3192 "stdext.ml" 111 3177 3195
+type(
+  string
+)
+ident(
+  def dir "stdext.ml" 111 3177 3196 "stdext.ml" 112 3203 3274
+)
+"stdext.ml" 111 3177 3196 "stdext.ml" 111 3177 3200
+type(
+  Unix.file_perm
+)
+ident(
+  def perm "stdext.ml" 112 3203 3204 "stdext.ml" 112 3203 3274
+)
+"stdext.ml" 112 3203 3208 "stdext.ml" 112 3203 3218
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  int_ref Unix.mkdir "unix.mli" 706 29778 29778 "unix.mli" 706 29778 29817
+)
+"stdext.ml" 112 3203 3219 "stdext.ml" 112 3203 3222
+type(
+  string
+)
+ident(
+  int_ref dir "stdext.ml" 111 3177 3192 "stdext.ml" 111 3177 3195
+)
+"stdext.ml" 112 3203 3223 "stdext.ml" 112 3203 3227
+type(
+  Unix.file_perm
+)
+ident(
+  int_ref perm "stdext.ml" 111 3177 3196 "stdext.ml" 111 3177 3200
+)
+"stdext.ml" 112 3203 3208 "stdext.ml" 112 3203 3227
+type(
+  unit
+)
+"stdext.ml" 112 3203 3250 "stdext.ml" 112 3203 3261
+type(
+  Unix.error
+)
+"stdext.ml" 112 3203 3263 "stdext.ml" 112 3203 3264
+type(
+  string
+)
+"stdext.ml" 112 3203 3266 "stdext.ml" 112 3203 3267
+type(
+  string
+)
+"stdext.ml" 112 3203 3233 "stdext.ml" 112 3203 3268
+type(
+  exn
+)
+"stdext.ml" 112 3203 3272 "stdext.ml" 112 3203 3274
+type(
+  unit
+)
+"stdext.ml" 112 3203 3204 "stdext.ml" 112 3203 3274
+type(
+  unit
+)
+"stdext.ml" 115 3338 3342 "stdext.ml" 115 3338 3351
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  def mkdir_rec "stdext.ml" 125 3605 3605 "stdext.ml" 160 4473 4476
+)
+"stdext.ml" 115 3338 3352 "stdext.ml" 115 3338 3355
+type(
+  string
+)
+ident(
+  def dir "stdext.ml" 115 3338 3356 "stdext.ml" 121 3509 3521
+)
+"stdext.ml" 115 3338 3356 "stdext.ml" 115 3338 3360
+type(
+  Unix.file_perm
+)
+ident(
+  def perm "stdext.ml" 116 3363 3364 "stdext.ml" 121 3509 3521
+)
+"stdext.ml" 116 3363 3372 "stdext.ml" 116 3363 3379
+type(
+  string -> unit
+)
+ident(
+  def p_mkdir "stdext.ml" 116 3363 3364 "stdext.ml" 121 3509 3521
+)
+"stdext.ml" 116 3363 3380 "stdext.ml" 116 3363 3383
+type(
+  string
+)
+ident(
+  def dir "stdext.ml" 117 3386 3388 "stdext.ml" 120 3484 3505
+)
+"stdext.ml" 117 3386 3392 "stdext.ml" 117 3386 3398
+type(
+  string
+)
+ident(
+  def p_name "stdext.ml" 118 3425 3427 "stdext.ml" 120 3484 3505
+)
+"stdext.ml" 117 3386 3401 "stdext.ml" 117 3386 3417
+type(
+  string -> string
+)
+ident(
+  int_ref Filename.dirname "filename.mli" 116 4610 4610 "filename.mli" 116 4610 4640
+)
+"stdext.ml" 117 3386 3418 "stdext.ml" 117 3386 3421
+type(
+  string
+)
+ident(
+  int_ref dir "stdext.ml" 116 3363 3380 "stdext.ml" 116 3363 3383
+)
+"stdext.ml" 117 3386 3401 "stdext.ml" 117 3386 3421
+type(
+  string
+)
+"stdext.ml" 118 3425 3430 "stdext.ml" 118 3425 3436
+type(
+  string
+)
+ident(
+  int_ref p_name "stdext.ml" 117 3386 3392 "stdext.ml" 117 3386 3398
+)
+"stdext.ml" 118 3425 3437 "stdext.ml" 118 3425 3439
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"stdext.ml" 118 3425 3440 "stdext.ml" 118 3425 3443
+type(
+  string
+)
+"stdext.ml" 118 3425 3430 "stdext.ml" 118 3425 3443
+type(
+  bool
+)
+"stdext.ml" 118 3425 3444 "stdext.ml" 118 3425 3446
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"stdext.ml" 118 3425 3447 "stdext.ml" 118 3425 3453
+type(
+  string
+)
+ident(
+  int_ref p_name "stdext.ml" 117 3386 3392 "stdext.ml" 117 3386 3398
+)
+"stdext.ml" 118 3425 3454 "stdext.ml" 118 3425 3456
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"stdext.ml" 118 3425 3457 "stdext.ml" 118 3425 3460
+type(
+  string
+)
+"stdext.ml" 118 3425 3447 "stdext.ml" 118 3425 3460
+type(
+  bool
+)
+"stdext.ml" 118 3425 3430 "stdext.ml" 118 3425 3460
+type(
+  bool
+)
+"stdext.ml" 119 3461 3468 "stdext.ml" 119 3461 3475
+type(
+  string -> unit
+)
+ident(
+  int_ref p_mkdir "stdext.ml" 116 3363 3372 "stdext.ml" 116 3363 3379
+)
+"stdext.ml" 119 3461 3476 "stdext.ml" 119 3461 3482
+type(
+  string
+)
+ident(
+  int_ref p_name "stdext.ml" 117 3386 3392 "stdext.ml" 117 3386 3398
+)
+"stdext.ml" 119 3461 3468 "stdext.ml" 119 3461 3482
+type(
+  unit
+)
+"stdext.ml" 118 3425 3427 "stdext.ml" 119 3461 3482
+type(
+  unit
+)
+"stdext.ml" 120 3484 3486 "stdext.ml" 120 3484 3496
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  int_ref mkdir_safe "stdext.ml" 111 3177 3181 "stdext.ml" 111 3177 3191
+)
+"stdext.ml" 120 3484 3497 "stdext.ml" 120 3484 3500
+type(
+  string
+)
+ident(
+  int_ref dir "stdext.ml" 116 3363 3380 "stdext.ml" 116 3363 3383
+)
+"stdext.ml" 120 3484 3501 "stdext.ml" 120 3484 3505
+type(
+  Unix.file_perm
+)
+ident(
+  int_ref perm "stdext.ml" 115 3338 3356 "stdext.ml" 115 3338 3360
+)
+"stdext.ml" 120 3484 3486 "stdext.ml" 120 3484 3505
+type(
+  unit
+)
+"stdext.ml" 118 3425 3427 "stdext.ml" 120 3484 3505
+type(
+  unit
+)
+"stdext.ml" 117 3386 3388 "stdext.ml" 120 3484 3505
+type(
+  unit
+)
+"stdext.ml" 121 3509 3510 "stdext.ml" 121 3509 3517
+type(
+  string -> unit
+)
+ident(
+  int_ref p_mkdir "stdext.ml" 116 3363 3372 "stdext.ml" 116 3363 3379
+)
+"stdext.ml" 121 3509 3518 "stdext.ml" 121 3509 3521
+type(
+  string
+)
+ident(
+  int_ref dir "stdext.ml" 115 3338 3352 "stdext.ml" 115 3338 3355
+)
+"stdext.ml" 121 3509 3510 "stdext.ml" 121 3509 3521
+type(
+  unit
+)
+"stdext.ml" 116 3363 3364 "stdext.ml" 121 3509 3521
+type(
+  unit
+)
+"stdext.ml" 125 3605 3609 "stdext.ml" 125 3605 3618
+type(
+  unit -> unit
+)
+ident(
+  def daemonize "stdext.ml" 146 4080 4080 "stdext.ml" 160 4473 4476
+)
+"stdext.ml" 125 3605 3619 "stdext.ml" 125 3605 3621
+type(
+  unit
+)
+"stdext.ml" 126 3624 3631 "stdext.ml" 126 3624 3640
+type(
+  unit -> int
+)
+ident(
+  int_ref Unix.fork "unix.mli" 208 9249 9249 "unix.mli" 208 9249 9271
+)
+"stdext.ml" 126 3624 3641 "stdext.ml" 126 3624 3643
+type(
+  unit
+)
+"stdext.ml" 126 3624 3631 "stdext.ml" 126 3624 3643
+type(
+  int
+)
+"stdext.ml" 127 3649 3652 "stdext.ml" 127 3649 3653
+type(
+  int
+)
+"stdext.ml" 128 3657 3662 "stdext.ml" 128 3657 3673
+type(
+  unit -> int
+)
+ident(
+  int_ref Unix.setsid "unix.mli" 1751 71450 71450 "unix.mli" 1751 71450 71474
+)
+"stdext.ml" 128 3657 3674 "stdext.ml" 128 3657 3676
+type(
+  unit
+)
+"stdext.ml" 128 3657 3662 "stdext.ml" 128 3657 3676
+type(
+  int
+)
+"stdext.ml" 128 3657 3677 "stdext.ml" 128 3657 3679
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 188 8052 8052 "stdlib.mli" 188 8052 8094
+)
+"stdext.ml" 128 3657 3680 "stdext.ml" 128 3657 3682
+type(
+  int
+)
+"stdext.ml" 128 3657 3662 "stdext.ml" 128 3657 3682
+type(
+  bool
+)
+"stdext.ml" 129 3688 3691 "stdext.ml" 129 3688 3699
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"stdext.ml" 129 3688 3700 "stdext.ml" 129 3688 3720
+type(
+  string
+)
+"stdext.ml" 129 3688 3691 "stdext.ml" 129 3688 3720
+type(
+  unit
+)
+"stdext.ml" 128 3657 3659 "stdext.ml" 129 3688 3720
+type(
+  unit
+)
+"stdext.ml" 131 3723 3737 "stdext.ml" 131 3723 3746
+type(
+  unit -> int
+)
+ident(
+  int_ref Unix.fork "unix.mli" 208 9249 9249 "unix.mli" 208 9249 9271
+)
+"stdext.ml" 131 3723 3747 "stdext.ml" 131 3723 3749
+type(
+  unit
+)
+"stdext.ml" 131 3723 3737 "stdext.ml" 131 3723 3749
+type(
+  int
+)
+"stdext.ml" 132 3755 3759 "stdext.ml" 132 3755 3760
+type(
+  int
+)
+"stdext.ml" 133 3764 3771 "stdext.ml" 133 3764 3777
+type(
+  Unix.file_descr
+)
+ident(
+  def nullfd "stdext.ml" 134 3827 3830 "stdext.ml" 140 3993 4013
+)
+"stdext.ml" 133 3764 3780 "stdext.ml" 133 3764 3793
+type(
+  string -> Unix.open_flag list -> Unix.file_perm -> Unix.file_descr
+)
+ident(
+  int_ref Unix.openfile "unix.mli" 302 13045 13045 "unix.mli" 302 13045 13111
+)
+"stdext.ml" 133 3764 3794 "stdext.ml" 133 3764 3805
+type(
+  string
+)
+"stdext.ml" 133 3764 3808 "stdext.ml" 133 3764 3819
+type(
+  Unix.open_flag
+)
+"stdext.ml" 133 3764 3806 "stdext.ml" 133 3764 3821
+type(
+  Unix.open_flag list
+)
+"stdext.ml" 133 3764 3822 "stdext.ml" 133 3764 3823
+type(
+  Unix.file_perm
+)
+"stdext.ml" 133 3764 3780 "stdext.ml" 133 3764 3823
+type(
+  Unix.file_descr
+)
+"stdext.ml" 135 3840 3844 "stdext.ml" 135 3840 3853
+type(
+  ?cloexec:bool -> Unix.file_descr -> Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.dup2 "unix.mli" 633 26110 26110 "unix.mli" 633 26110 26170
+)
+"stdext.ml" 135 3840 3854 "stdext.ml" 135 3840 3860
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref nullfd "stdext.ml" 133 3764 3771 "stdext.ml" 133 3764 3777
+)
+"stdext.ml" 135 3840 3861 "stdext.ml" 135 3840 3871
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref Unix.stdin "unix.mli" 262 11146 11146 "unix.mli" 262 11146 11168
+)
+"stdext.ml" 135 3840 3844 "stdext.ml" 135 3840 3871
+type(
+  unit
+)
+"stdext.ml" 136 3873 3877 "stdext.ml" 136 3873 3886
+type(
+  ?cloexec:bool -> Unix.file_descr -> Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.dup2 "unix.mli" 633 26110 26110 "unix.mli" 633 26110 26170
+)
+"stdext.ml" 136 3873 3887 "stdext.ml" 136 3873 3893
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref nullfd "stdext.ml" 133 3764 3771 "stdext.ml" 133 3764 3777
+)
+"stdext.ml" 136 3873 3894 "stdext.ml" 136 3873 3905
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref Unix.stdout "unix.mli" 265 11212 11212 "unix.mli" 265 11212 11235
+)
+"stdext.ml" 136 3873 3877 "stdext.ml" 136 3873 3905
+type(
+  unit
+)
+"stdext.ml" 137 3907 3911 "stdext.ml" 137 3907 3920
+type(
+  ?cloexec:bool -> Unix.file_descr -> Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.dup2 "unix.mli" 633 26110 26110 "unix.mli" 633 26110 26170
+)
+"stdext.ml" 137 3907 3921 "stdext.ml" 137 3907 3927
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref nullfd "stdext.ml" 133 3764 3771 "stdext.ml" 133 3764 3777
+)
+"stdext.ml" 137 3907 3928 "stdext.ml" 137 3907 3939
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref Unix.stderr "unix.mli" 268 11280 11280 "unix.mli" 268 11280 11303
+)
+"stdext.ml" 137 3907 3911 "stdext.ml" 137 3907 3939
+type(
+  unit
+)
+"stdext.ml" 136 3873 3877 "stdext.ml" 137 3907 3940
+type(
+  unit
+)
+"stdext.ml" 135 3840 3844 "stdext.ml" 137 3907 3940
+type(
+  unit
+)
+"stdext.ml" 138 3941 3949 "stdext.ml" 138 3941 3952
+type(
+  exn
+)
+ident(
+  def exn "stdext.ml" 138 3941 3956 "stdext.ml" 138 3941 3984
+)
+"stdext.ml" 138 3941 3956 "stdext.ml" 138 3941 3966
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.close "unix.mli" 307 13299 13299 "unix.mli" 307 13299 13329
+)
+"stdext.ml" 138 3941 3967 "stdext.ml" 138 3941 3973
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref nullfd "stdext.ml" 133 3764 3771 "stdext.ml" 133 3764 3777
+)
+"stdext.ml" 138 3941 3956 "stdext.ml" 138 3941 3973
+type(
+  unit
+)
+"stdext.ml" 138 3941 3975 "stdext.ml" 138 3941 3980
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"stdext.ml" 138 3941 3981 "stdext.ml" 138 3941 3984
+type(
+  exn
+)
+ident(
+  int_ref exn "stdext.ml" 138 3941 3949 "stdext.ml" 138 3941 3952
+)
+"stdext.ml" 138 3941 3975 "stdext.ml" 138 3941 3984
+type(
+  unit
+)
+"stdext.ml" 138 3941 3956 "stdext.ml" 138 3941 3984
+type(
+  unit
+)
+"stdext.ml" 134 3827 3830 "stdext.ml" 139 3985 3991
+type(
+  unit
+)
+"stdext.ml" 140 3993 3996 "stdext.ml" 140 3993 4006
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.close "unix.mli" 307 13299 13299 "unix.mli" 307 13299 13329
+)
+"stdext.ml" 140 3993 4007 "stdext.ml" 140 3993 4013
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref nullfd "stdext.ml" 133 3764 3771 "stdext.ml" 133 3764 3777
+)
+"stdext.ml" 140 3993 3996 "stdext.ml" 140 3993 4013
+type(
+  unit
+)
+"stdext.ml" 134 3827 3830 "stdext.ml" 140 3993 4013
+type(
+  unit
+)
+"stdext.ml" 133 3764 3767 "stdext.ml" 140 3993 4013
+type(
+  unit
+)
+"stdext.ml" 141 4014 4018 "stdext.ml" 141 4014 4019
+type(
+  int
+)
+"stdext.ml" 141 4014 4023 "stdext.ml" 141 4014 4027
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"stdext.ml" 141 4014 4028 "stdext.ml" 141 4014 4029
+type(
+  int
+)
+"stdext.ml" 141 4014 4023 "stdext.ml" 141 4014 4029
+type(
+  unit
+)
+"stdext.ml" 131 3723 3725 "stdext.ml" 142 4030 4035
+type(
+  unit
+)
+"stdext.ml" 128 3657 3659 "stdext.ml" 142 4030 4035
+type(
+  unit
+)
+"stdext.ml" 143 4036 4039 "stdext.ml" 143 4036 4040
+type(
+  int
+)
+"stdext.ml" 143 4036 4044 "stdext.ml" 143 4036 4048
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"stdext.ml" 143 4036 4049 "stdext.ml" 143 4036 4050
+type(
+  int
+)
+"stdext.ml" 143 4036 4044 "stdext.ml" 143 4036 4050
+type(
+  unit
+)
+"stdext.ml" 126 3624 3625 "stdext.ml" 143 4036 4050
+type(
+  unit
+)
+"stdext.ml" 146 4080 4084 "stdext.ml" 146 4080 4097
+type(
+  string -> unit
+)
+ident(
+  def pidfile_write "stdext.ml" 158 4445 4471 "stdext.ml" 160 4473 4476
+)
+"stdext.ml" 146 4080 4098 "stdext.ml" 146 4080 4106
+type(
+  string
+)
+ident(
+  def filename "stdext.ml" 147 4109 4110 "stdext.ml" 158 4445 4471
+)
+"stdext.ml" 147 4109 4114 "stdext.ml" 147 4109 4116
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "stdext.ml" 150 4232 4233 "stdext.ml" 158 4445 4471
+)
+"stdext.ml" 147 4109 4119 "stdext.ml" 147 4109 4132
+type(
+  string -> Unix.open_flag list -> Unix.file_perm -> Unix.file_descr
+)
+ident(
+  int_ref Unix.openfile "unix.mli" 302 13045 13045 "unix.mli" 302 13045 13111
+)
+"stdext.ml" 147 4109 4133 "stdext.ml" 147 4109 4141
+type(
+  string
+)
+ident(
+  int_ref filename "stdext.ml" 146 4080 4098 "stdext.ml" 146 4080 4106
+)
+"stdext.ml" 148 4142 4168 "stdext.ml" 148 4142 4181
+type(
+  Unix.open_flag
+)
+"stdext.ml" 148 4142 4183 "stdext.ml" 148 4142 4195
+type(
+  Unix.open_flag
+)
+"stdext.ml" 148 4142 4197 "stdext.ml" 148 4142 4209
+type(
+  Unix.open_flag
+)
+"stdext.ml" 148 4142 4166 "stdext.ml" 148 4142 4212
+type(
+  Unix.open_flag list
+)
+"stdext.ml" 149 4213 4223 "stdext.ml" 149 4213 4228
+type(
+  Unix.file_perm
+)
+"stdext.ml" 147 4109 4119 "stdext.ml" 149 4213 4228
+type(
+  Unix.file_descr
+)
+"stdext.ml" 150 4232 4233 "stdext.ml" 150 4232 4240
+type(
+  (unit -> unit) -> (unit -> unit) -> unit
+)
+ident(
+  int_ref finally "stdext.ml" 25 923 927 "stdext.ml" 25 923 934
+)
+"stdext.ml" 151 4241 4247 "stdext.ml" 151 4241 4249
+type(
+  unit
+)
+"stdext.ml" 152 4253 4259 "stdext.ml" 152 4253 4262
+type(
+  int
+)
+ident(
+  def pid "stdext.ml" 153 4283 4285 "stdext.ml" 156 4402 4441
+)
+"stdext.ml" 152 4253 4265 "stdext.ml" 152 4253 4276
+type(
+  unit -> int
+)
+ident(
+  int_ref Unix.getpid "unix.mli" 241 10610 10610 "unix.mli" 241 10610 10634
+)
+"stdext.ml" 152 4253 4277 "stdext.ml" 152 4253 4279
+type(
+  unit
+)
+"stdext.ml" 152 4253 4265 "stdext.ml" 152 4253 4279
+type(
+  int
+)
+"stdext.ml" 153 4283 4289 "stdext.ml" 153 4283 4292
+type(
+  string
+)
+ident(
+  def buf "stdext.ml" 154 4323 4325 "stdext.ml" 156 4402 4441
+)
+"stdext.ml" 153 4283 4295 "stdext.ml" 153 4283 4308
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+)
+"stdext.ml" 153 4283 4309 "stdext.ml" 153 4283 4312
+type(
+  int
+)
+ident(
+  int_ref pid "stdext.ml" 152 4253 4259 "stdext.ml" 152 4253 4262
+)
+"stdext.ml" 153 4283 4295 "stdext.ml" 153 4283 4312
+type(
+  string
+)
+"stdext.ml" 153 4283 4313 "stdext.ml" 153 4283 4314
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"stdext.ml" 153 4283 4315 "stdext.ml" 153 4283 4319
+type(
+  string
+)
+"stdext.ml" 153 4283 4295 "stdext.ml" 153 4283 4319
+type(
+  string
+)
+"stdext.ml" 154 4323 4329 "stdext.ml" 154 4323 4332
+type(
+  int
+)
+ident(
+  def len "stdext.ml" 155 4356 4358 "stdext.ml" 156 4402 4440
+)
+"stdext.ml" 154 4323 4335 "stdext.ml" 154 4323 4348
+type(
+  string -> int
+)
+ident(
+  int_ref String.length "string.mli" 49 2670 2670 "string.mli" 49 2670 2720
+)
+"stdext.ml" 154 4323 4349 "stdext.ml" 154 4323 4352
+type(
+  string
+)
+ident(
+  int_ref buf "stdext.ml" 153 4283 4289 "stdext.ml" 153 4283 4292
+)
+"stdext.ml" 154 4323 4335 "stdext.ml" 154 4323 4352
+type(
+  int
+)
+"stdext.ml" 155 4356 4361 "stdext.ml" 155 4356 4381
+type(
+  Unix.file_descr -> string -> int -> int -> int
+)
+ident(
+  int_ref Unix.write_substring "unix.mli" 330 14242 14242 "unix.mli" 330 14242 14305
+)
+"stdext.ml" 155 4356 4382 "stdext.ml" 155 4356 4384
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "stdext.ml" 147 4109 4114 "stdext.ml" 147 4109 4116
+)
+"stdext.ml" 155 4356 4385 "stdext.ml" 155 4356 4388
+type(
+  string
+)
+ident(
+  int_ref buf "stdext.ml" 153 4283 4289 "stdext.ml" 153 4283 4292
+)
+"stdext.ml" 155 4356 4389 "stdext.ml" 155 4356 4390
+type(
+  int
+)
+"stdext.ml" 155 4356 4391 "stdext.ml" 155 4356 4394
+type(
+  int
+)
+ident(
+  int_ref len "stdext.ml" 154 4323 4329 "stdext.ml" 154 4323 4332
+)
+"stdext.ml" 155 4356 4361 "stdext.ml" 155 4356 4394
+type(
+  int
+)
+"stdext.ml" 155 4356 4395 "stdext.ml" 155 4356 4397
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"stdext.ml" 155 4356 4398 "stdext.ml" 155 4356 4401
+type(
+  int
+)
+ident(
+  int_ref len "stdext.ml" 154 4323 4329 "stdext.ml" 154 4323 4332
+)
+"stdext.ml" 155 4356 4361 "stdext.ml" 155 4356 4401
+type(
+  bool
+)
+"stdext.ml" 156 4402 4409 "stdext.ml" 156 4402 4417
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"stdext.ml" 156 4402 4418 "stdext.ml" 156 4402 4440
+type(
+  string
+)
+"stdext.ml" 156 4402 4409 "stdext.ml" 156 4402 4440
+type(
+  unit
+)
+"stdext.ml" 155 4356 4358 "stdext.ml" 156 4402 4440
+type(
+  unit
+)
+"stdext.ml" 154 4323 4325 "stdext.ml" 156 4402 4441
+type(
+  unit
+)
+"stdext.ml" 153 4283 4285 "stdext.ml" 156 4402 4441
+type(
+  unit
+)
+"stdext.ml" 152 4253 4255 "stdext.ml" 156 4402 4441
+type(
+  unit
+)
+"stdext.ml" 151 4241 4242 "stdext.ml" 157 4442 4444
+type(
+  unit -> unit
+)
+"stdext.ml" 158 4445 4451 "stdext.ml" 158 4445 4453
+type(
+  unit
+)
+"stdext.ml" 158 4445 4457 "stdext.ml" 158 4445 4467
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  int_ref Unix.close "unix.mli" 307 13299 13299 "unix.mli" 307 13299 13329
+)
+"stdext.ml" 158 4445 4468 "stdext.ml" 158 4445 4470
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "stdext.ml" 147 4109 4114 "stdext.ml" 147 4109 4116
+)
+"stdext.ml" 158 4445 4457 "stdext.ml" 158 4445 4470
+type(
+  unit
+)
+"stdext.ml" 158 4445 4446 "stdext.ml" 158 4445 4471
+type(
+  unit -> unit
+)
+"stdext.ml" 150 4232 4233 "stdext.ml" 158 4445 4471
+type(
+  unit
+)
+"stdext.ml" 147 4109 4110 "stdext.ml" 158 4445 4471
+type(
+  unit
+)

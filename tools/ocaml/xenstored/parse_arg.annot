@@ -1,0 +1,1280 @@
+"parse_arg.ml" 32 1015 1019 "parse_arg.ml" 32 1015 1038
+type(
+  string option -> string
+)
+ident(
+  def get_config_filename "parse_arg.ml" 37 1161 1161 "parse_arg.ml" 0 0 -1
+)
+"parse_arg.ml" 32 1015 1039 "parse_arg.ml" 32 1015 1050
+type(
+  string option
+)
+ident(
+  def config_file "parse_arg.ml" 33 1053 1054 "parse_arg.ml" 35 1098 1159
+)
+"parse_arg.ml" 33 1053 1060 "parse_arg.ml" 33 1053 1071
+type(
+  string option
+)
+ident(
+  int_ref config_file "parse_arg.ml" 32 1015 1039 "parse_arg.ml" 32 1015 1050
+)
+"parse_arg.ml" 34 1077 1085 "parse_arg.ml" 34 1077 1089
+type(
+  string
+)
+ident(
+  def name "parse_arg.ml" 34 1077 1093 "parse_arg.ml" 34 1077 1097
+)
+"parse_arg.ml" 34 1077 1080 "parse_arg.ml" 34 1077 1089
+type(
+  string option
+)
+"parse_arg.ml" 34 1077 1093 "parse_arg.ml" 34 1077 1097
+type(
+  string
+)
+ident(
+  int_ref name "parse_arg.ml" 34 1077 1085 "parse_arg.ml" 34 1077 1089
+)
+"parse_arg.ml" 35 1098 1101 "parse_arg.ml" 35 1098 1105
+type(
+  string option
+)
+"parse_arg.ml" 35 1098 1113 "parse_arg.ml" 35 1098 1138
+type(
+  string
+)
+ident(
+  int_ref Define.default_config_dir "define.ml" 22 782 786 "define.ml" 22 782 804
+)
+"parse_arg.ml" 35 1098 1139 "parse_arg.ml" 35 1098 1140
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"parse_arg.ml" 35 1098 1141 "parse_arg.ml" 35 1098 1159
+type(
+  string
+)
+"parse_arg.ml" 35 1098 1113 "parse_arg.ml" 35 1098 1159
+type(
+  string
+)
+"parse_arg.ml" 33 1053 1054 "parse_arg.ml" 35 1098 1159
+type(
+  string
+)
+"parse_arg.ml" 37 1161 1165 "parse_arg.ml" 37 1161 1172
+type(
+  config
+)
+ident(
+  def do_argv "parse_arg.ml" 99 3690 3692 "parse_arg.ml" 0 0 -1
+)
+"parse_arg.ml" 38 1175 1180 "parse_arg.ml" 38 1175 1187
+type(
+  string ref
+)
+ident(
+  def pidfile "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 38 1175 1190 "parse_arg.ml" 38 1175 1193
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 38 1175 1194 "parse_arg.ml" 38 1175 1196
+type(
+  string
+)
+"parse_arg.ml" 38 1175 1190 "parse_arg.ml" 38 1175 1196
+type(
+  string ref
+)
+"parse_arg.ml" 38 1175 1201 "parse_arg.ml" 38 1175 1210
+type(
+  string ref
+)
+ident(
+  def tracefile "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 38 1175 1213 "parse_arg.ml" 38 1175 1216
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 38 1175 1217 "parse_arg.ml" 38 1175 1219
+type(
+  string
+)
+"parse_arg.ml" 38 1175 1213 "parse_arg.ml" 38 1175 1219
+type(
+  string ref
+)
+"parse_arg.ml" 39 1254 1259 "parse_arg.ml" 39 1254 1270
+type(
+  bool ref
+)
+ident(
+  def domain_init "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 39 1254 1273 "parse_arg.ml" 39 1254 1276
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 39 1254 1277 "parse_arg.ml" 39 1254 1281
+type(
+  bool
+)
+"parse_arg.ml" 39 1254 1273 "parse_arg.ml" 39 1254 1281
+type(
+  bool ref
+)
+"parse_arg.ml" 40 1282 1287 "parse_arg.ml" 40 1282 1306
+type(
+  bool ref
+)
+ident(
+  def activate_access_log "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 40 1282 1309 "parse_arg.ml" 40 1282 1312
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 40 1282 1313 "parse_arg.ml" 40 1282 1317
+type(
+  bool
+)
+"parse_arg.ml" 40 1282 1309 "parse_arg.ml" 40 1282 1317
+type(
+  bool ref
+)
+"parse_arg.ml" 41 1318 1323 "parse_arg.ml" 41 1318 1332
+type(
+  bool ref
+)
+ident(
+  def daemonize "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 41 1318 1335 "parse_arg.ml" 41 1318 1338
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 41 1318 1339 "parse_arg.ml" 41 1318 1343
+type(
+  bool
+)
+"parse_arg.ml" 41 1318 1335 "parse_arg.ml" 41 1318 1343
+type(
+  bool ref
+)
+"parse_arg.ml" 42 1344 1349 "parse_arg.ml" 42 1344 1366
+type(
+  bool ref
+)
+ident(
+  def reraise_top_level "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 42 1344 1369 "parse_arg.ml" 42 1344 1372
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 42 1344 1373 "parse_arg.ml" 42 1344 1378
+type(
+  bool
+)
+"parse_arg.ml" 42 1344 1369 "parse_arg.ml" 42 1344 1378
+type(
+  bool ref
+)
+"parse_arg.ml" 43 1379 1384 "parse_arg.ml" 43 1379 1395
+type(
+  string ref
+)
+ident(
+  def config_file "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 43 1379 1398 "parse_arg.ml" 43 1379 1401
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 43 1379 1402 "parse_arg.ml" 43 1379 1404
+type(
+  string
+)
+"parse_arg.ml" 43 1379 1398 "parse_arg.ml" 43 1379 1404
+type(
+  string ref
+)
+"parse_arg.ml" 44 1405 1410 "parse_arg.ml" 44 1405 1417
+type(
+  bool ref
+)
+ident(
+  def restart "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 44 1405 1420 "parse_arg.ml" 44 1405 1423
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 44 1405 1424 "parse_arg.ml" 44 1405 1429
+type(
+  bool
+)
+"parse_arg.ml" 44 1405 1420 "parse_arg.ml" 44 1405 1429
+type(
+  bool ref
+)
+"parse_arg.ml" 45 1430 1435 "parse_arg.ml" 45 1430 1446
+type(
+  bool ref
+)
+ident(
+  def live_reload "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 45 1430 1449 "parse_arg.ml" 45 1430 1452
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 45 1430 1453 "parse_arg.ml" 45 1430 1458
+type(
+  bool
+)
+"parse_arg.ml" 45 1430 1449 "parse_arg.ml" 45 1430 1458
+type(
+  bool ref
+)
+"parse_arg.ml" 46 1459 1464 "parse_arg.ml" 46 1459 1478
+type(
+  bool ref
+)
+ident(
+  def disable_socket "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 46 1459 1481 "parse_arg.ml" 46 1459 1484
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 46 1459 1485 "parse_arg.ml" 46 1459 1490
+type(
+  bool
+)
+"parse_arg.ml" 46 1459 1481 "parse_arg.ml" 46 1459 1490
+type(
+  bool ref
+)
+"parse_arg.ml" 47 1491 1496 "parse_arg.ml" 47 1491 1507
+type(
+  bool ref
+)
+ident(
+  def config_test "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 47 1491 1510 "parse_arg.ml" 47 1491 1513
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 47 1491 1514 "parse_arg.ml" 47 1491 1519
+type(
+  bool
+)
+"parse_arg.ml" 47 1491 1510 "parse_arg.ml" 47 1491 1519
+type(
+  bool ref
+)
+"parse_arg.ml" 48 1520 1525 "parse_arg.ml" 48 1520 1529
+type(
+  bool ref
+)
+ident(
+  def help "parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 48 1520 1532 "parse_arg.ml" 48 1520 1535
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"parse_arg.ml" 48 1520 1536 "parse_arg.ml" 48 1520 1541
+type(
+  bool
+)
+"parse_arg.ml" 48 1520 1532 "parse_arg.ml" 48 1520 1541
+type(
+  bool ref
+)
+"parse_arg.ml" 51 1547 1552 "parse_arg.ml" 51 1547 1560
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def speclist "parse_arg.ml" 70 2668 2669 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 52 1563 1568 "parse_arg.ml" 52 1563 1586
+type(
+  string
+)
+"parse_arg.ml" 52 1563 1602 "parse_arg.ml" 52 1563 1604
+type(
+  unit
+)
+"parse_arg.ml" 52 1563 1608 "parse_arg.ml" 52 1563 1619
+type(
+  bool ref
+)
+ident(
+  int_ref domain_init "parse_arg.ml" 39 1254 1259 "parse_arg.ml" 39 1254 1270
+)
+"parse_arg.ml" 52 1563 1620 "parse_arg.ml" 52 1563 1622
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"parse_arg.ml" 52 1563 1623 "parse_arg.ml" 52 1563 1628
+type(
+  bool
+)
+"parse_arg.ml" 52 1563 1608 "parse_arg.ml" 52 1563 1628
+type(
+  unit
+)
+"parse_arg.ml" 52 1563 1597 "parse_arg.ml" 52 1563 1629
+type(
+  unit -> unit
+)
+"parse_arg.ml" 52 1563 1588 "parse_arg.ml" 52 1563 1629
+type(
+  Arg.spec
+)
+"parse_arg.ml" 53 1631 1636 "parse_arg.ml" 53 1631 1688
+type(
+  string
+)
+"parse_arg.ml" 52 1563 1567 "parse_arg.ml" 53 1631 1689
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 54 1691 1696 "parse_arg.ml" 54 1691 1711
+type(
+  string
+)
+"parse_arg.ml" 54 1691 1728 "parse_arg.ml" 54 1691 1739
+type(
+  string ref
+)
+ident(
+  int_ref config_file "parse_arg.ml" 43 1379 1384 "parse_arg.ml" 43 1379 1395
+)
+"parse_arg.ml" 54 1691 1713 "parse_arg.ml" 54 1691 1739
+type(
+  Arg.spec
+)
+"parse_arg.ml" 55 1741 1746 "parse_arg.ml" 55 1741 1802
+type(
+  string
+)
+"parse_arg.ml" 54 1691 1695 "parse_arg.ml" 55 1741 1803
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 56 1805 1810 "parse_arg.ml" 56 1805 1821
+type(
+  string
+)
+"parse_arg.ml" 56 1805 1837 "parse_arg.ml" 56 1805 1839
+type(
+  unit
+)
+"parse_arg.ml" 56 1805 1843 "parse_arg.ml" 56 1805 1852
+type(
+  bool ref
+)
+ident(
+  int_ref daemonize "parse_arg.ml" 41 1318 1323 "parse_arg.ml" 41 1318 1332
+)
+"parse_arg.ml" 56 1805 1853 "parse_arg.ml" 56 1805 1855
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"parse_arg.ml" 56 1805 1856 "parse_arg.ml" 56 1805 1861
+type(
+  bool
+)
+"parse_arg.ml" 56 1805 1843 "parse_arg.ml" 56 1805 1861
+type(
+  unit
+)
+"parse_arg.ml" 56 1805 1832 "parse_arg.ml" 56 1805 1862
+type(
+  unit -> unit
+)
+"parse_arg.ml" 56 1805 1823 "parse_arg.ml" 56 1805 1862
+type(
+  Arg.spec
+)
+"parse_arg.ml" 57 1864 1869 "parse_arg.ml" 57 1864 1911
+type(
+  string
+)
+"parse_arg.ml" 56 1805 1809 "parse_arg.ml" 57 1864 1912
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 58 1914 1919 "parse_arg.ml" 58 1914 1940
+type(
+  string
+)
+"parse_arg.ml" 58 1914 1956 "parse_arg.ml" 58 1914 1958
+type(
+  unit
+)
+"parse_arg.ml" 58 1914 1962 "parse_arg.ml" 58 1914 1979
+type(
+  bool ref
+)
+ident(
+  int_ref reraise_top_level "parse_arg.ml" 42 1344 1349 "parse_arg.ml" 42 1344 1366
+)
+"parse_arg.ml" 58 1914 1980 "parse_arg.ml" 58 1914 1982
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"parse_arg.ml" 58 1914 1983 "parse_arg.ml" 58 1914 1987
+type(
+  bool
+)
+"parse_arg.ml" 58 1914 1962 "parse_arg.ml" 58 1914 1987
+type(
+  unit
+)
+"parse_arg.ml" 58 1914 1951 "parse_arg.ml" 58 1914 1988
+type(
+  unit -> unit
+)
+"parse_arg.ml" 58 1914 1942 "parse_arg.ml" 58 1914 1988
+type(
+  Arg.spec
+)
+"parse_arg.ml" 59 1990 1995 "parse_arg.ml" 59 1990 2039
+type(
+  string
+)
+"parse_arg.ml" 58 1914 1918 "parse_arg.ml" 59 1990 2040
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 60 2042 2047 "parse_arg.ml" 60 2042 2064
+type(
+  string
+)
+"parse_arg.ml" 60 2042 2080 "parse_arg.ml" 60 2042 2082
+type(
+  unit
+)
+"parse_arg.ml" 60 2042 2086 "parse_arg.ml" 60 2042 2105
+type(
+  bool ref
+)
+ident(
+  int_ref activate_access_log "parse_arg.ml" 40 1282 1287 "parse_arg.ml" 40 1282 1306
+)
+"parse_arg.ml" 60 2042 2106 "parse_arg.ml" 60 2042 2108
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"parse_arg.ml" 60 2042 2109 "parse_arg.ml" 60 2042 2114
+type(
+  bool
+)
+"parse_arg.ml" 60 2042 2086 "parse_arg.ml" 60 2042 2114
+type(
+  unit
+)
+"parse_arg.ml" 60 2042 2075 "parse_arg.ml" 60 2042 2115
+type(
+  unit -> unit
+)
+"parse_arg.ml" 60 2042 2066 "parse_arg.ml" 60 2042 2115
+type(
+  Arg.spec
+)
+"parse_arg.ml" 61 2117 2121 "parse_arg.ml" 61 2117 2163
+type(
+  string
+)
+"parse_arg.ml" 60 2042 2046 "parse_arg.ml" 61 2117 2164
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 62 2166 2171 "parse_arg.ml" 62 2166 2183
+type(
+  string
+)
+"parse_arg.ml" 62 2166 2200 "parse_arg.ml" 62 2166 2207
+type(
+  string ref
+)
+ident(
+  int_ref pidfile "parse_arg.ml" 38 1175 1180 "parse_arg.ml" 38 1175 1187
+)
+"parse_arg.ml" 62 2166 2185 "parse_arg.ml" 62 2166 2207
+type(
+  Arg.spec
+)
+"parse_arg.ml" 62 2166 2209 "parse_arg.ml" 62 2166 2211
+type(
+  string
+)
+"parse_arg.ml" 62 2166 2170 "parse_arg.ml" 62 2166 2212
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 63 2238 2243 "parse_arg.ml" 63 2238 2247
+type(
+  string
+)
+"parse_arg.ml" 63 2238 2264 "parse_arg.ml" 63 2238 2273
+type(
+  string ref
+)
+ident(
+  int_ref tracefile "parse_arg.ml" 38 1175 1201 "parse_arg.ml" 38 1175 1210
+)
+"parse_arg.ml" 63 2238 2249 "parse_arg.ml" 63 2238 2273
+type(
+  Arg.spec
+)
+"parse_arg.ml" 63 2238 2275 "parse_arg.ml" 63 2238 2277
+type(
+  string
+)
+"parse_arg.ml" 63 2238 2242 "parse_arg.ml" 63 2238 2278
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 64 2304 2309 "parse_arg.ml" 64 2304 2320
+type(
+  string
+)
+"parse_arg.ml" 64 2304 2330 "parse_arg.ml" 64 2304 2337
+type(
+  bool ref
+)
+ident(
+  int_ref restart "parse_arg.ml" 44 1405 1410 "parse_arg.ml" 44 1405 1417
+)
+"parse_arg.ml" 64 2304 2322 "parse_arg.ml" 64 2304 2337
+type(
+  Arg.spec
+)
+"parse_arg.ml" 64 2304 2339 "parse_arg.ml" 64 2304 2366
+type(
+  string
+)
+"parse_arg.ml" 64 2304 2308 "parse_arg.ml" 64 2304 2367
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 65 2369 2374 "parse_arg.ml" 65 2369 2382
+type(
+  string
+)
+"parse_arg.ml" 65 2369 2392 "parse_arg.ml" 65 2369 2403
+type(
+  bool ref
+)
+ident(
+  int_ref live_reload "parse_arg.ml" 45 1430 1435 "parse_arg.ml" 45 1430 1446
+)
+"parse_arg.ml" 65 2369 2384 "parse_arg.ml" 65 2369 2403
+type(
+  Arg.spec
+)
+"parse_arg.ml" 65 2369 2405 "parse_arg.ml" 65 2369 2432
+type(
+  string
+)
+"parse_arg.ml" 65 2369 2373 "parse_arg.ml" 65 2369 2433
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 66 2435 2440 "parse_arg.ml" 66 2435 2455
+type(
+  string
+)
+"parse_arg.ml" 66 2435 2465 "parse_arg.ml" 66 2435 2476
+type(
+  bool ref
+)
+ident(
+  int_ref config_test "parse_arg.ml" 47 1491 1496 "parse_arg.ml" 47 1491 1507
+)
+"parse_arg.ml" 66 2435 2457 "parse_arg.ml" 66 2435 2476
+type(
+  Arg.spec
+)
+"parse_arg.ml" 66 2435 2478 "parse_arg.ml" 66 2435 2508
+type(
+  string
+)
+"parse_arg.ml" 66 2435 2439 "parse_arg.ml" 66 2435 2509
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 67 2511 2516 "parse_arg.ml" 67 2511 2534
+type(
+  string
+)
+"parse_arg.ml" 67 2511 2550 "parse_arg.ml" 67 2511 2552
+type(
+  unit
+)
+"parse_arg.ml" 67 2511 2556 "parse_arg.ml" 67 2511 2570
+type(
+  bool ref
+)
+ident(
+  int_ref disable_socket "parse_arg.ml" 46 1459 1464 "parse_arg.ml" 46 1459 1478
+)
+"parse_arg.ml" 67 2511 2571 "parse_arg.ml" 67 2511 2573
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"parse_arg.ml" 67 2511 2574 "parse_arg.ml" 67 2511 2578
+type(
+  bool
+)
+"parse_arg.ml" 67 2511 2556 "parse_arg.ml" 67 2511 2578
+type(
+  unit
+)
+"parse_arg.ml" 67 2511 2545 "parse_arg.ml" 67 2511 2579
+type(
+  unit -> unit
+)
+"parse_arg.ml" 67 2511 2536 "parse_arg.ml" 67 2511 2579
+type(
+  Arg.spec
+)
+"parse_arg.ml" 67 2511 2581 "parse_arg.ml" 67 2511 2597
+type(
+  string
+)
+"parse_arg.ml" 67 2511 2515 "parse_arg.ml" 67 2511 2598
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 68 2600 2605 "parse_arg.ml" 68 2600 2613
+type(
+  string
+)
+"parse_arg.ml" 68 2600 2623 "parse_arg.ml" 68 2600 2627
+type(
+  bool ref
+)
+ident(
+  int_ref help "parse_arg.ml" 48 1520 1525 "parse_arg.ml" 48 1520 1529
+)
+"parse_arg.ml" 68 2600 2615 "parse_arg.ml" 68 2600 2627
+type(
+  Arg.spec
+)
+"parse_arg.ml" 68 2600 2629 "parse_arg.ml" 68 2600 2659
+type(
+  string
+)
+"parse_arg.ml" 68 2600 2604 "parse_arg.ml" 68 2600 2660
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 52 1563 1565 "parse_arg.ml" 69 2661 2664
+type(
+  (string * Arg.spec * string) list
+)
+"parse_arg.ml" 70 2668 2673 "parse_arg.ml" 70 2668 2682
+type(
+  string
+)
+ident(
+  def usage_msg "parse_arg.ml" 71 2828 2829 "parse_arg.ml" 99 3690 3692
+)
+"parse_arg.ml" 70 2668 2685 "parse_arg.ml" 70 2668 2824
+type(
+  string
+)
+"parse_arg.ml" 71 2828 2829 "parse_arg.ml" 71 2828 2838
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse "arg.mli" 77 4335 4335 "arg.mli" 78 4347 4405
+)
+"parse_arg.ml" 71 2828 2839 "parse_arg.ml" 71 2828 2847
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "parse_arg.ml" 51 1547 1552 "parse_arg.ml" 51 1547 1560
+)
+"parse_arg.ml" 71 2828 2853 "parse_arg.ml" 71 2828 2854
+type(
+  string
+)
+"parse_arg.ml" 71 2828 2858 "parse_arg.ml" 71 2828 2860
+type(
+  unit
+)
+"parse_arg.ml" 71 2828 2848 "parse_arg.ml" 71 2828 2861
+type(
+  Arg.anon_fun
+)
+"parse_arg.ml" 71 2828 2862 "parse_arg.ml" 71 2828 2871
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage_msg "parse_arg.ml" 70 2668 2673 "parse_arg.ml" 70 2668 2682
+)
+"parse_arg.ml" 71 2828 2829 "parse_arg.ml" 71 2828 2871
+type(
+  unit
+)
+"parse_arg.ml" 72 2873 2878 "parse_arg.ml" 72 2873 2880
+type(
+  unit
+)
+"parse_arg.ml" 73 2883 2888 "parse_arg.ml" 73 2883 2889
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 73 2883 2889 "parse_arg.ml" 73 2883 2893
+type(
+  bool ref
+)
+ident(
+  int_ref help "parse_arg.ml" 48 1520 1525 "parse_arg.ml" 48 1520 1529
+)
+"parse_arg.ml" 73 2883 2888 "parse_arg.ml" 73 2883 2893
+type(
+  bool
+)
+"parse_arg.ml" 74 2905 2911 "parse_arg.ml" 74 2905 2912
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 74 2905 2912 "parse_arg.ml" 74 2905 2923
+type(
+  bool ref
+)
+ident(
+  int_ref live_reload "parse_arg.ml" 45 1430 1435 "parse_arg.ml" 45 1430 1446
+)
+"parse_arg.ml" 74 2905 2911 "parse_arg.ml" 74 2905 2923
+type(
+  bool
+)
+"parse_arg.ml" 80 3103 3107 "parse_arg.ml" 80 3103 3118
+type(
+  bool ref
+)
+ident(
+  int_ref config_test "parse_arg.ml" 47 1491 1496 "parse_arg.ml" 47 1491 1507
+)
+"parse_arg.ml" 80 3103 3119 "parse_arg.ml" 80 3103 3121
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"parse_arg.ml" 80 3103 3122 "parse_arg.ml" 80 3103 3126
+type(
+  bool
+)
+"parse_arg.ml" 80 3103 3107 "parse_arg.ml" 80 3103 3126
+type(
+  unit
+)
+"parse_arg.ml" 82 3141 3145 "parse_arg.ml" 82 3141 3161
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> string
+)
+ident(
+  int_ref Stdlib.Arg.usage_string "arg.mli" 166 8312 8312 "arg.mli" 166 8312 8377
+)
+"parse_arg.ml" 82 3141 3162 "parse_arg.ml" 82 3141 3170
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "parse_arg.ml" 51 1547 1552 "parse_arg.ml" 51 1547 1560
+)
+"parse_arg.ml" 82 3141 3171 "parse_arg.ml" 82 3141 3180
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage_msg "parse_arg.ml" 70 2668 2673 "parse_arg.ml" 70 2668 2682
+)
+"parse_arg.ml" 82 3141 3145 "parse_arg.ml" 82 3141 3180
+type(
+  string
+)
+"parse_arg.ml" 82 3141 3181 "parse_arg.ml" 82 3141 3183
+type(
+  string -> (string -> unit) -> unit
+)
+ident(
+  int_ref Stdlib.( |> ) "stdlib.mli" 300 12231 12231 "stdlib.mli" 300 12231 12285
+)
+"parse_arg.ml" 82 3141 3184 "parse_arg.ml" 82 3141 3197
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.print_endline "stdlib.mli" 825 30491 30491 "stdlib.mli" 825 30491 30525
+)
+"parse_arg.ml" 82 3141 3145 "parse_arg.ml" 82 3141 3197
+type(
+  unit
+)
+"parse_arg.ml" 83 3199 3203 "parse_arg.ml" 83 3199 3207
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"parse_arg.ml" 83 3199 3208 "parse_arg.ml" 83 3199 3209
+type(
+  int
+)
+"parse_arg.ml" 83 3199 3203 "parse_arg.ml" 83 3199 3209
+type(
+  unit
+)
+"parse_arg.ml" 81 3127 3135 "parse_arg.ml" 84 3210 3216
+type(
+  unit
+)
+"parse_arg.ml" 73 2883 2899 "parse_arg.ml" 85 3217 3222
+type(
+  unit
+)
+"parse_arg.ml" 73 2883 2885 "parse_arg.ml" 85 3217 3222
+type(
+  unit
+)
+"parse_arg.ml" 88 3230 3246 "parse_arg.ml" 88 3230 3247
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 88 3230 3247 "parse_arg.ml" 88 3230 3258
+type(
+  bool ref
+)
+ident(
+  int_ref domain_init "parse_arg.ml" 39 1254 1259 "parse_arg.ml" 39 1254 1270
+)
+"parse_arg.ml" 88 3230 3246 "parse_arg.ml" 88 3230 3258
+type(
+  bool
+)
+"parse_arg.ml" 89 3260 3284 "parse_arg.ml" 89 3260 3285
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 89 3260 3285 "parse_arg.ml" 89 3260 3304
+type(
+  bool ref
+)
+ident(
+  int_ref activate_access_log "parse_arg.ml" 40 1282 1287 "parse_arg.ml" 40 1282 1306
+)
+"parse_arg.ml" 89 3260 3284 "parse_arg.ml" 89 3260 3304
+type(
+  bool
+)
+"parse_arg.ml" 90 3306 3320 "parse_arg.ml" 90 3306 3321
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 90 3306 3321 "parse_arg.ml" 90 3306 3330
+type(
+  bool ref
+)
+ident(
+  int_ref daemonize "parse_arg.ml" 41 1318 1323 "parse_arg.ml" 41 1318 1332
+)
+"parse_arg.ml" 90 3306 3320 "parse_arg.ml" 90 3306 3330
+type(
+  bool
+)
+"parse_arg.ml" 91 3332 3354 "parse_arg.ml" 91 3332 3355
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 91 3332 3355 "parse_arg.ml" 91 3332 3372
+type(
+  bool ref
+)
+ident(
+  int_ref reraise_top_level "parse_arg.ml" 42 1344 1349 "parse_arg.ml" 42 1344 1366
+)
+"parse_arg.ml" 91 3332 3354 "parse_arg.ml" 91 3332 3372
+type(
+  bool
+)
+"parse_arg.ml" 92 3374 3393 "parse_arg.ml" 92 3374 3394
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 92 3374 3394 "parse_arg.ml" 92 3374 3405
+type(
+  string ref
+)
+ident(
+  int_ref config_file "parse_arg.ml" 43 1379 1384 "parse_arg.ml" 43 1379 1395
+)
+"parse_arg.ml" 92 3374 3393 "parse_arg.ml" 92 3374 3405
+type(
+  string
+)
+"parse_arg.ml" 92 3374 3406 "parse_arg.ml" 92 3374 3408
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"parse_arg.ml" 92 3374 3409 "parse_arg.ml" 92 3374 3411
+type(
+  string
+)
+"parse_arg.ml" 92 3374 3393 "parse_arg.ml" 92 3374 3411
+type(
+  bool
+)
+"parse_arg.ml" 92 3374 3422 "parse_arg.ml" 92 3374 3423
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 92 3374 3423 "parse_arg.ml" 92 3374 3434
+type(
+  string ref
+)
+ident(
+  int_ref config_file "parse_arg.ml" 43 1379 1384 "parse_arg.ml" 43 1379 1395
+)
+"parse_arg.ml" 92 3374 3422 "parse_arg.ml" 92 3374 3434
+type(
+  string
+)
+"parse_arg.ml" 92 3374 3417 "parse_arg.ml" 92 3374 3434
+type(
+  string option
+)
+"parse_arg.ml" 92 3374 3440 "parse_arg.ml" 92 3374 3444
+type(
+  string option
+)
+"parse_arg.ml" 92 3374 3390 "parse_arg.ml" 92 3374 3444
+type(
+  string option
+)
+"parse_arg.ml" 93 3446 3461 "parse_arg.ml" 93 3446 3462
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 93 3446 3462 "parse_arg.ml" 93 3446 3469
+type(
+  string ref
+)
+ident(
+  int_ref pidfile "parse_arg.ml" 38 1175 1180 "parse_arg.ml" 38 1175 1187
+)
+"parse_arg.ml" 93 3446 3461 "parse_arg.ml" 93 3446 3469
+type(
+  string
+)
+"parse_arg.ml" 93 3446 3470 "parse_arg.ml" 93 3446 3472
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"parse_arg.ml" 93 3446 3473 "parse_arg.ml" 93 3446 3475
+type(
+  string
+)
+"parse_arg.ml" 93 3446 3461 "parse_arg.ml" 93 3446 3475
+type(
+  bool
+)
+"parse_arg.ml" 93 3446 3486 "parse_arg.ml" 93 3446 3487
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 93 3446 3487 "parse_arg.ml" 93 3446 3494
+type(
+  string ref
+)
+ident(
+  int_ref pidfile "parse_arg.ml" 38 1175 1180 "parse_arg.ml" 38 1175 1187
+)
+"parse_arg.ml" 93 3446 3486 "parse_arg.ml" 93 3446 3494
+type(
+  string
+)
+"parse_arg.ml" 93 3446 3481 "parse_arg.ml" 93 3446 3494
+type(
+  string option
+)
+"parse_arg.ml" 93 3446 3500 "parse_arg.ml" 93 3446 3504
+type(
+  string option
+)
+"parse_arg.ml" 93 3446 3458 "parse_arg.ml" 93 3446 3504
+type(
+  string option
+)
+"parse_arg.ml" 94 3506 3523 "parse_arg.ml" 94 3506 3524
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 94 3506 3524 "parse_arg.ml" 94 3506 3533
+type(
+  string ref
+)
+ident(
+  int_ref tracefile "parse_arg.ml" 38 1175 1201 "parse_arg.ml" 38 1175 1210
+)
+"parse_arg.ml" 94 3506 3523 "parse_arg.ml" 94 3506 3533
+type(
+  string
+)
+"parse_arg.ml" 94 3506 3534 "parse_arg.ml" 94 3506 3536
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"parse_arg.ml" 94 3506 3537 "parse_arg.ml" 94 3506 3539
+type(
+  string
+)
+"parse_arg.ml" 94 3506 3523 "parse_arg.ml" 94 3506 3539
+type(
+  bool
+)
+"parse_arg.ml" 94 3506 3550 "parse_arg.ml" 94 3506 3551
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 94 3506 3551 "parse_arg.ml" 94 3506 3560
+type(
+  string ref
+)
+ident(
+  int_ref tracefile "parse_arg.ml" 38 1175 1201 "parse_arg.ml" 38 1175 1210
+)
+"parse_arg.ml" 94 3506 3550 "parse_arg.ml" 94 3506 3560
+type(
+  string
+)
+"parse_arg.ml" 94 3506 3545 "parse_arg.ml" 94 3506 3560
+type(
+  string option
+)
+"parse_arg.ml" 94 3506 3566 "parse_arg.ml" 94 3506 3570
+type(
+  string option
+)
+"parse_arg.ml" 94 3506 3520 "parse_arg.ml" 94 3506 3570
+type(
+  string option
+)
+"parse_arg.ml" 95 3572 3584 "parse_arg.ml" 95 3572 3585
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 95 3572 3585 "parse_arg.ml" 95 3572 3592
+type(
+  bool ref
+)
+ident(
+  int_ref restart "parse_arg.ml" 44 1405 1410 "parse_arg.ml" 44 1405 1417
+)
+"parse_arg.ml" 95 3572 3584 "parse_arg.ml" 95 3572 3592
+type(
+  bool
+)
+"parse_arg.ml" 96 3594 3610 "parse_arg.ml" 96 3594 3611
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 96 3594 3611 "parse_arg.ml" 96 3594 3622
+type(
+  bool ref
+)
+ident(
+  int_ref live_reload "parse_arg.ml" 45 1430 1435 "parse_arg.ml" 45 1430 1446
+)
+"parse_arg.ml" 96 3594 3610 "parse_arg.ml" 96 3594 3622
+type(
+  bool
+)
+"parse_arg.ml" 97 3624 3643 "parse_arg.ml" 97 3624 3644
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 97 3624 3644 "parse_arg.ml" 97 3624 3658
+type(
+  bool ref
+)
+ident(
+  int_ref disable_socket "parse_arg.ml" 46 1459 1464 "parse_arg.ml" 46 1459 1478
+)
+"parse_arg.ml" 97 3624 3643 "parse_arg.ml" 97 3624 3658
+type(
+  bool
+)
+"parse_arg.ml" 98 3660 3676 "parse_arg.ml" 98 3660 3677
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"parse_arg.ml" 98 3660 3677 "parse_arg.ml" 98 3660 3688
+type(
+  bool ref
+)
+ident(
+  int_ref config_test "parse_arg.ml" 47 1491 1496 "parse_arg.ml" 47 1491 1507
+)
+"parse_arg.ml" 98 3660 3676 "parse_arg.ml" 98 3660 3688
+type(
+  bool
+)
+"parse_arg.ml" 87 3227 3228 "parse_arg.ml" 99 3690 3692
+type(
+  config
+)
+"parse_arg.ml" 72 2873 2874 "parse_arg.ml" 99 3690 3692
+type(
+  config
+)
+"parse_arg.ml" 71 2828 2829 "parse_arg.ml" 99 3690 3692
+type(
+  config
+)
+"parse_arg.ml" 70 2668 2669 "parse_arg.ml" 99 3690 3692
+type(
+  config
+)
+"parse_arg.ml" 51 1547 1548 "parse_arg.ml" 99 3690 3692
+type(
+  config
+)
+"parse_arg.ml" 38 1175 1176 "parse_arg.ml" 99 3690 3692
+type(
+  config
+)

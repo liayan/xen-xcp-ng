@@ -1,0 +1,846 @@
+"xtl.ml" 4 29 33 "xtl.ml" 4 29 47
+type(
+  Xentoollog.level ->
+  Xentoollog.level -> int option -> string option -> string -> unit
+)
+ident(
+  def stdio_vmessage "xtl.ml" 13 395 395 "xtl.ml" 0 0 -1
+)
+"xtl.ml" 4 29 48 "xtl.ml" 4 29 57
+type(
+  Xentoollog.level
+)
+ident(
+  def min_level "xtl.ml" 4 29 58 "xtl.ml" 11 389 393
+)
+"xtl.ml" 4 29 58 "xtl.ml" 4 29 63
+type(
+  Xentoollog.level
+)
+ident(
+  def level "xtl.ml" 4 29 64 "xtl.ml" 11 389 393
+)
+"xtl.ml" 4 29 64 "xtl.ml" 4 29 69
+type(
+  int option
+)
+ident(
+  def errno "xtl.ml" 4 29 70 "xtl.ml" 11 389 393
+)
+"xtl.ml" 4 29 70 "xtl.ml" 4 29 73
+type(
+  string option
+)
+ident(
+  def ctx "xtl.ml" 4 29 74 "xtl.ml" 11 389 393
+)
+"xtl.ml" 4 29 74 "xtl.ml" 4 29 77
+type(
+  string
+)
+ident(
+  def msg "xtl.ml" 5 80 81 "xtl.ml" 11 389 393
+)
+"xtl.ml" 5 80 85 "xtl.ml" 5 80 94
+type(
+  string
+)
+ident(
+  def level_str "xtl.ml" 8 272 273 "xtl.ml" 11 389 393
+)
+"xtl.ml" 5 80 97 "xtl.ml" 5 80 112
+type(
+  Xentoollog.level -> string
+)
+ident(
+  int_ref Xentoollog.level_to_string "xentoollog.mli" 40 1019 1019 "xentoollog.mli" 40 1019 1056
+)
+"xtl.ml" 5 80 113 "xtl.ml" 5 80 118
+type(
+  Xentoollog.level
+)
+ident(
+  int_ref level "xtl.ml" 4 29 58 "xtl.ml" 4 29 63
+)
+"xtl.ml" 5 80 97 "xtl.ml" 5 80 118
+type(
+  string
+)
+"xtl.ml" 6 119 124 "xtl.ml" 6 119 133
+type(
+  string
+)
+ident(
+  def errno_str "xtl.ml" 8 272 273 "xtl.ml" 11 389 393
+)
+"xtl.ml" 6 119 142 "xtl.ml" 6 119 147
+type(
+  int option
+)
+ident(
+  int_ref errno "xtl.ml" 4 29 64 "xtl.ml" 4 29 69
+)
+"xtl.ml" 6 119 153 "xtl.ml" 6 119 157
+type(
+  int option
+)
+"xtl.ml" 6 119 161 "xtl.ml" 6 119 163
+type(
+  string
+)
+"xtl.ml" 6 119 171 "xtl.ml" 6 119 172
+type(
+  int
+)
+ident(
+  def s "xtl.ml" 6 119 176 "xtl.ml" 6 119 198
+)
+"xtl.ml" 6 119 166 "xtl.ml" 6 119 172
+type(
+  int option
+)
+"xtl.ml" 6 119 176 "xtl.ml" 6 119 183
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"xtl.ml" 6 119 184 "xtl.ml" 6 119 196
+type(
+  (int -> string, unit, string) format
+)
+"xtl.ml" 6 119 197 "xtl.ml" 6 119 198
+type(
+  int
+)
+ident(
+  int_ref s "xtl.ml" 6 119 171 "xtl.ml" 6 119 172
+)
+"xtl.ml" 6 119 176 "xtl.ml" 6 119 198
+type(
+  string
+)
+"xtl.ml" 6 119 136 "xtl.ml" 6 119 198
+type(
+  string
+)
+"xtl.ml" 7 199 204 "xtl.ml" 7 199 211
+type(
+  string
+)
+ident(
+  def ctx_str "xtl.ml" 8 272 273 "xtl.ml" 11 389 393
+)
+"xtl.ml" 7 199 220 "xtl.ml" 7 199 223
+type(
+  string option
+)
+ident(
+  int_ref ctx "xtl.ml" 4 29 70 "xtl.ml" 4 29 73
+)
+"xtl.ml" 7 199 229 "xtl.ml" 7 199 233
+type(
+  string option
+)
+"xtl.ml" 7 199 237 "xtl.ml" 7 199 239
+type(
+  string
+)
+"xtl.ml" 7 199 247 "xtl.ml" 7 199 248
+type(
+  string
+)
+ident(
+  def s "xtl.ml" 7 199 252 "xtl.ml" 7 199 268
+)
+"xtl.ml" 7 199 242 "xtl.ml" 7 199 248
+type(
+  string option
+)
+"xtl.ml" 7 199 252 "xtl.ml" 7 199 259
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"xtl.ml" 7 199 260 "xtl.ml" 7 199 266
+type(
+  (string -> string, unit, string) format
+)
+"xtl.ml" 7 199 267 "xtl.ml" 7 199 268
+type(
+  string
+)
+ident(
+  int_ref s "xtl.ml" 7 199 247 "xtl.ml" 7 199 248
+)
+"xtl.ml" 7 199 252 "xtl.ml" 7 199 268
+type(
+  string
+)
+"xtl.ml" 7 199 214 "xtl.ml" 7 199 268
+type(
+  string
+)
+"xtl.ml" 8 272 276 "xtl.ml" 8 272 283
+type(
+  Xentoollog.level -> Xentoollog.level -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 159 6717 6717 "stdlib.mli" 159 6717 6764
+)
+"xtl.ml" 8 272 284 "xtl.ml" 8 272 293
+type(
+  Xentoollog.level
+)
+ident(
+  int_ref min_level "xtl.ml" 4 29 48 "xtl.ml" 4 29 57
+)
+"xtl.ml" 8 272 294 "xtl.ml" 8 272 299
+type(
+  Xentoollog.level
+)
+ident(
+  int_ref level "xtl.ml" 4 29 58 "xtl.ml" 4 29 63
+)
+"xtl.ml" 8 272 276 "xtl.ml" 8 272 299
+type(
+  int
+)
+"xtl.ml" 8 272 300 "xtl.ml" 8 272 302
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <= ) "stdlib.mli" 142 5958 5958 "stdlib.mli" 142 5958 6007
+)
+"xtl.ml" 8 272 303 "xtl.ml" 8 272 304
+type(
+  int
+)
+"xtl.ml" 8 272 276 "xtl.ml" 8 272 304
+type(
+  bool
+)
+"xtl.ml" 9 316 318 "xtl.ml" 9 316 324
+type(
+  (string -> string -> string -> string -> unit, out_channel, unit) format ->
+  string -> string -> string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6510 6510 "printf.mli" 123 6510 6559
+)
+"xtl.ml" 9 316 325 "xtl.ml" 9 316 339
+type(
+  (string -> string -> string -> string -> unit, out_channel, unit) format
+)
+"xtl.ml" 9 316 340 "xtl.ml" 9 316 349
+type(
+  string
+)
+ident(
+  int_ref level_str "xtl.ml" 5 80 85 "xtl.ml" 5 80 94
+)
+"xtl.ml" 9 316 350 "xtl.ml" 9 316 357
+type(
+  string
+)
+ident(
+  int_ref ctx_str "xtl.ml" 7 199 204 "xtl.ml" 7 199 211
+)
+"xtl.ml" 9 316 358 "xtl.ml" 9 316 367
+type(
+  string
+)
+ident(
+  int_ref errno_str "xtl.ml" 6 119 124 "xtl.ml" 6 119 133
+)
+"xtl.ml" 9 316 368 "xtl.ml" 9 316 371
+type(
+  string
+)
+ident(
+  int_ref msg "xtl.ml" 4 29 74 "xtl.ml" 4 29 77
+)
+"xtl.ml" 9 316 318 "xtl.ml" 9 316 371
+type(
+  unit
+)
+"xtl.ml" 10 373 375 "xtl.ml" 10 373 380
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 930 34305 34305 "stdlib.mli" 930 34305 34336
+)
+"xtl.ml" 10 373 381 "xtl.ml" 10 373 387
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 800 29855 29855 "stdlib.mli" 800 29855 29879
+)
+"xtl.ml" 10 373 375 "xtl.ml" 10 373 387
+type(
+  unit
+)
+"xtl.ml" 8 272 310 "xtl.ml" 11 389 393
+type(
+  unit
+)
+"xtl.ml" 8 272 273 "xtl.ml" 11 389 393
+type(
+  unit
+)
+"xtl.ml" 5 80 81 "xtl.ml" 11 389 393
+type(
+  unit
+)
+"xtl.ml" 13 395 399 "xtl.ml" 13 395 413
+type(
+  'a -> string -> int -> int64 -> int64 -> unit
+)
+ident(
+  def stdio_progress "xtl.ml" 18 573 573 "xtl.ml" 0 0 -1
+)
+"xtl.ml" 13 395 414 "xtl.ml" 13 395 418
+type(
+  'a
+)
+ident(
+  def _ctx "xtl.ml" 13 395 419 "xtl.ml" 16 558 571
+)
+"xtl.ml" 13 395 419 "xtl.ml" 13 395 423
+type(
+  string
+)
+ident(
+  def what "xtl.ml" 13 395 424 "xtl.ml" 16 558 571
+)
+"xtl.ml" 13 395 424 "xtl.ml" 13 395 431
+type(
+  int
+)
+ident(
+  def percent "xtl.ml" 13 395 432 "xtl.ml" 16 558 571
+)
+"xtl.ml" 13 395 432 "xtl.ml" 13 395 435
+type(
+  int64
+)
+ident(
+  def dne "xtl.ml" 13 395 436 "xtl.ml" 16 558 571
+)
+"xtl.ml" 13 395 436 "xtl.ml" 13 395 441
+type(
+  int64
+)
+ident(
+  def total "xtl.ml" 14 444 445 "xtl.ml" 16 558 571
+)
+"xtl.ml" 14 444 449 "xtl.ml" 14 444 451
+type(
+  string
+)
+ident(
+  def nl "xtl.ml" 15 490 491 "xtl.ml" 16 558 571
+)
+"xtl.ml" 14 444 457 "xtl.ml" 14 444 460
+type(
+  int64
+)
+ident(
+  int_ref dne "xtl.ml" 13 395 432 "xtl.ml" 13 395 435
+)
+"xtl.ml" 14 444 461 "xtl.ml" 14 444 462
+type(
+  int64 -> int64 -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"xtl.ml" 14 444 463 "xtl.ml" 14 444 468
+type(
+  int64
+)
+ident(
+  int_ref total "xtl.ml" 13 395 436 "xtl.ml" 13 395 441
+)
+"xtl.ml" 14 444 457 "xtl.ml" 14 444 468
+type(
+  bool
+)
+"xtl.ml" 14 444 474 "xtl.ml" 14 444 478
+type(
+  string
+)
+"xtl.ml" 14 444 484 "xtl.ml" 14 444 486
+type(
+  string
+)
+"xtl.ml" 14 444 454 "xtl.ml" 14 444 486
+type(
+  string
+)
+"xtl.ml" 15 490 491 "xtl.ml" 15 490 497
+type(
+  (string -> int -> int64 -> int64 -> string -> unit, out_channel, unit)
+  format -> string -> int -> int64 -> int64 -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6510 6510 "printf.mli" 123 6510 6559
+)
+"xtl.ml" 15 490 498 "xtl.ml" 15 490 530
+type(
+  (string -> int -> int64 -> int64 -> string -> unit, out_channel, unit)
+  format
+)
+"xtl.ml" 15 490 531 "xtl.ml" 15 490 535
+type(
+  string
+)
+ident(
+  int_ref what "xtl.ml" 13 395 419 "xtl.ml" 13 395 423
+)
+"xtl.ml" 15 490 536 "xtl.ml" 15 490 543
+type(
+  int
+)
+ident(
+  int_ref percent "xtl.ml" 13 395 424 "xtl.ml" 13 395 431
+)
+"xtl.ml" 15 490 544 "xtl.ml" 15 490 547
+type(
+  int64
+)
+ident(
+  int_ref dne "xtl.ml" 13 395 432 "xtl.ml" 13 395 435
+)
+"xtl.ml" 15 490 548 "xtl.ml" 15 490 553
+type(
+  int64
+)
+ident(
+  int_ref total "xtl.ml" 13 395 436 "xtl.ml" 13 395 441
+)
+"xtl.ml" 15 490 554 "xtl.ml" 15 490 556
+type(
+  string
+)
+ident(
+  int_ref nl "xtl.ml" 14 444 449 "xtl.ml" 14 444 451
+)
+"xtl.ml" 15 490 491 "xtl.ml" 15 490 556
+type(
+  unit
+)
+"xtl.ml" 16 558 559 "xtl.ml" 16 558 564
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.flush "stdlib.mli" 930 34305 34305 "stdlib.mli" 930 34305 34336
+)
+"xtl.ml" 16 558 565 "xtl.ml" 16 558 571
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 800 29855 29855 "stdlib.mli" 800 29855 29879
+)
+"xtl.ml" 16 558 559 "xtl.ml" 16 558 571
+type(
+  unit
+)
+"xtl.ml" 15 490 491 "xtl.ml" 16 558 571
+type(
+  unit
+)
+"xtl.ml" 14 444 445 "xtl.ml" 16 558 571
+type(
+  unit
+)
+"xtl.ml" 18 573 577 "xtl.ml" 18 573 596
+type(
+  ?level:Xentoollog.level -> unit -> Xentoollog.handle
+)
+ident(
+  def create_stdio_logger "xtl.ml" 24 737 737 "xtl.ml" 0 0 -1
+)
+"xtl.ml" 18 573 599 "xtl.ml" 18 573 604
+type(
+  Xentoollog.level
+)
+"xtl.ml" 18 573 605 "xtl.ml" 18 573 609
+type(
+  Xentoollog.level
+)
+type(
+  Xentoollog.level
+)
+type(
+  Xentoollog.level option
+)
+type(
+  Xentoollog.level option
+)
+type(
+  Xentoollog.level
+)
+"xtl.ml" 18 573 611 "xtl.ml" 18 573 613
+type(
+  unit
+)
+"xtl.ml" 19 616 621 "xtl.ml" 19 616 624
+type(
+  Xentoollog.logger_cbs
+)
+ident(
+  def cbs "xtl.ml" 22 698 699 "xtl.ml" 22 698 735
+)
+"xtl.ml" 20 629 642 "xtl.ml" 20 629 656
+type(
+  Xentoollog.level ->
+  Xentoollog.level -> int option -> string option -> string -> unit
+)
+ident(
+  int_ref stdio_vmessage "xtl.ml" 4 29 33 "xtl.ml" 4 29 47
+)
+"xtl.ml" 20 629 657 "xtl.ml" 20 629 662
+type(
+  Xentoollog.level
+)
+ident(
+  int_ref level "xtl.ml" 18 573 599 "xtl.ml" 18 573 604
+)
+"xtl.ml" 20 629 642 "xtl.ml" 20 629 662
+type(
+  Xentoollog.level -> int option -> string option -> string -> unit
+)
+"xtl.ml" 21 664 677 "xtl.ml" 21 664 691
+type(
+  string option -> string -> int -> int64 -> int64 -> unit
+)
+ident(
+  int_ref stdio_progress "xtl.ml" 13 395 399 "xtl.ml" 13 395 413
+)
+"xtl.ml" 19 616 627 "xtl.ml" 21 664 694
+type(
+  Xentoollog.logger_cbs
+)
+"xtl.ml" 22 698 699 "xtl.ml" 22 698 705
+type(
+  string -> Xentoollog.logger_cbs -> Xentoollog.handle
+)
+ident(
+  int_ref Xentoollog.create "xentoollog.mli" 64 1681 1681 "xentoollog.mli" 64 1681 1724
+)
+"xtl.ml" 22 698 706 "xtl.ml" 22 698 731
+type(
+  string
+)
+"xtl.ml" 22 698 732 "xtl.ml" 22 698 735
+type(
+  Xentoollog.logger_cbs
+)
+ident(
+  int_ref cbs "xtl.ml" 19 616 621 "xtl.ml" 19 616 624
+)
+"xtl.ml" 22 698 699 "xtl.ml" 22 698 735
+type(
+  Xentoollog.handle
+)
+"xtl.ml" 19 616 617 "xtl.ml" 22 698 735
+type(
+  Xentoollog.handle
+)
+"xtl.ml" 24 737 741 "xtl.ml" 24 737 748
+type(
+  Xentoollog.level -> unit
+)
+ident(
+  def do_test "xtl.ml" 30 837 837 "xtl.ml" 0 0 -1
+)
+"xtl.ml" 24 737 749 "xtl.ml" 24 737 754
+type(
+  Xentoollog.level
+)
+ident(
+  def level "xtl.ml" 25 757 759 "xtl.ml" 28 830 835
+)
+"xtl.ml" 25 757 763 "xtl.ml" 25 757 766
+type(
+  Xentoollog.handle
+)
+ident(
+  def lgr "xtl.ml" 26 808 810 "xtl.ml" 28 830 835
+)
+"xtl.ml" 25 757 769 "xtl.ml" 25 757 788
+type(
+  ?level:Xentoollog.level -> unit -> Xentoollog.handle
+)
+ident(
+  int_ref create_stdio_logger "xtl.ml" 18 573 577 "xtl.ml" 18 573 596
+)
+"xtl.ml" 25 757 796 "xtl.ml" 25 757 801
+type(
+  Xentoollog.level
+)
+ident(
+  int_ref level "xtl.ml" 24 737 749 "xtl.ml" 24 737 754
+)
+"xtl.ml" 25 757 802 "xtl.ml" 25 757 804
+type(
+  unit
+)
+"xtl.ml" 25 757 769 "xtl.ml" 25 757 804
+type(
+  Xentoollog.handle
+)
+"xtl.ml" 27 816 820 "xtl.ml" 27 816 824
+type(
+  Xentoollog.handle -> unit
+)
+ident(
+  int_ref Xentoollog.test "xentoollog.mli" 62 1632 1632 "xentoollog.mli" 62 1632 1679
+)
+"xtl.ml" 27 816 825 "xtl.ml" 27 816 828
+type(
+  Xentoollog.handle
+)
+ident(
+  int_ref lgr "xtl.ml" 25 757 763 "xtl.ml" 25 757 766
+)
+"xtl.ml" 26 808 810 "xtl.ml" 28 830 835
+type(
+  unit
+)
+"xtl.ml" 25 757 759 "xtl.ml" 28 830 835
+type(
+  unit
+)
+"xtl.ml" 30 837 841 "xtl.ml" 30 837 843
+type(
+  unit
+)
+"xtl.ml" 31 846 852 "xtl.ml" 31 846 863
+type(
+  Xentoollog.level ref
+)
+ident(
+  def debug_level "xtl.ml" 32 878 880 "xtl.ml" 39 1128 1150
+)
+"xtl.ml" 31 846 866 "xtl.ml" 31 846 869
+type(
+  Xentoollog.level -> Xentoollog.level ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"xtl.ml" 31 846 870 "xtl.ml" 31 846 874
+type(
+  Xentoollog.level
+)
+"xtl.ml" 31 846 866 "xtl.ml" 31 846 874
+type(
+  Xentoollog.level ref
+)
+"xtl.ml" 32 878 884 "xtl.ml" 32 878 892
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def speclist "xtl.ml" 36 1037 1039 "xtl.ml" 39 1128 1150
+)
+"xtl.ml" 33 897 902 "xtl.ml" 33 897 906
+type(
+  string
+)
+"xtl.ml" 33 897 922 "xtl.ml" 33 897 924
+type(
+  unit
+)
+"xtl.ml" 33 897 928 "xtl.ml" 33 897 939
+type(
+  Xentoollog.level ref
+)
+ident(
+  int_ref debug_level "xtl.ml" 31 846 852 "xtl.ml" 31 846 863
+)
+"xtl.ml" 33 897 940 "xtl.ml" 33 897 942
+type(
+  Xentoollog.level ref -> Xentoollog.level -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"xtl.ml" 33 897 943 "xtl.ml" 33 897 948
+type(
+  Xentoollog.level
+)
+"xtl.ml" 33 897 928 "xtl.ml" 33 897 948
+type(
+  unit
+)
+"xtl.ml" 33 897 917 "xtl.ml" 33 897 949
+type(
+  unit -> unit
+)
+"xtl.ml" 33 897 908 "xtl.ml" 33 897 949
+type(
+  Arg.spec
+)
+"xtl.ml" 33 897 951 "xtl.ml" 33 897 960
+type(
+  string
+)
+"xtl.ml" 33 897 901 "xtl.ml" 33 897 961
+type(
+  string * Arg.spec * string
+)
+"xtl.ml" 34 963 968 "xtl.ml" 34 963 972
+type(
+  string
+)
+"xtl.ml" 34 963 988 "xtl.ml" 34 963 990
+type(
+  unit
+)
+"xtl.ml" 34 963 994 "xtl.ml" 34 963 1005
+type(
+  Xentoollog.level ref
+)
+ident(
+  int_ref debug_level "xtl.ml" 31 846 852 "xtl.ml" 31 846 863
+)
+"xtl.ml" 34 963 1006 "xtl.ml" 34 963 1008
+type(
+  Xentoollog.level ref -> Xentoollog.level -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"xtl.ml" 34 963 1009 "xtl.ml" 34 963 1017
+type(
+  Xentoollog.level
+)
+"xtl.ml" 34 963 994 "xtl.ml" 34 963 1017
+type(
+  unit
+)
+"xtl.ml" 34 963 983 "xtl.ml" 34 963 1018
+type(
+  unit -> unit
+)
+"xtl.ml" 34 963 974 "xtl.ml" 34 963 1018
+type(
+  Arg.spec
+)
+"xtl.ml" 34 963 1020 "xtl.ml" 34 963 1027
+type(
+  string
+)
+"xtl.ml" 34 963 967 "xtl.ml" 34 963 1028
+type(
+  string * Arg.spec * string
+)
+"xtl.ml" 32 878 895 "xtl.ml" 35 1030 1033
+type(
+  (string * Arg.spec * string) list
+)
+"xtl.ml" 36 1037 1043 "xtl.ml" 36 1037 1052
+type(
+  string
+)
+ident(
+  def usage_msg "xtl.ml" 37 1081 1083 "xtl.ml" 39 1128 1150
+)
+"xtl.ml" 36 1037 1055 "xtl.ml" 36 1037 1077
+type(
+  string
+)
+"xtl.ml" 37 1081 1083 "xtl.ml" 37 1081 1092
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse "arg.mli" 77 4335 4335 "arg.mli" 78 4347 4405
+)
+"xtl.ml" 37 1081 1093 "xtl.ml" 37 1081 1101
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "xtl.ml" 32 878 884 "xtl.ml" 32 878 892
+)
+"xtl.ml" 37 1081 1107 "xtl.ml" 37 1081 1108
+type(
+  string
+)
+"xtl.ml" 37 1081 1112 "xtl.ml" 37 1081 1114
+type(
+  unit
+)
+"xtl.ml" 37 1081 1102 "xtl.ml" 37 1081 1115
+type(
+  Arg.anon_fun
+)
+"xtl.ml" 37 1081 1116 "xtl.ml" 37 1081 1125
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage_msg "xtl.ml" 36 1037 1043 "xtl.ml" 36 1037 1052
+)
+"xtl.ml" 37 1081 1083 "xtl.ml" 37 1081 1125
+type(
+  unit
+)
+"xtl.ml" 39 1128 1130 "xtl.ml" 39 1128 1137
+type(
+  Xentoollog.level -> unit
+)
+ident(
+  int_ref do_test "xtl.ml" 24 737 741 "xtl.ml" 24 737 748
+)
+"xtl.ml" 39 1128 1138 "xtl.ml" 39 1128 1139
+type(
+  Xentoollog.level ref -> Xentoollog.level
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"xtl.ml" 39 1128 1139 "xtl.ml" 39 1128 1150
+type(
+  Xentoollog.level ref
+)
+ident(
+  int_ref debug_level "xtl.ml" 31 846 852 "xtl.ml" 31 846 863
+)
+"xtl.ml" 39 1128 1138 "xtl.ml" 39 1128 1150
+type(
+  Xentoollog.level
+)
+"xtl.ml" 39 1128 1130 "xtl.ml" 39 1128 1150
+type(
+  unit
+)
+"xtl.ml" 37 1081 1083 "xtl.ml" 39 1128 1150
+type(
+  unit
+)
+"xtl.ml" 36 1037 1039 "xtl.ml" 39 1128 1150
+type(
+  unit
+)
+"xtl.ml" 32 878 880 "xtl.ml" 39 1128 1150
+type(
+  unit
+)
+"xtl.ml" 31 846 848 "xtl.ml" 39 1128 1150
+type(
+  unit
+)

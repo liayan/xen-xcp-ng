@@ -1,0 +1,4 @@
+fsys_reiserfs.opic: fsys_reiserfs.c \
+ /home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libfsimage/reiserfs/../../../tools/libfsimage/common/xenfsimage_grub.h \
+ /home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libfsimage/reiserfs/../../../tools/libfsimage/common/xenfsimage.h \
+ /home/builder/rpmbuild/BUILD/xen-4.13.5/tools/libfsimage/reiserfs/../../../tools/libfsimage/common/xenfsimage_plugin.h

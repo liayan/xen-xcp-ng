@@ -1,0 +1,319 @@
+"symbol.ml" 19 736 744 "symbol.ml" 19 736 749
+type(
+  string -> string -> bool
+)
+ident(
+  def equal "symbol.ml" 20 782 786 "symbol.ml" 21 810 813
+)
+"symbol.ml" 19 736 751 "symbol.ml" 19 736 752
+type(
+  string
+)
+ident(
+  def x "symbol.ml" 19 736 761 "symbol.ml" 19 736 781
+)
+"symbol.ml" 19 736 762 "symbol.ml" 19 736 763
+type(
+  string
+)
+ident(
+  def y "symbol.ml" 19 736 774 "symbol.ml" 19 736 781
+)
+"symbol.ml" 19 736 775 "symbol.ml" 19 736 776
+type(
+  string
+)
+ident(
+  int_ref x "symbol.ml" 19 736 751 "symbol.ml" 19 736 752
+)
+"symbol.ml" 19 736 777 "symbol.ml" 19 736 778
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"symbol.ml" 19 736 779 "symbol.ml" 19 736 780
+type(
+  string
+)
+ident(
+  int_ref y "symbol.ml" 19 736 762 "symbol.ml" 19 736 763
+)
+"symbol.ml" 19 736 774 "symbol.ml" 19 736 781
+type(
+  bool
+)
+"symbol.ml" 20 782 790 "symbol.ml" 20 782 794
+type(
+  'a -> int
+)
+ident(
+  def hash "symbol.ml" 20 782 809 "symbol.ml" 21 810 813
+)
+"symbol.ml" 20 782 797 "symbol.ml" 20 782 809
+type(
+  'a -> int
+)
+ident(
+  int_ref Stdlib.Hashtbl.hash "hashtbl.mli" 449 17346 17346 "hashtbl.mli" 449 17346 17366
+)
+"symbol.ml" 25 833 837 "symbol.ml" 25 833 840
+type(
+  WeakTable.t
+)
+ident(
+  def tbl "symbol.ml" 27 866 866 "symbol.ml" 0 0 -1
+)
+"symbol.ml" 25 833 843 "symbol.ml" 25 833 859
+type(
+  int -> WeakTable.t
+)
+ident(
+  int_ref WeakTable.create "weak.mli" 123 5290 5292 "weak.mli" 123 5290 5313
+)
+"symbol.ml" 25 833 860 "symbol.ml" 25 833 864
+type(
+  int
+)
+"symbol.ml" 25 833 843 "symbol.ml" 25 833 864
+type(
+  WeakTable.t
+)
+"symbol.ml" 27 866 870 "symbol.ml" 27 866 879
+type(
+  WeakTable.data -> WeakTable.data
+)
+ident(
+  def of_string "symbol.ml" 28 906 906 "symbol.ml" 0 0 -1
+)
+"symbol.ml" 27 866 880 "symbol.ml" 27 866 881
+type(
+  WeakTable.data
+)
+ident(
+  def s "symbol.ml" 27 866 884 "symbol.ml" 27 866 905
+)
+"symbol.ml" 27 866 884 "symbol.ml" 27 866 899
+type(
+  WeakTable.t -> WeakTable.data -> WeakTable.data
+)
+ident(
+  int_ref WeakTable.merge "weak.mli" 130 5503 5505 "weak.mli" 130 5503 5534
+)
+"symbol.ml" 27 866 900 "symbol.ml" 27 866 903
+type(
+  WeakTable.t
+)
+ident(
+  int_ref tbl "symbol.ml" 25 833 837 "symbol.ml" 25 833 840
+)
+"symbol.ml" 27 866 904 "symbol.ml" 27 866 905
+type(
+  WeakTable.data
+)
+ident(
+  int_ref s "symbol.ml" 27 866 880 "symbol.ml" 27 866 881
+)
+"symbol.ml" 27 866 884 "symbol.ml" 27 866 905
+type(
+  WeakTable.data
+)
+"symbol.ml" 28 906 910 "symbol.ml" 28 906 919
+type(
+  'a -> 'a
+)
+ident(
+  def to_string "symbol.ml" 30 927 927 "symbol.ml" 0 0 -1
+)
+"symbol.ml" 28 906 920 "symbol.ml" 28 906 921
+type(
+  'a
+)
+ident(
+  def s "symbol.ml" 28 906 924 "symbol.ml" 28 906 925
+)
+"symbol.ml" 28 906 924 "symbol.ml" 28 906 925
+type(
+  'a
+)
+ident(
+  int_ref s "symbol.ml" 28 906 920 "symbol.ml" 28 906 921
+)
+"symbol.ml" 30 927 931 "symbol.ml" 30 927 936
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def equal "symbol.ml" 36 1143 1143 "symbol.ml" 0 0 -1
+)
+"symbol.ml" 30 927 937 "symbol.ml" 30 927 938
+type(
+  'a
+)
+ident(
+  def a "symbol.ml" 30 927 939 "symbol.ml" 32 1037 1045
+)
+"symbol.ml" 30 927 939 "symbol.ml" 30 927 940
+type(
+  'a
+)
+ident(
+  def b "symbol.ml" 32 1037 1039 "symbol.ml" 32 1037 1045
+)
+"symbol.ml" 32 1037 1039 "symbol.ml" 32 1037 1040
+type(
+  'a
+)
+ident(
+  int_ref a "symbol.ml" 30 927 937 "symbol.ml" 30 927 938
+)
+"symbol.ml" 32 1037 1041 "symbol.ml" 32 1037 1043
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 188 8052 8052 "stdlib.mli" 188 8052 8094
+)
+"symbol.ml" 32 1037 1044 "symbol.ml" 32 1037 1045
+type(
+  'a
+)
+ident(
+  int_ref b "symbol.ml" 30 927 939 "symbol.ml" 30 927 940
+)
+"symbol.ml" 32 1037 1039 "symbol.ml" 32 1037 1045
+type(
+  bool
+)
+"symbol.ml" 36 1143 1147 "symbol.ml" 36 1143 1154
+type(
+  String.t -> String.t -> int
+)
+ident(
+  def compare "symbol.ml" 38 1181 1181 "symbol.ml" 0 0 -1
+)
+"symbol.ml" 36 1143 1155 "symbol.ml" 36 1143 1156
+type(
+  String.t
+)
+ident(
+  def a "symbol.ml" 36 1143 1157 "symbol.ml" 36 1143 1179
+)
+"symbol.ml" 36 1143 1157 "symbol.ml" 36 1143 1158
+type(
+  String.t
+)
+ident(
+  def b "symbol.ml" 36 1143 1161 "symbol.ml" 36 1143 1179
+)
+"symbol.ml" 36 1143 1161 "symbol.ml" 36 1143 1175
+type(
+  String.t -> String.t -> int
+)
+ident(
+  int_ref Stdlib.String.compare "string.mli" 309 12759 12759 "string.mli" 309 12759 12785
+)
+"symbol.ml" 36 1143 1176 "symbol.ml" 36 1143 1177
+type(
+  String.t
+)
+ident(
+  int_ref b "symbol.ml" 36 1143 1157 "symbol.ml" 36 1143 1158
+)
+"symbol.ml" 36 1143 1178 "symbol.ml" 36 1143 1179
+type(
+  String.t
+)
+ident(
+  int_ref a "symbol.ml" 36 1143 1155 "symbol.ml" 36 1143 1156
+)
+"symbol.ml" 36 1143 1161 "symbol.ml" 36 1143 1179
+type(
+  int
+)
+"symbol.ml" 38 1181 1185 "symbol.ml" 38 1181 1190
+type(
+  unit -> int * int
+)
+ident(
+  def stats "symbol.ml" 40 1252 1266 "symbol.ml" 0 0 -1
+)
+"symbol.ml" 38 1181 1191 "symbol.ml" 38 1181 1193
+type(
+  unit
+)
+"symbol.ml" 39 1196 1202 "symbol.ml" 39 1196 1205
+type(
+  int
+)
+ident(
+  def len "symbol.ml" 40 1252 1254 "symbol.ml" 40 1252 1266
+)
+"symbol.ml" 39 1196 1207 "symbol.ml" 39 1196 1214
+type(
+  int
+)
+ident(
+  def entries "symbol.ml" 40 1252 1254 "symbol.ml" 40 1252 1266
+)
+"symbol.ml" 39 1196 1216 "symbol.ml" 39 1196 1217
+type(
+  int
+)
+"symbol.ml" 39 1196 1219 "symbol.ml" 39 1196 1220
+type(
+  int
+)
+"symbol.ml" 39 1196 1222 "symbol.ml" 39 1196 1223
+type(
+  int
+)
+"symbol.ml" 39 1196 1225 "symbol.ml" 39 1196 1226
+type(
+  int
+)
+"symbol.ml" 39 1196 1202 "symbol.ml" 39 1196 1226
+type(
+  int * int * int * int * int * int
+)
+"symbol.ml" 39 1196 1229 "symbol.ml" 39 1196 1244
+type(
+  WeakTable.t -> int * int * int * int * int * int
+)
+ident(
+  int_ref WeakTable.stats "weak.mli" 177 7335 7337 "weak.mli" 177 7335 7387
+)
+"symbol.ml" 39 1196 1245 "symbol.ml" 39 1196 1248
+type(
+  WeakTable.t
+)
+ident(
+  int_ref tbl "symbol.ml" 25 833 837 "symbol.ml" 25 833 840
+)
+"symbol.ml" 39 1196 1229 "symbol.ml" 39 1196 1248
+type(
+  int * int * int * int * int * int
+)
+"symbol.ml" 40 1252 1254 "symbol.ml" 40 1252 1257
+type(
+  int
+)
+ident(
+  int_ref len "symbol.ml" 39 1196 1202 "symbol.ml" 39 1196 1205
+)
+"symbol.ml" 40 1252 1259 "symbol.ml" 40 1252 1266
+type(
+  int
+)
+ident(
+  int_ref entries "symbol.ml" 39 1196 1207 "symbol.ml" 39 1196 1214
+)
+"symbol.ml" 40 1252 1254 "symbol.ml" 40 1252 1266
+type(
+  int * int
+)
+"symbol.ml" 39 1196 1198 "symbol.ml" 40 1252 1266
+type(
+  int * int
+)

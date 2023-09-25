@@ -1,0 +1,211 @@
+"syslog.ml" 24 968 972 "syslog.ml" 24 968 990
+type(
+  string -> facility
+)
+ident(
+  def facility_of_string "syslog.ml" 46 1413 1446 "syslog.ml" 0 0 -1
+)
+"syslog.ml" 24 968 991 "syslog.ml" 24 968 992
+type(
+  string
+)
+ident(
+  def s "syslog.ml" 25 995 996 "syslog.ml" 46 1413 1446
+)
+"syslog.ml" 25 995 1002 "syslog.ml" 25 995 1003
+type(
+  string
+)
+ident(
+  int_ref s "syslog.ml" 24 968 991 "syslog.ml" 24 968 992
+)
+"syslog.ml" 26 1009 1014 "syslog.ml" 26 1009 1020
+type(
+  string
+)
+"syslog.ml" 26 1009 1022 "syslog.ml" 26 1009 1026
+type(
+  facility
+)
+"syslog.ml" 27 1027 1032 "syslog.ml" 27 1027 1042
+type(
+  string
+)
+"syslog.ml" 27 1027 1044 "syslog.ml" 27 1027 1052
+type(
+  facility
+)
+"syslog.ml" 28 1053 1058 "syslog.ml" 28 1053 1064
+type(
+  string
+)
+"syslog.ml" 28 1053 1066 "syslog.ml" 28 1053 1070
+type(
+  facility
+)
+"syslog.ml" 29 1071 1076 "syslog.ml" 29 1071 1084
+type(
+  string
+)
+"syslog.ml" 29 1071 1086 "syslog.ml" 29 1071 1092
+type(
+  facility
+)
+"syslog.ml" 30 1093 1098 "syslog.ml" 30 1093 1103
+type(
+  string
+)
+"syslog.ml" 30 1093 1105 "syslog.ml" 30 1093 1108
+type(
+  facility
+)
+"syslog.ml" 31 1109 1114 "syslog.ml" 31 1109 1120
+type(
+  string
+)
+"syslog.ml" 31 1109 1122 "syslog.ml" 31 1109 1126
+type(
+  facility
+)
+"syslog.ml" 32 1127 1132 "syslog.ml" 32 1127 1140
+type(
+  string
+)
+"syslog.ml" 32 1127 1142 "syslog.ml" 32 1127 1148
+type(
+  facility
+)
+"syslog.ml" 33 1149 1154 "syslog.ml" 33 1149 1162
+type(
+  string
+)
+"syslog.ml" 33 1149 1164 "syslog.ml" 33 1149 1170
+type(
+  facility
+)
+"syslog.ml" 34 1171 1176 "syslog.ml" 34 1171 1184
+type(
+  string
+)
+"syslog.ml" 34 1171 1186 "syslog.ml" 34 1171 1192
+type(
+  facility
+)
+"syslog.ml" 35 1193 1198 "syslog.ml" 35 1193 1206
+type(
+  string
+)
+"syslog.ml" 35 1193 1208 "syslog.ml" 35 1193 1214
+type(
+  facility
+)
+"syslog.ml" 36 1215 1220 "syslog.ml" 36 1215 1228
+type(
+  string
+)
+"syslog.ml" 36 1215 1230 "syslog.ml" 36 1215 1236
+type(
+  facility
+)
+"syslog.ml" 37 1237 1242 "syslog.ml" 37 1237 1250
+type(
+  string
+)
+"syslog.ml" 37 1237 1252 "syslog.ml" 37 1237 1258
+type(
+  facility
+)
+"syslog.ml" 38 1259 1264 "syslog.ml" 38 1259 1272
+type(
+  string
+)
+"syslog.ml" 38 1259 1274 "syslog.ml" 38 1259 1280
+type(
+  facility
+)
+"syslog.ml" 39 1281 1286 "syslog.ml" 39 1281 1294
+type(
+  string
+)
+"syslog.ml" 39 1281 1296 "syslog.ml" 39 1281 1302
+type(
+  facility
+)
+"syslog.ml" 40 1303 1308 "syslog.ml" 40 1303 1313
+type(
+  string
+)
+"syslog.ml" 40 1303 1315 "syslog.ml" 40 1303 1318
+type(
+  facility
+)
+"syslog.ml" 41 1319 1324 "syslog.ml" 41 1319 1330
+type(
+  string
+)
+"syslog.ml" 41 1319 1332 "syslog.ml" 41 1319 1336
+type(
+  facility
+)
+"syslog.ml" 42 1337 1342 "syslog.ml" 42 1337 1348
+type(
+  string
+)
+"syslog.ml" 42 1337 1350 "syslog.ml" 42 1337 1354
+type(
+  facility
+)
+"syslog.ml" 43 1355 1360 "syslog.ml" 43 1355 1368
+type(
+  string
+)
+"syslog.ml" 43 1355 1370 "syslog.ml" 43 1355 1376
+type(
+  facility
+)
+"syslog.ml" 44 1377 1382 "syslog.ml" 44 1377 1388
+type(
+  string
+)
+"syslog.ml" 44 1377 1390 "syslog.ml" 44 1377 1394
+type(
+  facility
+)
+"syslog.ml" 45 1395 1400 "syslog.ml" 45 1395 1406
+type(
+  string
+)
+"syslog.ml" 45 1395 1408 "syslog.ml" 45 1395 1412
+type(
+  facility
+)
+"syslog.ml" 46 1413 1416 "syslog.ml" 46 1413 1417
+type(
+  string
+)
+"syslog.ml" 46 1413 1420 "syslog.ml" 46 1413 1425
+type(
+  exn -> facility
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"syslog.ml" 46 1413 1444 "syslog.ml" 46 1413 1445
+type(
+  string
+)
+ident(
+  int_ref s "syslog.ml" 24 968 991 "syslog.ml" 24 968 992
+)
+"syslog.ml" 46 1413 1426 "syslog.ml" 46 1413 1446
+type(
+  exn
+)
+"syslog.ml" 46 1413 1420 "syslog.ml" 46 1413 1446
+type(
+  facility
+)
+"syslog.ml" 25 995 996 "syslog.ml" 46 1413 1446
+type(
+  facility
+)

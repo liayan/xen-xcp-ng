@@ -1,0 +1,2751 @@
+"trie.ml" 28 794 799 "trie.ml" 28 794 806
+type(
+  string -> 'a -> 'a t
+)
+ident(
+  def _create "trie.ml" 34 890 891 "trie.ml" 55 1382 1385
+)
+"trie.ml" 28 794 807 "trie.ml" 28 794 810
+type(
+  string
+)
+ident(
+  def key "trie.ml" 28 794 811 "trie.ml" 32 886 888
+)
+"trie.ml" 28 794 811 "trie.ml" 28 794 816
+type(
+  'a
+)
+ident(
+  def value "trie.ml" 28 794 819 "trie.ml" 32 886 888
+)
+"trie.ml" 29 821 829 "trie.ml" 29 821 832
+type(
+  string
+)
+ident(
+  int_ref key "trie.ml" 28 794 807 "trie.ml" 28 794 810
+)
+"trie.ml" 30 834 849 "trie.ml" 30 834 854
+type(
+  'a
+)
+ident(
+  int_ref value "trie.ml" 28 794 811 "trie.ml" 28 794 816
+)
+"trie.ml" 30 834 844 "trie.ml" 30 834 854
+type(
+  'a option
+)
+"trie.ml" 31 856 869 "trie.ml" 31 856 884
+type(
+  'a t StringMap.t
+)
+ident(
+  int_ref StringMap.empty "map.mli" 70 2817 2821 "map.mli" 70 2817 2836
+)
+"trie.ml" 28 794 819 "trie.ml" 32 886 888
+type(
+  'a t
+)
+"trie.ml" 34 890 895 "trie.ml" 34 890 900
+type(
+  string -> 'b t
+)
+ident(
+  def empty "trie.ml" 40 972 973 "trie.ml" 55 1382 1385
+)
+"trie.ml" 34 890 901 "trie.ml" 34 890 904
+type(
+  string
+)
+ident(
+  def key "trie.ml" 34 890 907 "trie.ml" 38 968 970
+)
+"trie.ml" 35 909 917 "trie.ml" 35 909 920
+type(
+  string
+)
+ident(
+  int_ref key "trie.ml" 34 890 901 "trie.ml" 34 890 904
+)
+"trie.ml" 36 922 932 "trie.ml" 36 922 936
+type(
+  'b option
+)
+"trie.ml" 37 938 951 "trie.ml" 37 938 966
+type(
+  'b t StringMap.t
+)
+ident(
+  int_ref StringMap.empty "map.mli" 70 2817 2821 "map.mli" 70 2817 2836
+)
+"trie.ml" 34 890 907 "trie.ml" 38 968 970
+type(
+  'b t
+)
+"trie.ml" 40 972 977 "trie.ml" 40 972 985
+type(
+  'c t -> string
+)
+ident(
+  def _get_key "trie.ml" 41 1002 1003 "trie.ml" 55 1382 1385
+)
+"trie.ml" 40 972 986 "trie.ml" 40 972 990
+type(
+  'c t
+)
+ident(
+  def node "trie.ml" 40 972 993 "trie.ml" 40 972 1001
+)
+"trie.ml" 40 972 993 "trie.ml" 40 972 997
+type(
+  'c t
+)
+ident(
+  int_ref node "trie.ml" 40 972 986 "trie.ml" 40 972 990
+)
+"trie.ml" 40 972 993 "trie.ml" 40 972 1001
+type(
+  string
+)
+"trie.ml" 41 1002 1007 "trie.ml" 41 1002 1016
+type(
+  'd t -> 'd
+)
+ident(
+  def get_value "trie.ml" 46 1107 1108 "trie.ml" 55 1382 1385
+)
+"trie.ml" 41 1002 1017 "trie.ml" 41 1002 1021
+type(
+  'd t
+)
+ident(
+  def node "trie.ml" 42 1024 1026 "trie.ml" 44 1082 1105
+)
+"trie.ml" 42 1024 1032 "trie.ml" 42 1024 1036
+type(
+  'd t
+)
+ident(
+  int_ref node "trie.ml" 41 1002 1017 "trie.ml" 41 1002 1021
+)
+"trie.ml" 42 1024 1032 "trie.ml" 42 1024 1042
+type(
+  'd option
+)
+"trie.ml" 43 1048 1052 "trie.ml" 43 1048 1056
+type(
+  'd option
+)
+"trie.ml" 43 1048 1066 "trie.ml" 43 1048 1071
+type(
+  exn -> 'd
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"trie.ml" 43 1048 1072 "trie.ml" 43 1048 1081
+type(
+  exn
+)
+"trie.ml" 43 1048 1066 "trie.ml" 43 1048 1081
+type(
+  'd
+)
+"trie.ml" 44 1082 1091 "trie.ml" 44 1082 1096
+type(
+  'd
+)
+ident(
+  def value "trie.ml" 44 1082 1100 "trie.ml" 44 1082 1105
+)
+"trie.ml" 44 1082 1086 "trie.ml" 44 1082 1096
+type(
+  'd option
+)
+"trie.ml" 44 1082 1100 "trie.ml" 44 1082 1105
+type(
+  'd
+)
+ident(
+  int_ref value "trie.ml" 44 1082 1091 "trie.ml" 44 1082 1096
+)
+"trie.ml" 42 1024 1026 "trie.ml" 44 1082 1105
+type(
+  'd
+)
+"trie.ml" 46 1107 1112 "trie.ml" 46 1107 1125
+type(
+  'e t -> 'e t StringMap.t
+)
+ident(
+  def _get_children "trie.ml" 48 1148 1149 "trie.ml" 55 1382 1385
+)
+"trie.ml" 46 1107 1126 "trie.ml" 46 1107 1130
+type(
+  'e t
+)
+ident(
+  def node "trie.ml" 46 1107 1133 "trie.ml" 46 1107 1146
+)
+"trie.ml" 46 1107 1133 "trie.ml" 46 1107 1137
+type(
+  'e t
+)
+ident(
+  int_ref node "trie.ml" 46 1107 1126 "trie.ml" 46 1107 1130
+)
+"trie.ml" 46 1107 1133 "trie.ml" 46 1107 1146
+type(
+  'e t StringMap.t
+)
+"trie.ml" 48 1148 1153 "trie.ml" 48 1148 1162
+type(
+  'f t -> 'f -> 'f t
+)
+ident(
+  def set_value "trie.ml" 50 1211 1212 "trie.ml" 55 1382 1385
+)
+"trie.ml" 48 1148 1163 "trie.ml" 48 1148 1167
+type(
+  'f t
+)
+ident(
+  def node "trie.ml" 48 1148 1168 "trie.ml" 49 1176 1210
+)
+"trie.ml" 48 1148 1168 "trie.ml" 48 1148 1173
+type(
+  'f
+)
+ident(
+  def value "trie.ml" 49 1176 1178 "trie.ml" 49 1176 1210
+)
+"trie.ml" 49 1176 1180 "trie.ml" 49 1176 1184
+type(
+  'f t
+)
+ident(
+  int_ref node "trie.ml" 48 1148 1163 "trie.ml" 48 1148 1167
+)
+"trie.ml" 49 1176 1203 "trie.ml" 49 1176 1208
+type(
+  'f
+)
+ident(
+  int_ref value "trie.ml" 48 1148 1168 "trie.ml" 48 1148 1173
+)
+"trie.ml" 49 1176 1198 "trie.ml" 49 1176 1208
+type(
+  'f option
+)
+"trie.ml" 49 1176 1178 "trie.ml" 49 1176 1210
+type(
+  'f t
+)
+"trie.ml" 50 1211 1216 "trie.ml" 50 1211 1228
+type(
+  'g t -> 'g t StringMap.t -> 'g t
+)
+ident(
+  def set_children "trie.ml" 53 1282 1283 "trie.ml" 55 1382 1385
+)
+"trie.ml" 50 1211 1229 "trie.ml" 50 1211 1233
+type(
+  'g t
+)
+ident(
+  def node "trie.ml" 50 1211 1234 "trie.ml" 51 1245 1280
+)
+"trie.ml" 50 1211 1234 "trie.ml" 50 1211 1242
+type(
+  'g t StringMap.t
+)
+ident(
+  def children "trie.ml" 51 1245 1247 "trie.ml" 51 1245 1280
+)
+"trie.ml" 51 1245 1249 "trie.ml" 51 1245 1253
+type(
+  'g t
+)
+ident(
+  int_ref node "trie.ml" 50 1211 1229 "trie.ml" 50 1211 1233
+)
+"trie.ml" 51 1245 1270 "trie.ml" 51 1245 1278
+type(
+  'g t StringMap.t
+)
+ident(
+  int_ref children "trie.ml" 50 1211 1234 "trie.ml" 50 1211 1242
+)
+"trie.ml" 51 1245 1247 "trie.ml" 51 1245 1280
+type(
+  'g t
+)
+"trie.ml" 53 1282 1287 "trie.ml" 53 1282 1297
+type(
+  'h t -> 'h t -> 'h t
+)
+ident(
+  def _add_child "trie.ml" 54 1311 1381 "trie.ml" 55 1382 1385
+)
+"trie.ml" 53 1282 1298 "trie.ml" 53 1282 1302
+type(
+  'h t
+)
+ident(
+  def node "trie.ml" 53 1282 1303 "trie.ml" 54 1311 1381
+)
+"trie.ml" 53 1282 1303 "trie.ml" 53 1282 1308
+type(
+  'h t
+)
+ident(
+  def child "trie.ml" 54 1311 1313 "trie.ml" 54 1311 1381
+)
+"trie.ml" 54 1311 1315 "trie.ml" 54 1311 1319
+type(
+  'h t
+)
+ident(
+  int_ref node "trie.ml" 53 1282 1298 "trie.ml" 53 1282 1302
+)
+"trie.ml" 54 1311 1336 "trie.ml" 54 1311 1349
+type(
+  StringMap.key -> 'h t -> 'h t StringMap.t -> 'h t StringMap.t
+)
+ident(
+  int_ref StringMap.add "map.mli" 80 3078 3082 "map.mli" 80 3078 3116
+)
+"trie.ml" 54 1311 1350 "trie.ml" 54 1311 1355
+type(
+  'h t
+)
+ident(
+  int_ref child "trie.ml" 53 1282 1303 "trie.ml" 53 1282 1308
+)
+"trie.ml" 54 1311 1350 "trie.ml" 54 1311 1359
+type(
+  StringMap.key
+)
+"trie.ml" 54 1311 1360 "trie.ml" 54 1311 1365
+type(
+  'h t
+)
+ident(
+  int_ref child "trie.ml" 53 1282 1303 "trie.ml" 53 1282 1308
+)
+"trie.ml" 54 1311 1366 "trie.ml" 54 1311 1370
+type(
+  'h t
+)
+ident(
+  int_ref node "trie.ml" 53 1282 1298 "trie.ml" 53 1282 1302
+)
+"trie.ml" 54 1311 1366 "trie.ml" 54 1311 1379
+type(
+  'h t StringMap.t
+)
+"trie.ml" 54 1311 1336 "trie.ml" 54 1311 1379
+type(
+  'h t StringMap.t
+)
+"trie.ml" 54 1311 1313 "trie.ml" 54 1311 1381
+type(
+  'h t
+)
+"trie.ml" 59 1422 1426 "trie.ml" 59 1422 1434
+type(
+  'a StringMap.t -> StringMap.key -> bool
+)
+ident(
+  def mem_node "trie.ml" 62 1473 1473 "trie.ml" 0 0 -1
+)
+"trie.ml" 59 1422 1435 "trie.ml" 59 1422 1440
+type(
+  'a StringMap.t
+)
+ident(
+  def nodes "trie.ml" 59 1422 1441 "trie.ml" 60 1447 1471
+)
+"trie.ml" 59 1422 1441 "trie.ml" 59 1422 1444
+type(
+  StringMap.key
+)
+ident(
+  def key "trie.ml" 60 1447 1448 "trie.ml" 60 1447 1471
+)
+"trie.ml" 60 1447 1448 "trie.ml" 60 1447 1461
+type(
+  StringMap.key -> 'a StringMap.t -> bool
+)
+ident(
+  int_ref StringMap.mem "map.mli" 76 2943 2947 "map.mli" 76 2943 2975
+)
+"trie.ml" 60 1447 1462 "trie.ml" 60 1447 1465
+type(
+  StringMap.key
+)
+ident(
+  int_ref key "trie.ml" 59 1422 1441 "trie.ml" 59 1422 1444
+)
+"trie.ml" 60 1447 1466 "trie.ml" 60 1447 1471
+type(
+  'a StringMap.t
+)
+ident(
+  int_ref nodes "trie.ml" 59 1422 1435 "trie.ml" 59 1422 1440
+)
+"trie.ml" 60 1447 1448 "trie.ml" 60 1447 1471
+type(
+  bool
+)
+"trie.ml" 62 1473 1477 "trie.ml" 62 1473 1486
+type(
+  'a StringMap.t -> StringMap.key -> 'a
+)
+ident(
+  def find_node "trie.ml" 65 1526 1526 "trie.ml" 0 0 -1
+)
+"trie.ml" 62 1473 1487 "trie.ml" 62 1473 1492
+type(
+  'a StringMap.t
+)
+ident(
+  def nodes "trie.ml" 62 1473 1493 "trie.ml" 63 1499 1524
+)
+"trie.ml" 62 1473 1493 "trie.ml" 62 1473 1496
+type(
+  StringMap.key
+)
+ident(
+  def key "trie.ml" 63 1499 1500 "trie.ml" 63 1499 1524
+)
+"trie.ml" 63 1499 1500 "trie.ml" 63 1499 1514
+type(
+  StringMap.key -> 'a StringMap.t -> 'a
+)
+ident(
+  int_ref StringMap.find "map.mli" 254 10231 10235 "map.mli" 254 10231 10262
+)
+"trie.ml" 63 1499 1515 "trie.ml" 63 1499 1518
+type(
+  StringMap.key
+)
+ident(
+  int_ref key "trie.ml" 62 1473 1493 "trie.ml" 62 1473 1496
+)
+"trie.ml" 63 1499 1519 "trie.ml" 63 1499 1524
+type(
+  'a StringMap.t
+)
+ident(
+  int_ref nodes "trie.ml" 62 1473 1487 "trie.ml" 62 1473 1492
+)
+"trie.ml" 63 1499 1500 "trie.ml" 63 1499 1524
+type(
+  'a
+)
+"trie.ml" 65 1526 1530 "trie.ml" 65 1526 1542
+type(
+  'a StringMap.t -> StringMap.key -> 'a -> 'a StringMap.t
+)
+ident(
+  def replace_node "trie.ml" 68 1635 1635 "trie.ml" 0 0 -1
+)
+"trie.ml" 65 1526 1543 "trie.ml" 65 1526 1548
+type(
+  'a StringMap.t
+)
+ident(
+  def nodes "trie.ml" 65 1526 1549 "trie.ml" 66 1560 1633
+)
+"trie.ml" 65 1526 1549 "trie.ml" 65 1526 1552
+type(
+  StringMap.key
+)
+ident(
+  def key "trie.ml" 65 1526 1553 "trie.ml" 66 1560 1633
+)
+"trie.ml" 65 1526 1553 "trie.ml" 65 1526 1557
+type(
+  'a
+)
+ident(
+  def node "trie.ml" 66 1560 1561 "trie.ml" 66 1560 1633
+)
+"trie.ml" 66 1560 1561 "trie.ml" 66 1560 1577
+type(
+  StringMap.key ->
+  ('a option -> 'a option) -> 'a StringMap.t -> 'a StringMap.t
+)
+ident(
+  int_ref StringMap.update "stdext.ml" 60 1714 1719 "stdext.ml" 60 1714 1725
+)
+"trie.ml" 66 1560 1578 "trie.ml" 66 1560 1581
+type(
+  StringMap.key
+)
+ident(
+  int_ref key "trie.ml" 65 1526 1549 "trie.ml" 65 1526 1552
+)
+"trie.ml" 66 1560 1592 "trie.ml" 66 1560 1596
+type(
+  'a option
+)
+"trie.ml" 66 1560 1600 "trie.ml" 66 1560 1604
+type(
+  'a option
+)
+"trie.ml" 66 1560 1612 "trie.ml" 66 1560 1613
+type(
+  'a
+)
+"trie.ml" 66 1560 1607 "trie.ml" 66 1560 1613
+type(
+  'a option
+)
+"trie.ml" 66 1560 1622 "trie.ml" 66 1560 1626
+type(
+  'a
+)
+ident(
+  int_ref node "trie.ml" 65 1526 1553 "trie.ml" 65 1526 1557
+)
+"trie.ml" 66 1560 1617 "trie.ml" 66 1560 1626
+type(
+  'a option
+)
+"trie.ml" 66 1560 1582 "trie.ml" 66 1560 1627
+type(
+  'a option -> 'a option
+)
+"trie.ml" 66 1560 1628 "trie.ml" 66 1560 1633
+type(
+  'a StringMap.t
+)
+ident(
+  int_ref nodes "trie.ml" 65 1526 1543 "trie.ml" 65 1526 1548
+)
+"trie.ml" 66 1560 1561 "trie.ml" 66 1560 1633
+type(
+  'a StringMap.t
+)
+"trie.ml" 68 1635 1639 "trie.ml" 68 1635 1650
+type(
+  'a StringMap.t -> StringMap.key -> 'a StringMap.t
+)
+ident(
+  def remove_node "trie.ml" 71 1744 1744 "trie.ml" 0 0 -1
+)
+"trie.ml" 68 1635 1651 "trie.ml" 68 1635 1656
+type(
+  'a StringMap.t
+)
+ident(
+  def nodes "trie.ml" 68 1635 1657 "trie.ml" 69 1663 1742
+)
+"trie.ml" 68 1635 1657 "trie.ml" 68 1635 1660
+type(
+  StringMap.key
+)
+ident(
+  def key "trie.ml" 69 1663 1664 "trie.ml" 69 1663 1742
+)
+"trie.ml" 69 1663 1664 "trie.ml" 69 1663 1680
+type(
+  StringMap.key ->
+  ('a option -> 'a option) -> 'a StringMap.t -> 'a StringMap.t
+)
+ident(
+  int_ref StringMap.update "stdext.ml" 60 1714 1719 "stdext.ml" 60 1714 1725
+)
+"trie.ml" 69 1663 1681 "trie.ml" 69 1663 1684
+type(
+  StringMap.key
+)
+ident(
+  int_ref key "trie.ml" 68 1635 1657 "trie.ml" 68 1635 1660
+)
+"trie.ml" 69 1663 1695 "trie.ml" 69 1663 1699
+type(
+  'a option
+)
+"trie.ml" 69 1663 1703 "trie.ml" 69 1663 1708
+type(
+  exn -> 'a option
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"trie.ml" 69 1663 1709 "trie.ml" 69 1663 1718
+type(
+  exn
+)
+"trie.ml" 69 1663 1703 "trie.ml" 69 1663 1718
+type(
+  'a option
+)
+"trie.ml" 69 1663 1726 "trie.ml" 69 1663 1727
+type(
+  'a
+)
+"trie.ml" 69 1663 1721 "trie.ml" 69 1663 1727
+type(
+  'a option
+)
+"trie.ml" 69 1663 1731 "trie.ml" 69 1663 1735
+type(
+  'a option
+)
+"trie.ml" 69 1663 1685 "trie.ml" 69 1663 1736
+type(
+  'a option -> 'a option
+)
+"trie.ml" 69 1663 1737 "trie.ml" 69 1663 1742
+type(
+  'a StringMap.t
+)
+ident(
+  int_ref nodes "trie.ml" 68 1635 1651 "trie.ml" 68 1635 1656
+)
+"trie.ml" 69 1663 1664 "trie.ml" 69 1663 1742
+type(
+  'a StringMap.t
+)
+"trie.ml" 71 1744 1748 "trie.ml" 71 1744 1754
+type(
+  unit -> 'a StringMap.t
+)
+ident(
+  def create "trie.ml" 73 1777 1777 "trie.ml" 0 0 -1
+)
+"trie.ml" 71 1744 1755 "trie.ml" 71 1744 1757
+type(
+  unit
+)
+"trie.ml" 71 1744 1760 "trie.ml" 71 1744 1775
+type(
+  'a StringMap.t
+)
+ident(
+  int_ref StringMap.empty "map.mli" 70 2817 2821 "map.mli" 70 2817 2836
+)
+"trie.ml" 73 1777 1785 "trie.ml" 73 1777 1789
+type(
+  (StringMap.key -> 'a option -> 'b) -> 'a Node.t StringMap.t -> unit
+)
+ident(
+  def iter "trie.ml" 73 1777 1777 "trie.ml" 0 0 -1
+)
+"trie.ml" 73 1777 1790 "trie.ml" 73 1777 1791
+type(
+  StringMap.key -> 'a option -> 'b
+)
+ident(
+  def f "trie.ml" 73 1777 1792 "trie.ml" 78 1876 1900
+)
+"trie.ml" 73 1777 1792 "trie.ml" 73 1777 1796
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 74 1799 1800 "trie.ml" 78 1876 1900
+)
+"trie.ml" 74 1799 1804 "trie.ml" 74 1799 1807
+type(
+  StringMap.key -> 'a Node.t -> unit
+)
+ident(
+  def aux "trie.ml" 78 1876 1877 "trie.ml" 78 1876 1900
+)
+"trie.ml" 74 1799 1808 "trie.ml" 74 1799 1811
+type(
+  StringMap.key
+)
+ident(
+  def key "trie.ml" 74 1799 1812 "trie.ml" 76 1844 1871
+)
+"trie.ml" 74 1799 1812 "trie.ml" 74 1799 1816
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 75 1819 1821 "trie.ml" 76 1844 1871
+)
+"trie.ml" 75 1819 1821 "trie.ml" 75 1819 1822
+type(
+  StringMap.key -> 'a option -> 'b
+)
+ident(
+  int_ref f "trie.ml" 73 1777 1790 "trie.ml" 73 1777 1791
+)
+"trie.ml" 75 1819 1823 "trie.ml" 75 1819 1826
+type(
+  StringMap.key
+)
+ident(
+  int_ref key "trie.ml" 74 1799 1808 "trie.ml" 74 1799 1811
+)
+"trie.ml" 75 1819 1827 "trie.ml" 75 1819 1831
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 74 1799 1812 "trie.ml" 74 1799 1816
+)
+"trie.ml" 75 1819 1827 "trie.ml" 75 1819 1842
+type(
+  'a option
+)
+"trie.ml" 75 1819 1821 "trie.ml" 75 1819 1842
+type(
+  'b
+)
+"trie.ml" 76 1844 1846 "trie.ml" 76 1844 1850
+type(
+  (StringMap.key -> 'a option -> 'b) -> 'a Node.t StringMap.t -> unit
+)
+ident(
+  int_ref iter "trie.ml" 73 1777 1785 "trie.ml" 73 1777 1789
+)
+"trie.ml" 76 1844 1851 "trie.ml" 76 1844 1852
+type(
+  StringMap.key -> 'a option -> 'b
+)
+ident(
+  int_ref f "trie.ml" 73 1777 1790 "trie.ml" 73 1777 1791
+)
+"trie.ml" 76 1844 1853 "trie.ml" 76 1844 1857
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 74 1799 1812 "trie.ml" 74 1799 1816
+)
+"trie.ml" 76 1844 1853 "trie.ml" 76 1844 1871
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 76 1844 1846 "trie.ml" 76 1844 1871
+type(
+  unit
+)
+"trie.ml" 75 1819 1821 "trie.ml" 76 1844 1871
+type(
+  unit
+)
+"trie.ml" 78 1876 1877 "trie.ml" 78 1876 1891
+type(
+  (StringMap.key -> 'a Node.t -> unit) -> 'a Node.t StringMap.t -> unit
+)
+ident(
+  int_ref StringMap.iter "map.mli" 150 6353 6357 "map.mli" 150 6353 6402
+)
+"trie.ml" 78 1876 1892 "trie.ml" 78 1876 1895
+type(
+  StringMap.key -> 'a Node.t -> unit
+)
+ident(
+  int_ref aux "trie.ml" 74 1799 1804 "trie.ml" 74 1799 1807
+)
+"trie.ml" 78 1876 1896 "trie.ml" 78 1876 1900
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 73 1777 1792 "trie.ml" 73 1777 1796
+)
+"trie.ml" 78 1876 1877 "trie.ml" 78 1876 1900
+type(
+  unit
+)
+"trie.ml" 74 1799 1800 "trie.ml" 78 1876 1900
+type(
+  unit
+)
+"trie.ml" 80 1902 1910 "trie.ml" 80 1902 1913
+type(
+  ('a -> 'b option) -> 'a Node.t StringMap.t -> 'b Node.t StringMap.t
+)
+ident(
+  def map "trie.ml" 80 1902 1902 "trie.ml" 0 0 -1
+)
+"trie.ml" 80 1902 1914 "trie.ml" 80 1902 1915
+type(
+  'a -> 'b option
+)
+ident(
+  def f "trie.ml" 80 1902 1916 "trie.ml" 90 2147 2245
+)
+"trie.ml" 80 1902 1916 "trie.ml" 80 1902 1920
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 81 1923 1924 "trie.ml" 90 2147 2245
+)
+"trie.ml" 81 1923 1928 "trie.ml" 81 1923 1931
+type(
+  'a Node.t -> 'b Node.t
+)
+ident(
+  def aux "trie.ml" 89 2120 2121 "trie.ml" 90 2147 2245
+)
+"trie.ml" 81 1923 1932 "trie.ml" 81 1923 1936
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 82 1939 1941 "trie.ml" 87 2039 2115
+)
+"trie.ml" 82 1939 1945 "trie.ml" 82 1939 1950
+type(
+  'b option
+)
+ident(
+  def value "trie.ml" 87 2039 2041 "trie.ml" 87 2039 2115
+)
+"trie.ml" 83 1953 1962 "trie.ml" 83 1953 1966
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 81 1923 1932 "trie.ml" 81 1923 1936
+)
+"trie.ml" 83 1953 1962 "trie.ml" 83 1953 1977
+type(
+  'a option
+)
+"trie.ml" 84 1983 1988 "trie.ml" 84 1983 1992
+type(
+  'a option
+)
+"trie.ml" 84 1983 2002 "trie.ml" 84 1983 2006
+type(
+  'b option
+)
+"trie.ml" 85 2007 2017 "trie.ml" 85 2007 2022
+type(
+  'a
+)
+ident(
+  def value "trie.ml" 85 2007 2026 "trie.ml" 85 2007 2033
+)
+"trie.ml" 85 2007 2012 "trie.ml" 85 2007 2022
+type(
+  'a option
+)
+"trie.ml" 85 2007 2026 "trie.ml" 85 2007 2027
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "trie.ml" 80 1902 1914 "trie.ml" 80 1902 1915
+)
+"trie.ml" 85 2007 2028 "trie.ml" 85 2007 2033
+type(
+  'a
+)
+ident(
+  int_ref value "trie.ml" 85 2007 2017 "trie.ml" 85 2007 2022
+)
+"trie.ml" 85 2007 2026 "trie.ml" 85 2007 2033
+type(
+  'b option
+)
+"trie.ml" 83 1953 1956 "trie.ml" 85 2007 2033
+type(
+  'b option
+)
+"trie.ml" 87 2039 2043 "trie.ml" 87 2039 2047
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 81 1923 1932 "trie.ml" 81 1923 1936
+)
+"trie.ml" 87 2039 2066 "trie.ml" 87 2039 2071
+type(
+  'b option
+)
+ident(
+  int_ref value "trie.ml" 82 1939 1945 "trie.ml" 82 1939 1950
+)
+"trie.ml" 87 2039 2089 "trie.ml" 87 2039 2092
+type(
+  ('a -> 'b option) -> 'a Node.t StringMap.t -> 'b Node.t StringMap.t
+)
+ident(
+  int_ref map "trie.ml" 80 1902 1910 "trie.ml" 80 1902 1913
+)
+"trie.ml" 87 2039 2093 "trie.ml" 87 2039 2094
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "trie.ml" 80 1902 1914 "trie.ml" 80 1902 1915
+)
+"trie.ml" 87 2039 2095 "trie.ml" 87 2039 2099
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 81 1923 1932 "trie.ml" 81 1923 1936
+)
+"trie.ml" 87 2039 2095 "trie.ml" 87 2039 2113
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 87 2039 2089 "trie.ml" 87 2039 2113
+type(
+  'b Node.t StringMap.t
+)
+"trie.ml" 87 2039 2041 "trie.ml" 87 2039 2115
+type(
+  'b Node.t
+)
+"trie.ml" 82 1939 1941 "trie.ml" 87 2039 2115
+type(
+  'b Node.t
+)
+"trie.ml" 89 2120 2121 "trie.ml" 89 2120 2125
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 80 1902 1916 "trie.ml" 80 1902 1920
+)
+"trie.ml" 89 2120 2126 "trie.ml" 89 2120 2128
+type(
+  'a Node.t StringMap.t ->
+  ('a Node.t StringMap.t -> 'b Node.t StringMap.t) -> 'b Node.t StringMap.t
+)
+ident(
+  int_ref Stdlib.( |> ) "stdlib.mli" 300 12231 12231 "stdlib.mli" 300 12231 12285
+)
+"trie.ml" 89 2120 2129 "trie.ml" 89 2120 2142
+type(
+  ('a Node.t -> 'b Node.t) -> 'a Node.t StringMap.t -> 'b Node.t StringMap.t
+)
+ident(
+  int_ref StringMap.map "map.mli" 298 12040 12044 "map.mli" 298 12040 12079
+)
+"trie.ml" 89 2120 2143 "trie.ml" 89 2120 2146
+type(
+  'a Node.t -> 'b Node.t
+)
+ident(
+  int_ref aux "trie.ml" 81 1923 1928 "trie.ml" 81 1923 1931
+)
+"trie.ml" 89 2120 2129 "trie.ml" 89 2120 2146
+type(
+  'a Node.t StringMap.t -> 'b Node.t StringMap.t
+)
+"trie.ml" 89 2120 2121 "trie.ml" 89 2120 2146
+type(
+  'b Node.t StringMap.t
+)
+"trie.ml" 90 2147 2148 "trie.ml" 90 2147 2150
+type(
+  'b Node.t StringMap.t ->
+  ('b Node.t StringMap.t -> 'b Node.t StringMap.t) -> 'b Node.t StringMap.t
+)
+ident(
+  int_ref Stdlib.( |> ) "stdlib.mli" 300 12231 12231 "stdlib.mli" 300 12231 12285
+)
+"trie.ml" 90 2147 2151 "trie.ml" 90 2147 2167
+type(
+  (StringMap.key -> 'b Node.t -> bool) ->
+  'b Node.t StringMap.t -> 'b Node.t StringMap.t
+)
+ident(
+  int_ref StringMap.filter "map.mli" 173 7298 7302 "map.mli" 173 7298 7349
+)
+"trie.ml" 90 2147 2173 "trie.ml" 90 2147 2174
+type(
+  StringMap.key
+)
+"trie.ml" 90 2147 2175 "trie.ml" 90 2147 2176
+type(
+  'b Node.t
+)
+ident(
+  def n "trie.ml" 90 2147 2180 "trie.ml" 90 2147 2244
+)
+"trie.ml" 90 2147 2180 "trie.ml" 90 2147 2181
+type(
+  'b Node.t
+)
+ident(
+  int_ref n "trie.ml" 90 2147 2175 "trie.ml" 90 2147 2176
+)
+"trie.ml" 90 2147 2180 "trie.ml" 90 2147 2192
+type(
+  'b option
+)
+"trie.ml" 90 2147 2193 "trie.ml" 90 2147 2195
+type(
+  'b option -> 'b option -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"trie.ml" 90 2147 2196 "trie.ml" 90 2147 2200
+type(
+  'b option
+)
+"trie.ml" 90 2147 2180 "trie.ml" 90 2147 2200
+type(
+  bool
+)
+"trie.ml" 90 2147 2201 "trie.ml" 90 2147 2203
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 224 9417 9417 "stdlib.mli" 224 9417 9467
+)
+"trie.ml" 90 2147 2204 "trie.ml" 90 2147 2207
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"trie.ml" 90 2147 2209 "trie.ml" 90 2147 2227
+type(
+  'b Node.t StringMap.t -> bool
+)
+ident(
+  int_ref StringMap.is_empty "map.mli" 73 2864 2868 "map.mli" 73 2864 2894
+)
+"trie.ml" 90 2147 2228 "trie.ml" 90 2147 2229
+type(
+  'b Node.t
+)
+ident(
+  int_ref n "trie.ml" 90 2147 2175 "trie.ml" 90 2147 2176
+)
+"trie.ml" 90 2147 2228 "trie.ml" 90 2147 2243
+type(
+  'b Node.t StringMap.t
+)
+"trie.ml" 90 2147 2208 "trie.ml" 90 2147 2244
+type(
+  bool
+)
+"trie.ml" 90 2147 2204 "trie.ml" 90 2147 2244
+type(
+  bool
+)
+"trie.ml" 90 2147 2180 "trie.ml" 90 2147 2244
+type(
+  bool
+)
+"trie.ml" 90 2147 2168 "trie.ml" 90 2147 2245
+type(
+  StringMap.key -> 'b Node.t -> bool
+)
+"trie.ml" 90 2147 2151 "trie.ml" 90 2147 2245
+type(
+  'b Node.t StringMap.t -> 'b Node.t StringMap.t
+)
+"trie.ml" 89 2120 2121 "trie.ml" 90 2147 2245
+type(
+  'b Node.t StringMap.t
+)
+"trie.ml" 81 1923 1924 "trie.ml" 90 2147 2245
+type(
+  'b Node.t StringMap.t
+)
+"trie.ml" 92 2247 2255 "trie.ml" 92 2247 2259
+type(
+  (StringMap.key -> 'a option -> 'b -> 'b) ->
+  'a Node.t StringMap.t -> 'b -> 'b
+)
+ident(
+  def fold "trie.ml" 92 2247 2247 "trie.ml" 0 0 -1
+)
+"trie.ml" 92 2247 2260 "trie.ml" 92 2247 2261
+type(
+  StringMap.key -> 'a option -> 'b -> 'b
+)
+ident(
+  def f "trie.ml" 92 2247 2262 "trie.ml" 96 2359 2387
+)
+"trie.ml" 92 2247 2262 "trie.ml" 92 2247 2266
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 92 2247 2267 "trie.ml" 96 2359 2387
+)
+"trie.ml" 92 2247 2267 "trie.ml" 92 2247 2270
+type(
+  'b
+)
+ident(
+  def acc "trie.ml" 93 2273 2274 "trie.ml" 96 2359 2387
+)
+"trie.ml" 93 2273 2278 "trie.ml" 93 2273 2281
+type(
+  StringMap.key -> 'a Node.t -> 'b -> 'b
+)
+ident(
+  def aux "trie.ml" 96 2359 2360 "trie.ml" 96 2359 2387
+)
+"trie.ml" 93 2273 2282 "trie.ml" 93 2273 2285
+type(
+  StringMap.key
+)
+ident(
+  def key "trie.ml" 93 2273 2286 "trie.ml" 94 2298 2354
+)
+"trie.ml" 93 2273 2286 "trie.ml" 93 2273 2290
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 93 2273 2291 "trie.ml" 94 2298 2354
+)
+"trie.ml" 93 2273 2291 "trie.ml" 93 2273 2295
+type(
+  'b
+)
+ident(
+  def accu "trie.ml" 94 2298 2300 "trie.ml" 94 2298 2354
+)
+"trie.ml" 94 2298 2300 "trie.ml" 94 2298 2304
+type(
+  (StringMap.key -> 'a option -> 'b -> 'b) ->
+  'a Node.t StringMap.t -> 'b -> 'b
+)
+ident(
+  int_ref fold "trie.ml" 92 2247 2255 "trie.ml" 92 2247 2259
+)
+"trie.ml" 94 2298 2305 "trie.ml" 94 2298 2306
+type(
+  StringMap.key -> 'a option -> 'b -> 'b
+)
+ident(
+  int_ref f "trie.ml" 92 2247 2260 "trie.ml" 92 2247 2261
+)
+"trie.ml" 94 2298 2307 "trie.ml" 94 2298 2311
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 93 2273 2286 "trie.ml" 93 2273 2290
+)
+"trie.ml" 94 2298 2307 "trie.ml" 94 2298 2325
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 94 2298 2327 "trie.ml" 94 2298 2328
+type(
+  StringMap.key -> 'a option -> 'b -> 'b
+)
+ident(
+  int_ref f "trie.ml" 92 2247 2260 "trie.ml" 92 2247 2261
+)
+"trie.ml" 94 2298 2329 "trie.ml" 94 2298 2332
+type(
+  StringMap.key
+)
+ident(
+  int_ref key "trie.ml" 93 2273 2282 "trie.ml" 93 2273 2285
+)
+"trie.ml" 94 2298 2333 "trie.ml" 94 2298 2337
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 93 2273 2286 "trie.ml" 93 2273 2290
+)
+"trie.ml" 94 2298 2333 "trie.ml" 94 2298 2348
+type(
+  'a option
+)
+"trie.ml" 94 2298 2349 "trie.ml" 94 2298 2353
+type(
+  'b
+)
+ident(
+  int_ref accu "trie.ml" 93 2273 2291 "trie.ml" 93 2273 2295
+)
+"trie.ml" 94 2298 2326 "trie.ml" 94 2298 2354
+type(
+  'b
+)
+"trie.ml" 94 2298 2300 "trie.ml" 94 2298 2354
+type(
+  'b
+)
+"trie.ml" 96 2359 2360 "trie.ml" 96 2359 2374
+type(
+  (StringMap.key -> 'a Node.t -> 'b -> 'b) ->
+  'a Node.t StringMap.t -> 'b -> 'b
+)
+ident(
+  int_ref StringMap.fold "map.mli" 156 6680 6684 "map.mli" 156 6680 6737
+)
+"trie.ml" 96 2359 2375 "trie.ml" 96 2359 2378
+type(
+  StringMap.key -> 'a Node.t -> 'b -> 'b
+)
+ident(
+  int_ref aux "trie.ml" 93 2273 2278 "trie.ml" 93 2273 2281
+)
+"trie.ml" 96 2359 2379 "trie.ml" 96 2359 2383
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 92 2247 2262 "trie.ml" 92 2247 2266
+)
+"trie.ml" 96 2359 2384 "trie.ml" 96 2359 2387
+type(
+  'b
+)
+ident(
+  int_ref acc "trie.ml" 92 2247 2267 "trie.ml" 92 2247 2270
+)
+"trie.ml" 96 2359 2360 "trie.ml" 96 2359 2387
+type(
+  'b
+)
+"trie.ml" 93 2273 2274 "trie.ml" 96 2359 2387
+type(
+  'b
+)
+"trie.ml" 99 2413 2421 "trie.ml" 99 2413 2429
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a Node.t
+)
+ident(
+  def sub_node "trie.ml" 99 2413 2413 "trie.ml" 0 0 -1
+)
+"trie.ml" 99 2413 2430 "trie.ml" 99 2413 2434
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 99 2413 2437 "trie.ml" 109 2641 2661
+)
+"trie.ml" 100 2446 2449 "trie.ml" 100 2446 2451
+type(
+  StringMap.key list
+)
+"trie.ml" 100 2446 2457 "trie.ml" 100 2446 2462
+type(
+  exn -> 'a Node.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"trie.ml" 100 2446 2463 "trie.ml" 100 2446 2472
+type(
+  exn
+)
+"trie.ml" 100 2446 2457 "trie.ml" 100 2446 2472
+type(
+  'a Node.t
+)
+"trie.ml" 101 2473 2476 "trie.ml" 101 2473 2477
+type(
+  StringMap.key
+)
+ident(
+  def h "trie.ml" 102 2484 2488 "trie.ml" 109 2641 2661
+)
+"trie.ml" 101 2473 2479 "trie.ml" 101 2473 2480
+type(
+  StringMap.key list
+)
+ident(
+  def t "trie.ml" 102 2484 2488 "trie.ml" 109 2641 2661
+)
+"trie.ml" 101 2473 2476 "trie.ml" 101 2473 2480
+type(
+  StringMap.key list
+)
+"trie.ml" 102 2484 2491 "trie.ml" 102 2484 2499
+type(
+  'a Node.t StringMap.t -> StringMap.key -> bool
+)
+ident(
+  int_ref mem_node "trie.ml" 59 1422 1426 "trie.ml" 59 1422 1434
+)
+"trie.ml" 102 2484 2500 "trie.ml" 102 2484 2504
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 99 2413 2430 "trie.ml" 99 2413 2434
+)
+"trie.ml" 102 2484 2505 "trie.ml" 102 2484 2506
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 101 2473 2476 "trie.ml" 101 2473 2477
+)
+"trie.ml" 102 2484 2491 "trie.ml" 102 2484 2506
+type(
+  bool
+)
+"trie.ml" 104 2522 2531 "trie.ml" 104 2522 2535
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 105 2558 2563 "trie.ml" 107 2588 2627
+)
+"trie.ml" 104 2522 2538 "trie.ml" 104 2522 2547
+type(
+  'a Node.t StringMap.t -> StringMap.key -> 'a Node.t
+)
+ident(
+  int_ref find_node "trie.ml" 62 1473 1477 "trie.ml" 62 1473 1486
+)
+"trie.ml" 104 2522 2548 "trie.ml" 104 2522 2552
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 99 2413 2430 "trie.ml" 99 2413 2434
+)
+"trie.ml" 104 2522 2553 "trie.ml" 104 2522 2554
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 101 2473 2476 "trie.ml" 101 2473 2477
+)
+"trie.ml" 104 2522 2538 "trie.ml" 104 2522 2554
+type(
+  'a Node.t
+)
+"trie.ml" 105 2558 2566 "trie.ml" 105 2558 2567
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 101 2473 2479 "trie.ml" 101 2473 2480
+)
+"trie.ml" 105 2558 2568 "trie.ml" 105 2558 2569
+type(
+  StringMap.key list -> StringMap.key list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"trie.ml" 105 2558 2570 "trie.ml" 105 2558 2572
+type(
+  StringMap.key list
+)
+"trie.ml" 105 2558 2566 "trie.ml" 105 2558 2572
+type(
+  bool
+)
+"trie.ml" 106 2573 2583 "trie.ml" 106 2573 2587
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 104 2522 2531 "trie.ml" 104 2522 2535
+)
+"trie.ml" 107 2588 2598 "trie.ml" 107 2588 2606
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a Node.t
+)
+ident(
+  int_ref sub_node "trie.ml" 99 2413 2421 "trie.ml" 99 2413 2429
+)
+"trie.ml" 107 2588 2607 "trie.ml" 107 2588 2611
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 104 2522 2531 "trie.ml" 104 2522 2535
+)
+"trie.ml" 107 2588 2607 "trie.ml" 107 2588 2625
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 107 2588 2626 "trie.ml" 107 2588 2627
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 101 2473 2479 "trie.ml" 101 2473 2480
+)
+"trie.ml" 107 2588 2598 "trie.ml" 107 2588 2627
+type(
+  'a Node.t
+)
+"trie.ml" 105 2558 2563 "trie.ml" 107 2588 2627
+type(
+  'a Node.t
+)
+"trie.ml" 103 2507 2516 "trie.ml" 108 2628 2635
+type(
+  'a Node.t
+)
+"trie.ml" 109 2641 2646 "trie.ml" 109 2641 2651
+type(
+  exn -> 'a Node.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"trie.ml" 109 2641 2652 "trie.ml" 109 2641 2661
+type(
+  exn
+)
+"trie.ml" 109 2641 2646 "trie.ml" 109 2641 2661
+type(
+  'a Node.t
+)
+"trie.ml" 102 2484 2488 "trie.ml" 109 2641 2661
+type(
+  'a Node.t
+)
+"trie.ml" 99 2413 2437 "trie.ml" 109 2641 2661
+type(
+  StringMap.key list -> 'a Node.t
+)
+"trie.ml" 111 2663 2667 "trie.ml" 111 2663 2670
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a Node.t StringMap.t
+)
+ident(
+  def sub "trie.ml" 115 2759 2759 "trie.ml" 0 0 -1
+)
+"trie.ml" 111 2663 2671 "trie.ml" 111 2663 2675
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 111 2663 2676 "trie.ml" 113 2723 2757
+)
+"trie.ml" 111 2663 2676 "trie.ml" 111 2663 2680
+type(
+  StringMap.key list
+)
+ident(
+  def path "trie.ml" 112 2683 2684 "trie.ml" 113 2723 2757
+)
+"trie.ml" 112 2683 2689 "trie.ml" 112 2683 2697
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a Node.t
+)
+ident(
+  int_ref sub_node "trie.ml" 99 2413 2421 "trie.ml" 99 2413 2429
+)
+"trie.ml" 112 2683 2698 "trie.ml" 112 2683 2702
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 111 2663 2671 "trie.ml" 111 2663 2675
+)
+"trie.ml" 112 2683 2703 "trie.ml" 112 2683 2707
+type(
+  StringMap.key list
+)
+ident(
+  int_ref path "trie.ml" 111 2663 2676 "trie.ml" 111 2663 2680
+)
+"trie.ml" 112 2683 2688 "trie.ml" 112 2683 2708
+type(
+  'a Node.t
+)
+"trie.ml" 112 2683 2688 "trie.ml" 112 2683 2722
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 113 2723 2729 "trie.ml" 113 2723 2738
+type(
+  exn
+)
+"trie.ml" 113 2723 2742 "trie.ml" 113 2723 2757
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref StringMap.empty "map.mli" 70 2817 2821 "map.mli" 70 2817 2836
+)
+"trie.ml" 112 2683 2684 "trie.ml" 113 2723 2757
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 115 2759 2763 "trie.ml" 115 2759 2767
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a
+)
+ident(
+  def find "trie.ml" 119 2904 2904 "trie.ml" 0 0 -1
+)
+"trie.ml" 115 2759 2768 "trie.ml" 115 2759 2772
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 115 2759 2773 "trie.ml" 116 2780 2816
+)
+"trie.ml" 115 2759 2773 "trie.ml" 115 2759 2777
+type(
+  StringMap.key list
+)
+ident(
+  def path "trie.ml" 116 2780 2781 "trie.ml" 116 2780 2816
+)
+"trie.ml" 116 2780 2781 "trie.ml" 116 2780 2795
+type(
+  'a Node.t -> 'a
+)
+ident(
+  int_ref Node.get_value "trie.ml" 41 1002 1007 "trie.ml" 41 1002 1016
+)
+"trie.ml" 116 2780 2797 "trie.ml" 116 2780 2805
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a Node.t
+)
+ident(
+  int_ref sub_node "trie.ml" 99 2413 2421 "trie.ml" 99 2413 2429
+)
+"trie.ml" 116 2780 2806 "trie.ml" 116 2780 2810
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 115 2759 2768 "trie.ml" 115 2759 2772
+)
+"trie.ml" 116 2780 2811 "trie.ml" 116 2780 2815
+type(
+  StringMap.key list
+)
+ident(
+  int_ref path "trie.ml" 115 2759 2773 "trie.ml" 115 2759 2777
+)
+"trie.ml" 116 2780 2796 "trie.ml" 116 2780 2816
+type(
+  'a Node.t
+)
+"trie.ml" 116 2780 2781 "trie.ml" 116 2780 2816
+type(
+  'a
+)
+"trie.ml" 119 2904 2912 "trie.ml" 119 2904 2915
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> bool
+)
+ident(
+  def mem "trie.ml" 119 2904 2904 "trie.ml" 0 0 -1
+)
+"trie.ml" 119 2904 2916 "trie.ml" 119 2904 2920
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 119 2904 2923 "trie.ml" 126 3068 3103
+)
+"trie.ml" 120 2932 2935 "trie.ml" 120 2932 2937
+type(
+  StringMap.key list
+)
+"trie.ml" 120 2932 2943 "trie.ml" 120 2932 2948
+type(
+  bool
+)
+"trie.ml" 121 2949 2952 "trie.ml" 121 2949 2953
+type(
+  StringMap.key
+)
+ident(
+  def h "trie.ml" 122 2960 2964 "trie.ml" 126 3068 3103
+)
+"trie.ml" 121 2949 2955 "trie.ml" 121 2949 2956
+type(
+  StringMap.key list
+)
+ident(
+  def t "trie.ml" 122 2960 2964 "trie.ml" 126 3068 3103
+)
+"trie.ml" 121 2949 2952 "trie.ml" 121 2949 2956
+type(
+  StringMap.key list
+)
+"trie.ml" 122 2960 2964 "trie.ml" 122 2960 2972
+type(
+  'a Node.t StringMap.t -> StringMap.key -> bool
+)
+ident(
+  int_ref mem_node "trie.ml" 59 1422 1426 "trie.ml" 59 1422 1434
+)
+"trie.ml" 122 2960 2973 "trie.ml" 122 2960 2977
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 119 2904 2916 "trie.ml" 119 2904 2920
+)
+"trie.ml" 122 2960 2978 "trie.ml" 122 2960 2979
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 121 2949 2952 "trie.ml" 121 2949 2953
+)
+"trie.ml" 122 2960 2964 "trie.ml" 122 2960 2979
+type(
+  bool
+)
+"trie.ml" 123 2980 2984 "trie.ml" 123 2980 2986
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"trie.ml" 123 2980 2992 "trie.ml" 123 2980 2996
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 124 3019 3024 "trie.ml" 126 3068 3102
+)
+"trie.ml" 123 2980 2999 "trie.ml" 123 2980 3008
+type(
+  'a Node.t StringMap.t -> StringMap.key -> 'a Node.t
+)
+ident(
+  int_ref find_node "trie.ml" 62 1473 1477 "trie.ml" 62 1473 1486
+)
+"trie.ml" 123 2980 3009 "trie.ml" 123 2980 3013
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 119 2904 2916 "trie.ml" 119 2904 2920
+)
+"trie.ml" 123 2980 3014 "trie.ml" 123 2980 3015
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 121 2949 2952 "trie.ml" 121 2949 2953
+)
+"trie.ml" 123 2980 2999 "trie.ml" 123 2980 3015
+type(
+  'a Node.t
+)
+"trie.ml" 124 3019 3027 "trie.ml" 124 3019 3028
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 121 2949 2955 "trie.ml" 121 2949 2956
+)
+"trie.ml" 124 3019 3029 "trie.ml" 124 3019 3030
+type(
+  StringMap.key list -> StringMap.key list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"trie.ml" 124 3019 3031 "trie.ml" 124 3019 3033
+type(
+  StringMap.key list
+)
+"trie.ml" 124 3019 3027 "trie.ml" 124 3019 3033
+type(
+  bool
+)
+"trie.ml" 125 3034 3044 "trie.ml" 125 3034 3048
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 123 2980 2992 "trie.ml" 123 2980 2996
+)
+"trie.ml" 125 3034 3044 "trie.ml" 125 3034 3059
+type(
+  'a option
+)
+"trie.ml" 125 3034 3060 "trie.ml" 125 3034 3062
+type(
+  'a option -> 'a option -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"trie.ml" 125 3034 3063 "trie.ml" 125 3034 3067
+type(
+  'a option
+)
+"trie.ml" 125 3034 3044 "trie.ml" 125 3034 3067
+type(
+  bool
+)
+"trie.ml" 126 3068 3078 "trie.ml" 126 3068 3081
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> bool
+)
+ident(
+  int_ref mem "trie.ml" 119 2904 2912 "trie.ml" 119 2904 2915
+)
+"trie.ml" 126 3068 3082 "trie.ml" 126 3068 3086
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 123 2980 2992 "trie.ml" 123 2980 2996
+)
+"trie.ml" 126 3068 3082 "trie.ml" 126 3068 3100
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 126 3068 3101 "trie.ml" 126 3068 3102
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 121 2949 2955 "trie.ml" 121 2949 2956
+)
+"trie.ml" 126 3068 3078 "trie.ml" 126 3068 3102
+type(
+  bool
+)
+"trie.ml" 124 3019 3024 "trie.ml" 126 3068 3102
+type(
+  bool
+)
+"trie.ml" 123 2980 2987 "trie.ml" 126 3068 3103
+type(
+  bool
+)
+"trie.ml" 122 2960 2964 "trie.ml" 126 3068 3103
+type(
+  bool
+)
+"trie.ml" 119 2904 2923 "trie.ml" 126 3068 3103
+type(
+  StringMap.key list -> bool
+)
+"trie.ml" 129 3149 3157 "trie.ml" 129 3149 3166
+type(
+  (string -> 'a option -> 'b) ->
+  'a Node.t StringMap.t -> StringMap.key list -> unit
+)
+ident(
+  def iter_path "trie.ml" 129 3149 3149 "trie.ml" 0 0 -1
+)
+"trie.ml" 129 3149 3167 "trie.ml" 129 3149 3168
+type(
+  string -> 'a option -> 'b
+)
+ident(
+  def f "trie.ml" 129 3149 3169 "trie.ml" 137 3360 3367
+)
+"trie.ml" 129 3149 3169 "trie.ml" 129 3149 3173
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 129 3149 3176 "trie.ml" 137 3360 3367
+)
+"trie.ml" 130 3185 3188 "trie.ml" 130 3185 3190
+type(
+  StringMap.key list
+)
+"trie.ml" 130 3185 3196 "trie.ml" 130 3185 3198
+type(
+  unit
+)
+"trie.ml" 131 3199 3202 "trie.ml" 131 3199 3203
+type(
+  StringMap.key
+)
+ident(
+  def h "trie.ml" 132 3210 3214 "trie.ml" 137 3360 3367
+)
+"trie.ml" 131 3199 3205 "trie.ml" 131 3199 3206
+type(
+  StringMap.key list
+)
+ident(
+  def l "trie.ml" 132 3210 3214 "trie.ml" 137 3360 3367
+)
+"trie.ml" 131 3199 3202 "trie.ml" 131 3199 3206
+type(
+  StringMap.key list
+)
+"trie.ml" 132 3210 3217 "trie.ml" 132 3210 3225
+type(
+  'a Node.t StringMap.t -> StringMap.key -> bool
+)
+ident(
+  int_ref mem_node "trie.ml" 59 1422 1426 "trie.ml" 59 1422 1434
+)
+"trie.ml" 132 3210 3226 "trie.ml" 132 3210 3230
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 129 3149 3169 "trie.ml" 129 3149 3173
+)
+"trie.ml" 132 3210 3231 "trie.ml" 132 3210 3232
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 131 3199 3202 "trie.ml" 131 3199 3203
+)
+"trie.ml" 132 3210 3217 "trie.ml" 132 3210 3232
+type(
+  bool
+)
+"trie.ml" 134 3248 3257 "trie.ml" 134 3248 3261
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 135 3284 3289 "trie.ml" 136 3322 3359
+)
+"trie.ml" 134 3248 3264 "trie.ml" 134 3248 3273
+type(
+  'a Node.t StringMap.t -> StringMap.key -> 'a Node.t
+)
+ident(
+  int_ref find_node "trie.ml" 62 1473 1477 "trie.ml" 62 1473 1486
+)
+"trie.ml" 134 3248 3274 "trie.ml" 134 3248 3278
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 129 3149 3169 "trie.ml" 129 3149 3173
+)
+"trie.ml" 134 3248 3279 "trie.ml" 134 3248 3280
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 131 3199 3202 "trie.ml" 131 3199 3203
+)
+"trie.ml" 134 3248 3264 "trie.ml" 134 3248 3280
+type(
+  'a Node.t
+)
+"trie.ml" 135 3284 3289 "trie.ml" 135 3284 3290
+type(
+  string -> 'a option -> 'b
+)
+ident(
+  int_ref f "trie.ml" 129 3149 3167 "trie.ml" 129 3149 3168
+)
+"trie.ml" 135 3284 3291 "trie.ml" 135 3284 3295
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 134 3248 3257 "trie.ml" 134 3248 3261
+)
+"trie.ml" 135 3284 3291 "trie.ml" 135 3284 3304
+type(
+  string
+)
+"trie.ml" 135 3284 3305 "trie.ml" 135 3284 3309
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 134 3248 3257 "trie.ml" 134 3248 3261
+)
+"trie.ml" 135 3284 3305 "trie.ml" 135 3284 3320
+type(
+  'a option
+)
+"trie.ml" 135 3284 3289 "trie.ml" 135 3284 3320
+type(
+  'b
+)
+"trie.ml" 136 3322 3327 "trie.ml" 136 3322 3336
+type(
+  (string -> 'a option -> 'b) ->
+  'a Node.t StringMap.t -> StringMap.key list -> unit
+)
+ident(
+  int_ref iter_path "trie.ml" 129 3149 3157 "trie.ml" 129 3149 3166
+)
+"trie.ml" 136 3322 3337 "trie.ml" 136 3322 3338
+type(
+  string -> 'a option -> 'b
+)
+ident(
+  int_ref f "trie.ml" 129 3149 3167 "trie.ml" 129 3149 3168
+)
+"trie.ml" 136 3322 3339 "trie.ml" 136 3322 3343
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 134 3248 3257 "trie.ml" 134 3248 3261
+)
+"trie.ml" 136 3322 3339 "trie.ml" 136 3322 3357
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 136 3322 3358 "trie.ml" 136 3322 3359
+type(
+  StringMap.key list
+)
+ident(
+  int_ref l "trie.ml" 131 3199 3205 "trie.ml" 131 3199 3206
+)
+"trie.ml" 136 3322 3327 "trie.ml" 136 3322 3359
+type(
+  unit
+)
+"trie.ml" 135 3284 3289 "trie.ml" 136 3322 3359
+type(
+  unit
+)
+"trie.ml" 133 3233 3242 "trie.ml" 137 3360 3367
+type(
+  unit
+)
+"trie.ml" 132 3210 3214 "trie.ml" 137 3360 3367
+type(
+  unit
+)
+"trie.ml" 129 3149 3176 "trie.ml" 137 3360 3367
+type(
+  StringMap.key list -> unit
+)
+"trie.ml" 139 3369 3377 "trie.ml" 139 3369 3385
+type(
+  'a Node.t -> StringMap.key list -> 'a -> 'a Node.t
+)
+ident(
+  def set_node "trie.ml" 139 3369 3369 "trie.ml" 0 0 -1
+)
+"trie.ml" 139 3369 3386 "trie.ml" 139 3369 3390
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 139 3369 3391 "trie.ml" 145 3550 3554
+)
+"trie.ml" 139 3369 3391 "trie.ml" 139 3369 3395
+type(
+  StringMap.key list
+)
+ident(
+  def path "trie.ml" 139 3369 3396 "trie.ml" 145 3550 3554
+)
+"trie.ml" 139 3369 3396 "trie.ml" 139 3369 3401
+type(
+  'a
+)
+ident(
+  def value "trie.ml" 140 3404 3405 "trie.ml" 145 3550 3554
+)
+"trie.ml" 140 3404 3408 "trie.ml" 140 3404 3412
+type(
+  StringMap.key list
+)
+ident(
+  int_ref path "trie.ml" 139 3369 3391 "trie.ml" 139 3369 3395
+)
+"trie.ml" 140 3404 3413 "trie.ml" 140 3404 3414
+type(
+  StringMap.key list -> StringMap.key list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"trie.ml" 140 3404 3415 "trie.ml" 140 3404 3417
+type(
+  StringMap.key list
+)
+"trie.ml" 140 3404 3408 "trie.ml" 140 3404 3417
+type(
+  bool
+)
+"trie.ml" 141 3418 3424 "trie.ml" 141 3418 3438
+type(
+  'a Node.t -> 'a -> 'a Node.t
+)
+ident(
+  int_ref Node.set_value "trie.ml" 48 1148 1153 "trie.ml" 48 1148 1162
+)
+"trie.ml" 141 3418 3439 "trie.ml" 141 3418 3443
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 139 3369 3386 "trie.ml" 139 3369 3390
+)
+"trie.ml" 141 3418 3444 "trie.ml" 141 3418 3449
+type(
+  'a
+)
+ident(
+  int_ref value "trie.ml" 139 3369 3396 "trie.ml" 139 3369 3401
+)
+"trie.ml" 141 3418 3424 "trie.ml" 141 3418 3449
+type(
+  'a Node.t
+)
+"trie.ml" 143 3462 3468 "trie.ml" 143 3462 3476
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def children "trie.ml" 144 3516 3518 "trie.ml" 144 3516 3549
+)
+"trie.ml" 143 3462 3479 "trie.ml" 143 3462 3482
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref set "trie.ml" 147 3556 3560 "trie.ml" 147 3556 3563
+)
+"trie.ml" 143 3462 3483 "trie.ml" 143 3462 3487
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 139 3369 3386 "trie.ml" 139 3369 3390
+)
+"trie.ml" 143 3462 3483 "trie.ml" 143 3462 3501
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 143 3462 3502 "trie.ml" 143 3462 3506
+type(
+  StringMap.key list
+)
+ident(
+  int_ref path "trie.ml" 139 3369 3391 "trie.ml" 139 3369 3395
+)
+"trie.ml" 143 3462 3507 "trie.ml" 143 3462 3512
+type(
+  'a
+)
+ident(
+  int_ref value "trie.ml" 139 3369 3396 "trie.ml" 139 3369 3401
+)
+"trie.ml" 143 3462 3479 "trie.ml" 143 3462 3512
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 144 3516 3518 "trie.ml" 144 3516 3535
+type(
+  'a Node.t -> 'a Node.t StringMap.t -> 'a Node.t
+)
+ident(
+  int_ref Node.set_children "trie.ml" 50 1211 1216 "trie.ml" 50 1211 1228
+)
+"trie.ml" 144 3516 3536 "trie.ml" 144 3516 3540
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 139 3369 3386 "trie.ml" 139 3369 3390
+)
+"trie.ml" 144 3516 3541 "trie.ml" 144 3516 3549
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref children "trie.ml" 143 3462 3468 "trie.ml" 143 3462 3476
+)
+"trie.ml" 144 3516 3518 "trie.ml" 144 3516 3549
+type(
+  'a Node.t
+)
+"trie.ml" 142 3450 3456 "trie.ml" 145 3550 3554
+type(
+  'a Node.t
+)
+"trie.ml" 140 3404 3405 "trie.ml" 145 3550 3554
+type(
+  'a Node.t
+)
+"trie.ml" 147 3556 3560 "trie.ml" 147 3556 3563
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a -> 'a Node.t StringMap.t
+)
+ident(
+  def set "trie.ml" 139 3369 3369 "trie.ml" 0 0 -1
+)
+"trie.ml" 147 3556 3564 "trie.ml" 147 3556 3568
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 147 3556 3569 "trie.ml" 158 3882 3890
+)
+"trie.ml" 147 3556 3569 "trie.ml" 147 3556 3573
+type(
+  StringMap.key list
+)
+ident(
+  def path "trie.ml" 147 3556 3574 "trie.ml" 158 3882 3890
+)
+"trie.ml" 147 3556 3574 "trie.ml" 147 3556 3579
+type(
+  'a
+)
+ident(
+  def value "trie.ml" 148 3582 3583 "trie.ml" 158 3882 3890
+)
+"trie.ml" 148 3582 3589 "trie.ml" 148 3582 3593
+type(
+  StringMap.key list
+)
+ident(
+  int_ref path "trie.ml" 147 3556 3569 "trie.ml" 147 3556 3573
+)
+"trie.ml" 149 3599 3603 "trie.ml" 149 3599 3605
+type(
+  StringMap.key list
+)
+"trie.ml" 149 3599 3611 "trie.ml" 149 3599 3616
+type(
+  exn -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"trie.ml" 149 3599 3617 "trie.ml" 149 3599 3626
+type(
+  exn
+)
+"trie.ml" 149 3599 3611 "trie.ml" 149 3599 3626
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 150 3627 3631 "trie.ml" 150 3627 3632
+type(
+  StringMap.key
+)
+ident(
+  def h "trie.ml" 151 3639 3644 "trie.ml" 158 3882 3890
+)
+"trie.ml" 150 3627 3634 "trie.ml" 150 3627 3635
+type(
+  StringMap.key list
+)
+ident(
+  def t "trie.ml" 151 3639 3644 "trie.ml" 158 3882 3890
+)
+"trie.ml" 150 3627 3631 "trie.ml" 150 3627 3635
+type(
+  StringMap.key list
+)
+"trie.ml" 151 3639 3647 "trie.ml" 151 3639 3655
+type(
+  'a Node.t StringMap.t -> StringMap.key -> bool
+)
+ident(
+  int_ref mem_node "trie.ml" 59 1422 1426 "trie.ml" 59 1422 1434
+)
+"trie.ml" 151 3639 3656 "trie.ml" 151 3639 3660
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 147 3556 3564 "trie.ml" 147 3556 3568
+)
+"trie.ml" 151 3639 3661 "trie.ml" 151 3639 3662
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 150 3627 3631 "trie.ml" 150 3627 3632
+)
+"trie.ml" 151 3639 3647 "trie.ml" 151 3639 3662
+type(
+  bool
+)
+"trie.ml" 153 3679 3689 "trie.ml" 153 3679 3693
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 154 3716 3722 "trie.ml" 154 3716 3765
+)
+"trie.ml" 153 3679 3696 "trie.ml" 153 3679 3705
+type(
+  'a Node.t StringMap.t -> StringMap.key -> 'a Node.t
+)
+ident(
+  int_ref find_node "trie.ml" 62 1473 1477 "trie.ml" 62 1473 1486
+)
+"trie.ml" 153 3679 3706 "trie.ml" 153 3679 3710
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 147 3556 3564 "trie.ml" 147 3556 3568
+)
+"trie.ml" 153 3679 3711 "trie.ml" 153 3679 3712
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 150 3627 3631 "trie.ml" 150 3627 3632
+)
+"trie.ml" 153 3679 3696 "trie.ml" 153 3679 3712
+type(
+  'a Node.t
+)
+"trie.ml" 154 3716 3722 "trie.ml" 154 3716 3734
+type(
+  'a Node.t StringMap.t ->
+  StringMap.key -> 'a Node.t -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref replace_node "trie.ml" 65 1526 1530 "trie.ml" 65 1526 1542
+)
+"trie.ml" 154 3716 3735 "trie.ml" 154 3716 3739
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 147 3556 3564 "trie.ml" 147 3556 3568
+)
+"trie.ml" 154 3716 3740 "trie.ml" 154 3716 3741
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 150 3627 3631 "trie.ml" 150 3627 3632
+)
+"trie.ml" 154 3716 3743 "trie.ml" 154 3716 3751
+type(
+  'a Node.t -> StringMap.key list -> 'a -> 'a Node.t
+)
+ident(
+  int_ref set_node "trie.ml" 139 3369 3377 "trie.ml" 139 3369 3385
+)
+"trie.ml" 154 3716 3752 "trie.ml" 154 3716 3756
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 153 3679 3689 "trie.ml" 153 3679 3693
+)
+"trie.ml" 154 3716 3757 "trie.ml" 154 3716 3758
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 150 3627 3634 "trie.ml" 150 3627 3635
+)
+"trie.ml" 154 3716 3759 "trie.ml" 154 3716 3764
+type(
+  'a
+)
+ident(
+  int_ref value "trie.ml" 147 3556 3574 "trie.ml" 147 3556 3579
+)
+"trie.ml" 154 3716 3742 "trie.ml" 154 3716 3765
+type(
+  'a Node.t
+)
+"trie.ml" 154 3716 3722 "trie.ml" 154 3716 3765
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 152 3663 3673 "trie.ml" 155 3766 3774
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 156 3786 3796 "trie.ml" 156 3786 3800
+type(
+  'b Node.t
+)
+ident(
+  def node "trie.ml" 157 3819 3825 "trie.ml" 157 3819 3881
+)
+"trie.ml" 156 3786 3803 "trie.ml" 156 3786 3813
+type(
+  StringMap.key -> 'b Node.t
+)
+ident(
+  int_ref Node.empty "trie.ml" 34 890 895 "trie.ml" 34 890 900
+)
+"trie.ml" 156 3786 3814 "trie.ml" 156 3786 3815
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 150 3627 3631 "trie.ml" 150 3627 3632
+)
+"trie.ml" 156 3786 3803 "trie.ml" 156 3786 3815
+type(
+  'b Node.t
+)
+"trie.ml" 157 3819 3825 "trie.ml" 157 3819 3838
+type(
+  StringMap.key ->
+  'a Node.t -> 'a Node.t StringMap.t -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref StringMap.add "map.mli" 80 3078 3082 "map.mli" 80 3078 3116
+)
+"trie.ml" 157 3819 3839 "trie.ml" 157 3819 3843
+type(
+  '_weak1 Node.t
+)
+ident(
+  int_ref node "trie.ml" 156 3786 3796 "trie.ml" 156 3786 3800
+)
+"trie.ml" 157 3819 3839 "trie.ml" 157 3819 3852
+type(
+  StringMap.key
+)
+"trie.ml" 157 3819 3854 "trie.ml" 157 3819 3862
+type(
+  'a Node.t -> StringMap.key list -> 'a -> 'a Node.t
+)
+ident(
+  int_ref set_node "trie.ml" 139 3369 3377 "trie.ml" 139 3369 3385
+)
+"trie.ml" 157 3819 3863 "trie.ml" 157 3819 3867
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 156 3786 3796 "trie.ml" 156 3786 3800
+)
+"trie.ml" 157 3819 3868 "trie.ml" 157 3819 3869
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 150 3627 3634 "trie.ml" 150 3627 3635
+)
+"trie.ml" 157 3819 3870 "trie.ml" 157 3819 3875
+type(
+  'a
+)
+ident(
+  int_ref value "trie.ml" 147 3556 3574 "trie.ml" 147 3556 3579
+)
+"trie.ml" 157 3819 3853 "trie.ml" 157 3819 3876
+type(
+  'a Node.t
+)
+"trie.ml" 157 3819 3877 "trie.ml" 157 3819 3881
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 147 3556 3564 "trie.ml" 147 3556 3568
+)
+"trie.ml" 157 3819 3825 "trie.ml" 157 3819 3881
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 155 3766 3780 "trie.ml" 158 3882 3890
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 151 3639 3644 "trie.ml" 158 3882 3890
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 148 3582 3583 "trie.ml" 158 3882 3890
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 160 3892 3900 "trie.ml" 160 3892 3905
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a Node.t StringMap.t
+)
+ident(
+  def unset "trie.ml" 160 3892 3892 "trie.ml" 0 0 -1
+)
+"trie.ml" 160 3892 3906 "trie.ml" 160 3892 3910
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def tree "trie.ml" 160 3892 3913 "trie.ml" 176 4360 4380
+)
+"trie.ml" 161 3922 3925 "trie.ml" 161 3922 3927
+type(
+  StringMap.key list
+)
+"trie.ml" 161 3922 3933 "trie.ml" 161 3922 3937
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 160 3892 3906 "trie.ml" 160 3892 3910
+)
+"trie.ml" 162 3938 3941 "trie.ml" 162 3938 3942
+type(
+  StringMap.key
+)
+ident(
+  def h "trie.ml" 163 3949 3953 "trie.ml" 176 4360 4380
+)
+"trie.ml" 162 3938 3944 "trie.ml" 162 3938 3945
+type(
+  StringMap.key list
+)
+ident(
+  def t "trie.ml" 163 3949 3953 "trie.ml" 176 4360 4380
+)
+"trie.ml" 162 3938 3941 "trie.ml" 162 3938 3945
+type(
+  StringMap.key list
+)
+"trie.ml" 163 3949 3956 "trie.ml" 163 3949 3964
+type(
+  'a Node.t StringMap.t -> StringMap.key -> bool
+)
+ident(
+  int_ref mem_node "trie.ml" 59 1422 1426 "trie.ml" 59 1422 1434
+)
+"trie.ml" 163 3949 3965 "trie.ml" 163 3949 3969
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 160 3892 3906 "trie.ml" 160 3892 3910
+)
+"trie.ml" 163 3949 3970 "trie.ml" 163 3949 3971
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 162 3938 3941 "trie.ml" 162 3938 3942
+)
+"trie.ml" 163 3949 3956 "trie.ml" 163 3949 3971
+type(
+  bool
+)
+"trie.ml" 165 3987 3996 "trie.ml" 165 3987 4000
+type(
+  'a Node.t
+)
+ident(
+  def node "trie.ml" 166 4023 4028 "trie.ml" 174 4308 4346
+)
+"trie.ml" 165 3987 4003 "trie.ml" 165 3987 4012
+type(
+  'a Node.t StringMap.t -> StringMap.key -> 'a Node.t
+)
+ident(
+  int_ref find_node "trie.ml" 62 1473 1477 "trie.ml" 62 1473 1486
+)
+"trie.ml" 165 3987 4013 "trie.ml" 165 3987 4017
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 160 3892 3906 "trie.ml" 160 3892 3910
+)
+"trie.ml" 165 3987 4018 "trie.ml" 165 3987 4019
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 162 3938 3941 "trie.ml" 162 3938 3942
+)
+"trie.ml" 165 3987 4003 "trie.ml" 165 3987 4019
+type(
+  'a Node.t
+)
+"trie.ml" 166 4023 4032 "trie.ml" 166 4023 4040
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  def children "trie.ml" 167 4073 4078 "trie.ml" 174 4308 4346
+)
+"trie.ml" 166 4023 4043 "trie.ml" 166 4023 4048
+type(
+  'a Node.t StringMap.t -> StringMap.key list -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref unset "trie.ml" 160 3892 3900 "trie.ml" 160 3892 3905
+)
+"trie.ml" 166 4023 4049 "trie.ml" 166 4023 4053
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 165 3987 3996 "trie.ml" 165 3987 4000
+)
+"trie.ml" 166 4023 4049 "trie.ml" 166 4023 4067
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 166 4023 4068 "trie.ml" 166 4023 4069
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 162 3938 3944 "trie.ml" 162 3938 3945
+)
+"trie.ml" 166 4023 4043 "trie.ml" 166 4023 4069
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 167 4073 4082 "trie.ml" 167 4073 4090
+type(
+  'a Node.t
+)
+ident(
+  def new_node "trie.ml" 172 4213 4218 "trie.ml" 174 4308 4346
+)
+"trie.ml" 168 4093 4102 "trie.ml" 168 4093 4103
+type(
+  StringMap.key list
+)
+ident(
+  int_ref t "trie.ml" 162 3938 3944 "trie.ml" 162 3938 3945
+)
+"trie.ml" 168 4093 4104 "trie.ml" 168 4093 4105
+type(
+  StringMap.key list -> StringMap.key list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"trie.ml" 168 4093 4106 "trie.ml" 168 4093 4108
+type(
+  StringMap.key list
+)
+"trie.ml" 168 4093 4102 "trie.ml" 168 4093 4108
+type(
+  bool
+)
+"trie.ml" 169 4109 4120 "trie.ml" 169 4109 4137
+type(
+  'a Node.t -> 'a Node.t StringMap.t -> 'a Node.t
+)
+ident(
+  int_ref Node.set_children "trie.ml" 50 1211 1216 "trie.ml" 50 1211 1228
+)
+"trie.ml" 169 4109 4139 "trie.ml" 169 4109 4149
+type(
+  StringMap.key -> 'a Node.t
+)
+ident(
+  int_ref Node.empty "trie.ml" 34 890 895 "trie.ml" 34 890 900
+)
+"trie.ml" 169 4109 4150 "trie.ml" 169 4109 4151
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 162 3938 3941 "trie.ml" 162 3938 3942
+)
+"trie.ml" 169 4109 4138 "trie.ml" 169 4109 4152
+type(
+  'a Node.t
+)
+"trie.ml" 169 4109 4153 "trie.ml" 169 4109 4161
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref children "trie.ml" 166 4023 4032 "trie.ml" 166 4023 4040
+)
+"trie.ml" 169 4109 4120 "trie.ml" 169 4109 4161
+type(
+  'a Node.t
+)
+"trie.ml" 170 4162 4173 "trie.ml" 170 4162 4190
+type(
+  'a Node.t -> 'a Node.t StringMap.t -> 'a Node.t
+)
+ident(
+  int_ref Node.set_children "trie.ml" 50 1211 1216 "trie.ml" 50 1211 1228
+)
+"trie.ml" 170 4162 4191 "trie.ml" 170 4162 4195
+type(
+  'a Node.t
+)
+ident(
+  int_ref node "trie.ml" 165 3987 3996 "trie.ml" 165 3987 4000
+)
+"trie.ml" 170 4162 4196 "trie.ml" 170 4162 4204
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref children "trie.ml" 166 4023 4032 "trie.ml" 166 4023 4040
+)
+"trie.ml" 170 4162 4173 "trie.ml" 170 4162 4204
+type(
+  'a Node.t
+)
+"trie.ml" 168 4093 4099 "trie.ml" 170 4162 4204
+type(
+  'a Node.t
+)
+"trie.ml" 172 4213 4221 "trie.ml" 172 4213 4239
+type(
+  'a Node.t StringMap.t -> bool
+)
+ident(
+  int_ref StringMap.is_empty "map.mli" 73 2864 2868 "map.mli" 73 2864 2894
+)
+"trie.ml" 172 4213 4240 "trie.ml" 172 4213 4248
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref children "trie.ml" 166 4023 4032 "trie.ml" 166 4023 4040
+)
+"trie.ml" 172 4213 4221 "trie.ml" 172 4213 4248
+type(
+  bool
+)
+"trie.ml" 172 4213 4249 "trie.ml" 172 4213 4251
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"trie.ml" 172 4213 4252 "trie.ml" 172 4213 4260
+type(
+  'a Node.t
+)
+ident(
+  int_ref new_node "trie.ml" 167 4073 4082 "trie.ml" 167 4073 4090
+)
+"trie.ml" 172 4213 4252 "trie.ml" 172 4213 4271
+type(
+  'a option
+)
+"trie.ml" 172 4213 4272 "trie.ml" 172 4213 4273
+type(
+  'a option -> 'a option -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"trie.ml" 172 4213 4274 "trie.ml" 172 4213 4278
+type(
+  'a option
+)
+"trie.ml" 172 4213 4252 "trie.ml" 172 4213 4278
+type(
+  bool
+)
+"trie.ml" 172 4213 4221 "trie.ml" 172 4213 4278
+type(
+  bool
+)
+"trie.ml" 173 4279 4289 "trie.ml" 173 4279 4300
+type(
+  'a Node.t StringMap.t -> StringMap.key -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref remove_node "trie.ml" 68 1635 1639 "trie.ml" 68 1635 1650
+)
+"trie.ml" 173 4279 4301 "trie.ml" 173 4279 4305
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 160 3892 3906 "trie.ml" 160 3892 3910
+)
+"trie.ml" 173 4279 4306 "trie.ml" 173 4279 4307
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 162 3938 3941 "trie.ml" 162 3938 3942
+)
+"trie.ml" 173 4279 4289 "trie.ml" 173 4279 4307
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 174 4308 4318 "trie.ml" 174 4308 4330
+type(
+  'a Node.t StringMap.t ->
+  StringMap.key -> 'a Node.t -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref replace_node "trie.ml" 65 1526 1530 "trie.ml" 65 1526 1542
+)
+"trie.ml" 174 4308 4331 "trie.ml" 174 4308 4335
+type(
+  'a Node.t StringMap.t
+)
+ident(
+  int_ref tree "trie.ml" 160 3892 3906 "trie.ml" 160 3892 3910
+)
+"trie.ml" 174 4308 4336 "trie.ml" 174 4308 4337
+type(
+  StringMap.key
+)
+ident(
+  int_ref h "trie.ml" 162 3938 3941 "trie.ml" 162 3938 3942
+)
+"trie.ml" 174 4308 4338 "trie.ml" 174 4308 4346
+type(
+  'a Node.t
+)
+ident(
+  int_ref new_node "trie.ml" 167 4073 4082 "trie.ml" 167 4073 4090
+)
+"trie.ml" 174 4308 4318 "trie.ml" 174 4308 4346
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 172 4213 4218 "trie.ml" 174 4308 4346
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 167 4073 4078 "trie.ml" 174 4308 4346
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 166 4023 4028 "trie.ml" 174 4308 4346
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 164 3972 3981 "trie.ml" 175 4347 4354
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 176 4360 4365 "trie.ml" 176 4360 4370
+type(
+  exn -> 'a Node.t StringMap.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"trie.ml" 176 4360 4371 "trie.ml" 176 4360 4380
+type(
+  exn
+)
+"trie.ml" 176 4360 4365 "trie.ml" 176 4360 4380
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 163 3949 3953 "trie.ml" 176 4360 4380
+type(
+  'a Node.t StringMap.t
+)
+"trie.ml" 160 3892 3913 "trie.ml" 176 4360 4380
+type(
+  StringMap.key list -> 'a Node.t StringMap.t
+)

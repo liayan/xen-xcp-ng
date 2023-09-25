@@ -1,0 +1,4896 @@
+"transaction.ml" 17 734 738 "transaction.ml" 17 734 743
+type(
+  ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def error "transaction.ml" 19 783 783 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 17 734 744 "transaction.ml" 17 734 747
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "transaction.ml" 17 734 750 "transaction.ml" 17 734 781
+)
+"transaction.ml" 17 734 750 "transaction.ml" 17 734 763
+type(
+  string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref Logging.error "logging.ml" 199 6537 6541 "logging.ml" 199 6537 6546
+)
+"transaction.ml" 17 734 764 "transaction.ml" 17 734 777
+type(
+  string
+)
+"transaction.ml" 17 734 778 "transaction.ml" 17 734 781
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "transaction.ml" 17 734 744 "transaction.ml" 17 734 747
+)
+"transaction.ml" 17 734 750 "transaction.ml" 17 734 781
+type(
+  'a
+)
+"transaction.ml" 21 796 800 "transaction.ml" 21 796 804
+type(
+  int
+)
+ident(
+  def none "transaction.ml" 22 809 809 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 21 796 807 "transaction.ml" 21 796 808
+type(
+  int
+)
+"transaction.ml" 22 809 813 "transaction.ml" 22 809 824
+type(
+  bool ref
+)
+ident(
+  def test_eagain "transaction.ml" 23 837 837 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 22 809 827 "transaction.ml" 22 809 830
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"transaction.ml" 22 809 831 "transaction.ml" 22 809 836
+type(
+  bool
+)
+"transaction.ml" 22 809 827 "transaction.ml" 22 809 836
+type(
+  bool ref
+)
+"transaction.ml" 23 837 841 "transaction.ml" 23 837 852
+type(
+  bool ref
+)
+ident(
+  def do_coalesce "transaction.ml" 25 865 865 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 23 837 855 "transaction.ml" 23 837 858
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"transaction.ml" 23 837 859 "transaction.ml" 23 837 863
+type(
+  bool
+)
+"transaction.ml" 23 837 855 "transaction.ml" 23 837 863
+type(
+  bool ref
+)
+"transaction.ml" 25 865 869 "transaction.ml" 25 865 898
+type(
+  Store.Node.t -> Store.Node.t -> string list -> bool
+)
+ident(
+  def check_parents_perms_identical "transaction.ml" 38 1288 1288 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 25 865 899 "transaction.ml" 25 865 904
+type(
+  Store.Node.t
+)
+ident(
+  def root1 "transaction.ml" 25 865 905 "transaction.ml" 36 1271 1286
+)
+"transaction.ml" 25 865 905 "transaction.ml" 25 865 910
+type(
+  Store.Node.t
+)
+ident(
+  def root2 "transaction.ml" 25 865 911 "transaction.ml" 36 1271 1286
+)
+"transaction.ml" 25 865 911 "transaction.ml" 25 865 915
+type(
+  string list
+)
+ident(
+  def path "transaction.ml" 26 918 919 "transaction.ml" 36 1271 1286
+)
+"transaction.ml" 26 918 923 "transaction.ml" 26 918 931
+type(
+  string list list
+)
+ident(
+  def hierarch "transaction.ml" 27 967 968 "transaction.ml" 36 1271 1286
+)
+"transaction.ml" 26 918 934 "transaction.ml" 26 918 958
+type(
+  string list -> string list list
+)
+ident(
+  int_ref Store.Path.get_hierarchy "store.ml" 156 4323 4327 "store.ml" 156 4323 4340
+)
+"transaction.ml" 26 918 959 "transaction.ml" 26 918 963
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 25 865 911 "transaction.ml" 25 865 915
+)
+"transaction.ml" 26 918 934 "transaction.ml" 26 918 963
+type(
+  string list list
+)
+"transaction.ml" 27 967 972 "transaction.ml" 27 967 980
+type(
+  bool
+)
+ident(
+  def permdiff "transaction.ml" 36 1271 1272 "transaction.ml" 36 1271 1286
+)
+"transaction.ml" 27 967 983 "transaction.ml" 27 967 997
+type(
+  (bool -> string list -> bool) -> bool -> string list list -> bool
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"transaction.ml" 27 967 1003 "transaction.ml" 27 967 1006
+type(
+  bool
+)
+ident(
+  def acc "transaction.ml" 27 967 1007 "transaction.ml" 34 1235 1249
+)
+"transaction.ml" 27 967 1007 "transaction.ml" 27 967 1011
+type(
+  string list
+)
+ident(
+  def path "transaction.ml" 28 1015 1017 "transaction.ml" 34 1235 1249
+)
+"transaction.ml" 28 1015 1021 "transaction.ml" 28 1015 1023
+type(
+  Store.Node.t option
+)
+ident(
+  def n1 "transaction.ml" 30 1102 1104 "transaction.ml" 34 1235 1249
+)
+"transaction.ml" 28 1015 1026 "transaction.ml" 28 1015 1045
+type(
+  Store.Node.t -> string list -> Store.Node.t option
+)
+ident(
+  int_ref Store.Path.get_node "store.ml" 196 5285 5289 "store.ml" 196 5285 5297
+)
+"transaction.ml" 28 1015 1046 "transaction.ml" 28 1015 1051
+type(
+  Store.Node.t
+)
+ident(
+  int_ref root1 "transaction.ml" 25 865 899 "transaction.ml" 25 865 904
+)
+"transaction.ml" 28 1015 1052 "transaction.ml" 28 1015 1056
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 27 967 1007 "transaction.ml" 27 967 1011
+)
+"transaction.ml" 28 1015 1026 "transaction.ml" 28 1015 1056
+type(
+  Store.Node.t option
+)
+"transaction.ml" 29 1057 1063 "transaction.ml" 29 1057 1065
+type(
+  Store.Node.t option
+)
+ident(
+  def n2 "transaction.ml" 30 1102 1104 "transaction.ml" 34 1235 1249
+)
+"transaction.ml" 29 1057 1068 "transaction.ml" 29 1057 1087
+type(
+  Store.Node.t -> string list -> Store.Node.t option
+)
+ident(
+  int_ref Store.Path.get_node "store.ml" 196 5285 5289 "store.ml" 196 5285 5297
+)
+"transaction.ml" 29 1057 1088 "transaction.ml" 29 1057 1093
+type(
+  Store.Node.t
+)
+ident(
+  int_ref root2 "transaction.ml" 25 865 905 "transaction.ml" 25 865 910
+)
+"transaction.ml" 29 1057 1094 "transaction.ml" 29 1057 1098
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 27 967 1007 "transaction.ml" 27 967 1011
+)
+"transaction.ml" 29 1057 1068 "transaction.ml" 29 1057 1098
+type(
+  Store.Node.t option
+)
+"transaction.ml" 30 1102 1110 "transaction.ml" 30 1102 1112
+type(
+  Store.Node.t option
+)
+ident(
+  int_ref n1 "transaction.ml" 28 1015 1021 "transaction.ml" 28 1015 1023
+)
+"transaction.ml" 30 1102 1114 "transaction.ml" 30 1102 1116
+type(
+  Store.Node.t option
+)
+ident(
+  int_ref n2 "transaction.ml" 29 1057 1063 "transaction.ml" 29 1057 1065
+)
+"transaction.ml" 30 1102 1110 "transaction.ml" 30 1102 1116
+type(
+  Store.Node.t option * Store.Node.t option
+)
+"transaction.ml" 31 1122 1131 "transaction.ml" 31 1122 1133
+type(
+  Store.Node.t
+)
+ident(
+  def n1 "transaction.ml" 32 1146 1149 "transaction.ml" 32 1146 1225
+)
+"transaction.ml" 31 1122 1126 "transaction.ml" 31 1122 1133
+type(
+  Store.Node.t option
+)
+"transaction.ml" 31 1122 1140 "transaction.ml" 31 1122 1142
+type(
+  Store.Node.t
+)
+ident(
+  def n2 "transaction.ml" 32 1146 1149 "transaction.ml" 32 1146 1225
+)
+"transaction.ml" 31 1122 1135 "transaction.ml" 31 1122 1142
+type(
+  Store.Node.t option
+)
+"transaction.ml" 31 1122 1126 "transaction.ml" 31 1122 1142
+type(
+  Store.Node.t option * Store.Node.t option
+)
+"transaction.ml" 32 1146 1149 "transaction.ml" 32 1146 1152
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"transaction.ml" 32 1146 1154 "transaction.ml" 32 1146 1165
+type(
+  Perms.Node.t -> Perms.Node.t -> bool
+)
+ident(
+  int_ref Perms.equiv "perms.ml" 184 5193 5197 "perms.ml" 184 5193 5202
+)
+"transaction.ml" 32 1146 1167 "transaction.ml" 32 1146 1187
+type(
+  Store.Node.t -> Perms.Node.t
+)
+ident(
+  int_ref Store.Node.get_perms "store.ml" 36 1157 1161 "store.ml" 36 1157 1170
+)
+"transaction.ml" 32 1146 1188 "transaction.ml" 32 1146 1190
+type(
+  Store.Node.t
+)
+ident(
+  int_ref n1 "transaction.ml" 31 1122 1131 "transaction.ml" 31 1122 1133
+)
+"transaction.ml" 32 1146 1166 "transaction.ml" 32 1146 1191
+type(
+  Perms.Node.t
+)
+"transaction.ml" 32 1146 1193 "transaction.ml" 32 1146 1213
+type(
+  Store.Node.t -> Perms.Node.t
+)
+ident(
+  int_ref Store.Node.get_perms "store.ml" 36 1157 1161 "store.ml" 36 1157 1170
+)
+"transaction.ml" 32 1146 1214 "transaction.ml" 32 1146 1216
+type(
+  Store.Node.t
+)
+ident(
+  int_ref n2 "transaction.ml" 31 1122 1140 "transaction.ml" 31 1122 1142
+)
+"transaction.ml" 32 1146 1192 "transaction.ml" 32 1146 1217
+type(
+  Perms.Node.t
+)
+"transaction.ml" 32 1146 1153 "transaction.ml" 32 1146 1218
+type(
+  bool
+)
+"transaction.ml" 32 1146 1149 "transaction.ml" 32 1146 1218
+type(
+  bool
+)
+"transaction.ml" 32 1146 1219 "transaction.ml" 32 1146 1221
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 224 9417 9417 "stdlib.mli" 224 9417 9467
+)
+"transaction.ml" 32 1146 1222 "transaction.ml" 32 1146 1225
+type(
+  bool
+)
+ident(
+  int_ref acc "transaction.ml" 27 967 1003 "transaction.ml" 27 967 1006
+)
+"transaction.ml" 32 1146 1149 "transaction.ml" 32 1146 1225
+type(
+  bool
+)
+"transaction.ml" 33 1226 1230 "transaction.ml" 33 1226 1231
+type(
+  Store.Node.t option * Store.Node.t option
+)
+"transaction.ml" 34 1235 1238 "transaction.ml" 34 1235 1242
+type(
+  bool
+)
+"transaction.ml" 34 1235 1243 "transaction.ml" 34 1235 1245
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 224 9417 9417 "stdlib.mli" 224 9417 9467
+)
+"transaction.ml" 34 1235 1246 "transaction.ml" 34 1235 1249
+type(
+  bool
+)
+ident(
+  int_ref acc "transaction.ml" 27 967 1003 "transaction.ml" 27 967 1006
+)
+"transaction.ml" 34 1235 1238 "transaction.ml" 34 1235 1249
+type(
+  bool
+)
+"transaction.ml" 30 1102 1104 "transaction.ml" 34 1235 1249
+type(
+  bool
+)
+"transaction.ml" 28 1015 1017 "transaction.ml" 34 1235 1249
+type(
+  bool
+)
+"transaction.ml" 27 967 998 "transaction.ml" 35 1250 1252
+type(
+  bool -> string list -> bool
+)
+"transaction.ml" 35 1250 1253 "transaction.ml" 35 1250 1258
+type(
+  bool
+)
+"transaction.ml" 35 1250 1259 "transaction.ml" 35 1250 1267
+type(
+  string list list
+)
+ident(
+  int_ref hierarch "transaction.ml" 26 918 923 "transaction.ml" 26 918 931
+)
+"transaction.ml" 27 967 983 "transaction.ml" 35 1250 1267
+type(
+  bool
+)
+"transaction.ml" 36 1271 1273 "transaction.ml" 36 1271 1276
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"transaction.ml" 36 1271 1277 "transaction.ml" 36 1271 1285
+type(
+  bool
+)
+ident(
+  int_ref permdiff "transaction.ml" 27 967 972 "transaction.ml" 27 967 980
+)
+"transaction.ml" 36 1271 1272 "transaction.ml" 36 1271 1286
+type(
+  bool
+)
+"transaction.ml" 27 967 968 "transaction.ml" 36 1271 1286
+type(
+  bool
+)
+"transaction.ml" 26 918 919 "transaction.ml" 36 1271 1286
+type(
+  bool
+)
+"transaction.ml" 38 1288 1292 "transaction.ml" 38 1288 1302
+type(
+  'a list -> 'a list option -> 'a list option
+)
+ident(
+  def get_lowest "transaction.ml" 43 1429 1429 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 38 1288 1303 "transaction.ml" 38 1288 1308
+type(
+  'a list
+)
+ident(
+  def path1 "transaction.ml" 38 1288 1309 "transaction.ml" 41 1363 1427
+)
+"transaction.ml" 38 1288 1309 "transaction.ml" 38 1288 1314
+type(
+  'a list option
+)
+ident(
+  def path2 "transaction.ml" 39 1317 1318 "transaction.ml" 41 1363 1427
+)
+"transaction.ml" 39 1317 1324 "transaction.ml" 39 1317 1329
+type(
+  'a list option
+)
+ident(
+  int_ref path2 "transaction.ml" 38 1288 1309 "transaction.ml" 38 1288 1314
+)
+"transaction.ml" 40 1335 1338 "transaction.ml" 40 1335 1342
+type(
+  'a list option
+)
+"transaction.ml" 40 1335 1357 "transaction.ml" 40 1335 1362
+type(
+  'a list
+)
+ident(
+  int_ref path1 "transaction.ml" 38 1288 1303 "transaction.ml" 38 1288 1308
+)
+"transaction.ml" 40 1335 1352 "transaction.ml" 40 1335 1362
+type(
+  'a list option
+)
+"transaction.ml" 41 1363 1371 "transaction.ml" 41 1363 1376
+type(
+  'a list
+)
+ident(
+  def path2 "transaction.ml" 41 1363 1380 "transaction.ml" 41 1363 1427
+)
+"transaction.ml" 41 1363 1366 "transaction.ml" 41 1363 1376
+type(
+  'a list option
+)
+"transaction.ml" 41 1363 1386 "transaction.ml" 41 1363 1414
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Store.Path.get_common_prefix "store.ml" 159 4375 4379 "store.ml" 159 4375 4396
+)
+"transaction.ml" 41 1363 1415 "transaction.ml" 41 1363 1420
+type(
+  'a list
+)
+ident(
+  int_ref path1 "transaction.ml" 38 1288 1303 "transaction.ml" 38 1288 1308
+)
+"transaction.ml" 41 1363 1421 "transaction.ml" 41 1363 1426
+type(
+  'a list
+)
+ident(
+  int_ref path2 "transaction.ml" 41 1363 1371 "transaction.ml" 41 1363 1376
+)
+"transaction.ml" 41 1363 1385 "transaction.ml" 41 1363 1427
+type(
+  'a list
+)
+"transaction.ml" 41 1363 1380 "transaction.ml" 41 1363 1427
+type(
+  'a list option
+)
+"transaction.ml" 39 1317 1318 "transaction.ml" 41 1363 1427
+type(
+  'a list option
+)
+"transaction.ml" 43 1429 1433 "transaction.ml" 43 1429 1446
+type(
+  Store.Node.t -> Store.Node.t -> string list option -> bool
+)
+ident(
+  def test_coalesce "transaction.ml" 68 2236 2236 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 43 1429 1447 "transaction.ml" 43 1429 1454
+type(
+  Store.Node.t
+)
+ident(
+  def oldroot "transaction.ml" 43 1429 1455 "transaction.ml" 66 2226 2234
+)
+"transaction.ml" 43 1429 1455 "transaction.ml" 43 1429 1466
+type(
+  Store.Node.t
+)
+ident(
+  def currentroot "transaction.ml" 43 1429 1467 "transaction.ml" 66 2226 2234
+)
+"transaction.ml" 43 1429 1467 "transaction.ml" 43 1429 1474
+type(
+  string list option
+)
+ident(
+  def optpath "transaction.ml" 44 1477 1478 "transaction.ml" 66 2226 2234
+)
+"transaction.ml" 44 1477 1484 "transaction.ml" 44 1477 1491
+type(
+  string list option
+)
+ident(
+  int_ref optpath "transaction.ml" 43 1429 1467 "transaction.ml" 43 1429 1474
+)
+"transaction.ml" 45 1497 1500 "transaction.ml" 45 1497 1504
+type(
+  string list option
+)
+"transaction.ml" 45 1497 1513 "transaction.ml" 45 1497 1517
+type(
+  bool
+)
+"transaction.ml" 46 1518 1526 "transaction.ml" 46 1518 1530
+type(
+  string list
+)
+ident(
+  def path "transaction.ml" 47 1534 1536 "transaction.ml" 66 2226 2234
+)
+"transaction.ml" 46 1518 1521 "transaction.ml" 46 1518 1530
+type(
+  string list option
+)
+"transaction.ml" 47 1534 1540 "transaction.ml" 47 1534 1547
+type(
+  Store.Node.t option
+)
+ident(
+  def oldnode "transaction.ml" 50 1644 1646 "transaction.ml" 66 2226 2234
+)
+"transaction.ml" 47 1534 1550 "transaction.ml" 47 1534 1569
+type(
+  Store.Node.t -> string list -> Store.Node.t option
+)
+ident(
+  int_ref Store.Path.get_node "store.ml" 196 5285 5289 "store.ml" 196 5285 5297
+)
+"transaction.ml" 47 1534 1570 "transaction.ml" 47 1534 1577
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldroot "transaction.ml" 43 1429 1447 "transaction.ml" 43 1429 1454
+)
+"transaction.ml" 47 1534 1578 "transaction.ml" 47 1534 1582
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 46 1518 1526 "transaction.ml" 46 1518 1530
+)
+"transaction.ml" 47 1534 1550 "transaction.ml" 47 1534 1582
+type(
+  Store.Node.t option
+)
+"transaction.ml" 48 1583 1589 "transaction.ml" 48 1583 1600
+type(
+  Store.Node.t option
+)
+ident(
+  def currentnode "transaction.ml" 50 1644 1646 "transaction.ml" 66 2226 2234
+)
+"transaction.ml" 48 1583 1603 "transaction.ml" 48 1583 1622
+type(
+  Store.Node.t -> string list -> Store.Node.t option
+)
+ident(
+  int_ref Store.Path.get_node "store.ml" 196 5285 5289 "store.ml" 196 5285 5297
+)
+"transaction.ml" 48 1583 1623 "transaction.ml" 48 1583 1634
+type(
+  Store.Node.t
+)
+ident(
+  int_ref currentroot "transaction.ml" 43 1429 1455 "transaction.ml" 43 1429 1466
+)
+"transaction.ml" 48 1583 1635 "transaction.ml" 48 1583 1639
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 46 1518 1526 "transaction.ml" 46 1518 1530
+)
+"transaction.ml" 48 1583 1603 "transaction.ml" 48 1583 1639
+type(
+  Store.Node.t option
+)
+"transaction.ml" 50 1644 1652 "transaction.ml" 50 1644 1659
+type(
+  Store.Node.t option
+)
+ident(
+  int_ref oldnode "transaction.ml" 47 1534 1540 "transaction.ml" 47 1534 1547
+)
+"transaction.ml" 50 1644 1661 "transaction.ml" 50 1644 1672
+type(
+  Store.Node.t option
+)
+ident(
+  int_ref currentnode "transaction.ml" 48 1583 1589 "transaction.ml" 48 1583 1600
+)
+"transaction.ml" 50 1644 1652 "transaction.ml" 50 1644 1672
+type(
+  Store.Node.t option * Store.Node.t option
+)
+"transaction.ml" 51 1678 1688 "transaction.ml" 51 1678 1695
+type(
+  Store.Node.t
+)
+ident(
+  def oldnode "transaction.ml" 52 1720 1723 "transaction.ml" 56 1837 1841
+)
+"transaction.ml" 51 1678 1682 "transaction.ml" 51 1678 1696
+type(
+  Store.Node.t option
+)
+"transaction.ml" 51 1678 1704 "transaction.ml" 51 1678 1715
+type(
+  Store.Node.t
+)
+ident(
+  def currentnode "transaction.ml" 52 1720 1723 "transaction.ml" 56 1837 1841
+)
+"transaction.ml" 51 1678 1698 "transaction.ml" 51 1678 1716
+type(
+  Store.Node.t option
+)
+"transaction.ml" 51 1678 1682 "transaction.ml" 51 1678 1716
+type(
+  Store.Node.t option * Store.Node.t option
+)
+"transaction.ml" 52 1720 1726 "transaction.ml" 52 1720 1733
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldnode "transaction.ml" 51 1678 1688 "transaction.ml" 51 1678 1695
+)
+"transaction.ml" 52 1720 1734 "transaction.ml" 52 1720 1736
+type(
+  Store.Node.t -> Store.Node.t -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 188 8052 8052 "stdlib.mli" 188 8052 8094
+)
+"transaction.ml" 52 1720 1737 "transaction.ml" 52 1720 1748
+type(
+  Store.Node.t
+)
+ident(
+  int_ref currentnode "transaction.ml" 51 1678 1704 "transaction.ml" 51 1678 1715
+)
+"transaction.ml" 52 1720 1726 "transaction.ml" 52 1720 1748
+type(
+  bool
+)
+"transaction.ml" 53 1756 1760 "transaction.ml" 53 1756 1789
+type(
+  Store.Node.t -> Store.Node.t -> string list -> bool
+)
+ident(
+  int_ref check_parents_perms_identical "transaction.ml" 25 865 869 "transaction.ml" 25 865 898
+)
+"transaction.ml" 53 1756 1790 "transaction.ml" 53 1756 1797
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldroot "transaction.ml" 43 1429 1447 "transaction.ml" 43 1429 1454
+)
+"transaction.ml" 53 1756 1798 "transaction.ml" 53 1756 1809
+type(
+  Store.Node.t
+)
+ident(
+  int_ref currentroot "transaction.ml" 43 1429 1455 "transaction.ml" 43 1429 1466
+)
+"transaction.ml" 53 1756 1810 "transaction.ml" 53 1756 1814
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 46 1518 1526 "transaction.ml" 46 1518 1530
+)
+"transaction.ml" 52 1720 1754 "transaction.ml" 54 1815 1819
+type(
+  bool
+)
+"transaction.ml" 54 1815 1825 "transaction.ml" 56 1837 1841
+type(
+  bool
+)
+"transaction.ml" 52 1720 1723 "transaction.ml" 56 1837 1841
+type(
+  bool
+)
+"transaction.ml" 57 1842 1846 "transaction.ml" 57 1842 1850
+type(
+  Store.Node.t option
+)
+"transaction.ml" 57 1842 1852 "transaction.ml" 57 1842 1856
+type(
+  Store.Node.t option
+)
+"transaction.ml" 57 1842 1846 "transaction.ml" 57 1842 1856
+type(
+  Store.Node.t option * Store.Node.t option
+)
+"transaction.ml" 60 2021 2028 "transaction.ml" 60 2021 2033
+type(
+  Store.Node.t option
+)
+ident(
+  def pnode "transaction.ml" 61 2100 2103 "transaction.ml" 63 2188 2211
+)
+"transaction.ml" 60 2021 2036 "transaction.ml" 60 2021 2055
+type(
+  Store.Node.t -> string list -> Store.Node.t option
+)
+ident(
+  int_ref Store.Path.get_node "store.ml" 196 5285 5289 "store.ml" 196 5285 5297
+)
+"transaction.ml" 60 2021 2056 "transaction.ml" 60 2021 2067
+type(
+  Store.Node.t
+)
+ident(
+  int_ref currentroot "transaction.ml" 43 1429 1455 "transaction.ml" 43 1429 1466
+)
+"transaction.ml" 60 2021 2069 "transaction.ml" 60 2021 2090
+type(
+  string list -> string list
+)
+ident(
+  int_ref Store.Path.get_parent "store.ml" 153 4247 4251 "store.ml" 153 4247 4261
+)
+"transaction.ml" 60 2021 2091 "transaction.ml" 60 2021 2095
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 46 1518 1526 "transaction.ml" 46 1518 1530
+)
+"transaction.ml" 60 2021 2068 "transaction.ml" 60 2021 2096
+type(
+  string list
+)
+"transaction.ml" 60 2021 2036 "transaction.ml" 60 2021 2096
+type(
+  Store.Node.t option
+)
+"transaction.ml" 61 2100 2109 "transaction.ml" 61 2100 2114
+type(
+  Store.Node.t option
+)
+ident(
+  int_ref pnode "transaction.ml" 60 2021 2028 "transaction.ml" 60 2021 2033
+)
+"transaction.ml" 62 2120 2125 "transaction.ml" 62 2120 2129
+type(
+  Store.Node.t option
+)
+"transaction.ml" 62 2120 2139 "transaction.ml" 62 2120 2144
+type(
+  bool
+)
+"transaction.ml" 63 2188 2198 "transaction.ml" 63 2188 2199
+type(
+  Store.Node.t
+)
+"transaction.ml" 63 2188 2193 "transaction.ml" 63 2188 2199
+type(
+  Store.Node.t option
+)
+"transaction.ml" 63 2188 2207 "transaction.ml" 63 2188 2211
+type(
+  bool
+)
+"transaction.ml" 61 2100 2103 "transaction.ml" 63 2188 2211
+type(
+  bool
+)
+"transaction.ml" 57 1842 1860 "transaction.ml" 64 2212 2216
+type(
+  bool
+)
+"transaction.ml" 65 2217 2221 "transaction.ml" 65 2217 2222
+type(
+  Store.Node.t option * Store.Node.t option
+)
+"transaction.ml" 66 2226 2229 "transaction.ml" 66 2226 2234
+type(
+  bool
+)
+"transaction.ml" 50 1644 1646 "transaction.ml" 66 2226 2234
+type(
+  bool
+)
+"transaction.ml" 47 1534 1536 "transaction.ml" 66 2226 2234
+type(
+  bool
+)
+"transaction.ml" 44 1477 1478 "transaction.ml" 66 2226 2234
+type(
+  bool
+)
+"transaction.ml" 68 2236 2240 "transaction.ml" 68 2236 2252
+type(
+  Store.Node.t -> Store.Node.t -> string list option -> bool
+)
+ident(
+  def can_coalesce "transaction.ml" 74 2378 2378 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 68 2236 2253 "transaction.ml" 68 2236 2260
+type(
+  Store.Node.t
+)
+ident(
+  def oldroot "transaction.ml" 68 2236 2261 "transaction.ml" 72 2369 2376
+)
+"transaction.ml" 68 2236 2261 "transaction.ml" 68 2236 2272
+type(
+  Store.Node.t
+)
+ident(
+  def currentroot "transaction.ml" 68 2236 2273 "transaction.ml" 72 2369 2376
+)
+"transaction.ml" 68 2236 2273 "transaction.ml" 68 2236 2277
+type(
+  string list option
+)
+ident(
+  def path "transaction.ml" 69 2280 2281 "transaction.ml" 72 2369 2376
+)
+"transaction.ml" 69 2280 2284 "transaction.ml" 69 2280 2285
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 69 2280 2285 "transaction.ml" 69 2280 2296
+type(
+  bool ref
+)
+ident(
+  int_ref do_coalesce "transaction.ml" 23 837 841 "transaction.ml" 23 837 852
+)
+"transaction.ml" 69 2280 2284 "transaction.ml" 69 2280 2296
+type(
+  bool
+)
+"transaction.ml" 70 2302 2308 "transaction.ml" 70 2302 2321
+type(
+  Store.Node.t -> Store.Node.t -> string list option -> bool
+)
+ident(
+  int_ref test_coalesce "transaction.ml" 43 1429 1433 "transaction.ml" 43 1429 1446
+)
+"transaction.ml" 70 2302 2322 "transaction.ml" 70 2302 2329
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldroot "transaction.ml" 68 2236 2253 "transaction.ml" 68 2236 2260
+)
+"transaction.ml" 70 2302 2330 "transaction.ml" 70 2302 2341
+type(
+  Store.Node.t
+)
+ident(
+  int_ref currentroot "transaction.ml" 68 2236 2261 "transaction.ml" 68 2236 2272
+)
+"transaction.ml" 70 2302 2342 "transaction.ml" 70 2302 2346
+type(
+  string list option
+)
+ident(
+  int_ref path "transaction.ml" 68 2236 2273 "transaction.ml" 68 2236 2277
+)
+"transaction.ml" 70 2302 2308 "transaction.ml" 70 2302 2346
+type(
+  bool
+)
+"transaction.ml" 70 2302 2352 "transaction.ml" 70 2302 2353
+type(
+  exn
+)
+"transaction.ml" 70 2302 2357 "transaction.ml" 70 2302 2362
+type(
+  bool
+)
+"transaction.ml" 70 2302 2304 "transaction.ml" 70 2302 2362
+type(
+  bool
+)
+"transaction.ml" 72 2369 2371 "transaction.ml" 72 2369 2376
+type(
+  bool
+)
+"transaction.ml" 69 2280 2281 "transaction.ml" 72 2369 2376
+type(
+  bool
+)
+"transaction.ml" 92 2984 2988 "transaction.ml" 92 2984 2994
+type(
+  t -> int
+)
+ident(
+  def get_id "transaction.ml" 94 3051 3051 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 92 2984 2995 "transaction.ml" 92 2984 2996
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 92 2984 2999 "transaction.ml" 92 2984 3049
+)
+"transaction.ml" 92 2984 3005 "transaction.ml" 92 2984 3006
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 92 2984 2995 "transaction.ml" 92 2984 2996
+)
+"transaction.ml" 92 2984 3005 "transaction.ml" 92 2984 3009
+type(
+  ty
+)
+"transaction.ml" 92 2984 3015 "transaction.ml" 92 2984 3017
+type(
+  ty
+)
+"transaction.ml" 92 2984 3021 "transaction.ml" 92 2984 3025
+type(
+  int
+)
+ident(
+  int_ref none "transaction.ml" 21 796 800 "transaction.ml" 21 796 804
+)
+"transaction.ml" 92 2984 3034 "transaction.ml" 92 2984 3036
+type(
+  int
+)
+ident(
+  def id "transaction.ml" 92 2984 3047 "transaction.ml" 92 2984 3049
+)
+"transaction.ml" 92 2984 3038 "transaction.ml" 92 2984 3039
+type(
+  Store.t
+)
+"transaction.ml" 92 2984 3041 "transaction.ml" 92 2984 3042
+type(
+  Store.t
+)
+"transaction.ml" 92 2984 3033 "transaction.ml" 92 2984 3043
+type(
+  int * Store.t * Store.t
+)
+"transaction.ml" 92 2984 3028 "transaction.ml" 92 2984 3043
+type(
+  ty
+)
+"transaction.ml" 92 2984 3047 "transaction.ml" 92 2984 3049
+type(
+  int
+)
+ident(
+  int_ref id "transaction.ml" 92 2984 3034 "transaction.ml" 92 2984 3036
+)
+"transaction.ml" 92 2984 2999 "transaction.ml" 92 2984 3049
+type(
+  int
+)
+"transaction.ml" 94 3051 3055 "transaction.ml" 94 3051 3062
+type(
+  int64 ref
+)
+ident(
+  def counter "transaction.ml" 95 3072 3072 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 94 3051 3065 "transaction.ml" 94 3051 3068
+type(
+  int64 -> int64 ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"transaction.ml" 94 3051 3069 "transaction.ml" 94 3051 3071
+type(
+  int64
+)
+"transaction.ml" 94 3051 3065 "transaction.ml" 94 3051 3071
+type(
+  int64 ref
+)
+"transaction.ml" 95 3072 3076 "transaction.ml" 95 3072 3090
+type(
+  int64 ref
+)
+ident(
+  def failed_commits "transaction.ml" 96 3100 3100 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 95 3072 3093 "transaction.ml" 95 3072 3096
+type(
+  int64 -> int64 ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"transaction.ml" 95 3072 3097 "transaction.ml" 95 3072 3099
+type(
+  int64
+)
+"transaction.ml" 95 3072 3093 "transaction.ml" 95 3072 3099
+type(
+  int64 ref
+)
+"transaction.ml" 96 3100 3104 "transaction.ml" 96 3100 3129
+type(
+  int64 ref
+)
+ident(
+  def failed_commits_no_culprit "transaction.ml" 97 3139 3139 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 96 3100 3132 "transaction.ml" 96 3100 3135
+type(
+  int64 -> int64 ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"transaction.ml" 96 3100 3136 "transaction.ml" 96 3100 3138
+type(
+  int64
+)
+"transaction.ml" 96 3100 3132 "transaction.ml" 96 3100 3138
+type(
+  int64 ref
+)
+"transaction.ml" 97 3139 3143 "transaction.ml" 97 3139 3163
+type(
+  unit -> unit
+)
+ident(
+  def reset_conflict_stats "transaction.ml" 102 3315 3315 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 97 3139 3164 "transaction.ml" 97 3139 3166
+type(
+  unit
+)
+"transaction.ml" 98 3169 3170 "transaction.ml" 98 3169 3184
+type(
+  int64 ref
+)
+ident(
+  int_ref failed_commits "transaction.ml" 95 3072 3076 "transaction.ml" 95 3072 3090
+)
+"transaction.ml" 98 3169 3185 "transaction.ml" 98 3169 3187
+type(
+  int64 ref -> int64 -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"transaction.ml" 98 3169 3188 "transaction.ml" 98 3169 3190
+type(
+  int64
+)
+"transaction.ml" 98 3169 3170 "transaction.ml" 98 3169 3190
+type(
+  unit
+)
+"transaction.ml" 99 3192 3193 "transaction.ml" 99 3192 3218
+type(
+  int64 ref
+)
+ident(
+  int_ref failed_commits_no_culprit "transaction.ml" 96 3100 3104 "transaction.ml" 96 3100 3129
+)
+"transaction.ml" 99 3192 3219 "transaction.ml" 99 3192 3221
+type(
+  int64 ref -> int64 -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"transaction.ml" 99 3192 3222 "transaction.ml" 99 3192 3224
+type(
+  int64
+)
+"transaction.ml" 99 3192 3193 "transaction.ml" 99 3192 3224
+type(
+  unit
+)
+"transaction.ml" 98 3169 3170 "transaction.ml" 99 3192 3224
+type(
+  unit
+)
+"transaction.ml" 102 3315 3319 "transaction.ml" 102 3315 3337
+type(
+  (float * t) list ref
+)
+ident(
+  def short_running_txns "transaction.ml" 104 3348 3348 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 102 3315 3340 "transaction.ml" 102 3315 3343
+type(
+  (float * t) list -> (float * t) list ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"transaction.ml" 102 3315 3344 "transaction.ml" 102 3315 3346
+type(
+  (float * t) list
+)
+"transaction.ml" 102 3315 3340 "transaction.ml" 102 3315 3346
+type(
+  (float * t) list ref
+)
+"transaction.ml" 104 3348 3352 "transaction.ml" 104 3348 3384
+type(
+  unit -> (float * t) option
+)
+ident(
+  def oldest_short_running_transaction "transaction.ml" 111 3501 3501 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 104 3348 3385 "transaction.ml" 104 3348 3387
+type(
+  unit
+)
+"transaction.ml" 105 3390 3399 "transaction.ml" 105 3390 3403
+type(
+  'a list -> 'a option
+)
+ident(
+  def last "transaction.ml" 105 3390 3391 "transaction.ml" 109 3471 3499
+)
+"transaction.ml" 106 3415 3419 "transaction.ml" 106 3415 3421
+type(
+  'a list
+)
+"transaction.ml" 106 3415 3425 "transaction.ml" 106 3415 3429
+type(
+  'a option
+)
+"transaction.ml" 107 3430 3435 "transaction.ml" 107 3430 3436
+type(
+  'a
+)
+ident(
+  def x "transaction.ml" 107 3430 3441 "transaction.ml" 107 3430 3447
+)
+"transaction.ml" 107 3430 3434 "transaction.ml" 107 3430 3437
+type(
+  'a list
+)
+"transaction.ml" 107 3430 3446 "transaction.ml" 107 3430 3447
+type(
+  'a
+)
+ident(
+  int_ref x "transaction.ml" 107 3430 3435 "transaction.ml" 107 3430 3436
+)
+"transaction.ml" 107 3430 3441 "transaction.ml" 107 3430 3447
+type(
+  'a option
+)
+"transaction.ml" 108 3448 3452 "transaction.ml" 108 3448 3453
+type(
+  'a
+)
+"transaction.ml" 108 3448 3457 "transaction.ml" 108 3448 3459
+type(
+  'a list
+)
+ident(
+  def xs "transaction.ml" 108 3448 3463 "transaction.ml" 108 3448 3470
+)
+"transaction.ml" 108 3448 3452 "transaction.ml" 108 3448 3459
+type(
+  'a list
+)
+"transaction.ml" 108 3448 3463 "transaction.ml" 108 3448 3467
+type(
+  'a list -> 'a option
+)
+ident(
+  int_ref last "transaction.ml" 105 3390 3399 "transaction.ml" 105 3390 3403
+)
+"transaction.ml" 108 3448 3468 "transaction.ml" 108 3448 3470
+type(
+  'a list
+)
+ident(
+  int_ref xs "transaction.ml" 108 3448 3457 "transaction.ml" 108 3448 3459
+)
+"transaction.ml" 108 3448 3463 "transaction.ml" 108 3448 3470
+type(
+  'a option
+)
+"transaction.ml" 105 3390 3406 "transaction.ml" 108 3448 3470
+type(
+  'a list -> 'a option
+)
+"transaction.ml" 109 3471 3475 "transaction.ml" 109 3471 3479
+type(
+  (float * t) list -> (float * t) option
+)
+ident(
+  int_ref last "transaction.ml" 105 3390 3399 "transaction.ml" 105 3390 3403
+)
+"transaction.ml" 109 3471 3480 "transaction.ml" 109 3471 3481
+type(
+  (float * t) list ref -> (float * t) list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 109 3471 3481 "transaction.ml" 109 3471 3499
+type(
+  (float * t) list ref
+)
+ident(
+  int_ref short_running_txns "transaction.ml" 102 3315 3319 "transaction.ml" 102 3315 3337
+)
+"transaction.ml" 109 3471 3480 "transaction.ml" 109 3471 3499
+type(
+  (float * t) list
+)
+"transaction.ml" 109 3471 3475 "transaction.ml" 109 3471 3499
+type(
+  (float * t) option
+)
+"transaction.ml" 105 3390 3391 "transaction.ml" 109 3471 3499
+type(
+  (float * t) option
+)
+"transaction.ml" 111 3501 3505 "transaction.ml" 111 3501 3536
+type(
+  t option -> unit
+)
+ident(
+  def trim_short_running_transactions "transaction.ml" 121 3857 3857 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 111 3501 3537 "transaction.ml" 111 3501 3540
+type(
+  t option
+)
+ident(
+  def txn "transaction.ml" 112 3543 3544 "transaction.ml" 119 3834 3855
+)
+"transaction.ml" 112 3543 3548 "transaction.ml" 112 3543 3554
+type(
+  float
+)
+ident(
+  def cutoff "transaction.ml" 113 3621 3622 "transaction.ml" 119 3834 3855
+)
+"transaction.ml" 112 3543 3557 "transaction.ml" 112 3543 3574
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1079 44998 44998 "unix.mli" 1079 44998 45030
+)
+"transaction.ml" 112 3543 3575 "transaction.ml" 112 3543 3577
+type(
+  unit
+)
+"transaction.ml" 112 3543 3557 "transaction.ml" 112 3543 3577
+type(
+  float
+)
+"transaction.ml" 112 3543 3578 "transaction.ml" 112 3543 3580
+type(
+  float -> float -> float
+)
+ident(
+  int_ref Stdlib.( -. ) "stdlib.mli" 456 17641 17641 "stdlib.mli" 456 17641 17696
+)
+"transaction.ml" 112 3543 3581 "transaction.ml" 112 3543 3582
+type(
+  float ref -> float
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 112 3543 3582 "transaction.ml" 112 3543 3617
+type(
+  float ref
+)
+ident(
+  int_ref Define.conflict_max_history_seconds "define.ml" 37 1342 1346 "define.ml" 37 1342 1374
+)
+"transaction.ml" 112 3543 3581 "transaction.ml" 112 3543 3617
+type(
+  float
+)
+"transaction.ml" 112 3543 3557 "transaction.ml" 112 3543 3617
+type(
+  float
+)
+"transaction.ml" 113 3621 3626 "transaction.ml" 113 3621 3630
+type(
+  float * t -> bool
+)
+ident(
+  def keep "transaction.ml" 117 3792 3793 "transaction.ml" 119 3834 3855
+)
+"transaction.ml" 113 3621 3639 "transaction.ml" 113 3621 3642
+type(
+  t option
+)
+ident(
+  int_ref txn "transaction.ml" 111 3501 3537 "transaction.ml" 111 3501 3540
+)
+"transaction.ml" 114 3648 3652 "transaction.ml" 114 3648 3656
+type(
+  t option
+)
+"transaction.ml" 114 3648 3671 "transaction.ml" 114 3648 3681
+type(
+  float
+)
+ident(
+  def start_time "transaction.ml" 114 3648 3689 "transaction.ml" 114 3648 3709
+)
+"transaction.ml" 114 3648 3683 "transaction.ml" 114 3648 3684
+type(
+  t
+)
+"transaction.ml" 114 3648 3670 "transaction.ml" 114 3648 3685
+type(
+  float * t
+)
+"transaction.ml" 114 3648 3689 "transaction.ml" 114 3648 3699
+type(
+  float
+)
+ident(
+  int_ref start_time "transaction.ml" 114 3648 3671 "transaction.ml" 114 3648 3681
+)
+"transaction.ml" 114 3648 3700 "transaction.ml" 114 3648 3702
+type(
+  float -> float -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 147 6115 6115 "stdlib.mli" 147 6115 6167
+)
+"transaction.ml" 114 3648 3703 "transaction.ml" 114 3648 3709
+type(
+  float
+)
+ident(
+  int_ref cutoff "transaction.ml" 112 3543 3548 "transaction.ml" 112 3543 3554
+)
+"transaction.ml" 114 3648 3689 "transaction.ml" 114 3648 3709
+type(
+  bool
+)
+"transaction.ml" 114 3648 3660 "transaction.ml" 114 3648 3710
+type(
+  float * t -> bool
+)
+"transaction.ml" 115 3711 3720 "transaction.ml" 115 3711 3721
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 115 3711 3725 "transaction.ml" 115 3711 3787
+)
+"transaction.ml" 115 3711 3715 "transaction.ml" 115 3711 3721
+type(
+  t option
+)
+"transaction.ml" 115 3711 3736 "transaction.ml" 115 3711 3746
+type(
+  float
+)
+ident(
+  def start_time "transaction.ml" 115 3711 3755 "transaction.ml" 115 3711 3786
+)
+"transaction.ml" 115 3711 3748 "transaction.ml" 115 3711 3750
+type(
+  t
+)
+ident(
+  def tx "transaction.ml" 115 3711 3755 "transaction.ml" 115 3711 3786
+)
+"transaction.ml" 115 3711 3735 "transaction.ml" 115 3711 3751
+type(
+  float * t
+)
+"transaction.ml" 115 3711 3755 "transaction.ml" 115 3711 3765
+type(
+  float
+)
+ident(
+  int_ref start_time "transaction.ml" 115 3711 3736 "transaction.ml" 115 3711 3746
+)
+"transaction.ml" 115 3711 3766 "transaction.ml" 115 3711 3768
+type(
+  float -> float -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 147 6115 6115 "stdlib.mli" 147 6115 6167
+)
+"transaction.ml" 115 3711 3769 "transaction.ml" 115 3711 3775
+type(
+  float
+)
+ident(
+  int_ref cutoff "transaction.ml" 112 3543 3548 "transaction.ml" 112 3543 3554
+)
+"transaction.ml" 115 3711 3755 "transaction.ml" 115 3711 3775
+type(
+  bool
+)
+"transaction.ml" 115 3711 3776 "transaction.ml" 115 3711 3778
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"transaction.ml" 115 3711 3779 "transaction.ml" 115 3711 3781
+type(
+  t
+)
+ident(
+  int_ref tx "transaction.ml" 115 3711 3748 "transaction.ml" 115 3711 3750
+)
+"transaction.ml" 115 3711 3782 "transaction.ml" 115 3711 3784
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref Stdlib.( != ) "stdlib.mli" 200 8621 8621 "stdlib.mli" 200 8621 8666
+)
+"transaction.ml" 115 3711 3785 "transaction.ml" 115 3711 3786
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 115 3711 3720 "transaction.ml" 115 3711 3721
+)
+"transaction.ml" 115 3711 3779 "transaction.ml" 115 3711 3786
+type(
+  bool
+)
+"transaction.ml" 115 3711 3755 "transaction.ml" 115 3711 3786
+type(
+  bool
+)
+"transaction.ml" 115 3711 3725 "transaction.ml" 115 3711 3787
+type(
+  float * t -> bool
+)
+"transaction.ml" 113 3621 3633 "transaction.ml" 115 3711 3787
+type(
+  float * t -> bool
+)
+"transaction.ml" 117 3792 3793 "transaction.ml" 117 3792 3811
+type(
+  (float * t) list ref
+)
+ident(
+  int_ref short_running_txns "transaction.ml" 102 3315 3319 "transaction.ml" 102 3315 3337
+)
+"transaction.ml" 117 3792 3812 "transaction.ml" 117 3792 3814
+type(
+  (float * t) list ref -> (float * t) list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"transaction.ml" 117 3792 3815 "transaction.ml" 117 3792 3826
+type(
+  (float * t -> bool) -> (float * t) list -> (float * t) list
+)
+ident(
+  int_ref Stdlib.List.filter "list.mli" 233 8772 8772 "list.mli" 233 8772 8819
+)
+"transaction.ml" 118 3827 3829 "transaction.ml" 118 3827 3833
+type(
+  float * t -> bool
+)
+ident(
+  int_ref keep "transaction.ml" 113 3621 3626 "transaction.ml" 113 3621 3630
+)
+"transaction.ml" 119 3834 3836 "transaction.ml" 119 3834 3837
+type(
+  (float * t) list ref -> (float * t) list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 119 3834 3837 "transaction.ml" 119 3834 3855
+type(
+  (float * t) list ref
+)
+ident(
+  int_ref short_running_txns "transaction.ml" 102 3315 3319 "transaction.ml" 102 3315 3337
+)
+"transaction.ml" 119 3834 3836 "transaction.ml" 119 3834 3855
+type(
+  (float * t) list
+)
+"transaction.ml" 117 3792 3815 "transaction.ml" 119 3834 3855
+type(
+  (float * t) list
+)
+"transaction.ml" 117 3792 3793 "transaction.ml" 119 3834 3855
+type(
+  unit
+)
+"transaction.ml" 113 3621 3622 "transaction.ml" 119 3834 3855
+type(
+  unit
+)
+"transaction.ml" 112 3543 3544 "transaction.ml" 119 3834 3855
+type(
+  unit
+)
+"transaction.ml" 121 3857 3861 "transaction.ml" 121 3857 3865
+type(
+  ?internal:bool -> int -> Store.t -> t
+)
+ident(
+  def make "transaction.ml" 141 4402 4402 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 121 3857 3868 "transaction.ml" 121 3857 3876
+type(
+  bool
+)
+"transaction.ml" 121 3857 3877 "transaction.ml" 121 3857 3882
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"transaction.ml" 121 3857 3884 "transaction.ml" 121 3857 3886
+type(
+  int
+)
+ident(
+  def id "transaction.ml" 121 3857 3887 "transaction.ml" 139 4396 4400
+)
+"transaction.ml" 121 3857 3887 "transaction.ml" 121 3857 3892
+type(
+  Store.t
+)
+ident(
+  def store "transaction.ml" 122 3895 3896 "transaction.ml" 139 4396 4400
+)
+"transaction.ml" 122 3895 3900 "transaction.ml" 122 3895 3902
+type(
+  ty
+)
+ident(
+  def ty "transaction.ml" 123 3968 3969 "transaction.ml" 139 4396 4400
+)
+"transaction.ml" 122 3895 3908 "transaction.ml" 122 3895 3910
+type(
+  int
+)
+ident(
+  int_ref id "transaction.ml" 121 3857 3884 "transaction.ml" 121 3857 3886
+)
+"transaction.ml" 122 3895 3911 "transaction.ml" 122 3895 3912
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"transaction.ml" 122 3895 3913 "transaction.ml" 122 3895 3917
+type(
+  int
+)
+ident(
+  int_ref none "transaction.ml" 21 796 800 "transaction.ml" 21 796 804
+)
+"transaction.ml" 122 3895 3908 "transaction.ml" 122 3895 3917
+type(
+  bool
+)
+"transaction.ml" 122 3895 3923 "transaction.ml" 122 3895 3925
+type(
+  ty
+)
+"transaction.ml" 122 3895 3936 "transaction.ml" 122 3895 3938
+type(
+  int
+)
+ident(
+  int_ref id "transaction.ml" 121 3857 3884 "transaction.ml" 121 3857 3886
+)
+"transaction.ml" 122 3895 3940 "transaction.ml" 122 3895 3950
+type(
+  Store.t -> Store.t
+)
+ident(
+  int_ref Store.copy "store.ml" 496 13971 13975 "store.ml" 496 13971 13979
+)
+"transaction.ml" 122 3895 3951 "transaction.ml" 122 3895 3956
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 121 3857 3887 "transaction.ml" 121 3857 3892
+)
+"transaction.ml" 122 3895 3940 "transaction.ml" 122 3895 3956
+type(
+  Store.t
+)
+"transaction.ml" 122 3895 3958 "transaction.ml" 122 3895 3963
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 121 3857 3887 "transaction.ml" 121 3857 3892
+)
+"transaction.ml" 122 3895 3935 "transaction.ml" 122 3895 3964
+type(
+  int * Store.t * Store.t
+)
+"transaction.ml" 122 3895 3931 "transaction.ml" 122 3895 3964
+type(
+  ty
+)
+"transaction.ml" 122 3895 3905 "transaction.ml" 122 3895 3964
+type(
+  ty
+)
+"transaction.ml" 123 3968 3973 "transaction.ml" 123 3968 3976
+type(
+  t
+)
+ident(
+  def txn "transaction.ml" 135 4260 4261 "transaction.ml" 139 4396 4400
+)
+"transaction.ml" 124 3981 3988 "transaction.ml" 124 3981 3990
+type(
+  ty
+)
+ident(
+  int_ref ty "transaction.ml" 122 3895 3900 "transaction.ml" 122 3895 3902
+)
+"transaction.ml" 125 3992 4008 "transaction.ml" 125 3992 4009
+type(
+  int64 ref -> int64
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 125 3992 4009 "transaction.ml" 125 3992 4016
+type(
+  int64 ref
+)
+ident(
+  int_ref counter "transaction.ml" 94 3051 3055 "transaction.ml" 94 3051 3062
+)
+"transaction.ml" 125 3992 4008 "transaction.ml" 125 3992 4016
+type(
+  int64
+)
+"transaction.ml" 126 4018 4031 "transaction.ml" 126 4018 4033
+type(
+  int
+)
+ident(
+  int_ref id "transaction.ml" 121 3857 3884 "transaction.ml" 121 3857 3886
+)
+"transaction.ml" 126 4018 4034 "transaction.ml" 126 4018 4035
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"transaction.ml" 126 4018 4036 "transaction.ml" 126 4018 4040
+type(
+  int
+)
+ident(
+  int_ref none "transaction.ml" 21 796 800 "transaction.ml" 21 796 804
+)
+"transaction.ml" 126 4018 4031 "transaction.ml" 126 4018 4040
+type(
+  bool
+)
+"transaction.ml" 126 4018 4046 "transaction.ml" 126 4018 4051
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 121 3857 3887 "transaction.ml" 121 3857 3892
+)
+"transaction.ml" 126 4018 4057 "transaction.ml" 126 4018 4067
+type(
+  Store.t -> Store.t
+)
+ident(
+  int_ref Store.copy "store.ml" 496 13971 13975 "store.ml" 496 13971 13979
+)
+"transaction.ml" 126 4018 4068 "transaction.ml" 126 4018 4073
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 121 3857 3887 "transaction.ml" 121 3857 3892
+)
+"transaction.ml" 126 4018 4057 "transaction.ml" 126 4018 4073
+type(
+  Store.t
+)
+"transaction.ml" 126 4018 4028 "transaction.ml" 126 4018 4073
+type(
+  Store.t
+)
+"transaction.ml" 127 4075 4085 "transaction.ml" 127 4075 4095
+type(
+  Quota.t -> Quota.t
+)
+ident(
+  int_ref Quota.copy "quota.ml" 40 1361 1365 "quota.ml" 40 1361 1369
+)
+"transaction.ml" 127 4075 4096 "transaction.ml" 127 4075 4101
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 121 3857 3887 "transaction.ml" 121 3857 3892
+)
+"transaction.ml" 127 4075 4096 "transaction.ml" 127 4075 4113
+type(
+  Quota.t
+)
+"transaction.ml" 127 4075 4085 "transaction.ml" 127 4075 4113
+type(
+  Quota.t
+)
+"transaction.ml" 128 4115 4127 "transaction.ml" 128 4115 4141
+type(
+  Store.t -> Store.Node.t
+)
+ident(
+  int_ref Store.get_root "store.ml" 248 6560 6564 "store.ml" 248 6560 6572
+)
+"transaction.ml" 128 4115 4142 "transaction.ml" 128 4115 4147
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 121 3857 3887 "transaction.ml" 121 3857 3892
+)
+"transaction.ml" 128 4115 4127 "transaction.ml" 128 4115 4147
+type(
+  Store.Node.t
+)
+"transaction.ml" 129 4149 4159 "transaction.ml" 129 4149 4161
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+"transaction.ml" 130 4163 4178 "transaction.ml" 130 4163 4180
+type(
+  (Packet.request * Packet.response) list
+)
+"transaction.ml" 131 4182 4200 "transaction.ml" 131 4182 4205
+type(
+  bool
+)
+"transaction.ml" 132 4207 4224 "transaction.ml" 132 4207 4228
+type(
+  Store.Path.t option
+)
+"transaction.ml" 133 4230 4248 "transaction.ml" 133 4230 4252
+type(
+  Store.Path.t option
+)
+"transaction.ml" 123 3968 3979 "transaction.ml" 134 4254 4256
+type(
+  t
+)
+"transaction.ml" 135 4260 4264 "transaction.ml" 135 4260 4266
+type(
+  int
+)
+ident(
+  int_ref id "transaction.ml" 121 3857 3884 "transaction.ml" 121 3857 3886
+)
+"transaction.ml" 135 4260 4267 "transaction.ml" 135 4260 4269
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"transaction.ml" 135 4260 4270 "transaction.ml" 135 4260 4274
+type(
+  int
+)
+ident(
+  int_ref none "transaction.ml" 21 796 800 "transaction.ml" 21 796 804
+)
+"transaction.ml" 135 4260 4264 "transaction.ml" 135 4260 4274
+type(
+  bool
+)
+"transaction.ml" 135 4260 4275 "transaction.ml" 135 4260 4277
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"transaction.ml" 135 4260 4278 "transaction.ml" 135 4260 4281
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"transaction.ml" 135 4260 4282 "transaction.ml" 135 4260 4290
+type(
+  bool
+)
+ident(
+  int_ref internal "transaction.ml" 121 3857 3868 "transaction.ml" 121 3857 3876
+)
+"transaction.ml" 135 4260 4278 "transaction.ml" 135 4260 4290
+type(
+  bool
+)
+"transaction.ml" 135 4260 4264 "transaction.ml" 135 4260 4290
+type(
+  bool
+)
+"transaction.ml" 136 4298 4304 "transaction.ml" 136 4298 4307
+type(
+  float
+)
+ident(
+  def now "transaction.ml" 137 4334 4336 "transaction.ml" 137 4334 4391
+)
+"transaction.ml" 136 4298 4310 "transaction.ml" 136 4298 4327
+type(
+  unit -> float
+)
+ident(
+  int_ref Unix.gettimeofday "unix.mli" 1079 44998 44998 "unix.mli" 1079 44998 45030
+)
+"transaction.ml" 136 4298 4328 "transaction.ml" 136 4298 4330
+type(
+  unit
+)
+"transaction.ml" 136 4298 4310 "transaction.ml" 136 4298 4330
+type(
+  float
+)
+"transaction.ml" 137 4334 4336 "transaction.ml" 137 4334 4354
+type(
+  (float * t) list ref
+)
+ident(
+  int_ref short_running_txns "transaction.ml" 102 3315 3319 "transaction.ml" 102 3315 3337
+)
+"transaction.ml" 137 4334 4355 "transaction.ml" 137 4334 4357
+type(
+  (float * t) list ref -> (float * t) list -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"transaction.ml" 137 4334 4359 "transaction.ml" 137 4334 4362
+type(
+  float
+)
+ident(
+  int_ref now "transaction.ml" 136 4298 4304 "transaction.ml" 136 4298 4307
+)
+"transaction.ml" 137 4334 4364 "transaction.ml" 137 4334 4367
+type(
+  t
+)
+ident(
+  int_ref txn "transaction.ml" 123 3968 3973 "transaction.ml" 123 3968 3976
+)
+"transaction.ml" 137 4334 4358 "transaction.ml" 137 4334 4368
+type(
+  float * t
+)
+"transaction.ml" 137 4334 4372 "transaction.ml" 137 4334 4373
+type(
+  (float * t) list ref -> (float * t) list
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 137 4334 4373 "transaction.ml" 137 4334 4391
+type(
+  (float * t) list ref
+)
+ident(
+  int_ref short_running_txns "transaction.ml" 102 3315 3319 "transaction.ml" 102 3315 3337
+)
+"transaction.ml" 137 4334 4372 "transaction.ml" 137 4334 4391
+type(
+  (float * t) list
+)
+"transaction.ml" 137 4334 4358 "transaction.ml" 137 4334 4391
+type(
+  (float * t) list
+)
+"transaction.ml" 137 4334 4336 "transaction.ml" 137 4334 4391
+type(
+  unit
+)
+"transaction.ml" 135 4260 4296 "transaction.ml" 138 4392 4394
+type(
+  unit
+)
+"transaction.ml" 135 4260 4261 "transaction.ml" 138 4392 4394
+type(
+  unit
+)
+"transaction.ml" 139 4396 4397 "transaction.ml" 139 4396 4400
+type(
+  t
+)
+ident(
+  int_ref txn "transaction.ml" 123 3968 3973 "transaction.ml" 123 3968 3976
+)
+"transaction.ml" 135 4260 4261 "transaction.ml" 139 4396 4400
+type(
+  t
+)
+"transaction.ml" 123 3968 3969 "transaction.ml" 139 4396 4400
+type(
+  t
+)
+"transaction.ml" 122 3895 3896 "transaction.ml" 139 4396 4400
+type(
+  t
+)
+"transaction.ml" 141 4402 4406 "transaction.ml" 141 4402 4415
+type(
+  t -> Store.t
+)
+ident(
+  def get_store "transaction.ml" 142 4428 4428 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 141 4402 4416 "transaction.ml" 141 4402 4417
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 141 4402 4420 "transaction.ml" 141 4402 4427
+)
+"transaction.ml" 141 4402 4420 "transaction.ml" 141 4402 4421
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 141 4402 4416 "transaction.ml" 141 4402 4417
+)
+"transaction.ml" 141 4402 4420 "transaction.ml" 141 4402 4427
+type(
+  Store.t
+)
+"transaction.ml" 142 4428 4432 "transaction.ml" 142 4428 4441
+type(
+  t -> (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+ident(
+  def get_paths "transaction.ml" 144 4455 4455 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 142 4428 4442 "transaction.ml" 142 4428 4443
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 142 4428 4446 "transaction.ml" 142 4428 4453
+)
+"transaction.ml" 142 4428 4446 "transaction.ml" 142 4428 4447
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 142 4428 4442 "transaction.ml" 142 4428 4443
+)
+"transaction.ml" 142 4428 4446 "transaction.ml" 142 4428 4453
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+"transaction.ml" 144 4455 4459 "transaction.ml" 144 4455 4467
+type(
+  t -> Store.Node.t
+)
+ident(
+  def get_root "transaction.ml" 146 4496 4496 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 144 4455 4468 "transaction.ml" 144 4455 4469
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 144 4455 4472 "transaction.ml" 144 4455 4494
+)
+"transaction.ml" 144 4455 4472 "transaction.ml" 144 4455 4486
+type(
+  Store.t -> Store.Node.t
+)
+ident(
+  int_ref Store.get_root "store.ml" 248 6560 6564 "store.ml" 248 6560 6572
+)
+"transaction.ml" 144 4455 4487 "transaction.ml" 144 4455 4488
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 144 4455 4468 "transaction.ml" 144 4455 4469
+)
+"transaction.ml" 144 4455 4487 "transaction.ml" 144 4455 4494
+type(
+  Store.t
+)
+"transaction.ml" 144 4455 4472 "transaction.ml" 144 4455 4494
+type(
+  Store.Node.t
+)
+"transaction.ml" 146 4496 4500 "transaction.ml" 146 4496 4512
+type(
+  t -> bool
+)
+ident(
+  def is_read_only "transaction.ml" 147 4530 4530 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 146 4496 4513 "transaction.ml" 146 4496 4514
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 146 4496 4517 "transaction.ml" 146 4496 4529
+)
+"transaction.ml" 146 4496 4517 "transaction.ml" 146 4496 4518
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 146 4496 4513 "transaction.ml" 146 4496 4514
+)
+"transaction.ml" 146 4496 4517 "transaction.ml" 146 4496 4524
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+"transaction.ml" 146 4496 4525 "transaction.ml" 146 4496 4526
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list ->
+  (Xenbus.Xb.Op.operation * Store.Path.t) list -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"transaction.ml" 146 4496 4527 "transaction.ml" 146 4496 4529
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+"transaction.ml" 146 4496 4517 "transaction.ml" 146 4496 4529
+type(
+  bool
+)
+"transaction.ml" 147 4530 4534 "transaction.ml" 147 4530 4541
+type(
+  t -> Xenbus.Xb.Op.operation -> Store.Path.t -> unit
+)
+ident(
+  def add_wop "transaction.ml" 148 4587 4587 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 147 4530 4542 "transaction.ml" 147 4530 4543
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 147 4530 4544 "transaction.ml" 147 4530 4586
+)
+"transaction.ml" 147 4530 4544 "transaction.ml" 147 4530 4546
+type(
+  Xenbus.Xb.Op.operation
+)
+ident(
+  def ty "transaction.ml" 147 4530 4547 "transaction.ml" 147 4530 4586
+)
+"transaction.ml" 147 4530 4547 "transaction.ml" 147 4530 4551
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 147 4530 4554 "transaction.ml" 147 4530 4586
+)
+"transaction.ml" 147 4530 4554 "transaction.ml" 147 4530 4555
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 147 4530 4542 "transaction.ml" 147 4530 4543
+)
+"transaction.ml" 147 4530 4566 "transaction.ml" 147 4530 4568
+type(
+  Xenbus.Xb.Op.operation
+)
+ident(
+  int_ref ty "transaction.ml" 147 4530 4544 "transaction.ml" 147 4530 4546
+)
+"transaction.ml" 147 4530 4570 "transaction.ml" 147 4530 4574
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 147 4530 4547 "transaction.ml" 147 4530 4551
+)
+"transaction.ml" 147 4530 4565 "transaction.ml" 147 4530 4575
+type(
+  Xenbus.Xb.Op.operation * Store.Path.t
+)
+"transaction.ml" 147 4530 4579 "transaction.ml" 147 4530 4580
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 147 4530 4542 "transaction.ml" 147 4530 4543
+)
+"transaction.ml" 147 4530 4579 "transaction.ml" 147 4530 4586
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+"transaction.ml" 147 4530 4565 "transaction.ml" 147 4530 4586
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+"transaction.ml" 147 4530 4554 "transaction.ml" 147 4530 4586
+type(
+  unit
+)
+"transaction.ml" 148 4587 4591 "transaction.ml" 148 4587 4605
+type(
+  t -> (Packet.request * Packet.response) list
+)
+ident(
+  def get_operations "transaction.ml" 150 4633 4633 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 148 4587 4606 "transaction.ml" 148 4587 4607
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 148 4587 4610 "transaction.ml" 148 4587 4631
+)
+"transaction.ml" 148 4587 4610 "transaction.ml" 148 4587 4618
+type(
+  (Packet.request * Packet.response) list ->
+  (Packet.request * Packet.response) list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
+)
+"transaction.ml" 148 4587 4619 "transaction.ml" 148 4587 4620
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 148 4587 4606 "transaction.ml" 148 4587 4607
+)
+"transaction.ml" 148 4587 4619 "transaction.ml" 148 4587 4631
+type(
+  (Packet.request * Packet.response) list
+)
+"transaction.ml" 148 4587 4610 "transaction.ml" 148 4587 4631
+type(
+  (Packet.request * Packet.response) list
+)
+"transaction.ml" 150 4633 4637 "transaction.ml" 150 4633 4652
+type(
+  perm:Perms.Connection.t -> t -> unit
+)
+ident(
+  def check_quota_exn "transaction.ml" 159 4885 4885 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 150 4633 4654 "transaction.ml" 150 4633 4658
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 150 4633 4659 "transaction.ml" 157 4878 4883
+)
+"transaction.ml" 150 4633 4659 "transaction.ml" 150 4633 4660
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 151 4663 4664 "transaction.ml" 157 4878 4883
+)
+"transaction.ml" 151 4663 4667 "transaction.ml" 151 4663 4668
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 151 4663 4668 "transaction.ml" 151 4663 4686
+type(
+  int ref
+)
+ident(
+  int_ref Define.maxrequests "define.ml" 26 884 888 "define.ml" 26 884 899
+)
+"transaction.ml" 151 4663 4667 "transaction.ml" 151 4663 4686
+type(
+  int
+)
+"transaction.ml" 151 4663 4687 "transaction.ml" 151 4663 4689
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 147 6115 6115 "stdlib.mli" 147 6115 6167
+)
+"transaction.ml" 151 4663 4690 "transaction.ml" 151 4663 4691
+type(
+  int
+)
+"transaction.ml" 151 4663 4667 "transaction.ml" 151 4663 4691
+type(
+  bool
+)
+"transaction.ml" 152 4692 4694 "transaction.ml" 152 4692 4696
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"transaction.ml" 152 4692 4697 "transaction.ml" 152 4692 4700
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"transaction.ml" 152 4692 4702 "transaction.ml" 152 4692 4726
+type(
+  Perms.Connection.t -> bool
+)
+ident(
+  int_ref Perms.Connection.is_dom0 "perms.ml" 128 3277 3281 "perms.ml" 128 3277 3288
+)
+"transaction.ml" 152 4692 4727 "transaction.ml" 152 4692 4731
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 150 4633 4654 "transaction.ml" 150 4633 4658
+)
+"transaction.ml" 152 4692 4701 "transaction.ml" 152 4692 4732
+type(
+  bool
+)
+"transaction.ml" 152 4692 4697 "transaction.ml" 152 4692 4732
+type(
+  bool
+)
+"transaction.ml" 153 4733 4735 "transaction.ml" 153 4733 4737
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"transaction.ml" 153 4733 4739 "transaction.ml" 153 4733 4740
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 150 4633 4659 "transaction.ml" 150 4633 4660
+)
+"transaction.ml" 153 4733 4739 "transaction.ml" 153 4733 4754
+type(
+  bool
+)
+"transaction.ml" 153 4733 4755 "transaction.ml" 153 4733 4757
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( || ) "stdlib.mli" 224 9417 9417 "stdlib.mli" 224 9417 9467
+)
+"transaction.ml" 153 4733 4758 "transaction.ml" 153 4733 4769
+type(
+  (Packet.request * Packet.response) list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 32 1730 1730 "list.mli" 32 1730 1757
+)
+"transaction.ml" 153 4733 4770 "transaction.ml" 153 4733 4771
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 150 4633 4659 "transaction.ml" 150 4633 4660
+)
+"transaction.ml" 153 4733 4770 "transaction.ml" 153 4733 4782
+type(
+  (Packet.request * Packet.response) list
+)
+"transaction.ml" 153 4733 4758 "transaction.ml" 153 4733 4782
+type(
+  int
+)
+"transaction.ml" 153 4733 4783 "transaction.ml" 153 4733 4785
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 147 6115 6115 "stdlib.mli" 147 6115 6167
+)
+"transaction.ml" 153 4733 4786 "transaction.ml" 153 4733 4787
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 153 4733 4787 "transaction.ml" 153 4733 4805
+type(
+  int ref
+)
+ident(
+  int_ref Define.maxrequests "define.ml" 26 884 888 "define.ml" 26 884 899
+)
+"transaction.ml" 153 4733 4786 "transaction.ml" 153 4733 4805
+type(
+  int
+)
+"transaction.ml" 153 4733 4758 "transaction.ml" 153 4733 4805
+type(
+  bool
+)
+"transaction.ml" 153 4733 4738 "transaction.ml" 153 4733 4806
+type(
+  bool
+)
+"transaction.ml" 152 4692 4697 "transaction.ml" 153 4733 4806
+type(
+  bool
+)
+"transaction.ml" 151 4663 4667 "transaction.ml" 153 4733 4806
+type(
+  bool
+)
+"transaction.ml" 155 4820 4823 "transaction.ml" 155 4820 4824
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 150 4633 4659 "transaction.ml" 150 4633 4660
+)
+"transaction.ml" 155 4820 4842 "transaction.ml" 155 4820 4846
+type(
+  bool
+)
+"transaction.ml" 155 4820 4823 "transaction.ml" 155 4820 4846
+type(
+  unit
+)
+"transaction.ml" 156 4848 4851 "transaction.ml" 156 4848 4856
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"transaction.ml" 156 4848 4857 "transaction.ml" 156 4848 4876
+type(
+  exn
+)
+"transaction.ml" 156 4848 4851 "transaction.ml" 156 4848 4876
+type(
+  unit
+)
+"transaction.ml" 154 4807 4814 "transaction.ml" 157 4878 4883
+type(
+  unit
+)
+"transaction.ml" 151 4663 4664 "transaction.ml" 157 4878 4883
+type(
+  unit
+)
+"transaction.ml" 159 4885 4889 "transaction.ml" 159 4885 4902
+type(
+  t -> Packet.request -> Packet.response -> unit
+)
+ident(
+  def add_operation "transaction.ml" 161 4977 4977 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 159 4885 4903 "transaction.ml" 159 4885 4904
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 159 4885 4905 "transaction.ml" 160 4924 4976
+)
+"transaction.ml" 159 4885 4905 "transaction.ml" 159 4885 4912
+type(
+  Packet.request
+)
+ident(
+  def request "transaction.ml" 159 4885 4913 "transaction.ml" 160 4924 4976
+)
+"transaction.ml" 159 4885 4913 "transaction.ml" 159 4885 4921
+type(
+  Packet.response
+)
+ident(
+  def response "transaction.ml" 160 4924 4925 "transaction.ml" 160 4924 4976
+)
+"transaction.ml" 160 4924 4925 "transaction.ml" 160 4924 4926
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 159 4885 4903 "transaction.ml" 159 4885 4904
+)
+"transaction.ml" 160 4924 4942 "transaction.ml" 160 4924 4949
+type(
+  Packet.request
+)
+ident(
+  int_ref request "transaction.ml" 159 4885 4905 "transaction.ml" 159 4885 4912
+)
+"transaction.ml" 160 4924 4951 "transaction.ml" 160 4924 4959
+type(
+  Packet.response
+)
+ident(
+  int_ref response "transaction.ml" 159 4885 4913 "transaction.ml" 159 4885 4921
+)
+"transaction.ml" 160 4924 4941 "transaction.ml" 160 4924 4960
+type(
+  Packet.request * Packet.response
+)
+"transaction.ml" 160 4924 4964 "transaction.ml" 160 4924 4965
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 159 4885 4903 "transaction.ml" 159 4885 4904
+)
+"transaction.ml" 160 4924 4964 "transaction.ml" 160 4924 4976
+type(
+  (Packet.request * Packet.response) list
+)
+"transaction.ml" 160 4924 4941 "transaction.ml" 160 4924 4976
+type(
+  (Packet.request * Packet.response) list
+)
+"transaction.ml" 160 4924 4925 "transaction.ml" 160 4924 4976
+type(
+  unit
+)
+"transaction.ml" 161 4977 4981 "transaction.ml" 161 4977 4997
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  def set_read_lowpath "transaction.ml" 162 5056 5056 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 161 4977 4998 "transaction.ml" 161 4977 4999
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 161 4977 5000 "transaction.ml" 161 4977 5055
+)
+"transaction.ml" 161 4977 5000 "transaction.ml" 161 4977 5004
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 161 4977 5007 "transaction.ml" 161 4977 5055
+)
+"transaction.ml" 161 4977 5007 "transaction.ml" 161 4977 5008
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 161 4977 4998 "transaction.ml" 161 4977 4999
+)
+"transaction.ml" 161 4977 5025 "transaction.ml" 161 4977 5035
+type(
+  Store.Path.t -> Store.Path.t option -> Store.Path.t option
+)
+ident(
+  int_ref get_lowest "transaction.ml" 38 1288 1292 "transaction.ml" 38 1288 1302
+)
+"transaction.ml" 161 4977 5036 "transaction.ml" 161 4977 5040
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 161 4977 5000 "transaction.ml" 161 4977 5004
+)
+"transaction.ml" 161 4977 5041 "transaction.ml" 161 4977 5042
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 161 4977 4998 "transaction.ml" 161 4977 4999
+)
+"transaction.ml" 161 4977 5041 "transaction.ml" 161 4977 5055
+type(
+  Store.Path.t option
+)
+"transaction.ml" 161 4977 5025 "transaction.ml" 161 4977 5055
+type(
+  Store.Path.t option
+)
+"transaction.ml" 161 4977 5007 "transaction.ml" 161 4977 5055
+type(
+  unit
+)
+"transaction.ml" 162 5056 5060 "transaction.ml" 162 5056 5077
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  def set_write_lowpath "transaction.ml" 164 5139 5139 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 162 5056 5078 "transaction.ml" 162 5056 5079
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 162 5056 5080 "transaction.ml" 162 5056 5137
+)
+"transaction.ml" 162 5056 5080 "transaction.ml" 162 5056 5084
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 162 5056 5087 "transaction.ml" 162 5056 5137
+)
+"transaction.ml" 162 5056 5087 "transaction.ml" 162 5056 5088
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 162 5056 5078 "transaction.ml" 162 5056 5079
+)
+"transaction.ml" 162 5056 5106 "transaction.ml" 162 5056 5116
+type(
+  Store.Path.t -> Store.Path.t option -> Store.Path.t option
+)
+ident(
+  int_ref get_lowest "transaction.ml" 38 1288 1292 "transaction.ml" 38 1288 1302
+)
+"transaction.ml" 162 5056 5117 "transaction.ml" 162 5056 5121
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 162 5056 5080 "transaction.ml" 162 5056 5084
+)
+"transaction.ml" 162 5056 5122 "transaction.ml" 162 5056 5123
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 162 5056 5078 "transaction.ml" 162 5056 5079
+)
+"transaction.ml" 162 5056 5122 "transaction.ml" 162 5056 5137
+type(
+  Store.Path.t option
+)
+"transaction.ml" 162 5056 5106 "transaction.ml" 162 5056 5137
+type(
+  Store.Path.t option
+)
+"transaction.ml" 162 5056 5087 "transaction.ml" 162 5056 5137
+type(
+  unit
+)
+"transaction.ml" 164 5139 5143 "transaction.ml" 164 5139 5154
+type(
+  t -> string list -> bool
+)
+ident(
+  def path_exists "transaction.ml" 166 5196 5196 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 164 5139 5155 "transaction.ml" 164 5139 5156
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 164 5139 5157 "transaction.ml" 164 5139 5194
+)
+"transaction.ml" 164 5139 5157 "transaction.ml" 164 5139 5161
+type(
+  string list
+)
+ident(
+  def path "transaction.ml" 164 5139 5164 "transaction.ml" 164 5139 5194
+)
+"transaction.ml" 164 5139 5164 "transaction.ml" 164 5139 5181
+type(
+  Store.t -> string list -> bool
+)
+ident(
+  int_ref Store.path_exists "store.ml" 360 9668 9672 "store.ml" 360 9668 9683
+)
+"transaction.ml" 164 5139 5182 "transaction.ml" 164 5139 5183
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 164 5139 5155 "transaction.ml" 164 5139 5156
+)
+"transaction.ml" 164 5139 5182 "transaction.ml" 164 5139 5189
+type(
+  Store.t
+)
+"transaction.ml" 164 5139 5190 "transaction.ml" 164 5139 5194
+type(
+  string list
+)
+ident(
+  int_ref path "transaction.ml" 164 5139 5157 "transaction.ml" 164 5139 5161
+)
+"transaction.ml" 164 5139 5164 "transaction.ml" 164 5139 5194
+type(
+  bool
+)
+"transaction.ml" 166 5196 5200 "transaction.ml" 166 5196 5205
+type(
+  t -> Perms.Connection.t -> Store.Path.t -> string -> unit
+)
+ident(
+  def write "transaction.ml" 174 5444 5444 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 166 5196 5206 "transaction.ml" 166 5196 5207
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 166 5196 5208 "transaction.ml" 172 5408 5442
+)
+"transaction.ml" 166 5196 5208 "transaction.ml" 166 5196 5212
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 166 5196 5213 "transaction.ml" 172 5408 5442
+)
+"transaction.ml" 166 5196 5213 "transaction.ml" 166 5196 5217
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 166 5196 5218 "transaction.ml" 172 5408 5442
+)
+"transaction.ml" 166 5196 5218 "transaction.ml" 166 5196 5223
+type(
+  string
+)
+ident(
+  def value "transaction.ml" 167 5226 5227 "transaction.ml" 172 5408 5442
+)
+"transaction.ml" 167 5226 5231 "transaction.ml" 167 5226 5242
+type(
+  bool
+)
+ident(
+  def path_exists "transaction.ml" 168 5267 5268 "transaction.ml" 172 5408 5442
+)
+"transaction.ml" 167 5226 5245 "transaction.ml" 167 5226 5256
+type(
+  t -> Store.Path.t -> bool
+)
+ident(
+  int_ref path_exists "transaction.ml" 164 5139 5143 "transaction.ml" 164 5139 5154
+)
+"transaction.ml" 167 5226 5257 "transaction.ml" 167 5226 5258
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 166 5196 5206 "transaction.ml" 166 5196 5207
+)
+"transaction.ml" 167 5226 5259 "transaction.ml" 167 5226 5263
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 166 5196 5213 "transaction.ml" 166 5196 5217
+)
+"transaction.ml" 167 5226 5245 "transaction.ml" 167 5226 5263
+type(
+  bool
+)
+"transaction.ml" 168 5267 5268 "transaction.ml" 168 5267 5279
+type(
+  Store.t -> Perms.Connection.t -> Store.Path.t -> string -> unit
+)
+ident(
+  int_ref Store.write "store.ml" 412 11186 11190 "store.ml" 412 11186 11195
+)
+"transaction.ml" 168 5267 5280 "transaction.ml" 168 5267 5281
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 166 5196 5206 "transaction.ml" 166 5196 5207
+)
+"transaction.ml" 168 5267 5280 "transaction.ml" 168 5267 5287
+type(
+  Store.t
+)
+"transaction.ml" 168 5267 5288 "transaction.ml" 168 5267 5292
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 166 5196 5208 "transaction.ml" 166 5196 5212
+)
+"transaction.ml" 168 5267 5293 "transaction.ml" 168 5267 5297
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 166 5196 5213 "transaction.ml" 166 5196 5217
+)
+"transaction.ml" 168 5267 5298 "transaction.ml" 168 5267 5303
+type(
+  string
+)
+ident(
+  int_ref value "transaction.ml" 166 5196 5218 "transaction.ml" 166 5196 5223
+)
+"transaction.ml" 168 5267 5268 "transaction.ml" 168 5267 5303
+type(
+  unit
+)
+"transaction.ml" 169 5305 5309 "transaction.ml" 169 5305 5320
+type(
+  bool
+)
+ident(
+  int_ref path_exists "transaction.ml" 167 5226 5231 "transaction.ml" 167 5226 5242
+)
+"transaction.ml" 170 5321 5327 "transaction.ml" 170 5321 5344
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_write_lowpath "transaction.ml" 162 5056 5060 "transaction.ml" 162 5056 5077
+)
+"transaction.ml" 170 5321 5345 "transaction.ml" 170 5321 5346
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 166 5196 5206 "transaction.ml" 166 5196 5207
+)
+"transaction.ml" 170 5321 5347 "transaction.ml" 170 5321 5351
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 166 5196 5213 "transaction.ml" 166 5196 5217
+)
+"transaction.ml" 170 5321 5327 "transaction.ml" 170 5321 5351
+type(
+  unit
+)
+"transaction.ml" 171 5352 5358 "transaction.ml" 171 5352 5375
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_write_lowpath "transaction.ml" 162 5056 5060 "transaction.ml" 162 5056 5077
+)
+"transaction.ml" 171 5352 5376 "transaction.ml" 171 5352 5377
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 166 5196 5206 "transaction.ml" 166 5196 5207
+)
+"transaction.ml" 171 5352 5379 "transaction.ml" 171 5352 5400
+type(
+  Store.Path.t -> Store.Path.t
+)
+ident(
+  int_ref Store.Path.get_parent "store.ml" 153 4247 4251 "store.ml" 153 4247 4261
+)
+"transaction.ml" 171 5352 5401 "transaction.ml" 171 5352 5405
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 166 5196 5213 "transaction.ml" 166 5196 5217
+)
+"transaction.ml" 171 5352 5378 "transaction.ml" 171 5352 5406
+type(
+  Store.Path.t
+)
+"transaction.ml" 171 5352 5358 "transaction.ml" 171 5352 5406
+type(
+  unit
+)
+"transaction.ml" 169 5305 5306 "transaction.ml" 171 5352 5406
+type(
+  unit
+)
+"transaction.ml" 172 5408 5409 "transaction.ml" 172 5408 5416
+type(
+  t -> Xenbus.Xb.Op.operation -> Store.Path.t -> unit
+)
+ident(
+  int_ref add_wop "transaction.ml" 147 4530 4534 "transaction.ml" 147 4530 4541
+)
+"transaction.ml" 172 5408 5417 "transaction.ml" 172 5408 5418
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 166 5196 5206 "transaction.ml" 166 5196 5207
+)
+"transaction.ml" 172 5408 5419 "transaction.ml" 172 5408 5437
+type(
+  Xenbus.Xb.Op.operation
+)
+"transaction.ml" 172 5408 5438 "transaction.ml" 172 5408 5442
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 166 5196 5213 "transaction.ml" 166 5196 5217
+)
+"transaction.ml" 172 5408 5409 "transaction.ml" 172 5408 5442
+type(
+  unit
+)
+"transaction.ml" 169 5305 5306 "transaction.ml" 172 5408 5442
+type(
+  unit
+)
+"transaction.ml" 168 5267 5268 "transaction.ml" 172 5408 5442
+type(
+  unit
+)
+"transaction.ml" 167 5226 5227 "transaction.ml" 172 5408 5442
+type(
+  unit
+)
+"transaction.ml" 174 5444 5448 "transaction.ml" 174 5444 5453
+type(
+  ?with_watch:bool -> t -> Perms.Connection.t -> Store.Path.t -> unit
+)
+ident(
+  def mkdir "transaction.ml" 180 5627 5627 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 174 5444 5456 "transaction.ml" 174 5444 5466
+type(
+  bool
+)
+"transaction.ml" 174 5444 5467 "transaction.ml" 174 5444 5471
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"transaction.ml" 174 5444 5473 "transaction.ml" 174 5444 5474
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 174 5444 5475 "transaction.ml" 178 5590 5625
+)
+"transaction.ml" 174 5444 5475 "transaction.ml" 174 5444 5479
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 174 5444 5480 "transaction.ml" 178 5590 5625
+)
+"transaction.ml" 174 5444 5480 "transaction.ml" 174 5444 5484
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 175 5487 5488 "transaction.ml" 178 5590 5625
+)
+"transaction.ml" 175 5487 5488 "transaction.ml" 175 5487 5499
+type(
+  Store.t -> Perms.Connection.t -> Store.Path.t -> unit
+)
+ident(
+  int_ref Store.mkdir "store.ml" 426 11712 11716 "store.ml" 426 11712 11721
+)
+"transaction.ml" 175 5487 5500 "transaction.ml" 175 5487 5501
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 174 5444 5473 "transaction.ml" 174 5444 5474
+)
+"transaction.ml" 175 5487 5500 "transaction.ml" 175 5487 5507
+type(
+  Store.t
+)
+"transaction.ml" 175 5487 5508 "transaction.ml" 175 5487 5512
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 174 5444 5475 "transaction.ml" 174 5444 5479
+)
+"transaction.ml" 175 5487 5513 "transaction.ml" 175 5487 5517
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 174 5444 5480 "transaction.ml" 174 5444 5484
+)
+"transaction.ml" 175 5487 5488 "transaction.ml" 175 5487 5517
+type(
+  unit
+)
+"transaction.ml" 176 5519 5520 "transaction.ml" 176 5519 5537
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_write_lowpath "transaction.ml" 162 5056 5060 "transaction.ml" 162 5056 5077
+)
+"transaction.ml" 176 5519 5538 "transaction.ml" 176 5519 5539
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 174 5444 5473 "transaction.ml" 174 5444 5474
+)
+"transaction.ml" 176 5519 5541 "transaction.ml" 176 5519 5562
+type(
+  Store.Path.t -> Store.Path.t
+)
+ident(
+  int_ref Store.Path.get_parent "store.ml" 153 4247 4251 "store.ml" 153 4247 4261
+)
+"transaction.ml" 176 5519 5563 "transaction.ml" 176 5519 5567
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 174 5444 5480 "transaction.ml" 174 5444 5484
+)
+"transaction.ml" 176 5519 5540 "transaction.ml" 176 5519 5568
+type(
+  Store.Path.t
+)
+"transaction.ml" 176 5519 5520 "transaction.ml" 176 5519 5568
+type(
+  unit
+)
+"transaction.ml" 177 5570 5574 "transaction.ml" 177 5570 5584
+type(
+  bool
+)
+ident(
+  int_ref with_watch "transaction.ml" 174 5444 5456 "transaction.ml" 174 5444 5466
+)
+"transaction.ml" 178 5590 5592 "transaction.ml" 178 5590 5599
+type(
+  t -> Xenbus.Xb.Op.operation -> Store.Path.t -> unit
+)
+ident(
+  int_ref add_wop "transaction.ml" 147 4530 4534 "transaction.ml" 147 4530 4541
+)
+"transaction.ml" 178 5590 5600 "transaction.ml" 178 5590 5601
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 174 5444 5473 "transaction.ml" 174 5444 5474
+)
+"transaction.ml" 178 5590 5602 "transaction.ml" 178 5590 5620
+type(
+  Xenbus.Xb.Op.operation
+)
+"transaction.ml" 178 5590 5621 "transaction.ml" 178 5590 5625
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 174 5444 5480 "transaction.ml" 174 5444 5484
+)
+"transaction.ml" 178 5590 5592 "transaction.ml" 178 5590 5625
+type(
+  unit
+)
+"transaction.ml" 177 5570 5571 "transaction.ml" 178 5590 5625
+type(
+  unit
+)
+"transaction.ml" 176 5519 5520 "transaction.ml" 178 5590 5625
+type(
+  unit
+)
+"transaction.ml" 175 5487 5488 "transaction.ml" 178 5590 5625
+type(
+  unit
+)
+"transaction.ml" 180 5627 5631 "transaction.ml" 180 5627 5639
+type(
+  t -> Perms.Connection.t -> Store.Path.t -> Perms.Node.t -> unit
+)
+ident(
+  def setperms "transaction.ml" 185 5767 5767 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 180 5627 5640 "transaction.ml" 180 5627 5641
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 180 5627 5642 "transaction.ml" 183 5728 5765
+)
+"transaction.ml" 180 5627 5642 "transaction.ml" 180 5627 5646
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 180 5627 5647 "transaction.ml" 183 5728 5765
+)
+"transaction.ml" 180 5627 5647 "transaction.ml" 180 5627 5651
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 180 5627 5652 "transaction.ml" 183 5728 5765
+)
+"transaction.ml" 180 5627 5652 "transaction.ml" 180 5627 5657
+type(
+  Perms.Node.t
+)
+ident(
+  def perms "transaction.ml" 181 5660 5661 "transaction.ml" 183 5728 5765
+)
+"transaction.ml" 181 5660 5661 "transaction.ml" 181 5660 5675
+type(
+  Store.t -> Perms.Connection.t -> Store.Path.t -> Perms.Node.t -> unit
+)
+ident(
+  int_ref Store.setperms "store.ml" 443 12392 12396 "store.ml" 443 12392 12404
+)
+"transaction.ml" 181 5660 5676 "transaction.ml" 181 5660 5677
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 180 5627 5640 "transaction.ml" 180 5627 5641
+)
+"transaction.ml" 181 5660 5676 "transaction.ml" 181 5660 5683
+type(
+  Store.t
+)
+"transaction.ml" 181 5660 5684 "transaction.ml" 181 5660 5688
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 180 5627 5642 "transaction.ml" 180 5627 5646
+)
+"transaction.ml" 181 5660 5689 "transaction.ml" 181 5660 5693
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 180 5627 5647 "transaction.ml" 180 5627 5651
+)
+"transaction.ml" 181 5660 5694 "transaction.ml" 181 5660 5699
+type(
+  Perms.Node.t
+)
+ident(
+  int_ref perms "transaction.ml" 180 5627 5652 "transaction.ml" 180 5627 5657
+)
+"transaction.ml" 181 5660 5661 "transaction.ml" 181 5660 5699
+type(
+  unit
+)
+"transaction.ml" 182 5701 5702 "transaction.ml" 182 5701 5719
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_write_lowpath "transaction.ml" 162 5056 5060 "transaction.ml" 162 5056 5077
+)
+"transaction.ml" 182 5701 5720 "transaction.ml" 182 5701 5721
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 180 5627 5640 "transaction.ml" 180 5627 5641
+)
+"transaction.ml" 182 5701 5722 "transaction.ml" 182 5701 5726
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 180 5627 5647 "transaction.ml" 180 5627 5651
+)
+"transaction.ml" 182 5701 5702 "transaction.ml" 182 5701 5726
+type(
+  unit
+)
+"transaction.ml" 183 5728 5729 "transaction.ml" 183 5728 5736
+type(
+  t -> Xenbus.Xb.Op.operation -> Store.Path.t -> unit
+)
+ident(
+  int_ref add_wop "transaction.ml" 147 4530 4534 "transaction.ml" 147 4530 4541
+)
+"transaction.ml" 183 5728 5737 "transaction.ml" 183 5728 5738
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 180 5627 5640 "transaction.ml" 180 5627 5641
+)
+"transaction.ml" 183 5728 5739 "transaction.ml" 183 5728 5760
+type(
+  Xenbus.Xb.Op.operation
+)
+"transaction.ml" 183 5728 5761 "transaction.ml" 183 5728 5765
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 180 5627 5647 "transaction.ml" 180 5627 5651
+)
+"transaction.ml" 183 5728 5729 "transaction.ml" 183 5728 5765
+type(
+  unit
+)
+"transaction.ml" 182 5701 5702 "transaction.ml" 183 5728 5765
+type(
+  unit
+)
+"transaction.ml" 181 5660 5661 "transaction.ml" 183 5728 5765
+type(
+  unit
+)
+"transaction.ml" 185 5767 5771 "transaction.ml" 185 5767 5773
+type(
+  t -> Perms.Connection.t -> Store.Path.t -> unit
+)
+ident(
+  def rm "transaction.ml" 190 5901 5901 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 185 5767 5774 "transaction.ml" 185 5767 5775
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 185 5767 5776 "transaction.ml" 188 5868 5899
+)
+"transaction.ml" 185 5767 5776 "transaction.ml" 185 5767 5780
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 185 5767 5781 "transaction.ml" 188 5868 5899
+)
+"transaction.ml" 185 5767 5781 "transaction.ml" 185 5767 5785
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 186 5788 5789 "transaction.ml" 188 5868 5899
+)
+"transaction.ml" 186 5788 5789 "transaction.ml" 186 5788 5797
+type(
+  Store.t -> Perms.Connection.t -> Store.Path.t -> unit
+)
+ident(
+  int_ref Store.rm "store.ml" 435 12106 12110 "store.ml" 435 12106 12112
+)
+"transaction.ml" 186 5788 5798 "transaction.ml" 186 5788 5799
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 185 5767 5774 "transaction.ml" 185 5767 5775
+)
+"transaction.ml" 186 5788 5798 "transaction.ml" 186 5788 5805
+type(
+  Store.t
+)
+"transaction.ml" 186 5788 5806 "transaction.ml" 186 5788 5810
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 185 5767 5776 "transaction.ml" 185 5767 5780
+)
+"transaction.ml" 186 5788 5811 "transaction.ml" 186 5788 5815
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 185 5767 5781 "transaction.ml" 185 5767 5785
+)
+"transaction.ml" 186 5788 5789 "transaction.ml" 186 5788 5815
+type(
+  unit
+)
+"transaction.ml" 187 5817 5818 "transaction.ml" 187 5817 5835
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_write_lowpath "transaction.ml" 162 5056 5060 "transaction.ml" 162 5056 5077
+)
+"transaction.ml" 187 5817 5836 "transaction.ml" 187 5817 5837
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 185 5767 5774 "transaction.ml" 185 5767 5775
+)
+"transaction.ml" 187 5817 5839 "transaction.ml" 187 5817 5860
+type(
+  Store.Path.t -> Store.Path.t
+)
+ident(
+  int_ref Store.Path.get_parent "store.ml" 153 4247 4251 "store.ml" 153 4247 4261
+)
+"transaction.ml" 187 5817 5861 "transaction.ml" 187 5817 5865
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 185 5767 5781 "transaction.ml" 185 5767 5785
+)
+"transaction.ml" 187 5817 5838 "transaction.ml" 187 5817 5866
+type(
+  Store.Path.t
+)
+"transaction.ml" 187 5817 5818 "transaction.ml" 187 5817 5866
+type(
+  unit
+)
+"transaction.ml" 188 5868 5869 "transaction.ml" 188 5868 5876
+type(
+  t -> Xenbus.Xb.Op.operation -> Store.Path.t -> unit
+)
+ident(
+  int_ref add_wop "transaction.ml" 147 4530 4534 "transaction.ml" 147 4530 4541
+)
+"transaction.ml" 188 5868 5877 "transaction.ml" 188 5868 5878
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 185 5767 5774 "transaction.ml" 185 5767 5775
+)
+"transaction.ml" 188 5868 5879 "transaction.ml" 188 5868 5894
+type(
+  Xenbus.Xb.Op.operation
+)
+"transaction.ml" 188 5868 5895 "transaction.ml" 188 5868 5899
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 185 5767 5781 "transaction.ml" 185 5767 5785
+)
+"transaction.ml" 188 5868 5869 "transaction.ml" 188 5868 5899
+type(
+  unit
+)
+"transaction.ml" 187 5817 5818 "transaction.ml" 188 5868 5899
+type(
+  unit
+)
+"transaction.ml" 186 5788 5789 "transaction.ml" 188 5868 5899
+type(
+  unit
+)
+"transaction.ml" 190 5901 5905 "transaction.ml" 190 5901 5907
+type(
+  t -> Perms.Connection.t -> Store.Path.t -> string list
+)
+ident(
+  def ls "transaction.ml" 195 5991 5991 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 190 5901 5908 "transaction.ml" 190 5901 5909
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 190 5901 5910 "transaction.ml" 193 5987 5989
+)
+"transaction.ml" 190 5901 5910 "transaction.ml" 190 5901 5914
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 190 5901 5915 "transaction.ml" 193 5987 5989
+)
+"transaction.ml" 190 5901 5915 "transaction.ml" 190 5901 5919
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 191 5922 5923 "transaction.ml" 193 5987 5989
+)
+"transaction.ml" 191 5922 5927 "transaction.ml" 191 5922 5928
+type(
+  string list
+)
+ident(
+  def r "transaction.ml" 192 5961 5962 "transaction.ml" 193 5987 5989
+)
+"transaction.ml" 191 5922 5931 "transaction.ml" 191 5922 5939
+type(
+  Store.t -> Perms.Connection.t -> Store.Path.t -> string list
+)
+ident(
+  int_ref Store.ls "store.ml" 336 8995 8999 "store.ml" 336 8995 9001
+)
+"transaction.ml" 191 5922 5940 "transaction.ml" 191 5922 5941
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 190 5901 5908 "transaction.ml" 190 5901 5909
+)
+"transaction.ml" 191 5922 5940 "transaction.ml" 191 5922 5947
+type(
+  Store.t
+)
+"transaction.ml" 191 5922 5948 "transaction.ml" 191 5922 5952
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 190 5901 5910 "transaction.ml" 190 5901 5914
+)
+"transaction.ml" 191 5922 5953 "transaction.ml" 191 5922 5957
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 190 5901 5915 "transaction.ml" 190 5901 5919
+)
+"transaction.ml" 191 5922 5931 "transaction.ml" 191 5922 5957
+type(
+  string list
+)
+"transaction.ml" 192 5961 5962 "transaction.ml" 192 5961 5978
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_read_lowpath "transaction.ml" 161 4977 4981 "transaction.ml" 161 4977 4997
+)
+"transaction.ml" 192 5961 5979 "transaction.ml" 192 5961 5980
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 190 5901 5908 "transaction.ml" 190 5901 5909
+)
+"transaction.ml" 192 5961 5981 "transaction.ml" 192 5961 5985
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 190 5901 5915 "transaction.ml" 190 5901 5919
+)
+"transaction.ml" 192 5961 5962 "transaction.ml" 192 5961 5985
+type(
+  unit
+)
+"transaction.ml" 193 5987 5988 "transaction.ml" 193 5987 5989
+type(
+  string list
+)
+ident(
+  int_ref r "transaction.ml" 191 5922 5927 "transaction.ml" 191 5922 5928
+)
+"transaction.ml" 192 5961 5962 "transaction.ml" 193 5987 5989
+type(
+  string list
+)
+"transaction.ml" 191 5922 5923 "transaction.ml" 193 5987 5989
+type(
+  string list
+)
+"transaction.ml" 195 5991 5995 "transaction.ml" 195 5991 5999
+type(
+  t -> Perms.Connection.t -> Store.Path.t -> string
+)
+ident(
+  def read "transaction.ml" 200 6085 6085 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 195 5991 6000 "transaction.ml" 195 5991 6001
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 195 5991 6002 "transaction.ml" 198 6081 6083
+)
+"transaction.ml" 195 5991 6002 "transaction.ml" 195 5991 6006
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 195 5991 6007 "transaction.ml" 198 6081 6083
+)
+"transaction.ml" 195 5991 6007 "transaction.ml" 195 5991 6011
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 196 6014 6015 "transaction.ml" 198 6081 6083
+)
+"transaction.ml" 196 6014 6019 "transaction.ml" 196 6014 6020
+type(
+  string
+)
+ident(
+  def r "transaction.ml" 197 6055 6056 "transaction.ml" 198 6081 6083
+)
+"transaction.ml" 196 6014 6023 "transaction.ml" 196 6014 6033
+type(
+  Store.t -> Perms.Connection.t -> Store.Path.t -> string
+)
+ident(
+  int_ref Store.read "store.ml" 323 8699 8703 "store.ml" 323 8699 8707
+)
+"transaction.ml" 196 6014 6034 "transaction.ml" 196 6014 6035
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 195 5991 6000 "transaction.ml" 195 5991 6001
+)
+"transaction.ml" 196 6014 6034 "transaction.ml" 196 6014 6041
+type(
+  Store.t
+)
+"transaction.ml" 196 6014 6042 "transaction.ml" 196 6014 6046
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 195 5991 6002 "transaction.ml" 195 5991 6006
+)
+"transaction.ml" 196 6014 6047 "transaction.ml" 196 6014 6051
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 195 5991 6007 "transaction.ml" 195 5991 6011
+)
+"transaction.ml" 196 6014 6023 "transaction.ml" 196 6014 6051
+type(
+  string
+)
+"transaction.ml" 197 6055 6056 "transaction.ml" 197 6055 6072
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_read_lowpath "transaction.ml" 161 4977 4981 "transaction.ml" 161 4977 4997
+)
+"transaction.ml" 197 6055 6073 "transaction.ml" 197 6055 6074
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 195 5991 6000 "transaction.ml" 195 5991 6001
+)
+"transaction.ml" 197 6055 6075 "transaction.ml" 197 6055 6079
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 195 5991 6007 "transaction.ml" 195 5991 6011
+)
+"transaction.ml" 197 6055 6056 "transaction.ml" 197 6055 6079
+type(
+  unit
+)
+"transaction.ml" 198 6081 6082 "transaction.ml" 198 6081 6083
+type(
+  string
+)
+ident(
+  int_ref r "transaction.ml" 196 6014 6019 "transaction.ml" 196 6014 6020
+)
+"transaction.ml" 197 6055 6056 "transaction.ml" 198 6081 6083
+type(
+  string
+)
+"transaction.ml" 196 6014 6015 "transaction.ml" 198 6081 6083
+type(
+  string
+)
+"transaction.ml" 200 6085 6089 "transaction.ml" 200 6085 6097
+type(
+  t -> Perms.Connection.t -> Store.Path.t -> Perms.Node.t
+)
+ident(
+  def getperms "transaction.ml" 205 6187 6187 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 200 6085 6098 "transaction.ml" 200 6085 6099
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 200 6085 6100 "transaction.ml" 203 6183 6185
+)
+"transaction.ml" 200 6085 6100 "transaction.ml" 200 6085 6104
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "transaction.ml" 200 6085 6105 "transaction.ml" 203 6183 6185
+)
+"transaction.ml" 200 6085 6105 "transaction.ml" 200 6085 6109
+type(
+  Store.Path.t
+)
+ident(
+  def path "transaction.ml" 201 6112 6113 "transaction.ml" 203 6183 6185
+)
+"transaction.ml" 201 6112 6117 "transaction.ml" 201 6112 6118
+type(
+  Perms.Node.t
+)
+ident(
+  def r "transaction.ml" 202 6157 6158 "transaction.ml" 203 6183 6185
+)
+"transaction.ml" 201 6112 6121 "transaction.ml" 201 6112 6135
+type(
+  Store.t -> Perms.Connection.t -> Store.Path.t -> Perms.Node.t
+)
+ident(
+  int_ref Store.getperms "store.ml" 349 9393 9397 "store.ml" 349 9393 9405
+)
+"transaction.ml" 201 6112 6136 "transaction.ml" 201 6112 6137
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 200 6085 6098 "transaction.ml" 200 6085 6099
+)
+"transaction.ml" 201 6112 6136 "transaction.ml" 201 6112 6143
+type(
+  Store.t
+)
+"transaction.ml" 201 6112 6144 "transaction.ml" 201 6112 6148
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "transaction.ml" 200 6085 6100 "transaction.ml" 200 6085 6104
+)
+"transaction.ml" 201 6112 6149 "transaction.ml" 201 6112 6153
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 200 6085 6105 "transaction.ml" 200 6085 6109
+)
+"transaction.ml" 201 6112 6121 "transaction.ml" 201 6112 6153
+type(
+  Perms.Node.t
+)
+"transaction.ml" 202 6157 6158 "transaction.ml" 202 6157 6174
+type(
+  t -> Store.Path.t -> unit
+)
+ident(
+  int_ref set_read_lowpath "transaction.ml" 161 4977 4981 "transaction.ml" 161 4977 4997
+)
+"transaction.ml" 202 6157 6175 "transaction.ml" 202 6157 6176
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 200 6085 6098 "transaction.ml" 200 6085 6099
+)
+"transaction.ml" 202 6157 6177 "transaction.ml" 202 6157 6181
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "transaction.ml" 200 6085 6105 "transaction.ml" 200 6085 6109
+)
+"transaction.ml" 202 6157 6158 "transaction.ml" 202 6157 6181
+type(
+  unit
+)
+"transaction.ml" 203 6183 6184 "transaction.ml" 203 6183 6185
+type(
+  Perms.Node.t
+)
+ident(
+  int_ref r "transaction.ml" 201 6112 6117 "transaction.ml" 201 6112 6118
+)
+"transaction.ml" 202 6157 6158 "transaction.ml" 203 6183 6185
+type(
+  Perms.Node.t
+)
+"transaction.ml" 201 6112 6113 "transaction.ml" 203 6183 6185
+type(
+  Perms.Node.t
+)
+"transaction.ml" 205 6187 6191 "transaction.ml" 205 6187 6197
+type(
+  con:string -> t -> bool
+)
+ident(
+  def commit "transaction.ml" 262 8234 8247 "transaction.ml" 0 0 -1
+)
+"transaction.ml" 205 6187 6199 "transaction.ml" 205 6187 6202
+type(
+  string
+)
+ident(
+  def con "transaction.ml" 205 6187 6203 "transaction.ml" 262 8234 8247
+)
+"transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+type(
+  t
+)
+ident(
+  def t "transaction.ml" 206 6207 6208 "transaction.ml" 262 8234 8247
+)
+"transaction.ml" 206 6207 6212 "transaction.ml" 206 6207 6225
+type(
+  bool
+)
+ident(
+  def has_write_ops "transaction.ml" 207 6255 6256 "transaction.ml" 262 8234 8247
+)
+"transaction.ml" 206 6207 6228 "transaction.ml" 206 6207 6239
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 32 1730 1730 "list.mli" 32 1730 1757
+)
+"transaction.ml" 206 6207 6240 "transaction.ml" 206 6207 6241
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 206 6207 6240 "transaction.ml" 206 6207 6247
+type(
+  (Xenbus.Xb.Op.operation * Store.Path.t) list
+)
+"transaction.ml" 206 6207 6228 "transaction.ml" 206 6207 6247
+type(
+  int
+)
+"transaction.ml" 206 6207 6248 "transaction.ml" 206 6207 6249
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( > ) "stdlib.mli" 137 5800 5800 "stdlib.mli" 137 5800 5850
+)
+"transaction.ml" 206 6207 6250 "transaction.ml" 206 6207 6251
+type(
+  int
+)
+"transaction.ml" 206 6207 6228 "transaction.ml" 206 6207 6251
+type(
+  bool
+)
+"transaction.ml" 207 6255 6260 "transaction.ml" 207 6255 6273
+type(
+  bool ref
+)
+ident(
+  def has_coalesced "transaction.ml" 208 6289 6290 "transaction.ml" 262 8234 8247
+)
+"transaction.ml" 207 6255 6276 "transaction.ml" 207 6255 6279
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"transaction.ml" 207 6255 6280 "transaction.ml" 207 6255 6285
+type(
+  bool
+)
+"transaction.ml" 207 6255 6276 "transaction.ml" 207 6255 6285
+type(
+  bool ref
+)
+"transaction.ml" 208 6289 6294 "transaction.ml" 208 6289 6306
+type(
+  bool
+)
+ident(
+  def has_commited "transaction.ml" 256 8037 8038 "transaction.ml" 262 8234 8247
+)
+"transaction.ml" 209 6309 6316 "transaction.ml" 209 6309 6317
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 209 6309 6316 "transaction.ml" 209 6309 6320
+type(
+  ty
+)
+"transaction.ml" 210 6326 6329 "transaction.ml" 210 6326 6331
+type(
+  ty
+)
+"transaction.ml" 210 6326 6359 "transaction.ml" 210 6326 6363
+type(
+  bool
+)
+"transaction.ml" 211 6364 6373 "transaction.ml" 211 6364 6376
+type(
+  int
+)
+ident(
+  def _id "transaction.ml" 212 6452 6454 "transaction.ml" 254 7977 8031
+)
+"transaction.ml" 211 6364 6378 "transaction.ml" 211 6364 6386
+type(
+  Store.t
+)
+ident(
+  def oldstore "transaction.ml" 212 6452 6454 "transaction.ml" 254 7977 8031
+)
+"transaction.ml" 211 6364 6388 "transaction.ml" 211 6364 6394
+type(
+  Store.t
+)
+ident(
+  def cstore "transaction.ml" 212 6452 6454 "transaction.ml" 254 7977 8031
+)
+"transaction.ml" 211 6364 6372 "transaction.ml" 211 6364 6395
+type(
+  int * Store.t * Store.t
+)
+"transaction.ml" 211 6364 6367 "transaction.ml" 211 6364 6395
+type(
+  ty
+)
+"transaction.ml" 212 6452 6458 "transaction.ml" 212 6452 6472
+type(
+  Store.Node.t -> Store.t -> Store.t -> bool
+)
+ident(
+  def commit_partial "transaction.ml" 238 7489 7491 "transaction.ml" 254 7977 8031
+)
+"transaction.ml" 212 6452 6473 "transaction.ml" 212 6452 6480
+type(
+  Store.Node.t
+)
+ident(
+  def oldroot "transaction.ml" 212 6452 6481 "transaction.ml" 236 7478 7482
+)
+"transaction.ml" 212 6452 6481 "transaction.ml" 212 6452 6487
+type(
+  Store.t
+)
+ident(
+  def cstore "transaction.ml" 212 6452 6488 "transaction.ml" 236 7478 7482
+)
+"transaction.ml" 212 6452 6488 "transaction.ml" 212 6452 6493
+type(
+  Store.t
+)
+ident(
+  def store "transaction.ml" 215 6608 6611 "transaction.ml" 236 7478 7482
+)
+"transaction.ml" 215 6608 6614 "transaction.ml" 215 6608 6626
+type(
+  Store.Node.t -> Store.Node.t -> Store.Path.t option -> bool
+)
+ident(
+  int_ref can_coalesce "transaction.ml" 68 2236 2240 "transaction.ml" 68 2236 2252
+)
+"transaction.ml" 215 6608 6627 "transaction.ml" 215 6608 6634
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldroot "transaction.ml" 212 6452 6473 "transaction.ml" 212 6452 6480
+)
+"transaction.ml" 215 6608 6636 "transaction.ml" 215 6608 6650
+type(
+  Store.t -> Store.Node.t
+)
+ident(
+  int_ref Store.get_root "store.ml" 248 6560 6564 "store.ml" 248 6560 6572
+)
+"transaction.ml" 215 6608 6651 "transaction.ml" 215 6608 6657
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 212 6452 6481 "transaction.ml" 212 6452 6487
+)
+"transaction.ml" 215 6608 6635 "transaction.ml" 215 6608 6658
+type(
+  Store.Node.t
+)
+"transaction.ml" 215 6608 6659 "transaction.ml" 215 6608 6660
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 215 6608 6659 "transaction.ml" 215 6608 6673
+type(
+  Store.Path.t option
+)
+"transaction.ml" 215 6608 6614 "transaction.ml" 215 6608 6673
+type(
+  bool
+)
+"transaction.ml" 216 6674 6677 "transaction.ml" 216 6674 6679
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"transaction.ml" 216 6674 6680 "transaction.ml" 216 6674 6692
+type(
+  Store.Node.t -> Store.Node.t -> Store.Path.t option -> bool
+)
+ident(
+  int_ref can_coalesce "transaction.ml" 68 2236 2240 "transaction.ml" 68 2236 2252
+)
+"transaction.ml" 216 6674 6693 "transaction.ml" 216 6674 6700
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldroot "transaction.ml" 212 6452 6473 "transaction.ml" 212 6452 6480
+)
+"transaction.ml" 216 6674 6702 "transaction.ml" 216 6674 6716
+type(
+  Store.t -> Store.Node.t
+)
+ident(
+  int_ref Store.get_root "store.ml" 248 6560 6564 "store.ml" 248 6560 6572
+)
+"transaction.ml" 216 6674 6717 "transaction.ml" 216 6674 6723
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 212 6452 6481 "transaction.ml" 212 6452 6487
+)
+"transaction.ml" 216 6674 6701 "transaction.ml" 216 6674 6724
+type(
+  Store.Node.t
+)
+"transaction.ml" 216 6674 6725 "transaction.ml" 216 6674 6726
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 216 6674 6725 "transaction.ml" 216 6674 6740
+type(
+  Store.Path.t option
+)
+"transaction.ml" 216 6674 6680 "transaction.ml" 216 6674 6740
+type(
+  bool
+)
+"transaction.ml" 215 6608 6614 "transaction.ml" 216 6674 6740
+type(
+  bool
+)
+"transaction.ml" 217 6748 6752 "transaction.ml" 217 6748 6757
+type(
+  (Store.Path.t -> unit) -> Store.Path.t option -> unit
+)
+ident(
+  int_ref Stdext.maybe "stdext.ml" 44 1372 1376 "stdext.ml" 44 1372 1381
+)
+"transaction.ml" 217 6748 6763 "transaction.ml" 217 6748 6764
+type(
+  Store.Path.t
+)
+ident(
+  def p "transaction.ml" 218 6768 6773 "transaction.ml" 223 7014 7088
+)
+"transaction.ml" 218 6768 6777 "transaction.ml" 218 6768 6778
+type(
+  Store.Node.t option
+)
+ident(
+  def n "transaction.ml" 222 6937 6942 "transaction.ml" 223 7014 7088
+)
+"transaction.ml" 218 6768 6781 "transaction.ml" 218 6768 6795
+type(
+  Store.t -> Store.Path.t -> Store.Node.t option
+)
+ident(
+  int_ref Store.get_node "store.ml" 317 8549 8553 "store.ml" 317 8549 8561
+)
+"transaction.ml" 218 6768 6796 "transaction.ml" 218 6768 6801
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 212 6452 6488 "transaction.ml" 212 6452 6493
+)
+"transaction.ml" 218 6768 6802 "transaction.ml" 218 6768 6803
+type(
+  Store.Path.t
+)
+ident(
+  int_ref p "transaction.ml" 217 6748 6763 "transaction.ml" 217 6748 6764
+)
+"transaction.ml" 218 6768 6781 "transaction.ml" 218 6768 6803
+type(
+  Store.Node.t option
+)
+"transaction.ml" 222 6937 6942 "transaction.ml" 222 6937 6947
+type(
+  (Store.Node.t -> unit) -> Store.Node.t option -> unit
+)
+ident(
+  int_ref Stdext.maybe "stdext.ml" 44 1372 1376 "stdext.ml" 44 1372 1381
+)
+"transaction.ml" 222 6937 6953 "transaction.ml" 222 6937 6954
+type(
+  Store.Node.t
+)
+ident(
+  def n "transaction.ml" 222 6937 6958 "transaction.ml" 222 6937 7009
+)
+"transaction.ml" 222 6937 6958 "transaction.ml" 222 6937 6972
+type(
+  Store.t -> Store.Path.t -> Store.Node.t -> Quota.t -> Quota.t -> unit
+)
+ident(
+  int_ref Store.set_node "store.ml" 407 11016 11020 "store.ml" 407 11016 11028
+)
+"transaction.ml" 222 6937 6973 "transaction.ml" 222 6937 6979
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 212 6452 6481 "transaction.ml" 212 6452 6487
+)
+"transaction.ml" 222 6937 6980 "transaction.ml" 222 6937 6981
+type(
+  Store.Path.t
+)
+ident(
+  int_ref p "transaction.ml" 217 6748 6763 "transaction.ml" 217 6748 6764
+)
+"transaction.ml" 222 6937 6982 "transaction.ml" 222 6937 6983
+type(
+  Store.Node.t
+)
+ident(
+  int_ref n "transaction.ml" 222 6937 6953 "transaction.ml" 222 6937 6954
+)
+"transaction.ml" 222 6937 6984 "transaction.ml" 222 6937 6985
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 222 6937 6984 "transaction.ml" 222 6937 6991
+type(
+  Quota.t
+)
+"transaction.ml" 222 6937 6992 "transaction.ml" 222 6937 6997
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 212 6452 6488 "transaction.ml" 212 6452 6493
+)
+"transaction.ml" 222 6937 6992 "transaction.ml" 222 6937 7009
+type(
+  Quota.t
+)
+"transaction.ml" 222 6937 6958 "transaction.ml" 222 6937 7009
+type(
+  unit
+)
+"transaction.ml" 222 6937 6948 "transaction.ml" 222 6937 7010
+type(
+  Store.Node.t -> unit
+)
+"transaction.ml" 222 6937 7011 "transaction.ml" 222 6937 7012
+type(
+  Store.Node.t option
+)
+ident(
+  int_ref n "transaction.ml" 218 6768 6777 "transaction.ml" 218 6768 6778
+)
+"transaction.ml" 222 6937 6942 "transaction.ml" 222 6937 7012
+type(
+  unit
+)
+"transaction.ml" 223 7014 7019 "transaction.ml" 223 7014 7041
+type(
+  string -> con:string -> tid:int -> unit
+)
+ident(
+  int_ref Logging.write_coalesce "logging.ml" 321 10604 10608 "logging.ml" 321 10604 10622
+)
+"transaction.ml" 223 7014 7048 "transaction.ml" 223 7014 7054
+type(
+  t -> int
+)
+ident(
+  int_ref get_id "transaction.ml" 92 2984 2988 "transaction.ml" 92 2984 2994
+)
+"transaction.ml" 223 7014 7055 "transaction.ml" 223 7014 7056
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 223 7014 7047 "transaction.ml" 223 7014 7057
+type(
+  int
+)
+"transaction.ml" 223 7014 7059 "transaction.ml" 223 7014 7062
+type(
+  string
+)
+ident(
+  int_ref con "transaction.ml" 205 6187 6199 "transaction.ml" 205 6187 6202
+)
+"transaction.ml" 223 7014 7064 "transaction.ml" 223 7014 7084
+type(
+  Store.Path.t -> string
+)
+ident(
+  int_ref Store.Path.to_string "store.ml" 148 4173 4177 "store.ml" 148 4173 4186
+)
+"transaction.ml" 223 7014 7085 "transaction.ml" 223 7014 7086
+type(
+  Store.Path.t
+)
+ident(
+  int_ref p "transaction.ml" 217 6748 6763 "transaction.ml" 217 6748 6764
+)
+"transaction.ml" 223 7014 7063 "transaction.ml" 223 7014 7087
+type(
+  string
+)
+"transaction.ml" 223 7014 7019 "transaction.ml" 223 7014 7087
+type(
+  unit
+)
+"transaction.ml" 222 6937 6942 "transaction.ml" 223 7014 7088
+type(
+  unit
+)
+"transaction.ml" 218 6768 6773 "transaction.ml" 223 7014 7088
+type(
+  unit
+)
+"transaction.ml" 217 6748 6758 "transaction.ml" 224 7089 7094
+type(
+  Store.Path.t -> unit
+)
+"transaction.ml" 224 7089 7095 "transaction.ml" 224 7089 7096
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 224 7089 7095 "transaction.ml" 224 7089 7110
+type(
+  Store.Path.t option
+)
+"transaction.ml" 217 6748 6752 "transaction.ml" 224 7089 7110
+type(
+  unit
+)
+"transaction.ml" 225 7112 7116 "transaction.ml" 225 7112 7121
+type(
+  (Store.Path.t -> unit) -> Store.Path.t option -> unit
+)
+ident(
+  int_ref Stdext.maybe "stdext.ml" 44 1372 1376 "stdext.ml" 44 1372 1381
+)
+"transaction.ml" 225 7112 7127 "transaction.ml" 225 7112 7128
+type(
+  Store.Path.t
+)
+ident(
+  def p "transaction.ml" 226 7132 7137 "transaction.ml" 226 7132 7204
+)
+"transaction.ml" 226 7132 7137 "transaction.ml" 226 7132 7158
+type(
+  tid:int -> con:string -> string -> unit
+)
+ident(
+  int_ref Logging.read_coalesce "logging.ml" 318 10463 10467 "logging.ml" 318 10463 10480
+)
+"transaction.ml" 226 7132 7165 "transaction.ml" 226 7132 7171
+type(
+  t -> int
+)
+ident(
+  int_ref get_id "transaction.ml" 92 2984 2988 "transaction.ml" 92 2984 2994
+)
+"transaction.ml" 226 7132 7172 "transaction.ml" 226 7132 7173
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 226 7132 7164 "transaction.ml" 226 7132 7174
+type(
+  int
+)
+"transaction.ml" 226 7132 7176 "transaction.ml" 226 7132 7179
+type(
+  string
+)
+ident(
+  int_ref con "transaction.ml" 205 6187 6199 "transaction.ml" 205 6187 6202
+)
+"transaction.ml" 226 7132 7181 "transaction.ml" 226 7132 7201
+type(
+  Store.Path.t -> string
+)
+ident(
+  int_ref Store.Path.to_string "store.ml" 148 4173 4177 "store.ml" 148 4173 4186
+)
+"transaction.ml" 226 7132 7202 "transaction.ml" 226 7132 7203
+type(
+  Store.Path.t
+)
+ident(
+  int_ref p "transaction.ml" 225 7112 7127 "transaction.ml" 225 7112 7128
+)
+"transaction.ml" 226 7132 7180 "transaction.ml" 226 7132 7204
+type(
+  string
+)
+"transaction.ml" 226 7132 7137 "transaction.ml" 226 7132 7204
+type(
+  unit
+)
+"transaction.ml" 225 7112 7122 "transaction.ml" 227 7205 7211
+type(
+  Store.Path.t -> unit
+)
+"transaction.ml" 227 7205 7212 "transaction.ml" 227 7205 7213
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 227 7205 7212 "transaction.ml" 227 7205 7226
+type(
+  Store.Path.t option
+)
+"transaction.ml" 225 7112 7116 "transaction.ml" 227 7205 7226
+type(
+  unit
+)
+"transaction.ml" 228 7228 7232 "transaction.ml" 228 7228 7245
+type(
+  bool ref
+)
+ident(
+  int_ref has_coalesced "transaction.ml" 207 6255 6260 "transaction.ml" 207 6255 6273
+)
+"transaction.ml" 228 7228 7246 "transaction.ml" 228 7228 7248
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"transaction.ml" 228 7228 7249 "transaction.ml" 228 7228 7253
+type(
+  bool
+)
+"transaction.ml" 228 7228 7232 "transaction.ml" 228 7228 7253
+type(
+  unit
+)
+"transaction.ml" 229 7255 7259 "transaction.ml" 229 7255 7290
+type(
+  Store.t -> unit
+)
+ident(
+  int_ref Store.incr_transaction_coalesce "store.ml" 503 14164 14168 "store.ml" 503 14164 14193
+)
+"transaction.ml" 229 7255 7291 "transaction.ml" 229 7255 7297
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 212 6452 6481 "transaction.ml" 212 6452 6487
+)
+"transaction.ml" 229 7255 7259 "transaction.ml" 229 7255 7297
+type(
+  unit
+)
+"transaction.ml" 230 7299 7303 "transaction.ml" 230 7299 7307
+type(
+  bool
+)
+"transaction.ml" 229 7255 7259 "transaction.ml" 230 7299 7307
+type(
+  bool
+)
+"transaction.ml" 228 7228 7232 "transaction.ml" 230 7299 7307
+type(
+  bool
+)
+"transaction.ml" 225 7112 7116 "transaction.ml" 230 7299 7307
+type(
+  bool
+)
+"transaction.ml" 216 6674 6746 "transaction.ml" 231 7308 7312
+type(
+  bool
+)
+"transaction.ml" 234 7427 7431 "transaction.ml" 234 7427 7459
+type(
+  Store.t -> unit
+)
+ident(
+  int_ref Store.incr_transaction_abort "store.ml" 505 14274 14278 "store.ml" 505 14274 14300
+)
+"transaction.ml" 234 7427 7460 "transaction.ml" 234 7427 7466
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 212 6452 6481 "transaction.ml" 212 6452 6487
+)
+"transaction.ml" 234 7427 7431 "transaction.ml" 234 7427 7466
+type(
+  unit
+)
+"transaction.ml" 235 7468 7472 "transaction.ml" 235 7468 7477
+type(
+  bool
+)
+"transaction.ml" 231 7308 7318 "transaction.ml" 236 7478 7482
+type(
+  bool
+)
+"transaction.ml" 215 6608 6611 "transaction.ml" 236 7478 7482
+type(
+  bool
+)
+"transaction.ml" 238 7489 7495 "transaction.ml" 238 7489 7505
+type(
+  Store.Node.t -> Store.t -> Store.t -> bool
+)
+ident(
+  def try_commit "transaction.ml" 251 7918 7920 "transaction.ml" 254 7977 8031
+)
+"transaction.ml" 238 7489 7506 "transaction.ml" 238 7489 7513
+type(
+  Store.Node.t
+)
+ident(
+  def oldroot "transaction.ml" 238 7489 7514 "transaction.ml" 249 7872 7911
+)
+"transaction.ml" 238 7489 7514 "transaction.ml" 238 7489 7520
+type(
+  Store.t
+)
+ident(
+  def cstore "transaction.ml" 238 7489 7521 "transaction.ml" 249 7872 7911
+)
+"transaction.ml" 238 7489 7521 "transaction.ml" 238 7489 7526
+type(
+  Store.t
+)
+ident(
+  def store "transaction.ml" 239 7529 7532 "transaction.ml" 249 7872 7911
+)
+"transaction.ml" 239 7529 7535 "transaction.ml" 239 7529 7542
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldroot "transaction.ml" 238 7489 7506 "transaction.ml" 238 7489 7513
+)
+"transaction.ml" 239 7529 7543 "transaction.ml" 239 7529 7545
+type(
+  Store.Node.t -> Store.Node.t -> bool
+)
+ident(
+  int_ref Stdlib.( == ) "stdlib.mli" 188 8052 8052 "stdlib.mli" 188 8052 8094
+)
+"transaction.ml" 239 7529 7546 "transaction.ml" 239 7529 7560
+type(
+  Store.t -> Store.Node.t
+)
+ident(
+  int_ref Store.get_root "store.ml" 248 6560 6564 "store.ml" 248 6560 6572
+)
+"transaction.ml" 239 7529 7561 "transaction.ml" 239 7529 7567
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 238 7489 7514 "transaction.ml" 238 7489 7520
+)
+"transaction.ml" 239 7529 7546 "transaction.ml" 239 7529 7567
+type(
+  Store.Node.t
+)
+"transaction.ml" 239 7529 7535 "transaction.ml" 239 7529 7567
+type(
+  bool
+)
+"transaction.ml" 242 7669 7676 "transaction.ml" 242 7669 7689
+type(
+  bool
+)
+ident(
+  int_ref has_write_ops "transaction.ml" 206 6207 6212 "transaction.ml" 206 6207 6225
+)
+"transaction.ml" 243 7697 7702 "transaction.ml" 243 7697 7716
+type(
+  Store.t -> Store.Node.t -> unit
+)
+ident(
+  int_ref Store.set_root "store.ml" 249 6592 6596 "store.ml" 249 6592 6604
+)
+"transaction.ml" 243 7697 7717 "transaction.ml" 243 7697 7723
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 238 7489 7514 "transaction.ml" 238 7489 7520
+)
+"transaction.ml" 243 7697 7725 "transaction.ml" 243 7697 7739
+type(
+  Store.t -> Store.Node.t
+)
+ident(
+  int_ref Store.get_root "store.ml" 248 6560 6564 "store.ml" 248 6560 6572
+)
+"transaction.ml" 243 7697 7740 "transaction.ml" 243 7697 7745
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 238 7489 7521 "transaction.ml" 238 7489 7526
+)
+"transaction.ml" 243 7697 7724 "transaction.ml" 243 7697 7746
+type(
+  Store.Node.t
+)
+"transaction.ml" 243 7697 7702 "transaction.ml" 243 7697 7746
+type(
+  unit
+)
+"transaction.ml" 244 7748 7753 "transaction.ml" 244 7748 7768
+type(
+  Store.t -> Quota.t -> unit
+)
+ident(
+  int_ref Store.set_quota "store.ml" 252 6672 6676 "store.ml" 252 6672 6685
+)
+"transaction.ml" 244 7748 7769 "transaction.ml" 244 7748 7775
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 238 7489 7514 "transaction.ml" 238 7489 7520
+)
+"transaction.ml" 244 7748 7777 "transaction.ml" 244 7748 7792
+type(
+  Store.t -> Quota.t
+)
+ident(
+  int_ref Store.get_quota "store.ml" 251 6638 6642 "store.ml" 251 6638 6651
+)
+"transaction.ml" 244 7748 7793 "transaction.ml" 244 7748 7798
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 238 7489 7521 "transaction.ml" 238 7489 7526
+)
+"transaction.ml" 244 7748 7776 "transaction.ml" 244 7748 7799
+type(
+  Quota.t
+)
+"transaction.ml" 244 7748 7753 "transaction.ml" 244 7748 7799
+type(
+  unit
+)
+"transaction.ml" 242 7669 7695 "transaction.ml" 245 7800 7805
+type(
+  unit
+)
+"transaction.ml" 242 7669 7673 "transaction.ml" 245 7800 7805
+type(
+  unit
+)
+"transaction.ml" 246 7807 7811 "transaction.ml" 246 7807 7815
+type(
+  bool
+)
+"transaction.ml" 239 7529 7573 "transaction.ml" 247 7816 7820
+type(
+  bool
+)
+"transaction.ml" 249 7872 7876 "transaction.ml" 249 7872 7890
+type(
+  Store.Node.t -> Store.t -> Store.t -> bool
+)
+ident(
+  int_ref commit_partial "transaction.ml" 212 6452 6458 "transaction.ml" 212 6452 6472
+)
+"transaction.ml" 249 7872 7891 "transaction.ml" 249 7872 7898
+type(
+  Store.Node.t
+)
+ident(
+  int_ref oldroot "transaction.ml" 238 7489 7506 "transaction.ml" 238 7489 7513
+)
+"transaction.ml" 249 7872 7899 "transaction.ml" 249 7872 7905
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 238 7489 7514 "transaction.ml" 238 7489 7520
+)
+"transaction.ml" 249 7872 7906 "transaction.ml" 249 7872 7911
+type(
+  Store.t
+)
+ident(
+  int_ref store "transaction.ml" 238 7489 7521 "transaction.ml" 238 7489 7526
+)
+"transaction.ml" 249 7872 7876 "transaction.ml" 249 7872 7911
+type(
+  bool
+)
+"transaction.ml" 239 7529 7532 "transaction.ml" 249 7872 7911
+type(
+  bool
+)
+"transaction.ml" 251 7918 7923 "transaction.ml" 251 7918 7924
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 251 7918 7924 "transaction.ml" 251 7918 7935
+type(
+  bool ref
+)
+ident(
+  int_ref test_eagain "transaction.ml" 22 809 813 "transaction.ml" 22 809 824
+)
+"transaction.ml" 251 7918 7923 "transaction.ml" 251 7918 7935
+type(
+  bool
+)
+"transaction.ml" 251 7918 7936 "transaction.ml" 251 7918 7938
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"transaction.ml" 251 7918 7939 "transaction.ml" 251 7918 7949
+type(
+  int -> int
+)
+ident(
+  int_ref Stdlib.Random.int "random.mli" 40 1912 1912 "random.mli" 40 1912 1932
+)
+"transaction.ml" 251 7918 7950 "transaction.ml" 251 7918 7951
+type(
+  int
+)
+"transaction.ml" 251 7918 7939 "transaction.ml" 251 7918 7951
+type(
+  int
+)
+"transaction.ml" 251 7918 7952 "transaction.ml" 251 7918 7953
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"transaction.ml" 251 7918 7954 "transaction.ml" 251 7918 7955
+type(
+  int
+)
+"transaction.ml" 251 7918 7939 "transaction.ml" 251 7918 7955
+type(
+  bool
+)
+"transaction.ml" 251 7918 7923 "transaction.ml" 251 7918 7955
+type(
+  bool
+)
+"transaction.ml" 252 7961 7964 "transaction.ml" 252 7961 7969
+type(
+  bool
+)
+"transaction.ml" 254 7977 7980 "transaction.ml" 254 7977 7990
+type(
+  Store.Node.t -> Store.t -> Store.t -> bool
+)
+ident(
+  int_ref try_commit "transaction.ml" 238 7489 7495 "transaction.ml" 238 7489 7505
+)
+"transaction.ml" 254 7977 7992 "transaction.ml" 254 7977 8006
+type(
+  Store.t -> Store.Node.t
+)
+ident(
+  int_ref Store.get_root "store.ml" 248 6560 6564 "store.ml" 248 6560 6572
+)
+"transaction.ml" 254 7977 8007 "transaction.ml" 254 7977 8015
+type(
+  Store.t
+)
+ident(
+  int_ref oldstore "transaction.ml" 211 6364 6378 "transaction.ml" 211 6364 6386
+)
+"transaction.ml" 254 7977 7991 "transaction.ml" 254 7977 8016
+type(
+  Store.Node.t
+)
+"transaction.ml" 254 7977 8017 "transaction.ml" 254 7977 8023
+type(
+  Store.t
+)
+ident(
+  int_ref cstore "transaction.ml" 211 6364 6388 "transaction.ml" 211 6364 6394
+)
+"transaction.ml" 254 7977 8024 "transaction.ml" 254 7977 8025
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 254 7977 8024 "transaction.ml" 254 7977 8031
+type(
+  Store.t
+)
+"transaction.ml" 254 7977 7980 "transaction.ml" 254 7977 8031
+type(
+  bool
+)
+"transaction.ml" 251 7918 7920 "transaction.ml" 254 7977 8031
+type(
+  bool
+)
+"transaction.ml" 238 7489 7491 "transaction.ml" 254 7977 8031
+type(
+  bool
+)
+"transaction.ml" 212 6452 6454 "transaction.ml" 254 7977 8031
+type(
+  bool
+)
+"transaction.ml" 209 6309 6310 "transaction.ml" 254 7977 8031
+type(
+  bool
+)
+"transaction.ml" 256 8037 8041 "transaction.ml" 256 8037 8053
+type(
+  bool
+)
+ident(
+  int_ref has_commited "transaction.ml" 208 6289 6294 "transaction.ml" 208 6289 6306
+)
+"transaction.ml" 256 8037 8054 "transaction.ml" 256 8037 8056
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"transaction.ml" 256 8037 8057 "transaction.ml" 256 8037 8070
+type(
+  bool
+)
+ident(
+  int_ref has_write_ops "transaction.ml" 206 6207 6212 "transaction.ml" 206 6207 6225
+)
+"transaction.ml" 256 8037 8041 "transaction.ml" 256 8037 8070
+type(
+  bool
+)
+"transaction.ml" 257 8076 8078 "transaction.ml" 257 8076 8088
+type(
+  Store.t -> unit
+)
+ident(
+  int_ref Disk.write "disk.ml" 146 3901 3905 "disk.ml" 146 3901 3910
+)
+"transaction.ml" 257 8076 8089 "transaction.ml" 257 8076 8090
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 257 8076 8089 "transaction.ml" 257 8076 8096
+type(
+  Store.t
+)
+"transaction.ml" 257 8076 8078 "transaction.ml" 257 8076 8096
+type(
+  unit
+)
+"transaction.ml" 256 8037 8038 "transaction.ml" 257 8076 8096
+type(
+  unit
+)
+"transaction.ml" 258 8098 8102 "transaction.ml" 258 8098 8105
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"transaction.ml" 258 8098 8106 "transaction.ml" 258 8098 8118
+type(
+  bool
+)
+ident(
+  int_ref has_commited "transaction.ml" 208 6289 6294 "transaction.ml" 208 6289 6306
+)
+"transaction.ml" 258 8098 8102 "transaction.ml" 258 8098 8118
+type(
+  bool
+)
+"transaction.ml" 259 8119 8125 "transaction.ml" 259 8119 8141
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  int_ref Logging.conflict "logging.ml" 322 10689 10693 "logging.ml" 322 10689 10701
+)
+"transaction.ml" 259 8119 8148 "transaction.ml" 259 8119 8154
+type(
+  t -> int
+)
+ident(
+  int_ref get_id "transaction.ml" 92 2984 2988 "transaction.ml" 92 2984 2994
+)
+"transaction.ml" 259 8119 8155 "transaction.ml" 259 8119 8156
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 259 8119 8147 "transaction.ml" 259 8119 8157
+type(
+  int
+)
+"transaction.ml" 259 8119 8159 "transaction.ml" 259 8119 8162
+type(
+  string
+)
+ident(
+  int_ref con "transaction.ml" 205 6187 6199 "transaction.ml" 205 6187 6202
+)
+"transaction.ml" 259 8119 8125 "transaction.ml" 259 8119 8162
+type(
+  unit
+)
+"transaction.ml" 260 8163 8172 "transaction.ml" 260 8163 8175
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"transaction.ml" 260 8163 8176 "transaction.ml" 260 8163 8177
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"transaction.ml" 260 8163 8177 "transaction.ml" 260 8163 8190
+type(
+  bool ref
+)
+ident(
+  int_ref has_coalesced "transaction.ml" 207 6255 6260 "transaction.ml" 207 6255 6273
+)
+"transaction.ml" 260 8163 8176 "transaction.ml" 260 8163 8190
+type(
+  bool
+)
+"transaction.ml" 260 8163 8172 "transaction.ml" 260 8163 8190
+type(
+  bool
+)
+"transaction.ml" 261 8191 8197 "transaction.ml" 261 8191 8211
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  int_ref Logging.commit "logging.ml" 323 10741 10745 "logging.ml" 323 10741 10751
+)
+"transaction.ml" 261 8191 8218 "transaction.ml" 261 8191 8224
+type(
+  t -> int
+)
+ident(
+  int_ref get_id "transaction.ml" 92 2984 2988 "transaction.ml" 92 2984 2994
+)
+"transaction.ml" 261 8191 8225 "transaction.ml" 261 8191 8226
+type(
+  t
+)
+ident(
+  int_ref t "transaction.ml" 205 6187 6203 "transaction.ml" 205 6187 6204
+)
+"transaction.ml" 261 8191 8217 "transaction.ml" 261 8191 8227
+type(
+  int
+)
+"transaction.ml" 261 8191 8229 "transaction.ml" 261 8191 8232
+type(
+  string
+)
+ident(
+  int_ref con "transaction.ml" 205 6187 6199 "transaction.ml" 205 6187 6202
+)
+"transaction.ml" 261 8191 8197 "transaction.ml" 261 8191 8232
+type(
+  unit
+)
+"transaction.ml" 260 8163 8169 "transaction.ml" 261 8191 8232
+type(
+  unit
+)
+"transaction.ml" 258 8098 8099 "transaction.ml" 261 8191 8232
+type(
+  unit
+)
+"transaction.ml" 262 8234 8235 "transaction.ml" 262 8234 8247
+type(
+  bool
+)
+ident(
+  int_ref has_commited "transaction.ml" 208 6289 6294 "transaction.ml" 208 6289 6306
+)
+"transaction.ml" 258 8098 8099 "transaction.ml" 262 8234 8247
+type(
+  bool
+)
+"transaction.ml" 256 8037 8038 "transaction.ml" 262 8234 8247
+type(
+  bool
+)
+"transaction.ml" 208 6289 6290 "transaction.ml" 262 8234 8247
+type(
+  bool
+)
+"transaction.ml" 207 6255 6256 "transaction.ml" 262 8234 8247
+type(
+  bool
+)
+"transaction.ml" 206 6207 6208 "transaction.ml" 262 8234 8247
+type(
+  bool
+)

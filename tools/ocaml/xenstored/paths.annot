@@ -1,0 +1,176 @@
+"paths.ml" 1 0 4 "paths.ml" 1 0 11
+type(
+  string
+)
+ident(
+  def sbindir "paths.ml" 2 28 28 "paths.ml" 0 0 -1
+)
+"paths.ml" 1 0 14 "paths.ml" 1 0 25
+type(
+  string
+)
+"paths.ml" 2 28 32 "paths.ml" 2 28 38
+type(
+  string
+)
+ident(
+  def bindir "paths.ml" 3 54 54 "paths.ml" 0 0 -1
+)
+"paths.ml" 2 28 41 "paths.ml" 2 28 51
+type(
+  string
+)
+"paths.ml" 3 54 58 "paths.ml" 3 54 65
+type(
+  string
+)
+ident(
+  def libexec "paths.ml" 4 89 89 "paths.ml" 0 0 -1
+)
+"paths.ml" 3 54 68 "paths.ml" 3 54 86
+type(
+  string
+)
+"paths.ml" 4 89 93 "paths.ml" 4 89 104
+type(
+  string
+)
+ident(
+  def libexec_bin "paths.ml" 5 132 132 "paths.ml" 0 0 -1
+)
+"paths.ml" 4 89 107 "paths.ml" 4 89 129
+type(
+  string
+)
+"paths.ml" 5 132 136 "paths.ml" 5 132 142
+type(
+  string
+)
+ident(
+  def libdir "paths.ml" 6 160 160 "paths.ml" 0 0 -1
+)
+"paths.ml" 5 132 145 "paths.ml" 5 132 157
+type(
+  string
+)
+"paths.ml" 6 160 164 "paths.ml" 6 160 172
+type(
+  string
+)
+ident(
+  def sharedir "paths.ml" 7 190 190 "paths.ml" 0 0 -1
+)
+"paths.ml" 6 160 175 "paths.ml" 6 160 187
+type(
+  string
+)
+"paths.ml" 7 190 194 "paths.ml" 7 190 208
+type(
+  string
+)
+ident(
+  def xenfirmwaredir "paths.ml" 8 237 237 "paths.ml" 0 0 -1
+)
+"paths.ml" 7 190 211 "paths.ml" 7 190 234
+type(
+  string
+)
+"paths.ml" 8 237 241 "paths.ml" 8 237 255
+type(
+  string
+)
+ident(
+  def xen_config_dir "paths.ml" 9 271 271 "paths.ml" 0 0 -1
+)
+"paths.ml" 8 237 258 "paths.ml" 8 237 268
+type(
+  string
+)
+"paths.ml" 9 271 275 "paths.ml" 9 271 289
+type(
+  string
+)
+ident(
+  def xen_script_dir "paths.ml" 10 313 313 "paths.ml" 0 0 -1
+)
+"paths.ml" 9 271 292 "paths.ml" 9 271 310
+type(
+  string
+)
+"paths.ml" 10 313 317 "paths.ml" 10 313 329
+type(
+  string
+)
+ident(
+  def xen_lock_dir "paths.ml" 11 346 346 "paths.ml" 0 0 -1
+)
+"paths.ml" 10 313 332 "paths.ml" 10 313 343
+type(
+  string
+)
+"paths.ml" 11 346 350 "paths.ml" 11 346 361
+type(
+  string
+)
+ident(
+  def xen_run_dir "paths.ml" 12 381 381 "paths.ml" 0 0 -1
+)
+"paths.ml" 11 346 364 "paths.ml" 11 346 378
+type(
+  string
+)
+"paths.ml" 12 381 385 "paths.ml" 12 381 399
+type(
+  string
+)
+ident(
+  def xen_paging_dir "paths.ml" 13 429 429 "paths.ml" 0 0 -1
+)
+"paths.ml" 12 381 402 "paths.ml" 12 381 426
+type(
+  string
+)
+"paths.ml" 13 429 433 "paths.ml" 13 429 445
+type(
+  string
+)
+ident(
+  def xen_dump_dir "paths.ml" 14 470 470 "paths.ml" 0 0 -1
+)
+"paths.ml" 13 429 448 "paths.ml" 13 429 467
+type(
+  string
+)
+"paths.ml" 14 470 474 "paths.ml" 14 470 485
+type(
+  string
+)
+ident(
+  def xen_log_dir "paths.ml" 15 505 505 "paths.ml" 0 0 -1
+)
+"paths.ml" 14 470 488 "paths.ml" 14 470 502
+type(
+  string
+)
+"paths.ml" 15 505 509 "paths.ml" 15 505 520
+type(
+  string
+)
+ident(
+  def xen_lib_dir "paths.ml" 16 540 540 "paths.ml" 0 0 -1
+)
+"paths.ml" 15 505 523 "paths.ml" 15 505 537
+type(
+  string
+)
+"paths.ml" 16 540 544 "paths.ml" 16 540 558
+type(
+  string
+)
+ident(
+  def xen_run_stored "paths.ml" 16 540 581 "paths.ml" 0 0 -1
+)
+"paths.ml" 16 540 561 "paths.ml" 16 540 581
+type(
+  string
+)

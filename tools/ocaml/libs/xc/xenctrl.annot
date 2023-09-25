@@ -1,0 +1,748 @@
+"xenctrl.ml" 171 3394 3398 "xenctrl.ml" 171 3394 3404
+type(
+  handle option ref
+)
+ident(
+  def handle "xenctrl.ml" 173 3417 3417 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 171 3394 3407 "xenctrl.ml" 171 3394 3410
+type(
+  handle option -> handle option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"xenctrl.ml" 171 3394 3411 "xenctrl.ml" 171 3394 3415
+type(
+  handle option
+)
+"xenctrl.ml" 171 3394 3407 "xenctrl.ml" 171 3394 3415
+type(
+  handle option ref
+)
+"xenctrl.ml" 173 3417 3421 "xenctrl.ml" 173 3417 3431
+type(
+  unit -> handle option
+)
+ident(
+  def get_handle "xenctrl.ml" 175 3446 3446 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 173 3417 3432 "xenctrl.ml" 173 3417 3434
+type(
+  unit
+)
+"xenctrl.ml" 173 3417 3437 "xenctrl.ml" 173 3417 3438
+type(
+  handle option ref -> handle option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"xenctrl.ml" 173 3417 3438 "xenctrl.ml" 173 3417 3444
+type(
+  handle option ref
+)
+ident(
+  int_ref handle "xenctrl.ml" 171 3394 3398 "xenctrl.ml" 171 3394 3404
+)
+"xenctrl.ml" 173 3417 3437 "xenctrl.ml" 173 3417 3444
+type(
+  handle option
+)
+"xenctrl.ml" 175 3446 3450 "xenctrl.ml" 175 3446 3462
+type(
+  unit -> unit
+)
+ident(
+  def close_handle "xenctrl.ml" 180 3550 3550 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 175 3446 3463 "xenctrl.ml" 175 3446 3465
+type(
+  unit
+)
+"xenctrl.ml" 176 3468 3475 "xenctrl.ml" 176 3468 3476
+type(
+  handle option ref -> handle option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"xenctrl.ml" 176 3468 3476 "xenctrl.ml" 176 3468 3482
+type(
+  handle option ref
+)
+ident(
+  int_ref handle "xenctrl.ml" 171 3394 3398 "xenctrl.ml" 171 3394 3404
+)
+"xenctrl.ml" 176 3468 3475 "xenctrl.ml" 176 3468 3482
+type(
+  handle option
+)
+"xenctrl.ml" 177 3488 3496 "xenctrl.ml" 177 3488 3497
+type(
+  handle
+)
+ident(
+  def h "xenctrl.ml" 177 3488 3501 "xenctrl.ml" 177 3488 3534
+)
+"xenctrl.ml" 177 3488 3491 "xenctrl.ml" 177 3488 3497
+type(
+  handle option
+)
+"xenctrl.ml" 177 3488 3501 "xenctrl.ml" 177 3488 3507
+type(
+  handle option ref
+)
+ident(
+  int_ref handle "xenctrl.ml" 171 3394 3398 "xenctrl.ml" 171 3394 3404
+)
+"xenctrl.ml" 177 3488 3508 "xenctrl.ml" 177 3488 3510
+type(
+  handle option ref -> handle option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"xenctrl.ml" 177 3488 3511 "xenctrl.ml" 177 3488 3515
+type(
+  handle option
+)
+"xenctrl.ml" 177 3488 3501 "xenctrl.ml" 177 3488 3515
+type(
+  unit
+)
+"xenctrl.ml" 177 3488 3517 "xenctrl.ml" 177 3488 3532
+type(
+  handle -> unit
+)
+ident(
+  int_ref interface_close "xenctrl.ml" 169 3324 3324 "xenctrl.ml" 169 3324 3392
+)
+"xenctrl.ml" 177 3488 3533 "xenctrl.ml" 177 3488 3534
+type(
+  handle
+)
+ident(
+  int_ref h "xenctrl.ml" 177 3488 3496 "xenctrl.ml" 177 3488 3497
+)
+"xenctrl.ml" 177 3488 3517 "xenctrl.ml" 177 3488 3534
+type(
+  unit
+)
+"xenctrl.ml" 177 3488 3501 "xenctrl.ml" 177 3488 3534
+type(
+  unit
+)
+"xenctrl.ml" 178 3535 3538 "xenctrl.ml" 178 3535 3542
+type(
+  handle option
+)
+"xenctrl.ml" 178 3535 3546 "xenctrl.ml" 178 3535 3548
+type(
+  unit
+)
+"xenctrl.ml" 176 3468 3469 "xenctrl.ml" 178 3535 3548
+type(
+  unit
+)
+"xenctrl.ml" 180 3550 3554 "xenctrl.ml" 180 3550 3563
+type(
+  (handle -> 'a) -> 'a
+)
+ident(
+  def with_intf "xenctrl.ml" 193 3782 3782 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 180 3550 3564 "xenctrl.ml" 180 3550 3565
+type(
+  handle -> 'a
+)
+ident(
+  def f "xenctrl.ml" 181 3568 3569 "xenctrl.ml" 191 3775 3780
+)
+"xenctrl.ml" 181 3568 3575 "xenctrl.ml" 181 3568 3576
+type(
+  handle option ref -> handle option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"xenctrl.ml" 181 3568 3576 "xenctrl.ml" 181 3568 3582
+type(
+  handle option ref
+)
+ident(
+  int_ref handle "xenctrl.ml" 171 3394 3398 "xenctrl.ml" 171 3394 3404
+)
+"xenctrl.ml" 181 3568 3575 "xenctrl.ml" 181 3568 3582
+type(
+  handle option
+)
+"xenctrl.ml" 182 3588 3596 "xenctrl.ml" 182 3588 3597
+type(
+  handle
+)
+ident(
+  def h "xenctrl.ml" 182 3588 3601 "xenctrl.ml" 182 3588 3604
+)
+"xenctrl.ml" 182 3588 3591 "xenctrl.ml" 182 3588 3597
+type(
+  handle option
+)
+"xenctrl.ml" 182 3588 3601 "xenctrl.ml" 182 3588 3602
+type(
+  handle -> 'a
+)
+ident(
+  int_ref f "xenctrl.ml" 180 3550 3564 "xenctrl.ml" 180 3550 3565
+)
+"xenctrl.ml" 182 3588 3603 "xenctrl.ml" 182 3588 3604
+type(
+  handle
+)
+ident(
+  int_ref h "xenctrl.ml" 182 3588 3596 "xenctrl.ml" 182 3588 3597
+)
+"xenctrl.ml" 182 3588 3601 "xenctrl.ml" 182 3588 3604
+type(
+  'a
+)
+"xenctrl.ml" 183 3605 3608 "xenctrl.ml" 183 3605 3612
+type(
+  handle option
+)
+"xenctrl.ml" 184 3616 3622 "xenctrl.ml" 184 3616 3623
+type(
+  handle
+)
+ident(
+  def h "xenctrl.ml" 190 3755 3757 "xenctrl.ml" 191 3775 3780
+)
+"xenctrl.ml" 185 3626 3633 "xenctrl.ml" 185 3626 3647
+type(
+  unit -> handle
+)
+ident(
+  int_ref interface_open "xenctrl.ml" 168 3257 3257 "xenctrl.ml" 168 3257 3323
+)
+"xenctrl.ml" 185 3626 3648 "xenctrl.ml" 185 3626 3650
+type(
+  unit
+)
+"xenctrl.ml" 185 3626 3633 "xenctrl.ml" 185 3626 3650
+type(
+  handle
+)
+"xenctrl.ml" 186 3656 3661 "xenctrl.ml" 186 3656 3662
+type(
+  exn
+)
+ident(
+  def e "xenctrl.ml" 187 3666 3670 "xenctrl.ml" 188 3704 3749
+)
+"xenctrl.ml" 187 3666 3674 "xenctrl.ml" 187 3666 3677
+type(
+  string
+)
+ident(
+  def msg "xenctrl.ml" 188 3704 3708 "xenctrl.ml" 188 3704 3749
+)
+"xenctrl.ml" 187 3666 3680 "xenctrl.ml" 187 3666 3698
+type(
+  exn -> string
+)
+ident(
+  int_ref Stdlib.Printexc.to_string "printexc.mli" 21 1213 1213 "printexc.mli" 21 1213 1241
+)
+"xenctrl.ml" 187 3666 3699 "xenctrl.ml" 187 3666 3700
+type(
+  exn
+)
+ident(
+  int_ref e "xenctrl.ml" 186 3656 3661 "xenctrl.ml" 186 3656 3662
+)
+"xenctrl.ml" 187 3666 3680 "xenctrl.ml" 187 3666 3700
+type(
+  string
+)
+"xenctrl.ml" 188 3704 3708 "xenctrl.ml" 188 3704 3716
+type(
+  string -> handle
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"xenctrl.ml" 188 3704 3718 "xenctrl.ml" 188 3704 3744
+type(
+  string
+)
+"xenctrl.ml" 188 3704 3744 "xenctrl.ml" 188 3704 3745
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"xenctrl.ml" 188 3704 3745 "xenctrl.ml" 188 3704 3748
+type(
+  string
+)
+ident(
+  int_ref msg "xenctrl.ml" 187 3666 3674 "xenctrl.ml" 187 3666 3677
+)
+"xenctrl.ml" 188 3704 3717 "xenctrl.ml" 188 3704 3749
+type(
+  string
+)
+"xenctrl.ml" 188 3704 3708 "xenctrl.ml" 188 3704 3749
+type(
+  handle
+)
+"xenctrl.ml" 187 3666 3670 "xenctrl.ml" 188 3704 3749
+type(
+  handle
+)
+"xenctrl.ml" 185 3626 3629 "xenctrl.ml" 188 3704 3749
+type(
+  handle
+)
+"xenctrl.ml" 190 3755 3757 "xenctrl.ml" 190 3755 3763
+type(
+  handle option ref
+)
+ident(
+  int_ref handle "xenctrl.ml" 171 3394 3398 "xenctrl.ml" 171 3394 3404
+)
+"xenctrl.ml" 190 3755 3764 "xenctrl.ml" 190 3755 3766
+type(
+  handle option ref -> handle option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"xenctrl.ml" 190 3755 3772 "xenctrl.ml" 190 3755 3773
+type(
+  handle
+)
+ident(
+  int_ref h "xenctrl.ml" 184 3616 3622 "xenctrl.ml" 184 3616 3623
+)
+"xenctrl.ml" 190 3755 3767 "xenctrl.ml" 190 3755 3773
+type(
+  handle option
+)
+"xenctrl.ml" 190 3755 3757 "xenctrl.ml" 190 3755 3773
+type(
+  unit
+)
+"xenctrl.ml" 191 3775 3777 "xenctrl.ml" 191 3775 3778
+type(
+  handle -> 'a
+)
+ident(
+  int_ref f "xenctrl.ml" 180 3550 3564 "xenctrl.ml" 180 3550 3565
+)
+"xenctrl.ml" 191 3775 3779 "xenctrl.ml" 191 3775 3780
+type(
+  handle
+)
+ident(
+  int_ref h "xenctrl.ml" 184 3616 3622 "xenctrl.ml" 184 3616 3623
+)
+"xenctrl.ml" 191 3775 3777 "xenctrl.ml" 191 3775 3780
+type(
+  'a
+)
+"xenctrl.ml" 190 3755 3757 "xenctrl.ml" 191 3775 3780
+type(
+  'a
+)
+"xenctrl.ml" 184 3616 3618 "xenctrl.ml" 191 3775 3780
+type(
+  'a
+)
+"xenctrl.ml" 181 3568 3569 "xenctrl.ml" 191 3775 3780
+type(
+  'a
+)
+"xenctrl.ml" 213 4598 4602 "xenctrl.ml" 213 4598 4617
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def rev_append_fold "xenctrl.ml" 221 4858 4858 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 213 4598 4618 "xenctrl.ml" 213 4598 4621
+type(
+  'a list
+)
+ident(
+  def acc "xenctrl.ml" 213 4598 4622 "xenctrl.ml" 213 4598 4647
+)
+"xenctrl.ml" 213 4598 4622 "xenctrl.ml" 213 4598 4623
+type(
+  'a list
+)
+ident(
+  def e "xenctrl.ml" 213 4598 4626 "xenctrl.ml" 213 4598 4647
+)
+"xenctrl.ml" 213 4598 4626 "xenctrl.ml" 213 4598 4641
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref Stdlib.List.rev_append "list.mli" 90 3612 3612 "list.mli" 90 3612 3658
+)
+"xenctrl.ml" 213 4598 4642 "xenctrl.ml" 213 4598 4643
+type(
+  'a list
+)
+ident(
+  int_ref e "xenctrl.ml" 213 4598 4622 "xenctrl.ml" 213 4598 4623
+)
+"xenctrl.ml" 213 4598 4644 "xenctrl.ml" 213 4598 4647
+type(
+  'a list
+)
+ident(
+  int_ref acc "xenctrl.ml" 213 4598 4618 "xenctrl.ml" 213 4598 4621
+)
+"xenctrl.ml" 213 4598 4626 "xenctrl.ml" 213 4598 4647
+type(
+  'a list
+)
+"xenctrl.ml" 221 4858 4862 "xenctrl.ml" 221 4858 4872
+type(
+  'a list list -> 'a list
+)
+ident(
+  def rev_concat "xenctrl.ml" 223 4918 4918 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 221 4858 4873 "xenctrl.ml" 221 4858 4876
+type(
+  'a list list
+)
+ident(
+  def lst "xenctrl.ml" 221 4858 4879 "xenctrl.ml" 221 4858 4916
+)
+"xenctrl.ml" 221 4858 4879 "xenctrl.ml" 221 4858 4893
+type(
+  ('a list -> 'a list -> 'a list) -> 'a list -> 'a list list -> 'a list
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"xenctrl.ml" 221 4858 4894 "xenctrl.ml" 221 4858 4909
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref rev_append_fold "xenctrl.ml" 213 4598 4602 "xenctrl.ml" 213 4598 4617
+)
+"xenctrl.ml" 221 4858 4910 "xenctrl.ml" 221 4858 4912
+type(
+  'a list
+)
+"xenctrl.ml" 221 4858 4913 "xenctrl.ml" 221 4858 4916
+type(
+  'a list list
+)
+ident(
+  int_ref lst "xenctrl.ml" 221 4858 4873 "xenctrl.ml" 221 4858 4876
+)
+"xenctrl.ml" 221 4858 4879 "xenctrl.ml" 221 4858 4916
+type(
+  'a list
+)
+"xenctrl.ml" 223 4918 4922 "xenctrl.ml" 223 4918 4940
+type(
+  handle -> domid -> domaininfo list
+)
+ident(
+  def domain_getinfolist "xenctrl.ml" 233 5250 5250 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 223 4918 4941 "xenctrl.ml" 223 4918 4947
+type(
+  handle
+)
+ident(
+  def handle "xenctrl.ml" 223 4918 4948 "xenctrl.ml" 231 5222 5248
+)
+"xenctrl.ml" 223 4918 4948 "xenctrl.ml" 223 4918 4960
+type(
+  domid
+)
+ident(
+  def first_domain "xenctrl.ml" 224 4963 4964 "xenctrl.ml" 231 5222 5248
+)
+"xenctrl.ml" 224 4963 4968 "xenctrl.ml" 224 4963 4970
+type(
+  int
+)
+ident(
+  def nb "xenctrl.ml" 225 4981 4982 "xenctrl.ml" 231 5222 5248
+)
+"xenctrl.ml" 224 4963 4973 "xenctrl.ml" 224 4963 4977
+type(
+  int
+)
+"xenctrl.ml" 225 4981 4990 "xenctrl.ml" 225 4981 4999
+type(
+  domaininfo list list -> domid -> domaininfo list
+)
+ident(
+  def __getlist "xenctrl.ml" 225 4981 4982 "xenctrl.ml" 231 5222 5248
+)
+"xenctrl.ml" 225 4981 5000 "xenctrl.ml" 225 4981 5003
+type(
+  domaininfo list list
+)
+ident(
+  def lst "xenctrl.ml" 225 4981 5004 "xenctrl.ml" 229 5160 5217
+)
+"xenctrl.ml" 225 4981 5004 "xenctrl.ml" 225 4981 5008
+type(
+  domid
+)
+ident(
+  def from "xenctrl.ml" 227 5087 5089 "xenctrl.ml" 229 5160 5217
+)
+"xenctrl.ml" 227 5087 5095 "xenctrl.ml" 227 5087 5114
+type(
+  handle -> domid -> int -> domaininfo list
+)
+ident(
+  int_ref _domain_getinfolist "xenctrl.ml" 210 4487 4487 "xenctrl.ml" 211 4559 4596
+)
+"xenctrl.ml" 227 5087 5115 "xenctrl.ml" 227 5087 5121
+type(
+  handle
+)
+ident(
+  int_ref handle "xenctrl.ml" 223 4918 4941 "xenctrl.ml" 223 4918 4947
+)
+"xenctrl.ml" 227 5087 5122 "xenctrl.ml" 227 5087 5126
+type(
+  domid
+)
+ident(
+  int_ref from "xenctrl.ml" 225 4981 5004 "xenctrl.ml" 225 4981 5008
+)
+"xenctrl.ml" 227 5087 5127 "xenctrl.ml" 227 5087 5129
+type(
+  int
+)
+ident(
+  int_ref nb "xenctrl.ml" 224 4963 4968 "xenctrl.ml" 224 4963 4970
+)
+"xenctrl.ml" 227 5087 5095 "xenctrl.ml" 227 5087 5129
+type(
+  domaininfo list
+)
+"xenctrl.ml" 228 5135 5139 "xenctrl.ml" 228 5135 5141
+type(
+  domaininfo list
+)
+"xenctrl.ml" 228 5135 5145 "xenctrl.ml" 228 5135 5155
+type(
+  domaininfo list list -> domaininfo list
+)
+ident(
+  int_ref rev_concat "xenctrl.ml" 221 4858 4862 "xenctrl.ml" 221 4858 4872
+)
+"xenctrl.ml" 228 5135 5156 "xenctrl.ml" 228 5135 5159
+type(
+  domaininfo list list
+)
+ident(
+  int_ref lst "xenctrl.ml" 225 4981 5000 "xenctrl.ml" 225 4981 5003
+)
+"xenctrl.ml" 228 5135 5145 "xenctrl.ml" 228 5135 5159
+type(
+  domaininfo list
+)
+"xenctrl.ml" 229 5160 5165 "xenctrl.ml" 229 5160 5167
+type(
+  domaininfo
+)
+ident(
+  def hd "xenctrl.ml" 229 5160 5182 "xenctrl.ml" 229 5160 5217
+)
+"xenctrl.ml" 229 5160 5171 "xenctrl.ml" 229 5160 5172
+type(
+  domaininfo list
+)
+"xenctrl.ml" 229 5160 5164 "xenctrl.ml" 229 5160 5173
+type(
+  domaininfo list
+)
+"xenctrl.ml" 229 5160 5177 "xenctrl.ml" 229 5160 5178
+ident(
+  def l "xenctrl.ml" 229 5160 5182 "xenctrl.ml" 229 5160 5217
+)
+"xenctrl.ml" 229 5160 5164 "xenctrl.ml" 229 5160 5178
+type(
+  domaininfo list
+)
+"xenctrl.ml" 229 5160 5182 "xenctrl.ml" 229 5160 5191
+type(
+  domaininfo list list -> domid -> domaininfo list
+)
+ident(
+  int_ref __getlist "xenctrl.ml" 225 4981 4990 "xenctrl.ml" 225 4981 4999
+)
+"xenctrl.ml" 229 5160 5193 "xenctrl.ml" 229 5160 5194
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xenctrl.ml" 229 5160 5164 "xenctrl.ml" 229 5160 5178
+)
+"xenctrl.ml" 229 5160 5198 "xenctrl.ml" 229 5160 5201
+type(
+  domaininfo list list
+)
+ident(
+  int_ref lst "xenctrl.ml" 225 4981 5000 "xenctrl.ml" 225 4981 5003
+)
+"xenctrl.ml" 229 5160 5192 "xenctrl.ml" 229 5160 5202
+type(
+  domaininfo list list
+)
+"xenctrl.ml" 229 5160 5204 "xenctrl.ml" 229 5160 5206
+type(
+  domaininfo
+)
+ident(
+  int_ref hd "xenctrl.ml" 229 5160 5165 "xenctrl.ml" 229 5160 5167
+)
+"xenctrl.ml" 229 5160 5204 "xenctrl.ml" 229 5160 5212
+type(
+  domid
+)
+"xenctrl.ml" 229 5160 5213 "xenctrl.ml" 229 5160 5214
+type(
+  domid -> int -> domid
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"xenctrl.ml" 229 5160 5215 "xenctrl.ml" 229 5160 5216
+type(
+  int
+)
+"xenctrl.ml" 229 5160 5203 "xenctrl.ml" 229 5160 5217
+type(
+  domid
+)
+"xenctrl.ml" 229 5160 5182 "xenctrl.ml" 229 5160 5217
+type(
+  domaininfo list
+)
+"xenctrl.ml" 227 5087 5089 "xenctrl.ml" 229 5160 5217
+type(
+  domaininfo list
+)
+"xenctrl.ml" 231 5222 5223 "xenctrl.ml" 231 5222 5232
+type(
+  domaininfo list list -> domid -> domaininfo list
+)
+ident(
+  int_ref __getlist "xenctrl.ml" 225 4981 4990 "xenctrl.ml" 225 4981 4999
+)
+"xenctrl.ml" 231 5222 5233 "xenctrl.ml" 231 5222 5235
+type(
+  domaininfo list list
+)
+"xenctrl.ml" 231 5222 5236 "xenctrl.ml" 231 5222 5248
+type(
+  domid
+)
+ident(
+  int_ref first_domain "xenctrl.ml" 223 4918 4948 "xenctrl.ml" 223 4918 4960
+)
+"xenctrl.ml" 231 5222 5223 "xenctrl.ml" 231 5222 5248
+type(
+  domaininfo list
+)
+"xenctrl.ml" 225 4981 4982 "xenctrl.ml" 231 5222 5248
+type(
+  domaininfo list
+)
+"xenctrl.ml" 224 4963 4964 "xenctrl.ml" 231 5222 5248
+type(
+  domaininfo list
+)
+"xenctrl.ml" 390 11005 11009 "xenctrl.ml" 390 11005 11021
+type(
+  int64 -> int64
+)
+ident(
+  def pages_to_mib "xenctrl.ml" 392 11068 11068 "xenctrl.ml" 0 0 -1
+)
+"xenctrl.ml" 390 11005 11022 "xenctrl.ml" 390 11005 11027
+type(
+  int64
+)
+ident(
+  def pages "xenctrl.ml" 390 11005 11030 "xenctrl.ml" 390 11005 11066
+)
+"xenctrl.ml" 390 11005 11030 "xenctrl.ml" 390 11005 11039
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  int_ref Stdlib.Int64.div "int64.mli" 58 2220 2220 "int64.mli" 58 2220 2273
+)
+"xenctrl.ml" 390 11005 11041 "xenctrl.ml" 390 11005 11053
+type(
+  int64 -> int64
+)
+ident(
+  int_ref pages_to_kib "xenctrl.ml" 389 10944 10944 "xenctrl.ml" 389 10944 11004
+)
+"xenctrl.ml" 390 11005 11054 "xenctrl.ml" 390 11005 11059
+type(
+  int64
+)
+ident(
+  int_ref pages "xenctrl.ml" 390 11005 11022 "xenctrl.ml" 390 11005 11027
+)
+"xenctrl.ml" 390 11005 11040 "xenctrl.ml" 390 11005 11060
+type(
+  int64
+)
+"xenctrl.ml" 390 11005 11061 "xenctrl.ml" 390 11005 11066
+type(
+  int64
+)
+"xenctrl.ml" 390 11005 11030 "xenctrl.ml" 390 11005 11066
+type(
+  int64
+)
+"xenctrl.ml" 392 11068 11072 "xenctrl.ml" 392 11068 11073
+type(
+  unit
+)
+"xenctrl.ml" 392 11068 11076 "xenctrl.ml" 392 11068 11103
+type(
+  string -> exn -> unit
+)
+ident(
+  int_ref Stdlib.Callback.register_exception "callback.mli" 28 1528 1528 "callback.mli" 28 1528 1574
+)
+"xenctrl.ml" 392 11068 11104 "xenctrl.ml" 392 11068 11114
+type(
+  string
+)
+"xenctrl.ml" 392 11068 11122 "xenctrl.ml" 392 11068 11141
+type(
+  string
+)
+"xenctrl.ml" 392 11068 11115 "xenctrl.ml" 392 11068 11142
+type(
+  exn
+)
+"xenctrl.ml" 392 11068 11076 "xenctrl.ml" 392 11068 11142
+type(
+  unit
+)

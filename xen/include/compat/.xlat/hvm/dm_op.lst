@@ -1,0 +1,17 @@
+!	dm_op_buf
+?	dm_op_relocate_memory
+?	dm_op_create_ioreq_server
+?	dm_op_destroy_ioreq_server
+?	dm_op_get_ioreq_server_info
+?	dm_op_inject_event
+?	dm_op_inject_msi
+?	dm_op_ioreq_server_range
+?	dm_op_modified_memory
+?	dm_op_pin_memory_cacheattr
+?	dm_op_remote_shutdown
+?	dm_op_set_ioreq_server_state
+?	dm_op_set_isa_irq_level
+?	dm_op_set_mem_type
+?	dm_op_set_pci_intx_level
+?	dm_op_set_pci_link_route
+?	dm_op_track_dirty_vram

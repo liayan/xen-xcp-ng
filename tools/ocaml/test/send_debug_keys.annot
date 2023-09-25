@@ -1,0 +1,195 @@
+"send_debug_keys.ml" 3 13 17 "send_debug_keys.ml" 3 13 26
+type(
+  Xenlight.ctx -> string -> unit
+)
+ident(
+  def send_keys "send_debug_keys.ml" 8 117 117 "send_debug_keys.ml" 0 0 -1
+)
+"send_debug_keys.ml" 3 13 27 "send_debug_keys.ml" 3 13 30
+type(
+  Xenlight.ctx
+)
+ident(
+  def ctx "send_debug_keys.ml" 3 13 31 "send_debug_keys.ml" 6 111 115
+)
+"send_debug_keys.ml" 3 13 31 "send_debug_keys.ml" 3 13 32
+type(
+  string
+)
+ident(
+  def s "send_debug_keys.ml" 4 35 37 "send_debug_keys.ml" 6 111 115
+)
+"send_debug_keys.ml" 4 35 37 "send_debug_keys.ml" 4 35 43
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 123 6510 6510 "printf.mli" 123 6510 6559
+)
+"send_debug_keys.ml" 4 35 44 "send_debug_keys.ml" 4 35 68
+type(
+  (string -> unit, out_channel, unit) format
+)
+"send_debug_keys.ml" 4 35 69 "send_debug_keys.ml" 4 35 70
+type(
+  string
+)
+ident(
+  int_ref s "send_debug_keys.ml" 3 13 31 "send_debug_keys.ml" 3 13 32
+)
+"send_debug_keys.ml" 4 35 37 "send_debug_keys.ml" 4 35 70
+type(
+  unit
+)
+"send_debug_keys.ml" 5 72 74 "send_debug_keys.ml" 5 72 103
+type(
+  Xenlight.ctx -> string -> unit
+)
+ident(
+  int_ref Xenlight.Host.send_debug_keys "xenlight.mli" 1570 37459 37460 "xenlight.mli" 1570 37459 37536
+)
+"send_debug_keys.ml" 5 72 104 "send_debug_keys.ml" 5 72 107
+type(
+  Xenlight.ctx
+)
+ident(
+  int_ref ctx "send_debug_keys.ml" 3 13 27 "send_debug_keys.ml" 3 13 30
+)
+"send_debug_keys.ml" 5 72 108 "send_debug_keys.ml" 5 72 109
+type(
+  string
+)
+ident(
+  int_ref s "send_debug_keys.ml" 3 13 31 "send_debug_keys.ml" 3 13 32
+)
+"send_debug_keys.ml" 5 72 74 "send_debug_keys.ml" 5 72 109
+type(
+  unit
+)
+"send_debug_keys.ml" 6 111 113 "send_debug_keys.ml" 6 111 115
+type(
+  unit
+)
+"send_debug_keys.ml" 5 72 74 "send_debug_keys.ml" 6 111 115
+type(
+  unit
+)
+"send_debug_keys.ml" 4 35 37 "send_debug_keys.ml" 6 111 115
+type(
+  unit
+)
+"send_debug_keys.ml" 8 117 121 "send_debug_keys.ml" 8 117 122
+type(
+  unit
+)
+"send_debug_keys.ml" 9 125 131 "send_debug_keys.ml" 9 125 137
+type(
+  Xentoollog.handle
+)
+ident(
+  def logger "send_debug_keys.ml" 10 170 172 "send_debug_keys.ml" 12 225 287
+)
+"send_debug_keys.ml" 9 125 140 "send_debug_keys.ml" 9 125 163
+type(
+  ?level:Xentoollog.level -> unit -> Xentoollog.handle
+)
+ident(
+  int_ref Xtl.create_stdio_logger "xtl.ml" 18 573 577 "xtl.ml" 18 573 596
+)
+"send_debug_keys.ml" 9 125 164 "send_debug_keys.ml" 9 125 166
+type(
+  unit
+)
+"send_debug_keys.ml" 9 125 140 "send_debug_keys.ml" 9 125 166
+type(
+  Xentoollog.handle
+)
+"send_debug_keys.ml" 10 170 176 "send_debug_keys.ml" 10 170 179
+type(
+  Xenlight.ctx
+)
+ident(
+  def ctx "send_debug_keys.ml" 11 211 213 "send_debug_keys.ml" 12 225 287
+)
+"send_debug_keys.ml" 10 170 182 "send_debug_keys.ml" 10 170 200
+type(
+  Xentoollog.handle -> Xenlight.ctx
+)
+ident(
+  int_ref Xenlight.ctx_alloc "xenlight.mli" 1535 35600 35600 "xenlight.mli" 1535 35600 35669
+)
+"send_debug_keys.ml" 10 170 201 "send_debug_keys.ml" 10 170 207
+type(
+  Xentoollog.handle
+)
+ident(
+  int_ref logger "send_debug_keys.ml" 9 125 131 "send_debug_keys.ml" 9 125 137
+)
+"send_debug_keys.ml" 10 170 182 "send_debug_keys.ml" 10 170 207
+type(
+  Xenlight.ctx
+)
+"send_debug_keys.ml" 11 211 213 "send_debug_keys.ml" 11 211 222
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse "arg.mli" 77 4335 4335 "arg.mli" 78 4347 4405
+)
+"send_debug_keys.ml" 11 211 223 "send_debug_keys.ml" 12 225 228
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"send_debug_keys.ml" 12 225 234 "send_debug_keys.ml" 12 225 235
+type(
+  string
+)
+ident(
+  def s "send_debug_keys.ml" 12 225 239 "send_debug_keys.ml" 12 225 254
+)
+"send_debug_keys.ml" 12 225 239 "send_debug_keys.ml" 12 225 248
+type(
+  Xenlight.ctx -> string -> unit
+)
+ident(
+  int_ref send_keys "send_debug_keys.ml" 3 13 17 "send_debug_keys.ml" 3 13 26
+)
+"send_debug_keys.ml" 12 225 249 "send_debug_keys.ml" 12 225 252
+type(
+  Xenlight.ctx
+)
+ident(
+  int_ref ctx "send_debug_keys.ml" 10 170 176 "send_debug_keys.ml" 10 170 179
+)
+"send_debug_keys.ml" 12 225 253 "send_debug_keys.ml" 12 225 254
+type(
+  string
+)
+ident(
+  int_ref s "send_debug_keys.ml" 12 225 234 "send_debug_keys.ml" 12 225 235
+)
+"send_debug_keys.ml" 12 225 239 "send_debug_keys.ml" 12 225 254
+type(
+  unit
+)
+"send_debug_keys.ml" 12 225 229 "send_debug_keys.ml" 12 225 255
+type(
+  Arg.anon_fun
+)
+"send_debug_keys.ml" 12 225 256 "send_debug_keys.ml" 12 225 287
+type(
+  Arg.usage_msg
+)
+"send_debug_keys.ml" 11 211 213 "send_debug_keys.ml" 12 225 287
+type(
+  unit
+)
+"send_debug_keys.ml" 10 170 172 "send_debug_keys.ml" 12 225 287
+type(
+  unit
+)
+"send_debug_keys.ml" 9 125 127 "send_debug_keys.ml" 12 225 287
+type(
+  unit
+)

@@ -1,0 +1,1867 @@
+"queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+type(
+  string list -> string
+)
+ident(
+  def data_concat "queueop.ml" 19 744 744 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 18 688 704 "queueop.ml" 18 688 706
+type(
+  string list
+)
+ident(
+  def ls "queueop.ml" 18 688 709 "queueop.ml" 18 688 743
+)
+"queueop.ml" 18 688 710 "queueop.ml" 18 688 723
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref Stdlib.String.concat "string.mli" 121 5323 5323 "string.mli" 121 5323 5367
+)
+"queueop.ml" 18 688 724 "queueop.ml" 18 688 730
+type(
+  string
+)
+"queueop.ml" 18 688 731 "queueop.ml" 18 688 733
+type(
+  string list
+)
+ident(
+  int_ref ls "queueop.ml" 18 688 704 "queueop.ml" 18 688 706
+)
+"queueop.ml" 18 688 709 "queueop.ml" 18 688 734
+type(
+  string
+)
+"queueop.ml" 18 688 735 "queueop.ml" 18 688 736
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"queueop.ml" 18 688 737 "queueop.ml" 18 688 743
+type(
+  string
+)
+"queueop.ml" 18 688 709 "queueop.ml" 18 688 743
+type(
+  string
+)
+"queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  def queue "queueop.ml" 20 811 811 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 19 744 754 "queueop.ml" 19 744 757
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 19 744 758 "queueop.ml" 19 744 810
+)
+"queueop.ml" 19 744 758 "queueop.ml" 19 744 761
+type(
+  Xenbus.Xb.Packet.t
+)
+ident(
+  def pkt "queueop.ml" 19 744 764 "queueop.ml" 19 744 810
+)
+"queueop.ml" 19 744 768 "queueop.ml" 19 744 769
+type(
+  unit option
+)
+ident(
+  def r "queueop.ml" 19 744 792 "queueop.ml" 19 744 810
+)
+"queueop.ml" 19 744 772 "queueop.ml" 19 744 780
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit option
+)
+ident(
+  int_ref Xenbus.Xb.queue "xb.mli" 73 1799 1799 "xb.mli" 73 1799 1839
+)
+"queueop.ml" 19 744 781 "queueop.ml" 19 744 784
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 19 744 754 "queueop.ml" 19 744 757
+)
+"queueop.ml" 19 744 785 "queueop.ml" 19 744 788
+type(
+  Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref pkt "queueop.ml" 19 744 758 "queueop.ml" 19 744 761
+)
+"queueop.ml" 19 744 772 "queueop.ml" 19 744 788
+type(
+  unit option
+)
+"queueop.ml" 19 744 800 "queueop.ml" 19 744 801
+type(
+  unit option
+)
+ident(
+  int_ref r "queueop.ml" 19 744 768 "queueop.ml" 19 744 769
+)
+"queueop.ml" 19 744 802 "queueop.ml" 19 744 804
+type(
+  unit option -> unit option -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"queueop.ml" 19 744 805 "queueop.ml" 19 744 809
+type(
+  unit option
+)
+"queueop.ml" 19 744 799 "queueop.ml" 19 744 810
+type(
+  bool
+)
+"queueop.ml" 19 744 792 "queueop.ml" 19 744 810
+type(
+  unit
+)
+"queueop.ml" 19 744 764 "queueop.ml" 19 744 810
+type(
+  unit
+)
+"queueop.ml" 20 811 815 "queueop.ml" 20 811 825
+type(
+  Xenbus.Xb.Op.operation -> int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def queue_path "queueop.ml" 25 960 960 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 20 811 826 "queueop.ml" 20 811 828
+type(
+  Xenbus.Xb.Op.operation
+)
+ident(
+  def ty "queueop.ml" 20 811 829 "queueop.ml" 22 898 941
+)
+"queueop.ml" 20 811 830 "queueop.ml" 20 811 833
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 20 811 840 "queueop.ml" 22 898 941
+)
+"queueop.ml" 20 811 841 "queueop.ml" 20 811 845
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 20 811 855 "queueop.ml" 22 898 941
+)
+"queueop.ml" 20 811 855 "queueop.ml" 20 811 858
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 21 861 862 "queueop.ml" 22 898 941
+)
+"queueop.ml" 21 861 866 "queueop.ml" 21 861 870
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 22 898 899 "queueop.ml" 22 898 941
+)
+"queueop.ml" 21 861 873 "queueop.ml" 21 861 884
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 21 861 887 "queueop.ml" 21 861 891
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 20 811 841 "queueop.ml" 20 811 845
+)
+"queueop.ml" 21 861 885 "queueop.ml" 21 861 894
+type(
+  string list
+)
+"queueop.ml" 21 861 873 "queueop.ml" 21 861 894
+type(
+  string
+)
+"queueop.ml" 22 898 899 "queueop.ml" 22 898 904
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 22 898 905 "queueop.ml" 22 898 908
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 20 811 855 "queueop.ml" 20 811 858
+)
+"queueop.ml" 22 898 910 "queueop.ml" 22 898 926
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 22 898 927 "queueop.ml" 22 898 930
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 20 811 830 "queueop.ml" 20 811 833
+)
+"queueop.ml" 22 898 931 "queueop.ml" 22 898 932
+type(
+  int
+)
+"queueop.ml" 22 898 933 "queueop.ml" 22 898 935
+type(
+  Xenbus.Xb.Op.operation
+)
+ident(
+  int_ref ty "queueop.ml" 20 811 826 "queueop.ml" 20 811 828
+)
+"queueop.ml" 22 898 936 "queueop.ml" 22 898 940
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 21 861 866 "queueop.ml" 21 861 870
+)
+"queueop.ml" 22 898 909 "queueop.ml" 22 898 941
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 22 898 899 "queueop.ml" 22 898 941
+type(
+  unit
+)
+"queueop.ml" 21 861 862 "queueop.ml" 22 898 941
+type(
+  unit
+)
+"queueop.ml" 25 960 964 "queueop.ml" 25 960 973
+type(
+  int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def directory "queueop.ml" 26 1029 1029 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 25 960 974 "queueop.ml" 25 960 977
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 25 960 978 "queueop.ml" 25 960 1028
+)
+"queueop.ml" 25 960 978 "queueop.ml" 25 960 982
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 25 960 983 "queueop.ml" 25 960 1028
+)
+"queueop.ml" 25 960 983 "queueop.ml" 25 960 986
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 25 960 989 "queueop.ml" 25 960 1028
+)
+"queueop.ml" 25 960 989 "queueop.ml" 25 960 999
+type(
+  Xenbus.Xb.Op.operation -> int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  int_ref queue_path "queueop.ml" 20 811 815 "queueop.ml" 20 811 825
+)
+"queueop.ml" 25 960 1000 "queueop.ml" 25 960 1015
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 25 960 1016 "queueop.ml" 25 960 1019
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 25 960 974 "queueop.ml" 25 960 977
+)
+"queueop.ml" 25 960 1020 "queueop.ml" 25 960 1024
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 25 960 978 "queueop.ml" 25 960 982
+)
+"queueop.ml" 25 960 1025 "queueop.ml" 25 960 1028
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 25 960 983 "queueop.ml" 25 960 986
+)
+"queueop.ml" 25 960 989 "queueop.ml" 25 960 1028
+type(
+  unit
+)
+"queueop.ml" 26 1029 1033 "queueop.ml" 26 1029 1037
+type(
+  int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def read "queueop.ml" 28 1089 1089 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 26 1029 1038 "queueop.ml" 26 1029 1041
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 26 1029 1042 "queueop.ml" 26 1029 1087
+)
+"queueop.ml" 26 1029 1042 "queueop.ml" 26 1029 1046
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 26 1029 1047 "queueop.ml" 26 1029 1087
+)
+"queueop.ml" 26 1029 1047 "queueop.ml" 26 1029 1050
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 26 1029 1053 "queueop.ml" 26 1029 1087
+)
+"queueop.ml" 26 1029 1053 "queueop.ml" 26 1029 1063
+type(
+  Xenbus.Xb.Op.operation -> int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  int_ref queue_path "queueop.ml" 20 811 815 "queueop.ml" 20 811 825
+)
+"queueop.ml" 26 1029 1064 "queueop.ml" 26 1029 1074
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 26 1029 1075 "queueop.ml" 26 1029 1078
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 26 1029 1038 "queueop.ml" 26 1029 1041
+)
+"queueop.ml" 26 1029 1079 "queueop.ml" 26 1029 1083
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 26 1029 1042 "queueop.ml" 26 1029 1046
+)
+"queueop.ml" 26 1029 1084 "queueop.ml" 26 1029 1087
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 26 1029 1047 "queueop.ml" 26 1029 1050
+)
+"queueop.ml" 26 1029 1053 "queueop.ml" 26 1029 1087
+type(
+  unit
+)
+"queueop.ml" 28 1089 1093 "queueop.ml" 28 1089 1101
+type(
+  int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def getperms "queueop.ml" 30 1157 1157 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 28 1089 1102 "queueop.ml" 28 1089 1105
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 28 1089 1106 "queueop.ml" 28 1089 1155
+)
+"queueop.ml" 28 1089 1106 "queueop.ml" 28 1089 1110
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 28 1089 1111 "queueop.ml" 28 1089 1155
+)
+"queueop.ml" 28 1089 1111 "queueop.ml" 28 1089 1114
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 28 1089 1117 "queueop.ml" 28 1089 1155
+)
+"queueop.ml" 28 1089 1117 "queueop.ml" 28 1089 1127
+type(
+  Xenbus.Xb.Op.operation -> int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  int_ref queue_path "queueop.ml" 20 811 815 "queueop.ml" 20 811 825
+)
+"queueop.ml" 28 1089 1128 "queueop.ml" 28 1089 1142
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 28 1089 1143 "queueop.ml" 28 1089 1146
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 28 1089 1102 "queueop.ml" 28 1089 1105
+)
+"queueop.ml" 28 1089 1147 "queueop.ml" 28 1089 1151
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 28 1089 1106 "queueop.ml" 28 1089 1110
+)
+"queueop.ml" 28 1089 1152 "queueop.ml" 28 1089 1155
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 28 1089 1111 "queueop.ml" 28 1089 1114
+)
+"queueop.ml" 28 1089 1117 "queueop.ml" 28 1089 1155
+type(
+  unit
+)
+"queueop.ml" 30 1157 1161 "queueop.ml" 30 1157 1166
+type(
+  string list -> Xenbus.Xb.t -> unit
+)
+ident(
+  def debug "queueop.ml" 33 1252 1252 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 30 1157 1167 "queueop.ml" 30 1157 1175
+type(
+  string list
+)
+ident(
+  def commands "queueop.ml" 30 1157 1176 "queueop.ml" 31 1182 1250
+)
+"queueop.ml" 30 1157 1176 "queueop.ml" 30 1157 1179
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 31 1182 1183 "queueop.ml" 31 1182 1250
+)
+"queueop.ml" 31 1182 1183 "queueop.ml" 31 1182 1188
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 31 1182 1189 "queueop.ml" 31 1182 1192
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 30 1157 1176 "queueop.ml" 30 1157 1179
+)
+"queueop.ml" 31 1182 1194 "queueop.ml" 31 1182 1210
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 31 1182 1211 "queueop.ml" 31 1182 1212
+type(
+  int
+)
+"queueop.ml" 31 1182 1213 "queueop.ml" 31 1182 1214
+type(
+  int
+)
+"queueop.ml" 31 1182 1215 "queueop.ml" 31 1182 1226
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 31 1182 1228 "queueop.ml" 31 1182 1239
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 31 1182 1240 "queueop.ml" 31 1182 1248
+type(
+  string list
+)
+ident(
+  int_ref commands "queueop.ml" 30 1157 1167 "queueop.ml" 30 1157 1175
+)
+"queueop.ml" 31 1182 1227 "queueop.ml" 31 1182 1249
+type(
+  string
+)
+"queueop.ml" 31 1182 1193 "queueop.ml" 31 1182 1250
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 31 1182 1183 "queueop.ml" 31 1182 1250
+type(
+  unit
+)
+"queueop.ml" 33 1252 1256 "queueop.ml" 33 1252 1261
+type(
+  string -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def watch "queueop.ml" 37 1373 1373 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 33 1252 1262 "queueop.ml" 33 1252 1266
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 33 1252 1267 "queueop.ml" 35 1321 1371
+)
+"queueop.ml" 33 1252 1267 "queueop.ml" 33 1252 1271
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 33 1252 1272 "queueop.ml" 35 1321 1371
+)
+"queueop.ml" 33 1252 1272 "queueop.ml" 33 1252 1275
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 34 1278 1279 "queueop.ml" 35 1321 1371
+)
+"queueop.ml" 34 1278 1283 "queueop.ml" 34 1278 1287
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 35 1321 1322 "queueop.ml" 35 1321 1371
+)
+"queueop.ml" 34 1278 1290 "queueop.ml" 34 1278 1301
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 34 1278 1304 "queueop.ml" 34 1278 1308
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 33 1252 1262 "queueop.ml" 33 1252 1266
+)
+"queueop.ml" 34 1278 1310 "queueop.ml" 34 1278 1314
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 33 1252 1267 "queueop.ml" 33 1252 1271
+)
+"queueop.ml" 34 1278 1302 "queueop.ml" 34 1278 1317
+type(
+  string list
+)
+"queueop.ml" 34 1278 1290 "queueop.ml" 34 1278 1317
+type(
+  string
+)
+"queueop.ml" 35 1321 1322 "queueop.ml" 35 1321 1327
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 35 1321 1328 "queueop.ml" 35 1321 1331
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 33 1252 1272 "queueop.ml" 33 1252 1275
+)
+"queueop.ml" 35 1321 1333 "queueop.ml" 35 1321 1349
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 35 1321 1350 "queueop.ml" 35 1321 1351
+type(
+  int
+)
+"queueop.ml" 35 1321 1352 "queueop.ml" 35 1321 1353
+type(
+  int
+)
+"queueop.ml" 35 1321 1354 "queueop.ml" 35 1321 1365
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 35 1321 1366 "queueop.ml" 35 1321 1370
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 34 1278 1283 "queueop.ml" 34 1278 1287
+)
+"queueop.ml" 35 1321 1332 "queueop.ml" 35 1321 1371
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 35 1321 1322 "queueop.ml" 35 1321 1371
+type(
+  unit
+)
+"queueop.ml" 34 1278 1279 "queueop.ml" 35 1321 1371
+type(
+  unit
+)
+"queueop.ml" 37 1373 1377 "queueop.ml" 37 1373 1384
+type(
+  string -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def unwatch "queueop.ml" 41 1498 1498 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 37 1373 1385 "queueop.ml" 37 1373 1389
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 37 1373 1390 "queueop.ml" 39 1444 1496
+)
+"queueop.ml" 37 1373 1390 "queueop.ml" 37 1373 1394
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 37 1373 1395 "queueop.ml" 39 1444 1496
+)
+"queueop.ml" 37 1373 1395 "queueop.ml" 37 1373 1398
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 38 1401 1402 "queueop.ml" 39 1444 1496
+)
+"queueop.ml" 38 1401 1406 "queueop.ml" 38 1401 1410
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 39 1444 1445 "queueop.ml" 39 1444 1496
+)
+"queueop.ml" 38 1401 1413 "queueop.ml" 38 1401 1424
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 38 1401 1427 "queueop.ml" 38 1401 1431
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 37 1373 1385 "queueop.ml" 37 1373 1389
+)
+"queueop.ml" 38 1401 1433 "queueop.ml" 38 1401 1437
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 37 1373 1390 "queueop.ml" 37 1373 1394
+)
+"queueop.ml" 38 1401 1425 "queueop.ml" 38 1401 1440
+type(
+  string list
+)
+"queueop.ml" 38 1401 1413 "queueop.ml" 38 1401 1440
+type(
+  string
+)
+"queueop.ml" 39 1444 1445 "queueop.ml" 39 1444 1450
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 39 1444 1451 "queueop.ml" 39 1444 1454
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 37 1373 1395 "queueop.ml" 37 1373 1398
+)
+"queueop.ml" 39 1444 1456 "queueop.ml" 39 1444 1472
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 39 1444 1473 "queueop.ml" 39 1444 1474
+type(
+  int
+)
+"queueop.ml" 39 1444 1475 "queueop.ml" 39 1444 1476
+type(
+  int
+)
+"queueop.ml" 39 1444 1477 "queueop.ml" 39 1444 1490
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 39 1444 1491 "queueop.ml" 39 1444 1495
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 38 1401 1406 "queueop.ml" 38 1401 1410
+)
+"queueop.ml" 39 1444 1455 "queueop.ml" 39 1444 1496
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 39 1444 1445 "queueop.ml" 39 1444 1496
+type(
+  unit
+)
+"queueop.ml" 38 1401 1402 "queueop.ml" 39 1444 1496
+type(
+  unit
+)
+"queueop.ml" 41 1498 1502 "queueop.ml" 41 1498 1519
+type(
+  Xenbus.Xb.t -> unit
+)
+ident(
+  def transaction_start "queueop.ml" 44 1602 1602 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 41 1498 1520 "queueop.ml" 41 1498 1523
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 42 1526 1527 "queueop.ml" 42 1526 1600
+)
+"queueop.ml" 42 1526 1527 "queueop.ml" 42 1526 1532
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 42 1526 1533 "queueop.ml" 42 1526 1536
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 41 1498 1520 "queueop.ml" 41 1498 1523
+)
+"queueop.ml" 42 1526 1538 "queueop.ml" 42 1526 1554
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 42 1526 1555 "queueop.ml" 42 1526 1556
+type(
+  int
+)
+"queueop.ml" 42 1526 1557 "queueop.ml" 42 1526 1558
+type(
+  int
+)
+"queueop.ml" 42 1526 1559 "queueop.ml" 42 1526 1582
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 42 1526 1584 "queueop.ml" 42 1526 1595
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 42 1526 1596 "queueop.ml" 42 1526 1598
+type(
+  string list
+)
+"queueop.ml" 42 1526 1583 "queueop.ml" 42 1526 1599
+type(
+  string
+)
+"queueop.ml" 42 1526 1537 "queueop.ml" 42 1526 1600
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 42 1526 1527 "queueop.ml" 42 1526 1600
+type(
+  unit
+)
+"queueop.ml" 44 1602 1606 "queueop.ml" 44 1602 1621
+type(
+  int -> bool -> Xenbus.Xb.t -> unit
+)
+ident(
+  def transaction_end "queueop.ml" 48 1765 1765 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 44 1602 1622 "queueop.ml" 44 1602 1625
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 44 1602 1626 "queueop.ml" 46 1701 1763
+)
+"queueop.ml" 44 1602 1626 "queueop.ml" 44 1602 1632
+type(
+  bool
+)
+ident(
+  def commit "queueop.ml" 44 1602 1633 "queueop.ml" 46 1701 1763
+)
+"queueop.ml" 44 1602 1633 "queueop.ml" 44 1602 1636
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 45 1639 1640 "queueop.ml" 46 1701 1763
+)
+"queueop.ml" 45 1639 1644 "queueop.ml" 45 1639 1648
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 46 1701 1702 "queueop.ml" 46 1701 1763
+)
+"queueop.ml" 45 1639 1651 "queueop.ml" 45 1639 1662
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 45 1639 1669 "queueop.ml" 45 1639 1675
+type(
+  bool
+)
+ident(
+  int_ref commit "queueop.ml" 44 1602 1626 "queueop.ml" 44 1602 1632
+)
+"queueop.ml" 45 1639 1681 "queueop.ml" 45 1639 1684
+type(
+  string
+)
+"queueop.ml" 45 1639 1690 "queueop.ml" 45 1639 1693
+type(
+  string
+)
+"queueop.ml" 45 1639 1665 "queueop.ml" 45 1639 1694
+type(
+  string
+)
+"queueop.ml" 45 1639 1663 "queueop.ml" 45 1639 1697
+type(
+  string list
+)
+"queueop.ml" 45 1639 1651 "queueop.ml" 45 1639 1697
+type(
+  string
+)
+"queueop.ml" 46 1701 1702 "queueop.ml" 46 1701 1707
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 46 1701 1708 "queueop.ml" 46 1701 1711
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 44 1602 1633 "queueop.ml" 44 1602 1636
+)
+"queueop.ml" 46 1701 1713 "queueop.ml" 46 1701 1729
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 46 1701 1730 "queueop.ml" 46 1701 1733
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 44 1602 1622 "queueop.ml" 44 1602 1625
+)
+"queueop.ml" 46 1701 1734 "queueop.ml" 46 1701 1735
+type(
+  int
+)
+"queueop.ml" 46 1701 1736 "queueop.ml" 46 1701 1757
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 46 1701 1758 "queueop.ml" 46 1701 1762
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 45 1639 1644 "queueop.ml" 45 1639 1648
+)
+"queueop.ml" 46 1701 1712 "queueop.ml" 46 1701 1763
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 46 1701 1702 "queueop.ml" 46 1701 1763
+type(
+  unit
+)
+"queueop.ml" 45 1639 1640 "queueop.ml" 46 1701 1763
+type(
+  unit
+)
+"queueop.ml" 48 1765 1769 "queueop.ml" 48 1765 1778
+type(
+  int -> nativeint -> int -> Xenbus.Xb.t -> unit
+)
+ident(
+  def introduce "queueop.ml" 54 2012 2012 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 48 1765 1779 "queueop.ml" 48 1765 1784
+type(
+  int
+)
+ident(
+  def domid "queueop.ml" 48 1765 1785 "queueop.ml" 52 1956 2010
+)
+"queueop.ml" 48 1765 1785 "queueop.ml" 48 1765 1788
+type(
+  nativeint
+)
+ident(
+  def mfn "queueop.ml" 48 1765 1789 "queueop.ml" 52 1956 2010
+)
+"queueop.ml" 48 1765 1789 "queueop.ml" 48 1765 1793
+type(
+  int
+)
+ident(
+  def port "queueop.ml" 48 1765 1794 "queueop.ml" 52 1956 2010
+)
+"queueop.ml" 48 1765 1794 "queueop.ml" 48 1765 1797
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 49 1800 1801 "queueop.ml" 52 1956 2010
+)
+"queueop.ml" 49 1800 1805 "queueop.ml" 49 1800 1809
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 52 1956 1957 "queueop.ml" 52 1956 2010
+)
+"queueop.ml" 49 1800 1812 "queueop.ml" 49 1800 1823
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 49 1800 1826 "queueop.ml" 49 1800 1840
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"queueop.ml" 49 1800 1841 "queueop.ml" 49 1800 1845
+type(
+  (int -> string, unit, string) format
+)
+"queueop.ml" 49 1800 1846 "queueop.ml" 49 1800 1851
+type(
+  int
+)
+ident(
+  int_ref domid "queueop.ml" 48 1765 1779 "queueop.ml" 48 1765 1784
+)
+"queueop.ml" 49 1800 1826 "queueop.ml" 49 1800 1851
+type(
+  string
+)
+"queueop.ml" 50 1853 1879 "queueop.ml" 50 1853 1893
+type(
+  (nativeint -> string, unit, string) format -> nativeint -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"queueop.ml" 50 1853 1894 "queueop.ml" 50 1853 1899
+type(
+  (nativeint -> string, unit, string) format
+)
+"queueop.ml" 50 1853 1900 "queueop.ml" 50 1853 1903
+type(
+  nativeint
+)
+ident(
+  int_ref mfn "queueop.ml" 48 1765 1785 "queueop.ml" 48 1765 1788
+)
+"queueop.ml" 50 1853 1879 "queueop.ml" 50 1853 1903
+type(
+  string
+)
+"queueop.ml" 51 1905 1931 "queueop.ml" 51 1905 1944
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+)
+"queueop.ml" 51 1905 1945 "queueop.ml" 51 1905 1949
+type(
+  int
+)
+ident(
+  int_ref port "queueop.ml" 48 1765 1789 "queueop.ml" 48 1765 1793
+)
+"queueop.ml" 51 1905 1931 "queueop.ml" 51 1905 1949
+type(
+  string
+)
+"queueop.ml" 49 1800 1824 "queueop.ml" 51 1905 1952
+type(
+  string list
+)
+"queueop.ml" 49 1800 1812 "queueop.ml" 51 1905 1952
+type(
+  string
+)
+"queueop.ml" 52 1956 1957 "queueop.ml" 52 1956 1962
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 52 1956 1963 "queueop.ml" 52 1956 1966
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 48 1765 1794 "queueop.ml" 48 1765 1797
+)
+"queueop.ml" 52 1956 1968 "queueop.ml" 52 1956 1984
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 52 1956 1985 "queueop.ml" 52 1956 1986
+type(
+  int
+)
+"queueop.ml" 52 1956 1987 "queueop.ml" 52 1956 1988
+type(
+  int
+)
+"queueop.ml" 52 1956 1989 "queueop.ml" 52 1956 2004
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 52 1956 2005 "queueop.ml" 52 1956 2009
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 49 1800 1805 "queueop.ml" 49 1800 1809
+)
+"queueop.ml" 52 1956 1967 "queueop.ml" 52 1956 2010
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 52 1956 1957 "queueop.ml" 52 1956 2010
+type(
+  unit
+)
+"queueop.ml" 49 1800 1801 "queueop.ml" 52 1956 2010
+type(
+  unit
+)
+"queueop.ml" 54 2012 2016 "queueop.ml" 54 2012 2023
+type(
+  int -> Xenbus.Xb.t -> unit
+)
+ident(
+  def release "queueop.ml" 58 2148 2148 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 54 2012 2024 "queueop.ml" 54 2012 2029
+type(
+  int
+)
+ident(
+  def domid "queueop.ml" 54 2012 2030 "queueop.ml" 56 2094 2146
+)
+"queueop.ml" 54 2012 2030 "queueop.ml" 54 2012 2033
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 55 2036 2037 "queueop.ml" 56 2094 2146
+)
+"queueop.ml" 55 2036 2041 "queueop.ml" 55 2036 2045
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 56 2094 2095 "queueop.ml" 56 2094 2146
+)
+"queueop.ml" 55 2036 2048 "queueop.ml" 55 2036 2059
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 55 2036 2062 "queueop.ml" 55 2036 2076
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"queueop.ml" 55 2036 2077 "queueop.ml" 55 2036 2081
+type(
+  (int -> string, unit, string) format
+)
+"queueop.ml" 55 2036 2082 "queueop.ml" 55 2036 2087
+type(
+  int
+)
+ident(
+  int_ref domid "queueop.ml" 54 2012 2024 "queueop.ml" 54 2012 2029
+)
+"queueop.ml" 55 2036 2062 "queueop.ml" 55 2036 2087
+type(
+  string
+)
+"queueop.ml" 55 2036 2060 "queueop.ml" 55 2036 2090
+type(
+  string list
+)
+"queueop.ml" 55 2036 2048 "queueop.ml" 55 2036 2090
+type(
+  string
+)
+"queueop.ml" 56 2094 2095 "queueop.ml" 56 2094 2100
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 56 2094 2101 "queueop.ml" 56 2094 2104
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 54 2012 2030 "queueop.ml" 54 2012 2033
+)
+"queueop.ml" 56 2094 2106 "queueop.ml" 56 2094 2122
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 56 2094 2123 "queueop.ml" 56 2094 2124
+type(
+  int
+)
+"queueop.ml" 56 2094 2125 "queueop.ml" 56 2094 2126
+type(
+  int
+)
+"queueop.ml" 56 2094 2127 "queueop.ml" 56 2094 2140
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 56 2094 2141 "queueop.ml" 56 2094 2145
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 55 2036 2041 "queueop.ml" 55 2036 2045
+)
+"queueop.ml" 56 2094 2105 "queueop.ml" 56 2094 2146
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 56 2094 2095 "queueop.ml" 56 2094 2146
+type(
+  unit
+)
+"queueop.ml" 55 2036 2037 "queueop.ml" 56 2094 2146
+type(
+  unit
+)
+"queueop.ml" 58 2148 2152 "queueop.ml" 58 2148 2158
+type(
+  int -> Xenbus.Xb.t -> unit
+)
+ident(
+  def resume "queueop.ml" 62 2282 2282 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 58 2148 2159 "queueop.ml" 58 2148 2164
+type(
+  int
+)
+ident(
+  def domid "queueop.ml" 58 2148 2165 "queueop.ml" 60 2229 2280
+)
+"queueop.ml" 58 2148 2165 "queueop.ml" 58 2148 2168
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 59 2171 2172 "queueop.ml" 60 2229 2280
+)
+"queueop.ml" 59 2171 2176 "queueop.ml" 59 2171 2180
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 60 2229 2230 "queueop.ml" 60 2229 2280
+)
+"queueop.ml" 59 2171 2183 "queueop.ml" 59 2171 2194
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 59 2171 2197 "queueop.ml" 59 2171 2211
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"queueop.ml" 59 2171 2212 "queueop.ml" 59 2171 2216
+type(
+  (int -> string, unit, string) format
+)
+"queueop.ml" 59 2171 2217 "queueop.ml" 59 2171 2222
+type(
+  int
+)
+ident(
+  int_ref domid "queueop.ml" 58 2148 2159 "queueop.ml" 58 2148 2164
+)
+"queueop.ml" 59 2171 2197 "queueop.ml" 59 2171 2222
+type(
+  string
+)
+"queueop.ml" 59 2171 2195 "queueop.ml" 59 2171 2225
+type(
+  string list
+)
+"queueop.ml" 59 2171 2183 "queueop.ml" 59 2171 2225
+type(
+  string
+)
+"queueop.ml" 60 2229 2230 "queueop.ml" 60 2229 2235
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 60 2229 2236 "queueop.ml" 60 2229 2239
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 58 2148 2165 "queueop.ml" 58 2148 2168
+)
+"queueop.ml" 60 2229 2241 "queueop.ml" 60 2229 2257
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 60 2229 2258 "queueop.ml" 60 2229 2259
+type(
+  int
+)
+"queueop.ml" 60 2229 2260 "queueop.ml" 60 2229 2261
+type(
+  int
+)
+"queueop.ml" 60 2229 2262 "queueop.ml" 60 2229 2274
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 60 2229 2275 "queueop.ml" 60 2229 2279
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 59 2171 2176 "queueop.ml" 59 2171 2180
+)
+"queueop.ml" 60 2229 2240 "queueop.ml" 60 2229 2280
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 60 2229 2230 "queueop.ml" 60 2229 2280
+type(
+  unit
+)
+"queueop.ml" 59 2171 2172 "queueop.ml" 60 2229 2280
+type(
+  unit
+)
+"queueop.ml" 62 2282 2286 "queueop.ml" 62 2282 2299
+type(
+  int -> Xenbus.Xb.t -> unit
+)
+ident(
+  def getdomainpath "queueop.ml" 66 2430 2430 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 62 2282 2300 "queueop.ml" 62 2282 2305
+type(
+  int
+)
+ident(
+  def domid "queueop.ml" 62 2282 2306 "queueop.ml" 64 2370 2428
+)
+"queueop.ml" 62 2282 2306 "queueop.ml" 62 2282 2309
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 63 2312 2313 "queueop.ml" 64 2370 2428
+)
+"queueop.ml" 63 2312 2317 "queueop.ml" 63 2312 2321
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 64 2370 2371 "queueop.ml" 64 2370 2428
+)
+"queueop.ml" 63 2312 2324 "queueop.ml" 63 2312 2335
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 63 2312 2338 "queueop.ml" 63 2312 2352
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 129 6729 6729 "printf.mli" 129 6729 6774
+)
+"queueop.ml" 63 2312 2353 "queueop.ml" 63 2312 2357
+type(
+  (int -> string, unit, string) format
+)
+"queueop.ml" 63 2312 2358 "queueop.ml" 63 2312 2363
+type(
+  int
+)
+ident(
+  int_ref domid "queueop.ml" 62 2282 2300 "queueop.ml" 62 2282 2305
+)
+"queueop.ml" 63 2312 2338 "queueop.ml" 63 2312 2363
+type(
+  string
+)
+"queueop.ml" 63 2312 2336 "queueop.ml" 63 2312 2366
+type(
+  string list
+)
+"queueop.ml" 63 2312 2324 "queueop.ml" 63 2312 2366
+type(
+  string
+)
+"queueop.ml" 64 2370 2371 "queueop.ml" 64 2370 2376
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 64 2370 2377 "queueop.ml" 64 2370 2380
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 62 2282 2306 "queueop.ml" 62 2282 2309
+)
+"queueop.ml" 64 2370 2382 "queueop.ml" 64 2370 2398
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 64 2370 2399 "queueop.ml" 64 2370 2400
+type(
+  int
+)
+"queueop.ml" 64 2370 2401 "queueop.ml" 64 2370 2402
+type(
+  int
+)
+"queueop.ml" 64 2370 2403 "queueop.ml" 64 2370 2422
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 64 2370 2423 "queueop.ml" 64 2370 2427
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 63 2312 2317 "queueop.ml" 63 2312 2321
+)
+"queueop.ml" 64 2370 2381 "queueop.ml" 64 2370 2428
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 64 2370 2371 "queueop.ml" 64 2370 2428
+type(
+  unit
+)
+"queueop.ml" 63 2312 2313 "queueop.ml" 64 2370 2428
+type(
+  unit
+)
+"queueop.ml" 66 2430 2434 "queueop.ml" 66 2430 2439
+type(
+  int -> string -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def write "queueop.ml" 70 2577 2577 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 66 2430 2440 "queueop.ml" 66 2430 2443
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 66 2430 2444 "queueop.ml" 68 2523 2575
+)
+"queueop.ml" 66 2430 2444 "queueop.ml" 66 2430 2448
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 66 2430 2449 "queueop.ml" 68 2523 2575
+)
+"queueop.ml" 66 2430 2449 "queueop.ml" 66 2430 2454
+type(
+  string
+)
+ident(
+  def value "queueop.ml" 66 2430 2455 "queueop.ml" 68 2523 2575
+)
+"queueop.ml" 66 2430 2455 "queueop.ml" 66 2430 2458
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 67 2461 2462 "queueop.ml" 68 2523 2575
+)
+"queueop.ml" 67 2461 2466 "queueop.ml" 67 2461 2470
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 68 2523 2524 "queueop.ml" 68 2523 2575
+)
+"queueop.ml" 67 2461 2473 "queueop.ml" 67 2461 2477
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 66 2430 2444 "queueop.ml" 66 2430 2448
+)
+"queueop.ml" 67 2461 2478 "queueop.ml" 67 2461 2479
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"queueop.ml" 67 2461 2480 "queueop.ml" 67 2461 2486
+type(
+  string
+)
+"queueop.ml" 67 2461 2487 "queueop.ml" 67 2461 2488
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"queueop.ml" 67 2461 2489 "queueop.ml" 67 2461 2494
+type(
+  string
+)
+ident(
+  int_ref value "queueop.ml" 66 2430 2449 "queueop.ml" 66 2430 2454
+)
+"queueop.ml" 67 2461 2480 "queueop.ml" 67 2461 2494
+type(
+  string
+)
+"queueop.ml" 67 2461 2473 "queueop.ml" 67 2461 2494
+type(
+  string
+)
+"queueop.ml" 68 2523 2524 "queueop.ml" 68 2523 2529
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 68 2523 2530 "queueop.ml" 68 2523 2533
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 66 2430 2455 "queueop.ml" 66 2430 2458
+)
+"queueop.ml" 68 2523 2535 "queueop.ml" 68 2523 2551
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 68 2523 2552 "queueop.ml" 68 2523 2555
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 66 2430 2440 "queueop.ml" 66 2430 2443
+)
+"queueop.ml" 68 2523 2556 "queueop.ml" 68 2523 2557
+type(
+  int
+)
+"queueop.ml" 68 2523 2558 "queueop.ml" 68 2523 2569
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 68 2523 2570 "queueop.ml" 68 2523 2574
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 67 2461 2466 "queueop.ml" 67 2461 2470
+)
+"queueop.ml" 68 2523 2534 "queueop.ml" 68 2523 2575
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 68 2523 2524 "queueop.ml" 68 2523 2575
+type(
+  unit
+)
+"queueop.ml" 67 2461 2462 "queueop.ml" 68 2523 2575
+type(
+  unit
+)
+"queueop.ml" 70 2577 2581 "queueop.ml" 70 2577 2586
+type(
+  int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def mkdir "queueop.ml" 71 2638 2638 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 70 2577 2587 "queueop.ml" 70 2577 2590
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 70 2577 2591 "queueop.ml" 70 2577 2637
+)
+"queueop.ml" 70 2577 2591 "queueop.ml" 70 2577 2595
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 70 2577 2596 "queueop.ml" 70 2577 2637
+)
+"queueop.ml" 70 2577 2596 "queueop.ml" 70 2577 2599
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 70 2577 2602 "queueop.ml" 70 2577 2637
+)
+"queueop.ml" 70 2577 2602 "queueop.ml" 70 2577 2612
+type(
+  Xenbus.Xb.Op.operation -> int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  int_ref queue_path "queueop.ml" 20 811 815 "queueop.ml" 20 811 825
+)
+"queueop.ml" 70 2577 2613 "queueop.ml" 70 2577 2624
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 70 2577 2625 "queueop.ml" 70 2577 2628
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 70 2577 2587 "queueop.ml" 70 2577 2590
+)
+"queueop.ml" 70 2577 2629 "queueop.ml" 70 2577 2633
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 70 2577 2591 "queueop.ml" 70 2577 2595
+)
+"queueop.ml" 70 2577 2634 "queueop.ml" 70 2577 2637
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 70 2577 2596 "queueop.ml" 70 2577 2599
+)
+"queueop.ml" 70 2577 2602 "queueop.ml" 70 2577 2637
+type(
+  unit
+)
+"queueop.ml" 71 2638 2642 "queueop.ml" 71 2638 2644
+type(
+  int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def rm "queueop.ml" 73 2694 2694 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 71 2638 2645 "queueop.ml" 71 2638 2648
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 71 2638 2649 "queueop.ml" 71 2638 2692
+)
+"queueop.ml" 71 2638 2649 "queueop.ml" 71 2638 2653
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 71 2638 2654 "queueop.ml" 71 2638 2692
+)
+"queueop.ml" 71 2638 2654 "queueop.ml" 71 2638 2657
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 71 2638 2660 "queueop.ml" 71 2638 2692
+)
+"queueop.ml" 71 2638 2660 "queueop.ml" 71 2638 2670
+type(
+  Xenbus.Xb.Op.operation -> int -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  int_ref queue_path "queueop.ml" 20 811 815 "queueop.ml" 20 811 825
+)
+"queueop.ml" 71 2638 2671 "queueop.ml" 71 2638 2679
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 71 2638 2680 "queueop.ml" 71 2638 2683
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 71 2638 2645 "queueop.ml" 71 2638 2648
+)
+"queueop.ml" 71 2638 2684 "queueop.ml" 71 2638 2688
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 71 2638 2649 "queueop.ml" 71 2638 2653
+)
+"queueop.ml" 71 2638 2689 "queueop.ml" 71 2638 2692
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 71 2638 2654 "queueop.ml" 71 2638 2657
+)
+"queueop.ml" 71 2638 2660 "queueop.ml" 71 2638 2692
+type(
+  unit
+)
+"queueop.ml" 73 2694 2698 "queueop.ml" 73 2694 2706
+type(
+  int -> string -> string -> Xenbus.Xb.t -> unit
+)
+ident(
+  def setperms "queueop.ml" 75 2771 2826 "queueop.ml" 0 0 -1
+)
+"queueop.ml" 73 2694 2707 "queueop.ml" 73 2694 2710
+type(
+  int
+)
+ident(
+  def tid "queueop.ml" 73 2694 2711 "queueop.ml" 75 2771 2826
+)
+"queueop.ml" 73 2694 2711 "queueop.ml" 73 2694 2715
+type(
+  string
+)
+ident(
+  def path "queueop.ml" 73 2694 2716 "queueop.ml" 75 2771 2826
+)
+"queueop.ml" 73 2694 2716 "queueop.ml" 73 2694 2721
+type(
+  string
+)
+ident(
+  def perms "queueop.ml" 73 2694 2722 "queueop.ml" 75 2771 2826
+)
+"queueop.ml" 73 2694 2722 "queueop.ml" 73 2694 2725
+type(
+  Xenbus.Xb.t
+)
+ident(
+  def con "queueop.ml" 74 2728 2729 "queueop.ml" 75 2771 2826
+)
+"queueop.ml" 74 2728 2733 "queueop.ml" 74 2728 2737
+type(
+  string
+)
+ident(
+  def data "queueop.ml" 75 2771 2772 "queueop.ml" 75 2771 2826
+)
+"queueop.ml" 74 2728 2740 "queueop.ml" 74 2728 2751
+type(
+  string list -> string
+)
+ident(
+  int_ref data_concat "queueop.ml" 18 688 692 "queueop.ml" 18 688 703
+)
+"queueop.ml" 74 2728 2754 "queueop.ml" 74 2728 2758
+type(
+  string
+)
+ident(
+  int_ref path "queueop.ml" 73 2694 2711 "queueop.ml" 73 2694 2715
+)
+"queueop.ml" 74 2728 2760 "queueop.ml" 74 2728 2765
+type(
+  string
+)
+ident(
+  int_ref perms "queueop.ml" 73 2694 2716 "queueop.ml" 73 2694 2721
+)
+"queueop.ml" 74 2728 2752 "queueop.ml" 74 2728 2767
+type(
+  string list
+)
+"queueop.ml" 74 2728 2740 "queueop.ml" 74 2728 2767
+type(
+  string
+)
+"queueop.ml" 75 2771 2772 "queueop.ml" 75 2771 2777
+type(
+  Xenbus.Xb.t -> Xenbus.Xb.Packet.t -> unit
+)
+ident(
+  int_ref queue "queueop.ml" 19 744 748 "queueop.ml" 19 744 753
+)
+"queueop.ml" 75 2771 2778 "queueop.ml" 75 2771 2781
+type(
+  Xenbus.Xb.t
+)
+ident(
+  int_ref con "queueop.ml" 73 2694 2722 "queueop.ml" 73 2694 2725
+)
+"queueop.ml" 75 2771 2783 "queueop.ml" 75 2771 2799
+type(
+  int -> int -> Xenbus.Xb.Op.operation -> string -> Xenbus.Xb.Packet.t
+)
+ident(
+  int_ref Xenbus.Xb.Packet.create "xb.mli" 47 969 973 "xb.mli" 47 969 1027
+)
+"queueop.ml" 75 2771 2800 "queueop.ml" 75 2771 2803
+type(
+  int
+)
+ident(
+  int_ref tid "queueop.ml" 73 2694 2707 "queueop.ml" 73 2694 2710
+)
+"queueop.ml" 75 2771 2804 "queueop.ml" 75 2771 2805
+type(
+  int
+)
+"queueop.ml" 75 2771 2806 "queueop.ml" 75 2771 2820
+type(
+  Xenbus.Xb.Op.operation
+)
+"queueop.ml" 75 2771 2821 "queueop.ml" 75 2771 2825
+type(
+  string
+)
+ident(
+  int_ref data "queueop.ml" 74 2728 2733 "queueop.ml" 74 2728 2737
+)
+"queueop.ml" 75 2771 2782 "queueop.ml" 75 2771 2826
+type(
+  Xenbus.Xb.Packet.t
+)
+"queueop.ml" 75 2771 2772 "queueop.ml" 75 2771 2826
+type(
+  unit
+)
+"queueop.ml" 74 2728 2729 "queueop.ml" 75 2771 2826
+type(
+  unit
+)
